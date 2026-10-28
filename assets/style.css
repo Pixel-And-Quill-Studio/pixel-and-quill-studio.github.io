@@ -73,3 +73,5 @@ a.mail{font-size:20px}
 .links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px}
 .links a{margin:0}.links a.btn{margin:6px 6px 0 0}
 @media (max-width:640px){.card.game{gap:14px;padding:18px}.card.game>img,.next-ico{width:64px;height:64px;border-radius:14px}.card.game h3{font-size:22px}}
+blockquote.founder{margin:18px 0;font-style:italic}blockquote.founder p{margin:0 0 .6em}
+blockquote.founder footer{margin:0;padding:0;border:0;font-style:normal;color:var(--gold2);font-size:14px}

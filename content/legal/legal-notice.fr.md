@@ -22,15 +22,15 @@ Le site est hébergé par **GitHub Pages**, service de :
 GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis  
 Site : [github.com](https://github.com) — contact : [support.github.com](https://support.github.com)
 
-Nos jeux sont distribués par les boutiques d’applications où ils sont proposés (par exemple Google Play, exploité par Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande).
+Les jeux de Pixel & Quill Studio sont distribués par les boutiques d’applications où ils sont proposés (par exemple Google Play, exploité par Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irlande).
 
 ## Propriété intellectuelle
 Les textes, images, logos, sons, personnages et autres éléments des jeux édités par Pixel & Quill Studio, ainsi que de ce site, sont la propriété de Styvens Wentz (Pixel & Quill Studio) ou de ses concédants. Toute reproduction ou réutilisation sans autorisation écrite préalable est interdite. Les polices utilisées sur ce site (Playfair Display SC, Allerta Stencil) sont distribuées sous licence SIL Open Font License 1.1.
 
 ## Données personnelles et cookies
-Ce site ne dépose aucun cookie, n’utilise aucun outil de mesure d’audience et ne contient aucun formulaire. Votre choix de langue est enregistré uniquement dans votre navigateur (stockage local) et ne nous est jamais transmis. L’hébergeur GitHub peut enregistrer des données techniques de connexion (adresse IP notamment) à des fins de sécurité, selon sa propre [déclaration de confidentialité](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).
+Ce site ne dépose aucun cookie, n’utilise aucun outil de mesure d’audience et ne contient aucun formulaire. Votre choix de langue est enregistré uniquement dans votre navigateur (stockage local) et n’est jamais transmis à l’éditeur. L’hébergeur GitHub peut enregistrer des données techniques de connexion (adresse IP notamment) à des fins de sécurité, selon sa propre [déclaration de confidentialité](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).
 
-Le traitement des données personnelles sur ce site et dans nos jeux est décrit dans notre [politique de confidentialité](/fr/privacy/). Les services utilisés par chaque jeu sont indiqués sur la page de ce jeu.
+Le traitement des données personnelles sur ce site et dans les jeux de Pixel & Quill Studio est décrit dans la [politique de confidentialité](/fr/privacy/). Les services utilisés par chaque jeu sont indiqués sur la page de ce jeu.
 
 ## Contact
 Pour toute question : [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)

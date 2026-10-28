@@ -9,19 +9,58 @@
   "year": 2026,
   "default_language": "en",
   "languages": [
-    {"code": "en",    "prefix": "",       "label": "EN", "name": "English",            "locale": "en_US", "published": true},
-    {"code": "fr",    "prefix": "fr/",    "label": "FR", "name": "Français",           "locale": "fr_FR", "published": true},
-    {"code": "es",    "prefix": "es/",    "label": "ES", "name": "Español",            "locale": "es_ES", "published": false},
-    {"code": "pt-BR", "prefix": "pt-br/", "label": "PT", "name": "Português (Brasil)", "locale": "pt_BR", "published": false},
-    {"code": "de",    "prefix": "de/",    "label": "DE", "name": "Deutsch",            "locale": "de_DE", "published": false}
+    {
+      "code": "en",
+      "prefix": "",
+      "label": "EN",
+      "name": "English",
+      "locale": "en_US",
+      "published": true
+    },
+    {
+      "code": "fr",
+      "prefix": "fr/",
+      "label": "FR",
+      "name": "Français",
+      "locale": "fr_FR",
+      "published": true
+    },
+    {
+      "code": "es",
+      "prefix": "es/",
+      "label": "ES",
+      "name": "Español",
+      "locale": "es_ES",
+      "published": false
+    },
+    {
+      "code": "pt-BR",
+      "prefix": "pt-br/",
+      "label": "PT",
+      "name": "Português (Brasil)",
+      "locale": "pt_BR",
+      "published": false
+    },
+    {
+      "code": "de",
+      "prefix": "de/",
+      "label": "DE",
+      "name": "Deutsch",
+      "locale": "de_DE",
+      "published": false
+    }
   ],
   "tagline": {
     "en": "Independent mobile game studio based in Paris.",
     "fr": "Studio indépendant de jeux mobiles, à Paris."
   },
   "about": {
-    "en": "Pixel & Quill Studio is an independent game studio based in Paris, founded by Styvens Wentz. We make mobile games where every choice matters, with stories written by quill and a particular care for the pixel.",
-    "fr": "Pixel & Quill Studio est un studio de jeux indépendant installé à Paris, fondé par Styvens Wentz. Nous créons des jeux mobiles où chaque choix compte, avec des histoires écrites à la plume et un soin particulier pour le pixel."
+    "en": "Pixel & Quill Studio is an independent game studio based in Paris. It creates mobile games where every choice matters, with stories written by quill and a particular care for the pixel.",
+    "fr": "Pixel & Quill Studio est un studio de jeux indépendant installé à Paris. Il crée des jeux mobiles où chaque choix compte, avec des histoires écrites à la plume et un soin particulier pour le pixel."
   },
-  "show_next_game_placeholder": true
+  "show_next_game_placeholder": true,
+  "founder": {
+    "en": "I'm Styvens, and I founded Pixel & Quill Studio in Paris. I design, write and develop each game myself, from the first card to the last pixel. Sentence is my first game. Thanks for stopping by!",
+    "fr": "Je suis Styvens, et j’ai fondé Pixel & Quill Studio à Paris. Je conçois, j’écris et je développe moi-même chaque jeu, de la première carte au dernier pixel. Sentence est mon premier jeu. Merci de ta visite !"
+  }
 }

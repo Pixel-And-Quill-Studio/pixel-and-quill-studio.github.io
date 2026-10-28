@@ -249,6 +249,7 @@ for lang in PUBLISHED:
 <h2>{E(t(lang, 'our_games'))}</h2>{games_grid(lang)}
 <p class="more"><a href="{url('games', lang)}">{E(t(lang, 'all_games'))} →</a></p>
 <h2>{E(t(lang, 'studio'))}</h2><p>{E(loc(s['about'], lang))}</p>
+<blockquote class="card founder"><p>{E(loc(s['founder'], lang))}</p><footer>— {E(t(lang, 'founder_sign'))}</footer></blockquote>
 <p><a class="btn" href="{url('contact', lang)}">{E(t(lang, 'contact'))}</a></p>"""
     emit(out_file("home", lang), page("home", lang, s["name"], body, loc(s["tagline"], lang), nav="home", home=True))
 

@@ -22,15 +22,15 @@ The website is hosted by **GitHub Pages**, a service of:
 GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States  
 Website: [github.com](https://github.com) — contact: [support.github.com](https://support.github.com)
 
-Our games are distributed through the app stores where they are listed (for example Google Play, operated by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland).
+The games of Pixel & Quill Studio are distributed through the app stores where they are listed (for example Google Play, operated by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland).
 
 ## Intellectual property
 The texts, images, logos, sounds, characters and other elements of the games published by Pixel & Quill Studio, and of this website, are the property of Styvens Wentz (Pixel & Quill Studio) or its licensors. Any reproduction or reuse without prior written permission is prohibited. The fonts used on this website (Playfair Display SC, Allerta Stencil) are distributed under the SIL Open Font License 1.1.
 
 ## Personal data and cookies
-This website sets no cookies, uses no analytics and contains no forms. Your language choice is stored only in your browser (local storage) and is never sent to us. The hosting provider GitHub may log technical connection data (including IP addresses) for security purposes, under its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+This website sets no cookies, uses no analytics and contains no forms. Your language choice is stored only in your browser (local storage) and is never sent to the publisher. The hosting provider GitHub may log technical connection data (including IP addresses) for security purposes, under its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-How personal data is processed on this website and in our games is described in our [privacy policy](/privacy/). The services used by each game are listed on that game's page.
+How personal data is processed on this website and in the games of Pixel & Quill Studio is described in the [privacy policy](/privacy/). The services used by each game are listed on that game's page.
 
 ## Contact
 For any question: [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
