@@ -101,6 +101,7 @@ blockquote.quote footer{margin:.4em 0 0;padding:0;border:0;font-size:14px;color:
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:14px 0}
 .gallery figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 .gallery img{width:100%;height:auto;display:block;aspect-ratio:1}
+.gallery.shots img{aspect-ratio:9/16}
 .gallery figcaption{padding:8px 10px;font-size:14px;color:var(--muted)}
 .gallery figcaption b{color:var(--gold);font-weight:600}
 @media (max-width:640px){.showcase{grid-template-columns:1fr}.showcase .splash{max-width:260px;margin:0 auto}.facts dl{grid-template-columns:1fr;gap:2px}.facts dd{margin-bottom:8px}.gallery{grid-template-columns:repeat(2,1fr);gap:10px}}

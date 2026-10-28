@@ -68,16 +68,18 @@ Add an entry to `games.json`:
 | `name`, `subtitle`, `pitch` | Localized strings (`{"en": …, "fr": …}`) |
 | `description`, `features` | Localized lists of paragraphs / bullet points |
 | `status` | `in_development`, `in_production`, `coming_soon` or `available` |
+| `status_label` | Optional `{lang: …}` text that replaces the default status label in the badge and the key facts (for example a release month) |
 | `icon` | Path to a square icon in `assets/` |
 | `store.google_play` | Store URL, or `null` until the game is released |
 | `details` | Game-specific Markdown, e.g. `content/games/<slug>.{lang}.md` |
 | `tagline` | Optional localized quote from the game, shown as a blockquote |
-| `facts` | Optional list of `{"key": …, "value": {lang: …}}` shown in a "Key facts" box (`key` is `genre`, `platform`, `orientation` or `languages`) |
+| `facts` | Optional list of `{"key": …, "value": {lang: …}}` shown in a "Key facts" box (`key` is `genre`, `platform`, `orientation`, `languages`, `prisons`, `character`, `leaderboards`, `model` or `age`, each with a `fact_<key>` label in `i18n/`) |
 | `splash` | Optional `{"src", "width", "height", "alt": {lang: …}}` image shown next to the key facts |
-| `gallery` | Optional `{"title": <i18n key>, "images": [{"src", "width", "height", "alt", "caption"}]}` |
+| `gallery` | Optional `{"title": <i18n key>, "layout": "shots" (optional, portrait 9:16 screenshots), "images": [{"src", "width", "height", "alt", "caption"}]}` |
+| `legal_docs` | Optional `{doc: "content/games/<slug>/<doc>.{lang}.md"}` (`doc` is `privacy` or `terms`). Each one becomes a game-specific page at `/<slug>/<doc>/` in every language (English fallback, French binding note on es/pt-BR/de) and replaces the matching studio-wide link on the game page |
 | `legacy_paths` | Optional old URLs to redirect |
 
-Then add `content/games/<slug>.<lang>.md` describing the minimum age, the services and data used by the game, its purchases and the in-game privacy settings. The studio-wide legal documents apply to every game; only add game-specific information to the game's page.
+Then add `content/games/<slug>.<lang>.md` describing the minimum age, the services and data used by the game, its purchases and the in-game privacy settings. The studio-wide legal documents apply to every game; only add game-specific information to the game's page, or, when a game needs its own privacy policy or terms, to its `legal_docs` pages.
 
 ## Rules
 

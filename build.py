@@ -63,6 +63,9 @@ PAGES = {
 }
 for g in GAMES:
     PAGES[f"game:{g['slug']}"] = f"{g['slug']}/"
+    # Game-specific legal documents, e.g. /one-last-heist/privacy/
+    for doc in g.get("legal_docs", {}):
+        PAGES[f"game:{g['slug']}:{doc}"] = f"{g['slug']}/{doc}/"
 
 
 def url(page, lang):
@@ -212,9 +215,25 @@ def page(page_key, lang, title, body, desc, nav=None, home=False, noindex=False,
 """
 
 
+def status_text(g, lang):
+    """Status label: the game's own label (e.g. a release month) or the generic one."""
+    if g.get("status_label"):
+        return loc(g["status_label"], lang)
+    return t(lang, "status")[g.get("status", "coming_soon")]
+
+
 def badge(g, lang):
     st = g.get("status", "coming_soon")
-    return f'<span class="badge {E(st)}">{E(t(lang, "status")[st])}</span>'
+    return f'<span class="badge {E(st)}">{E(status_text(g, lang))}</span>'
+
+
+def binding_note(page_key, lang):
+    """For translated legal documents: only the French version is legally binding."""
+    note = I18N.get(lang, {}).get("legal_binding_note")
+    if not note:
+        return ""
+    fr_link = f'<a href="{url(page_key, "fr")}" hreflang="fr" lang="fr">{E(LANGS["fr"]["name"])}</a>'
+    return f'<p class="note">{E(note)} {fr_link}</p>'
 
 
 def game_card(g, lang):
@@ -273,10 +292,7 @@ for lang in PUBLISHED:
 
     for key, doc in (("legal", "legal-notice"), ("privacy", "privacy"), ("terms", "terms")):
         body = md(localized_file(f"content/legal/{doc}.{{lang}}.md", lang), lang)
-        note = I18N.get(lang, {}).get("legal_binding_note")
-        if note:
-            fr_link = f'<a href="{url(key, "fr")}" hreflang="fr" lang="fr">{E(LANGS["fr"]["name"])}</a>'
-            body = f'<p class="note">{E(note)} {fr_link}</p>' + body
+        body = binding_note(key, lang) + body
         emit(out_file(key, lang),
              page(key, lang, f"{t(lang, key)} — {s['name']}", body, t(lang, f"{key}_desc")))
 
@@ -291,14 +307,19 @@ for lang in PUBLISHED:
         if g.get("details"):
             details = f"<h2>{E(t(lang, 'game_details'))}</h2>" + md(localized_file(g["details"], lang), lang).replace(
                 "<h2>", "<h3>").replace("</h2>", "</h3>")
-        docs = "".join(f'<a href="{url(k, lang)}">{E(t(lang, k))}</a>' for k in ("privacy", "terms", "legal"))
+        game_docs = list(g.get("legal_docs", {}))
+        docs = "".join(f'<a href="{url(f"{key}:{d}", lang)}">{E(t(lang, d))} — {E(loc(g["name"], lang))}</a>'
+                       for d in game_docs)
+        docs += "".join(f'<a href="{url(k, lang)}">{E(t(lang, k))}</a>'
+                        for k in ("privacy", "terms", "legal") if k not in game_docs)
+        docs_note = t(lang, "game_legal_docs_note" if game_docs else "legal_docs_note")
         quote = (f'<blockquote class="quote"><p>“{E(loc(g["tagline"], lang))}”</p>'
                  f'<footer>{E(t(lang, "game_line"))}</footer></blockquote>' if g.get("tagline") else "")
         facts = ""
         if g.get("facts"):
             rows = "".join(f"<dt>{E(t(lang, 'fact_' + f['key']))}</dt><dd>{E(loc(f['value'], lang))}</dd>"
                            for f in g["facts"])
-            status_row = f"<dt>{E(t(lang, 'fact_status'))}</dt><dd>{E(t(lang, 'status')[g['status']])}</dd>"
+            status_row = f"<dt>{E(t(lang, 'fact_status'))}</dt><dd>{E(status_text(g, lang))}</dd>"
             facts = f'<div class="card facts"><h2>{E(t(lang, "key_facts"))}</h2><dl>{rows}{status_row}</dl></div>'
         if g.get("splash"):
             facts = (f'<div class="showcase"><img class="splash" src="/{g["splash"]["src"]}" '
@@ -310,7 +331,8 @@ for lang in PUBLISHED:
                 f'<figure><img src="/{im["src"]}" alt="{E(loc(im["alt"], lang))}" width="{im["width"]}" '
                 f'height="{im["height"]}" loading="lazy"><figcaption>{E(loc(im["caption"], lang))}</figcaption></figure>'
                 for im in g["gallery"]["images"])
-            gallery = f'<h2>{E(t(lang, g["gallery"]["title"]))}</h2><div class="gallery">{figs}</div>'
+            layout = " " + g["gallery"]["layout"] if g["gallery"].get("layout") else ""
+            gallery = f'<h2>{E(t(lang, g["gallery"]["title"]))}</h2><div class="gallery{E(layout)}">{figs}</div>'
         body = f"""<p class="crumb"><a href="{url('games', lang)}">{E(t(lang, 'back_games'))}</a></p>
 <div class="game-head"><img src="/{g['icon']}" alt="" width="120" height="120">
 <div><h1 style="margin:0">{E(loc(g['name'], lang))}</h1><p class="sub">{E(loc(g['subtitle'], lang))}</p><p>{badge(g, lang)}</p></div></div>
@@ -319,9 +341,19 @@ for lang in PUBLISHED:
 <h2>{E(t(lang, 'features'))}</h2><ul class="feat">{feats}</ul>
 {gallery}
 {details}
-<h2>{E(t(lang, 'legal_docs'))}</h2><p class="muted">{E(t(lang, 'legal_docs_note'))}</p><div class="links">{docs}</div>"""
+<h2>{E(t(lang, 'legal_docs'))}</h2><p class="muted">{E(docs_note)}</p><div class="links">{docs}</div>"""
         title = f"{loc(g['name'], lang)}: {loc(g['subtitle'], lang)} — {s['name']}"
         emit(out_file(key, lang), page(key, lang, title, body, loc(g["pitch"], lang), nav="games"))
+
+        # Game-specific legal documents
+        for d, pattern in g.get("legal_docs", {}).items():
+            dkey = f"{key}:{d}"
+            name = loc(g["name"], lang)
+            crumb = f'<p class="crumb"><a href="{url(key, lang)}">← {E(name)}</a></p>'
+            body = crumb + binding_note(dkey, lang) + md(localized_file(pattern, lang), lang)
+            emit(out_file(dkey, lang),
+                 page(dkey, lang, f"{t(lang, d)} — {name} — {s['name']}", body,
+                      t(lang, f"game_{d}_desc").format(game=name), nav="games"))
 
 # Legacy URLs: lightweight redirect stubs
 for old, (key, lang) in LEGACY.items():

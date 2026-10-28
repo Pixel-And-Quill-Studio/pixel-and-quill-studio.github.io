@@ -45,5 +45,14 @@
   "fact_status": "Estado",
   "crew_gallery": "La banda",
   "notfound_text": "Esta página no existe o se ha trasladado.",
-  "legal_binding_note": "Traducción ofrecida a título informativo. Solo la versión francesa de este documento es jurídicamente vinculante:"
+  "legal_binding_note": "Traducción ofrecida a título informativo. Solo la versión francesa de este documento es jurídicamente vinculante:",
+  "game_legal_docs_note": "La política de privacidad y las condiciones de uso de arriba son propias de este juego. El aviso legal se aplica a todos los juegos publicados por Pixel & Quill Studio.",
+  "game_privacy_desc": "Política de privacidad de {game}, un juego de Pixel & Quill Studio",
+  "game_terms_desc": "Condiciones de uso de {game}, un juego de Pixel & Quill Studio",
+  "fact_prisons": "Prisiones",
+  "fact_character": "Personaje",
+  "fact_leaderboards": "Clasificaciones",
+  "fact_model": "Precio",
+  "fact_age": "Edad",
+  "screens_gallery": "En el juego"
 }

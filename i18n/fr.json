@@ -44,5 +44,14 @@
   "fact_languages": "Langues",
   "fact_status": "Statut",
   "crew_gallery": "L’équipe",
-  "notfound_text": "Cette page n’existe pas ou a été déplacée."
+  "notfound_text": "Cette page n’existe pas ou a été déplacée.",
+  "game_legal_docs_note": "La politique de confidentialité et les conditions d’utilisation ci-dessus sont propres à ce jeu. Les mentions légales s’appliquent à tous les jeux édités par Pixel & Quill Studio.",
+  "game_privacy_desc": "Politique de confidentialité de {game}, un jeu de Pixel & Quill Studio",
+  "game_terms_desc": "Conditions d’utilisation de {game}, un jeu de Pixel & Quill Studio",
+  "fact_prisons": "Prisons",
+  "fact_character": "Personnage",
+  "fact_leaderboards": "Classements",
+  "fact_model": "Prix",
+  "fact_age": "Âge",
+  "screens_gallery": "Dans le jeu"
 }

@@ -45,5 +45,14 @@
   "fact_status": "Status",
   "crew_gallery": "A equipe",
   "notfound_text": "Esta página não existe ou mudou de endereço.",
-  "legal_binding_note": "Tradução fornecida apenas para informação. Somente a versão em francês deste documento tem valor jurídico:"
+  "legal_binding_note": "Tradução fornecida apenas para informação. Somente a versão em francês deste documento tem valor jurídico:",
+  "game_legal_docs_note": "A política de privacidade e os termos de uso acima são específicos deste jogo. O aviso legal vale para todos os jogos publicados pela Pixel & Quill Studio.",
+  "game_privacy_desc": "Política de privacidade de {game}, um jogo da Pixel & Quill Studio",
+  "game_terms_desc": "Termos de uso de {game}, um jogo da Pixel & Quill Studio",
+  "fact_prisons": "Prisões",
+  "fact_character": "Personagem",
+  "fact_leaderboards": "Placares",
+  "fact_model": "Preço",
+  "fact_age": "Idade",
+  "screens_gallery": "No jogo"
 }

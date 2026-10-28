@@ -45,5 +45,14 @@
   "fact_status": "Status",
   "crew_gallery": "Die Crew",
   "notfound_text": "Diese Seite existiert nicht oder ist umgezogen.",
-  "legal_binding_note": "Diese Übersetzung dient nur zur Information. Rechtlich verbindlich ist allein die französische Fassung dieses Dokuments:"
+  "legal_binding_note": "Diese Übersetzung dient nur zur Information. Rechtlich verbindlich ist allein die französische Fassung dieses Dokuments:",
+  "game_legal_docs_note": "Die Datenschutzerklärung und die Nutzungsbedingungen oben gelten speziell für dieses Spiel. Das Impressum gilt für alle von Pixel & Quill Studio veröffentlichten Spiele.",
+  "game_privacy_desc": "Datenschutzerklärung von {game}, einem Spiel von Pixel & Quill Studio",
+  "game_terms_desc": "Nutzungsbedingungen von {game}, einem Spiel von Pixel & Quill Studio",
+  "fact_prisons": "Gefängnisse",
+  "fact_character": "Spielbar als",
+  "fact_leaderboards": "Bestenlisten",
+  "fact_model": "Preis",
+  "fact_age": "Altersfreigabe",
+  "screens_gallery": "Im Spiel"
 }

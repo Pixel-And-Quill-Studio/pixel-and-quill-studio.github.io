@@ -23,64 +23,312 @@
       "description": {
         "en": [
           "Every day, one card, two choices: swipe left or right. Keep your gauges balanced, because an empty gauge is deadly, and so is one that is too full. Hold on until the end of your sentence.",
-          "You pick your prison, then your character, man or woman, then you hear your verdict. Every inmate has their own story, exclusive cards and endings."
+          "You pick your prison, then your character, man or woman, then you hear your verdict. Every inmate has their own story, exclusive cards and endings.",
+          "Your sentence starts at Valmont Prison, free to play: the yard, the workshops, the crews. Then come the paid prisons, each with its own rules, its exclusive inmate and its cards: the high-security prison at Mornac, the island prison at Karreg, the semi-liberty centre at Saint-Aubin and a prison abroad, in Sarvania, an imaginary country. A fifth one, the old fortress of Vauclair, is in production."
         ],
         "fr": [
           "Chaque jour, une carte, deux choix : glisse à gauche ou à droite. Garde tes jauges en équilibre, car une jauge vide est mortelle, mais une jauge trop pleine l’est aussi. Tiens jusqu’à la fin de ta peine.",
-          "Tu choisis ta prison, puis ton personnage, homme ou femme, puis tu découvres ton verdict. Chaque détenu a son histoire, ses cartes exclusives et ses fins."
+          "Tu choisis ta prison, puis ton personnage, homme ou femme, puis tu découvres ton verdict. Chaque détenu a son histoire, ses cartes exclusives et ses fins.",
+          "Ta peine commence à la maison d’arrêt de Valmont, gratuite : la cour, les ateliers, les bandes. Viennent ensuite les prisons payantes, chacune avec ses règles, son détenu exclusif et ses cartes : la prison de haute sécurité de Mornac, la centrale de l’île de Karreg, le centre de semi-liberté de Saint-Aubin et une prison à l’étranger, en Sarvanie, un pays imaginaire. Une cinquième, la vieille forteresse de Vauclair, est en production."
         ],
         "es": [
           "Cada día, una carta y dos opciones: desliza a la izquierda o a la derecha. Mantén tus indicadores en equilibrio, porque uno vacío es mortal, pero uno demasiado lleno también. Aguanta hasta el final de tu condena.",
-          "Eliges tu prisión, luego tu personaje, hombre o mujer, y después escuchas tu veredicto. Cada recluso tiene su propia historia, sus cartas exclusivas y sus finales."
+          "Eliges tu prisión, luego tu personaje, hombre o mujer, y después escuchas tu veredicto. Cada recluso tiene su propia historia, sus cartas exclusivas y sus finales.",
+          "Tu condena empieza en la prisión de Valmont, gratuita: el patio, los talleres, las bandas. Después llegan las prisiones de pago, cada una con sus reglas, su recluso exclusivo y sus cartas: la prisión de alta seguridad de Mornac, la prisión de la isla de Karreg, el centro de semilibertad de Saint-Aubin y una prisión en el extranjero, en Sarvania, un país imaginario. Una quinta, la vieja fortaleza de Vauclair, está en producción."
         ],
         "pt-BR": [
           "Todo dia, uma carta, duas escolhas: deslize para a esquerda ou para a direita. Mantenha seus medidores em equilíbrio, porque um medidor vazio é fatal, e um cheio demais também. Aguente até o fim da sua pena.",
-          "Você escolhe sua prisão, depois seu personagem, homem ou mulher, e então ouve o seu veredito. Cada detento tem sua própria história, cartas exclusivas e finais."
+          "Você escolhe sua prisão, depois seu personagem, homem ou mulher, e então ouve o seu veredito. Cada detento tem sua própria história, cartas exclusivas e finais.",
+          "Sua pena começa na prisão de Valmont, gratuita: o pátio, as oficinas, as gangues. Depois vêm as prisões pagas, cada uma com suas regras, seu detento exclusivo e suas cartas: a prisão de segurança máxima de Mornac, a prisão da ilha de Karreg, o centro de semiliberdade de Saint-Aubin e uma prisão no exterior, na Sarvânia, um país imaginário. Uma quinta, a velha fortaleza de Vauclair, está em produção."
         ],
         "de": [
           "Jeden Tag eine Karte, zwei Entscheidungen: nach links oder nach rechts wischen. Halte deine Anzeigen im Gleichgewicht, denn eine leere Anzeige ist tödlich – eine zu volle aber auch. Halte durch bis zum Ende deiner Strafe.",
-          "Du wählst dein Gefängnis, dann deine Figur, Mann oder Frau, und hörst anschließend dein Urteil. Jeder Häftling hat seine eigene Geschichte, exklusive Karten und eigene Enden."
+          "Du wählst dein Gefängnis, dann deine Figur, Mann oder Frau, und hörst anschließend dein Urteil. Jeder Häftling hat seine eigene Geschichte, exklusive Karten und eigene Enden.",
+          "Deine Strafe beginnt im Gefängnis Valmont, kostenlos spielbar: der Hof, die Werkstätten, die Banden. Danach kommen die kostenpflichtigen Gefängnisse, jedes mit eigenen Regeln, einem exklusiven Häftling und eigenen Karten: das Hochsicherheitsgefängnis Mornac, das Inselgefängnis Karreg, das Zentrum für offenen Vollzug Saint-Aubin und ein Gefängnis im Ausland, in Sarvanien, einem erfundenen Land. Ein fünftes, die alte Festung Vauclair, ist in Produktion."
         ]
+      },
+      "tagline": {
+        "en": "You’ve just been locked up. Survive as many days as you can.",
+        "fr": "Tu viens d’être incarcéré. Survis le plus de jours possible.",
+        "es": "Acabas de entrar en prisión. Sobrevive tantos días como puedas.",
+        "pt-BR": "Você acaba de ser preso. Sobreviva o máximo de dias que puder.",
+        "de": "Du bist gerade eingesperrt worden. Überlebe so viele Tage wie möglich."
       },
       "features": {
         "en": [
-          "Swipe cards, in English and French",
-          "Several prisons and playable inmates, as a man or a woman",
-          "Google Play Games achievements and leaderboards",
-          "Free, with ads and optional purchases",
-          "Ages 13 and up"
+          "Swipe cards: one day, one card, two choices",
+          "Valmont Prison free, plus 4 prisons at €2.99 each, each with its exclusive inmate",
+          "Play as a man or a woman, in single-sex prisons",
+          "Google Play Games achievements and leaderboards, one per prison",
+          "Jokers to undo a choice, an ad-free option and a Premium Pack at €17.99",
+          "In English and French, for ages 13 and up"
         ],
         "fr": [
-          "Cartes à glisser, en anglais et en français",
-          "Plusieurs prisons et détenus jouables, en homme ou en femme",
-          "Succès et classements Google Play Jeux",
-          "Gratuit, avec publicité et achats facultatifs",
-          "À partir de 13 ans"
+          "Cartes à glisser : un jour, une carte, deux choix",
+          "Maison d’arrêt de Valmont gratuite, plus 4 prisons à 2,99 € chacune, chacune avec son détenu exclusif",
+          "Joue en homme ou en femme, dans des prisons non mixtes",
+          "Succès et classements Google Play Jeux, un classement par prison",
+          "Des jokers pour annuler un choix, une option sans publicité et un Pack Premium à 17,99 €",
+          "En anglais et en français, à partir de 13 ans"
         ],
         "es": [
-          "Cartas para deslizar, en inglés y francés",
-          "Varias prisiones y reclusos jugables, como hombre o como mujer",
-          "Logros y clasificaciones de Google Play Juegos",
-          "Gratis, con anuncios y compras opcionales",
-          "A partir de 13 años"
+          "Cartas para deslizar: un día, una carta, dos opciones",
+          "La prisión de Valmont gratis, más 4 prisiones a 2,99 € cada una, cada una con su recluso exclusivo",
+          "Juega como hombre o como mujer, en prisiones no mixtas",
+          "Logros y clasificaciones de Google Play Juegos, una clasificación por prisión",
+          "Comodines para deshacer una elección, una opción sin anuncios y un Pack Premium a 17,99 €",
+          "En inglés y francés, a partir de 13 años"
         ],
         "pt-BR": [
-          "Cartas de deslizar, em inglês e francês",
-          "Várias prisões e detentos jogáveis, como homem ou mulher",
-          "Conquistas e placares do Google Play Games",
-          "Grátis, com anúncios e compras opcionais",
-          "A partir de 13 anos"
+          "Cartas de deslizar: um dia, uma carta, duas escolhas",
+          "A prisão de Valmont grátis, mais 4 prisões a 2,99 € cada, cada uma com seu detento exclusivo",
+          "Jogue como homem ou como mulher, em prisões não mistas",
+          "Conquistas e placares do Google Play Games, um placar por prisão",
+          "Coringas para desfazer uma escolha, uma opção sem anúncios e um Pacote Premium a 17,99 €",
+          "Em inglês e francês, a partir de 13 anos"
         ],
         "de": [
-          "Wischkarten, auf Englisch und Französisch",
-          "Mehrere Gefängnisse und spielbare Häftlinge, als Mann oder Frau",
-          "Erfolge und Bestenlisten in Google Play Spiele",
-          "Kostenlos, mit Werbung und optionalen Käufen",
-          "Ab 13 Jahren"
+          "Wischkarten: ein Tag, eine Karte, zwei Entscheidungen",
+          "Gefängnis Valmont kostenlos, dazu 4 Gefängnisse für je 2,99 €, jedes mit seinem exklusiven Häftling",
+          "Spiele als Mann oder als Frau, in nach Geschlechtern getrennten Gefängnissen",
+          "Erfolge und Bestenlisten in Google Play Spiele, eine Bestenliste pro Gefängnis",
+          "Joker, um eine Entscheidung rückgängig zu machen, eine werbefreie Option und ein Premium-Paket für 17,99 €",
+          "Auf Englisch und Französisch, ab 13 Jahren"
         ]
       },
+      "facts": [
+        {
+          "key": "genre",
+          "value": {
+            "en": "Reigns-style swipe cards, prison survival",
+            "fr": "Cartes à glisser façon Reigns, survie en prison",
+            "es": "Cartas para deslizar al estilo de Reigns, supervivencia en prisión",
+            "pt-BR": "Cartas de deslizar no estilo de Reigns, sobrevivência na prisão",
+            "de": "Wischkarten im Stil von Reigns, Überleben im Gefängnis"
+          }
+        },
+        {
+          "key": "platform",
+          "value": {
+            "en": "Android 7.0 and later",
+            "fr": "Android 7.0 et versions ultérieures",
+            "es": "Android 7.0 o posterior",
+            "pt-BR": "Android 7.0 ou superior",
+            "de": "Android 7.0 oder neuer"
+          }
+        },
+        {
+          "key": "orientation",
+          "value": {
+            "en": "Portrait",
+            "fr": "Portrait",
+            "es": "Vertical",
+            "pt-BR": "Retrato (vertical)",
+            "de": "Hochformat"
+          }
+        },
+        {
+          "key": "languages",
+          "value": {
+            "en": "English, French",
+            "fr": "Anglais, français",
+            "es": "Inglés, francés",
+            "pt-BR": "Inglês, francês",
+            "de": "Englisch, Französisch"
+          }
+        },
+        {
+          "key": "prisons",
+          "value": {
+            "en": "Valmont (free), 4 paid prisons, a 5th in production",
+            "fr": "Valmont (gratuite), 4 prisons payantes, une 5e en production",
+            "es": "Valmont (gratis), 4 prisiones de pago, una 5.ª en producción",
+            "pt-BR": "Valmont (grátis), 4 prisões pagas, uma 5ª em produção",
+            "de": "Valmont (kostenlos), 4 kostenpflichtige Gefängnisse, ein 5. in Produktion"
+          }
+        },
+        {
+          "key": "character",
+          "value": {
+            "en": "A man or a woman",
+            "fr": "Un homme ou une femme",
+            "es": "Un hombre o una mujer",
+            "pt-BR": "Um homem ou uma mulher",
+            "de": "Mann oder Frau"
+          }
+        },
+        {
+          "key": "leaderboards",
+          "value": {
+            "en": "Google Play Games, one per prison",
+            "fr": "Google Play Jeux, un par prison",
+            "es": "Google Play Juegos, una por prisión",
+            "pt-BR": "Google Play Games, um por prisão",
+            "de": "Google Play Spiele, eine pro Gefängnis"
+          }
+        },
+        {
+          "key": "model",
+          "value": {
+            "en": "Free with ads · prisons €2.99 each · Premium Pack €17.99",
+            "fr": "Gratuit avec publicité · prisons à 2,99 € · Pack Premium à 17,99 €",
+            "es": "Gratis con anuncios · prisiones a 2,99 € · Pack Premium a 17,99 €",
+            "pt-BR": "Grátis com anúncios · prisões a 2,99 € · Pacote Premium a 17,99 €",
+            "de": "Kostenlos mit Werbung · Gefängnisse je 2,99 € · Premium-Paket 17,99 €"
+          }
+        },
+        {
+          "key": "age",
+          "value": {
+            "en": "13+",
+            "fr": "13 ans et plus",
+            "es": "Mayores de 13 años",
+            "pt-BR": "13 anos ou mais",
+            "de": "Ab 13 Jahren"
+          }
+        }
+      ],
       "status": "coming_soon",
+      "status_label": {
+        "en": "Coming to Google Play in November 2026",
+        "fr": "Sortie sur Google Play en novembre 2026",
+        "es": "Llega a Google Play en noviembre de 2026",
+        "pt-BR": "Chega ao Google Play em novembro de 2026",
+        "de": "Ab November 2026 bei Google Play"
+      },
       "icon": "assets/sentence-icon.png",
+      "splash": {
+        "src": "assets/games/sentence/title.webp",
+        "width": 540,
+        "height": 960,
+        "alt": {
+          "en": "Sentence title screen (French version)",
+          "fr": "Écran titre de Sentence",
+          "es": "Pantalla de título de Sentence (versión francesa)",
+          "pt-BR": "Tela de título de Sentence (versão francesa)",
+          "de": "Titelbildschirm von Sentence (französische Version)"
+        }
+      },
+      "gallery": {
+        "title": "screens_gallery",
+        "layout": "shots",
+        "images": [
+          {
+            "src": "assets/games/sentence/valmont.webp",
+            "width": 360,
+            "height": 640,
+            "caption": {
+              "en": "Valmont Prison · day 23, a card from your neighbour",
+              "fr": "Valmont · jour 23, une carte de ton voisin",
+              "es": "Valmont · día 23, una carta de tu vecino",
+              "pt-BR": "Valmont · dia 23, uma carta do seu vizinho",
+              "de": "Valmont · Tag 23, eine Karte von deinem Nachbarn"
+            },
+            "alt": {
+              "en": "In-game card at Valmont Prison: Mickaël, your neighbour, whispers through the window",
+              "fr": "Carte du jeu à Valmont : Mickaël, ton voisin, chuchote à la fenêtre",
+              "es": "Carta del juego en Valmont: Mickaël, tu vecino, susurra por la ventana",
+              "pt-BR": "Carta do jogo em Valmont: Mickaël, seu vizinho, sussurra pela janela",
+              "de": "Spielkarte in Valmont: Mickaël, dein Nachbar, flüstert durchs Fenster"
+            }
+          },
+          {
+            "src": "assets/games/sentence/high-security.webp",
+            "width": 360,
+            "height": 640,
+            "caption": {
+              "en": "High-security prison · Marchand, head of security",
+              "fr": "Haute sécurité · Marchand, chef de la sécurité",
+              "es": "Alta seguridad · Marchand, jefe de seguridad",
+              "pt-BR": "Segurança máxima · Marchand, chefe da segurança",
+              "de": "Hochsicherheit · Marchand, Sicherheitschef"
+            },
+            "alt": {
+              "en": "In-game card in the high-security prison with Marchand, head of security",
+              "fr": "Carte du jeu en prison de haute sécurité avec Marchand, chef de la sécurité",
+              "es": "Carta del juego en la prisión de alta seguridad con Marchand, jefe de seguridad",
+              "pt-BR": "Carta do jogo na prisão de segurança máxima com Marchand, chefe da segurança",
+              "de": "Spielkarte im Hochsicherheitsgefängnis mit Marchand, dem Sicherheitschef"
+            }
+          },
+          {
+            "src": "assets/games/sentence/verdict.webp",
+            "width": 360,
+            "height": 640,
+            "caption": {
+              "en": "The verdict · island prison (French version)",
+              "fr": "Le verdict · centrale de l’île",
+              "es": "El veredicto · prisión de la isla (versión francesa)",
+              "pt-BR": "O veredito · prisão da ilha (versão francesa)",
+              "de": "Das Urteil · Inselgefängnis (französische Version)"
+            },
+            "alt": {
+              "en": "Verdict screen before a sentence at the island prison",
+              "fr": "Écran du verdict avant une peine à la centrale de l’île",
+              "es": "Pantalla del veredicto antes de una condena en la prisión de la isla",
+              "pt-BR": "Tela do veredito antes de uma pena na prisão da ilha",
+              "de": "Urteilsbildschirm vor einer Strafe im Inselgefängnis"
+            }
+          },
+          {
+            "src": "assets/games/sentence/man-or-woman.webp",
+            "width": 360,
+            "height": 640,
+            "caption": {
+              "en": "Choose your character, man or woman (French version)",
+              "fr": "Choisis ton personnage, homme ou femme",
+              "es": "Elige tu personaje, hombre o mujer (versión francesa)",
+              "pt-BR": "Escolha seu personagem, homem ou mulher (versão francesa)",
+              "de": "Wähle deine Figur, Mann oder Frau (französische Version)"
+            },
+            "alt": {
+              "en": "Character selection screen with the Man and Woman options",
+              "fr": "Écran de choix du personnage avec les options Homme et Femme",
+              "es": "Pantalla de elección de personaje con las opciones Hombre y Mujer",
+              "pt-BR": "Tela de escolha de personagem com as opções Homem e Mulher",
+              "de": "Figurenauswahl mit den Optionen Mann und Frau"
+            }
+          },
+          {
+            "src": "assets/games/sentence/abroad.webp",
+            "width": 360,
+            "height": 640,
+            "caption": {
+              "en": "Prison abroad · the consulate officer (French version)",
+              "fr": "Prison à l’étranger · l’agente du consulat",
+              "es": "Prisión en el extranjero · la agente del consulado (versión francesa)",
+              "pt-BR": "Prisão no exterior · a agente do consulado (versão francesa)",
+              "de": "Gefängnis im Ausland · die Konsulatsbeamtin (französische Version)"
+            },
+            "alt": {
+              "en": "In-game card in the prison abroad with Rivière, a consulate officer",
+              "fr": "Carte du jeu en prison à l’étranger avec Rivière, agente du consulat",
+              "es": "Carta del juego en la prisión en el extranjero con Rivière, agente del consulado",
+              "pt-BR": "Carta do jogo na prisão no exterior com Rivière, agente do consulado",
+              "de": "Spielkarte im Gefängnis im Ausland mit Rivière, Konsulatsbeamtin"
+            }
+          },
+          {
+            "src": "assets/games/sentence/leaderboards.webp",
+            "width": 360,
+            "height": 640,
+            "caption": {
+              "en": "One leaderboard per prison",
+              "fr": "Un classement par prison",
+              "es": "Una clasificación por prisión",
+              "pt-BR": "Um placar por prisão",
+              "de": "Eine Bestenliste pro Gefängnis"
+            },
+            "alt": {
+              "en": "Leaderboard screen with one tab per prison",
+              "fr": "Écran du classement avec un onglet par prison",
+              "es": "Pantalla de clasificación con una pestaña por prisión",
+              "pt-BR": "Tela de placar com uma aba por prisão",
+              "de": "Bestenliste mit einem Reiter pro Gefängnis"
+            }
+          }
+        ]
+      },
       "store": {
         "google_play": null
       },
@@ -442,7 +690,11 @@
       "store": {
         "google_play": null
       },
-      "details": "content/games/one-last-heist.{lang}.md"
+      "details": "content/games/one-last-heist.{lang}.md",
+      "legal_docs": {
+        "privacy": "content/games/one-last-heist/privacy.{lang}.md",
+        "terms": "content/games/one-last-heist/terms.{lang}.md"
+      }
     }
   ]
 }

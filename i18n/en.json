@@ -44,5 +44,14 @@
   "fact_languages": "Languages",
   "fact_status": "Status",
   "crew_gallery": "The crew",
-  "notfound_text": "This page does not exist or has moved."
+  "notfound_text": "This page does not exist or has moved.",
+  "game_legal_docs_note": "The privacy policy and terms of use above are specific to this game. The legal notice applies to every game published by Pixel & Quill Studio.",
+  "game_privacy_desc": "Privacy policy of {game}, a game by Pixel & Quill Studio",
+  "game_terms_desc": "Terms of use of {game}, a game by Pixel & Quill Studio",
+  "fact_prisons": "Prisons",
+  "fact_character": "Play as",
+  "fact_leaderboards": "Leaderboards",
+  "fact_model": "Price",
+  "fact_age": "Age rating",
+  "screens_gallery": "In the game"
 }

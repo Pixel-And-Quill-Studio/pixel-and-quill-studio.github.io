@@ -9,7 +9,15 @@ Sentence está destinado a jugadores de **13 años o más**. Trata sobre la vida
 - **Permisos:** Sentence no solicita ningún permiso sensible (ni ubicación, ni contactos, ni cámara, ni micrófono).
 
 ## Compras en Sentence
-Reclusos y prisiones adicionales, **comodines** (objetos virtuales sin valor monetario), **eliminación de anuncios** y el **Pack Premium**. El Pack Premium incluye las prisiones que se publiquen más adelante, sin garantía sobre su fecha de lanzamiento. Las compras no consumibles pueden restaurarse con «Restore purchases».
+Sentence se juega gratis en la prisión de Valmont. Compras opcionales, a los precios en euros previstos en el lanzamiento (Google Play muestra el precio final en tu moneda):
+
+- **Prisiones de pago:** 2,99 € cada una, con su recluso exclusivo: alta seguridad, la prisión de la isla, el centro de semilibertad, la prisión en el extranjero. La vieja fortaleza está en producción.
+- **Reclusos adicionales en Valmont:** 0,99 € cada uno (el expolicía, el boxeador, el estafador de cuello blanco, el inocente, el viejo atracador).
+- **Comodines** (objetos virtuales sin valor monetario, para deshacer una elección): 5 por 0,99 €, 20 por 2,99 €. También se pueden conseguir algunos viendo un anuncio con recompensa opcional.
+- **Quitar anuncios:** 3,99 €, para siempre. Los anuncios con recompensa siguen disponibles si los quieres.
+- **Pack Premium:** 17,99 €: todos los reclusos y prisiones de pago, sin anuncios, 20 comodines y las prisiones que se publiquen más adelante, sin garantía sobre su fecha de lanzamiento.
+
+Las compras no consumibles pueden restaurarse con «Restore purchases» (el juego está en inglés y francés).
 
 ## Créditos
 Creado con Godot Engine (licencia MIT). Los créditos completos están disponibles en el juego.
