@@ -2,11 +2,23 @@
   "games": [
     {
       "slug": "sentence",
-      "name": {"en": "Sentence", "fr": "Sentence"},
-      "subtitle": {"en": "Prison survival", "fr": "Survie en prison"},
+      "name": {
+        "en": "Sentence",
+        "fr": "Sentence"
+      },
+      "subtitle": {
+        "en": "Prison survival",
+        "fr": "Survie en prison",
+        "es": "Supervivencia en prisión",
+        "pt-BR": "Sobrevivência na prisão",
+        "de": "Überleben im Gefängnis"
+      },
       "pitch": {
         "en": "Swipe card game: pick your prison, your inmate, and survive as many days as you can.",
-        "fr": "Jeu de cartes à glisser : choisis ta prison, ton détenu, et tiens le plus de jours possible."
+        "fr": "Jeu de cartes à glisser : choisis ta prison, ton détenu, et tiens le plus de jours possible.",
+        "es": "Juego de cartas para deslizar: elige tu prisión y tu recluso, y aguanta tantos días como puedas.",
+        "pt-BR": "Jogo de cartas de deslizar: escolha sua prisão e seu detento, e sobreviva o máximo de dias que conseguir.",
+        "de": "Wisch-Kartenspiel: Wähle dein Gefängnis und deinen Häftling und überlebe so viele Tage wie möglich."
       },
       "description": {
         "en": [
@@ -16,6 +28,18 @@
         "fr": [
           "Chaque jour, une carte, deux choix : glisse à gauche ou à droite. Garde tes jauges en équilibre, car une jauge vide est mortelle, mais une jauge trop pleine l’est aussi. Tiens jusqu’à la fin de ta peine.",
           "Tu choisis ta prison, puis ton personnage, homme ou femme, puis tu découvres ton verdict. Chaque détenu a son histoire, ses cartes exclusives et ses fins."
+        ],
+        "es": [
+          "Cada día, una carta y dos opciones: desliza a la izquierda o a la derecha. Mantén tus indicadores en equilibrio, porque uno vacío es mortal, pero uno demasiado lleno también. Aguanta hasta el final de tu condena.",
+          "Eliges tu prisión, luego tu personaje, hombre o mujer, y después escuchas tu veredicto. Cada recluso tiene su propia historia, sus cartas exclusivas y sus finales."
+        ],
+        "pt-BR": [
+          "Todo dia, uma carta, duas escolhas: deslize para a esquerda ou para a direita. Mantenha seus medidores em equilíbrio, porque um medidor vazio é fatal, e um cheio demais também. Aguente até o fim da sua pena.",
+          "Você escolhe sua prisão, depois seu personagem, homem ou mulher, e então ouve o seu veredito. Cada detento tem sua própria história, cartas exclusivas e finais."
+        ],
+        "de": [
+          "Jeden Tag eine Karte, zwei Entscheidungen: nach links oder nach rechts wischen. Halte deine Anzeigen im Gleichgewicht, denn eine leere Anzeige ist tödlich – eine zu volle aber auch. Halte durch bis zum Ende deiner Strafe.",
+          "Du wählst dein Gefängnis, dann deine Figur, Mann oder Frau, und hörst anschließend dein Urteil. Jeder Häftling hat seine eigene Geschichte, exklusive Karten und eigene Enden."
         ]
       },
       "features": {
@@ -32,19 +56,393 @@
           "Succès et classements Google Play Jeux",
           "Gratuit, avec publicité et achats facultatifs",
           "À partir de 13 ans"
+        ],
+        "es": [
+          "Cartas para deslizar, en inglés y francés",
+          "Varias prisiones y reclusos jugables, como hombre o como mujer",
+          "Logros y clasificaciones de Google Play Juegos",
+          "Gratis, con anuncios y compras opcionales",
+          "A partir de 13 años"
+        ],
+        "pt-BR": [
+          "Cartas de deslizar, em inglês e francês",
+          "Várias prisões e detentos jogáveis, como homem ou mulher",
+          "Conquistas e placares do Google Play Games",
+          "Grátis, com anúncios e compras opcionais",
+          "A partir de 13 anos"
+        ],
+        "de": [
+          "Wischkarten, auf Englisch und Französisch",
+          "Mehrere Gefängnisse und spielbare Häftlinge, als Mann oder Frau",
+          "Erfolge und Bestenlisten in Google Play Spiele",
+          "Kostenlos, mit Werbung und optionalen Käufen",
+          "Ab 13 Jahren"
         ]
       },
       "status": "coming_soon",
       "icon": "assets/sentence-icon.png",
-      "store": {"google_play": null},
+      "store": {
+        "google_play": null
+      },
       "details": "content/games/sentence.{lang}.md",
       "legacy_paths": {
-        "sentence/en.html": {"page": "game:sentence", "lang": "en"},
-        "sentence/privacy-en.html": {"page": "privacy", "lang": "en"},
-        "sentence/privacy-fr.html": {"page": "privacy", "lang": "fr"},
-        "sentence/terms-en.html": {"page": "terms", "lang": "en"},
-        "sentence/terms-fr.html": {"page": "terms", "lang": "fr"}
+        "sentence/en.html": {
+          "page": "game:sentence",
+          "lang": "en"
+        },
+        "sentence/privacy-en.html": {
+          "page": "privacy",
+          "lang": "en"
+        },
+        "sentence/privacy-fr.html": {
+          "page": "privacy",
+          "lang": "fr"
+        },
+        "sentence/terms-en.html": {
+          "page": "terms",
+          "lang": "en"
+        },
+        "sentence/terms-fr.html": {
+          "page": "terms",
+          "lang": "fr"
+        }
       }
+    },
+    {
+      "slug": "one-last-heist",
+      "name": {
+        "en": "One Last Heist",
+        "fr": "One Last Heist",
+        "es": "One Last Heist",
+        "pt-BR": "One Last Heist",
+        "de": "One Last Heist"
+      },
+      "subtitle": {
+        "en": "Turn-based heist",
+        "fr": "Casse au tour par tour",
+        "es": "Atracos por turnos",
+        "pt-BR": "Assaltos por turnos",
+        "de": "Rundenbasierter Heist"
+      },
+      "pitch": {
+        "en": "Build a crew, plan the job and pull it off room by room, one turn at a time.",
+        "fr": "Monte ton équipe, prépare le coup et mène-le pièce par pièce, un tour à la fois.",
+        "es": "Forma tu banda, prepara el golpe y llévalo a cabo sala por sala, turno a turno.",
+        "pt-BR": "Monte sua equipe, planeje o golpe e execute-o sala por sala, um turno de cada vez.",
+        "de": "Stell deine Crew zusammen, plane den Coup und zieh ihn Raum für Raum durch, Zug um Zug."
+      },
+      "description": {
+        "en": [
+          "One Last Heist is a turn-based heist game by Pixel & Quill Studio. Hire a crew of specialists, scout and plan each job, then play it room by room, choosing Stealth, Tech, Force or Con with the real odds always shown.",
+          "Split the loot, keep the crew loyal, and keep the police off your back long enough to pull off the city’s last job."
+        ],
+        "fr": [
+          "One Last Heist est un jeu de casse au tour par tour signé Pixel & Quill Studio. Recrute une équipe de spécialistes, prépare chaque coup, puis mène-le pièce par pièce en choisissant discrétion, technique, force ou baratin, avec les vraies chances affichées.",
+          "Partage le butin, garde la loyauté de l’équipe et échappe à la police assez longtemps pour tenter le dernier coup de la ville."
+        ],
+        "es": [
+          "One Last Heist es un juego de atracos por turnos de Pixel & Quill Studio. Contrata a una banda de especialistas, estudia y prepara cada golpe y llévalo a cabo sala por sala eligiendo sigilo, técnica, fuerza o engaño, siempre con las probabilidades reales a la vista.",
+          "Reparte el botín, mantén leal a tu banda y esquiva a la policía el tiempo suficiente para intentar el último gran golpe de la ciudad."
+        ],
+        "pt-BR": [
+          "One Last Heist é um jogo de assaltos por turnos da Pixel & Quill Studio. Contrate uma equipe de especialistas, investigue e planeje cada golpe e execute-o sala por sala escolhendo furtividade, tecnologia, força ou lábia, sempre com as chances reais à vista.",
+          "Divida o butim, mantenha a equipe leal e despiste a polícia por tempo suficiente para tentar o último grande golpe da cidade."
+        ],
+        "de": [
+          "One Last Heist ist ein rundenbasiertes Heist-Spiel von Pixel & Quill Studio. Heuere eine Crew aus Spezialisten an, kundschafte jeden Coup aus, plane ihn und zieh ihn Raum für Raum durch – mit Schleichen, Technik, Gewalt oder Täuschung und immer mit den echten Erfolgschancen vor Augen.",
+          "Teile die Beute, halte deine Crew bei der Stange und bleib der Polizei lange genug vom Hals, um den letzten großen Coup der Stadt zu wagen."
+        ]
+      },
+      "tagline": {
+        "en": "One last job, then we quit. That’s what they all say.",
+        "fr": "Un dernier coup, et on raccroche. C’est ce qu’ils disent tous.",
+        "es": "Un último golpe y lo dejamos. Eso dicen todos.",
+        "pt-BR": "Um último golpe e a gente para. É o que todos dizem.",
+        "de": "Ein letzter Coup, dann hören wir auf. Das sagen sie alle."
+      },
+      "features": {
+        "en": [
+          "Hire specialists, from hackers and safecrackers to drivers and con artists, each with skills, traits and vices",
+          "Plan each job over several days: scouting, bribes and gear",
+          "Play the heist room by room with Stealth, Tech, Force or Con, with the real odds shown",
+          "Split the loot, watch your crew’s loyalty and keep the heat down",
+          "Targets from a small pawnshop all the way to the city’s last job",
+          "A guided first job with Victor, a retired fence",
+          "In English and French"
+        ],
+        "fr": [
+          "Recrute des spécialistes, hackers, perceurs de coffres, chauffeurs ou manipulateurs, chacun avec ses talents, ses traits et ses vices",
+          "Prépare chaque coup sur plusieurs jours : repérages, pots-de-vin et matériel",
+          "Mène le casse pièce par pièce en discrétion, technique, force ou baratin, avec les vraies chances affichées",
+          "Partage le butin, surveille la loyauté de l’équipe et fais baisser la pression policière",
+          "Des cibles allant d’un petit prêteur sur gages jusqu’au dernier coup de la ville",
+          "Un premier coup guidé avec Victor, un receleur à la retraite",
+          "En anglais et en français"
+        ],
+        "es": [
+          "Contrata a especialistas, desde hackers y revientacajas hasta conductores y estafadores, cada uno con sus habilidades, rasgos y vicios",
+          "Prepara cada golpe durante varios días: reconocimiento, sobornos y equipo",
+          "Lleva a cabo el atraco sala por sala con sigilo, técnica, fuerza o engaño, viendo las probabilidades reales",
+          "Reparte el botín, cuida la lealtad de tu banda y mantén a raya la presión policial",
+          "Objetivos que van desde una pequeña casa de empeños hasta el último golpe de la ciudad",
+          "Un primer golpe guiado con Victor, un perista retirado",
+          "En inglés y francés"
+        ],
+        "pt-BR": [
+          "Contrate especialistas, de hackers e arrombadores de cofres a motoristas e vigaristas, cada um com suas habilidades, traços e vícios",
+          "Planeje cada golpe ao longo de vários dias: reconhecimento, subornos e equipamento",
+          "Execute o assalto sala por sala com furtividade, tecnologia, força ou lábia, vendo as chances reais",
+          "Divida o butim, fique de olho na lealdade da equipe e mantenha a pressão policial baixa",
+          "Alvos que vão de uma pequena casa de penhores até o último golpe da cidade",
+          "Um primeiro golpe guiado com Victor, um receptador aposentado",
+          "Em inglês e francês"
+        ],
+        "de": [
+          "Heuere Spezialisten an – von Hackern und Safeknackern bis zu Fahrern und Trickbetrügern –, jeder mit eigenen Fähigkeiten, Eigenschaften und Lastern",
+          "Plane jeden Coup über mehrere Tage: Auskundschaften, Bestechung und Ausrüstung",
+          "Zieh den Coup Raum für Raum durch – mit Schleichen, Technik, Gewalt oder Täuschung und mit den echten Erfolgschancen",
+          "Teile die Beute, achte auf die Loyalität deiner Crew und halte den Fahndungsdruck niedrig",
+          "Ziele vom kleinen Pfandhaus bis zum letzten großen Coup der Stadt",
+          "Ein geführter erster Coup mit Victor, einem Hehler im Ruhestand",
+          "Auf Englisch und Französisch"
+        ]
+      },
+      "facts": [
+        {
+          "key": "genre",
+          "value": {
+            "en": "Turn-based heist, crew management",
+            "fr": "Casse au tour par tour, gestion d’équipe",
+            "es": "Atracos por turnos, gestión de banda",
+            "pt-BR": "Assaltos por turnos, gestão de equipe",
+            "de": "Rundenbasierter Heist, Crew-Management"
+          }
+        },
+        {
+          "key": "platform",
+          "value": {
+            "en": "Android 7.0 and later",
+            "fr": "Android 7.0 et versions ultérieures",
+            "es": "Android 7.0 o posterior",
+            "pt-BR": "Android 7.0 ou superior",
+            "de": "Android 7.0 oder neuer"
+          }
+        },
+        {
+          "key": "orientation",
+          "value": {
+            "en": "Portrait",
+            "fr": "Portrait",
+            "es": "Vertical",
+            "pt-BR": "Retrato (vertical)",
+            "de": "Hochformat"
+          }
+        },
+        {
+          "key": "languages",
+          "value": {
+            "en": "English, French",
+            "fr": "Anglais, français",
+            "es": "Inglés, francés",
+            "pt-BR": "Inglês, francês",
+            "de": "Englisch, Französisch"
+          }
+        }
+      ],
+      "status": "in_production",
+      "icon": "assets/games/one-last-heist/icon.webp",
+      "splash": {
+        "src": "assets/games/one-last-heist/splash.webp",
+        "width": 540,
+        "height": 960,
+        "alt": {
+          "en": "One Last Heist title screen",
+          "fr": "Écran titre de One Last Heist",
+          "es": "Pantalla de título de One Last Heist",
+          "pt-BR": "Tela de título de One Last Heist",
+          "de": "Titelbildschirm von One Last Heist"
+        }
+      },
+      "gallery": {
+        "title": "crew_gallery",
+        "images": [
+          {
+            "src": "assets/games/one-last-heist/victor.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Victor · retired fence, your mentor",
+              "fr": "Victor · ancien receleur, ton mentor",
+              "es": "Victor · perista retirado, tu mentor",
+              "pt-BR": "Victor · receptador aposentado, seu mentor",
+              "de": "Victor · Hehler im Ruhestand, dein Mentor"
+            },
+            "alt": {
+              "en": "Portrait of Victor, retired fence, your mentor",
+              "fr": "Portrait de Victor, ancien receleur, ton mentor",
+              "es": "Retrato de Victor, perista retirado, tu mentor",
+              "pt-BR": "Retrato de Victor, receptador aposentado, seu mentor",
+              "de": "Porträt von Victor, Hehler im Ruhestand, dein Mentor"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/nina.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Nina · hacker",
+              "fr": "Nina · hackeuse",
+              "es": "Nina · hacker",
+              "pt-BR": "Nina · hacker",
+              "de": "Nina · Hackerin"
+            },
+            "alt": {
+              "en": "Portrait of Nina, hacker",
+              "fr": "Portrait de Nina, hackeuse",
+              "es": "Retrato de Nina, hacker",
+              "pt-BR": "Retrato de Nina, hacker",
+              "de": "Porträt von Nina, Hackerin"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/marcel.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Marcel · safecracker",
+              "fr": "Marcel · perceur de coffres",
+              "es": "Marcel · revientacajas",
+              "pt-BR": "Marcel · arrombador de cofres",
+              "de": "Marcel · Safeknacker"
+            },
+            "alt": {
+              "en": "Portrait of Marcel, safecracker",
+              "fr": "Portrait de Marcel, perceur de coffres",
+              "es": "Retrato de Marcel, revientacajas",
+              "pt-BR": "Retrato de Marcel, arrombador de cofres",
+              "de": "Porträt von Marcel, Safeknacker"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/rosa.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Rosa · driver",
+              "fr": "Rosa · chauffeuse",
+              "es": "Rosa · conductora",
+              "pt-BR": "Rosa · motorista",
+              "de": "Rosa · Fahrerin"
+            },
+            "alt": {
+              "en": "Portrait of Rosa, driver",
+              "fr": "Portrait de Rosa, chauffeuse",
+              "es": "Retrato de Rosa, conductora",
+              "pt-BR": "Retrato de Rosa, motorista",
+              "de": "Porträt von Rosa, Fahrerin"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/leon.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Léon · con artist",
+              "fr": "Léon · manipulateur",
+              "es": "Léon · estafador",
+              "pt-BR": "Léon · vigarista",
+              "de": "Léon · Trickbetrüger"
+            },
+            "alt": {
+              "en": "Portrait of Léon, con artist",
+              "fr": "Portrait de Léon, manipulateur",
+              "es": "Retrato de Léon, estafador",
+              "pt-BR": "Retrato de Léon, vigarista",
+              "de": "Porträt von Léon, Trickbetrüger"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/tomasz.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Tomasz “Big T” · muscle",
+              "fr": "Tomasz “Big T” · gros bras",
+              "es": "Tomasz “Big T” · el músculo",
+              "pt-BR": "Tomasz “Big T” · o músculo",
+              "de": "Tomasz “Big T” · fürs Grobe"
+            },
+            "alt": {
+              "en": "Portrait of Tomasz “Big T”, muscle",
+              "fr": "Portrait de Tomasz “Big T”, gros bras",
+              "es": "Retrato de Tomasz “Big T”, el músculo",
+              "pt-BR": "Retrato de Tomasz “Big T”, o músculo",
+              "de": "Porträt von Tomasz “Big T”, fürs Grobe"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/ines.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Inès · cat burglar",
+              "fr": "Inès · monte-en-l’air",
+              "es": "Inès · ladrona escaladora",
+              "pt-BR": "Inès · ladra escaladora",
+              "de": "Inès · Fassadenkletterin"
+            },
+            "alt": {
+              "en": "Portrait of Inès, cat burglar",
+              "fr": "Portrait de Inès, monte-en-l’air",
+              "es": "Retrato de Inès, ladrona escaladora",
+              "pt-BR": "Retrato de Inès, ladra escaladora",
+              "de": "Porträt von Inès, Fassadenkletterin"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/dmitri.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Dmitri · demolition expert",
+              "fr": "Dmitri · démolisseur",
+              "es": "Dmitri · experto en demoliciones",
+              "pt-BR": "Dmitri · especialista em demolição",
+              "de": "Dmitri · Sprengmeister"
+            },
+            "alt": {
+              "en": "Portrait of Dmitri, demolition expert",
+              "fr": "Portrait de Dmitri, démolisseur",
+              "es": "Retrato de Dmitri, experto en demoliciones",
+              "pt-BR": "Retrato de Dmitri, especialista em demolição",
+              "de": "Porträt von Dmitri, Sprengmeister"
+            }
+          },
+          {
+            "src": "assets/games/one-last-heist/clara.webp",
+            "width": 320,
+            "height": 320,
+            "caption": {
+              "en": "Clara · forger",
+              "fr": "Clara · faussaire",
+              "es": "Clara · falsificadora",
+              "pt-BR": "Clara · falsificadora",
+              "de": "Clara · Fälscherin"
+            },
+            "alt": {
+              "en": "Portrait of Clara, forger",
+              "fr": "Portrait de Clara, faussaire",
+              "es": "Retrato de Clara, falsificadora",
+              "pt-BR": "Retrato de Clara, falsificadora",
+              "de": "Porträt von Clara, Fälscherin"
+            }
+          }
+        ]
+      },
+      "store": {
+        "google_play": null
+      },
+      "details": "content/games/one-last-heist.{lang}.md"
     }
   ]
 }

@@ -147,7 +147,7 @@ def lang_script(page, lang):
 
 
 SWITCH_SCRIPT = (
-    "<script>document.querySelectorAll('.lang a[data-lang]').forEach(function(a){"
+    "<script>document.querySelectorAll('a[data-lang]').forEach(function(a){"
     "a.addEventListener('click',function(){try{localStorage.setItem('pq-lang',a.dataset.lang)}catch(e){}})});</script>"
 )
 
@@ -192,6 +192,11 @@ def page(page_key, lang, title, body, desc, nav=None, home=False, noindex=False,
         f'href="{url(page_key, c)}" title="{E(LANGS[c]["name"])}">{E(LANGS[c]["label"])}</a>'
         for c in PUBLISHED
     )
+    drop = "".join(
+        f'<a class="{"on" if c == lang else ""}" hreflang="{c}" lang="{c}" data-lang="{c.lower()}" '
+        f'href="{url(page_key, c)}">{E(LANGS[c]["label"])} · {E(LANGS[c]["name"])}</a>'
+        for c in PUBLISHED
+    )
     foot = (
         f"© {s['year']} {E(s['name'])} — {E(s['owner'])}, EI — SIREN {s['siren']} — {E(s['address'])} — "
         f'<a href="mailto:{s["email"]}">{s["email"]}</a><br>'
@@ -201,7 +206,8 @@ def page(page_key, lang, title, body, desc, nav=None, home=False, noindex=False,
     )
     return head(page_key, lang, title, desc, noindex, detect) + f"""<body><a class="skip" href="#main">{E(t(lang, 'skip'))}</a><div class="wrap"><header class="top"><a class="brand{' home' if home else ''}" href="{url('home', lang)}" aria-label="Pixel &amp; Quill Studio"><img class="brand-icon" src="/assets/brand/favicon.svg" alt="" width="44" height="44"><img class="brand-word" src="/assets/brand/logo-wordmark-inline.svg" alt="Pixel &amp; Quill Studio" height="24"></a>
 <nav class="menu" aria-label="Menu">{menu}</nav>
-<nav class="lang" aria-label="{E(t(lang, 'lang_nav'))}">{switch}</nav></header>
+<nav class="lang" aria-label="{E(t(lang, 'lang_nav'))}">{switch}</nav>
+<details class="lang-drop"><summary aria-label="{E(t(lang, 'lang_nav'))}: {E(LANGS[lang]['name'])}">{E(LANGS[lang]['label'])}</summary><nav aria-label="{E(t(lang, 'lang_nav'))}">{drop}</nav></details></header>
 <main id="main">{body}</main><footer>{foot}</footer></div>{SWITCH_SCRIPT}</body></html>
 """
 
@@ -267,6 +273,10 @@ for lang in PUBLISHED:
 
     for key, doc in (("legal", "legal-notice"), ("privacy", "privacy"), ("terms", "terms")):
         body = md(localized_file(f"content/legal/{doc}.{{lang}}.md", lang), lang)
+        note = I18N.get(lang, {}).get("legal_binding_note")
+        if note:
+            fr_link = f'<a href="{url(key, "fr")}" hreflang="fr" lang="fr">{E(LANGS["fr"]["name"])}</a>'
+            body = f'<p class="note">{E(note)} {fr_link}</p>' + body
         emit(out_file(key, lang),
              page(key, lang, f"{t(lang, key)} — {s['name']}", body, t(lang, f"{key}_desc")))
 
@@ -282,11 +292,32 @@ for lang in PUBLISHED:
             details = f"<h2>{E(t(lang, 'game_details'))}</h2>" + md(localized_file(g["details"], lang), lang).replace(
                 "<h2>", "<h3>").replace("</h2>", "</h3>")
         docs = "".join(f'<a href="{url(k, lang)}">{E(t(lang, k))}</a>' for k in ("privacy", "terms", "legal"))
+        quote = (f'<blockquote class="quote"><p>“{E(loc(g["tagline"], lang))}”</p>'
+                 f'<footer>{E(t(lang, "game_line"))}</footer></blockquote>' if g.get("tagline") else "")
+        facts = ""
+        if g.get("facts"):
+            rows = "".join(f"<dt>{E(t(lang, 'fact_' + f['key']))}</dt><dd>{E(loc(f['value'], lang))}</dd>"
+                           for f in g["facts"])
+            status_row = f"<dt>{E(t(lang, 'fact_status'))}</dt><dd>{E(t(lang, 'status')[g['status']])}</dd>"
+            facts = f'<div class="card facts"><h2>{E(t(lang, "key_facts"))}</h2><dl>{rows}{status_row}</dl></div>'
+        if g.get("splash"):
+            facts = (f'<div class="showcase"><img class="splash" src="/{g["splash"]["src"]}" '
+                     f'alt="{E(loc(g["splash"]["alt"], lang))}" width="{g["splash"]["width"]}" '
+                     f'height="{g["splash"]["height"]}" loading="lazy">{facts}</div>')
+        gallery = ""
+        if g.get("gallery"):
+            figs = "".join(
+                f'<figure><img src="/{im["src"]}" alt="{E(loc(im["alt"], lang))}" width="{im["width"]}" '
+                f'height="{im["height"]}" loading="lazy"><figcaption>{E(loc(im["caption"], lang))}</figcaption></figure>'
+                for im in g["gallery"]["images"])
+            gallery = f'<h2>{E(t(lang, g["gallery"]["title"]))}</h2><div class="gallery">{figs}</div>'
         body = f"""<p class="crumb"><a href="{url('games', lang)}">{E(t(lang, 'back_games'))}</a></p>
 <div class="game-head"><img src="/{g['icon']}" alt="" width="120" height="120">
 <div><h1 style="margin:0">{E(loc(g['name'], lang))}</h1><p class="sub">{E(loc(g['subtitle'], lang))}</p><p>{badge(g, lang)}</p></div></div>
-<p class="lead">{E(loc(g['pitch'], lang))}</p>{store_btn}{paras}
+<p class="lead">{E(loc(g['pitch'], lang))}</p>{store_btn}{paras}{quote}
+{facts}
 <h2>{E(t(lang, 'features'))}</h2><ul class="feat">{feats}</ul>
+{gallery}
 {details}
 <h2>{E(t(lang, 'legal_docs'))}</h2><p class="muted">{E(t(lang, 'legal_docs_note'))}</p><div class="links">{docs}</div>"""
         title = f"{loc(g['name'], lang)}: {loc(g['subtitle'], lang)} — {s['name']}"
@@ -299,9 +330,9 @@ for old, (key, lang) in LEGACY.items():
     emit(old, redirect_page(url(key, lang), lang))
 
 # 404 page (served from any depth, links are root-absolute)
-body = ("<h1>Page not found</h1><p>This page does not exist or has moved.</p>"
-        '<p lang="fr">Cette page n’existe pas ou a été déplacée.</p>'
-        '<p><a class="btn" href="/">Home</a> <a class="btn" href="/fr/" lang="fr">Accueil</a></p>')
+body = "<h1>Page not found</h1>" + "".join(
+    f'<p lang="{c}">{E(t(c, "notfound_text"))}</p>' for c in PUBLISHED) + "<p>" + " ".join(
+    f'<a class="btn" lang="{c}" href="{url("home", c)}">{E(t(c, "home"))}</a>' for c in PUBLISHED) + "</p>"
 emit("404.html", page("home", DEFAULT, "404 — Pixel & Quill Studio", body, "Page not found", noindex=True, detect=False))
 
 pages = [p for p in written if p != "404.html" and p not in LEGACY]

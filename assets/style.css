@@ -75,3 +75,32 @@ a.mail{font-size:20px}
 @media (max-width:640px){.card.game{gap:14px;padding:18px}.card.game>img,.next-ico{width:64px;height:64px;border-radius:14px}.card.game h3{font-size:22px}}
 blockquote.founder{margin:18px 0;font-style:italic}blockquote.founder p{margin:0 0 .6em}
 blockquote.founder footer{margin:0;padding:0;border:0;font-style:normal;color:var(--gold2);font-size:14px}
+/* language dropdown (mobile) */
+.lang-drop{display:none;position:relative}
+.lang-drop summary{list-style:none;cursor:pointer;font-family:"Allerta Stencil",sans-serif;font-size:13px;letter-spacing:2px;color:#16130c;background:var(--gold);border:1px solid var(--gold);padding:5px 12px;border-radius:999px}
+.lang-drop summary::-webkit-details-marker{display:none}
+.lang-drop summary::after{content:" ▾"}
+.lang-drop[open] summary::after{content:" ▴"}
+.lang-drop nav{position:absolute;right:0;top:calc(100% + 6px);z-index:20;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px;min-width:190px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.lang-drop nav a{display:block;padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--text);font-size:15px}
+.lang-drop nav a:hover{background:#1e1e24;color:#fff}
+.lang-drop nav a.on{color:var(--gold)}
+@media (max-width:640px){.lang{display:none}.lang-drop{display:block}}
+/* game page extras */
+.note{border-left:3px solid var(--gold2);background:var(--panel);padding:10px 14px;border-radius:0 10px 10px 0;color:var(--muted);font-size:15px}
+blockquote.quote{margin:1.4em 0;padding:4px 0 4px 18px;border-left:3px solid var(--gold2)}
+blockquote.quote p{margin:0;font-family:"Playfair SC",Georgia,serif;color:var(--gold);font-size:21px;line-height:1.4}
+blockquote.quote footer{margin:.4em 0 0;padding:0;border:0;font-size:14px;color:var(--muted)}
+.showcase{display:grid;grid-template-columns:240px 1fr;gap:22px;align-items:start;margin:24px 0}
+.showcase .splash{width:100%;height:auto;border-radius:16px;border:1px solid var(--line);display:block}
+.card.facts{margin:0}
+.card.facts h2{margin:0 0 .6em;border:0;padding:0}
+.facts dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 18px}
+.facts dt{color:var(--gold2);font-size:14px;letter-spacing:1px;text-transform:uppercase;padding-top:2px}
+.facts dd{margin:0}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:14px 0}
+.gallery figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.gallery img{width:100%;height:auto;display:block;aspect-ratio:1}
+.gallery figcaption{padding:8px 10px;font-size:14px;color:var(--muted)}
+.gallery figcaption b{color:var(--gold);font-weight:600}
+@media (max-width:640px){.showcase{grid-template-columns:1fr}.showcase .splash{max-width:260px;margin:0 auto}.facts dl{grid-template-columns:1fr;gap:2px}.facts dd{margin-bottom:8px}.gallery{grid-template-columns:repeat(2,1fr);gap:10px}}

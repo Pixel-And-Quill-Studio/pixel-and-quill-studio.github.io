@@ -32,7 +32,17 @@
   "status": {
     "coming_soon": "Bientôt sur Google Play",
     "available": "Disponible sur Google Play",
-    "in_development": "En développement"
+    "in_development": "En développement",
+    "in_production": "En production"
   },
-  "founder_sign": "Styvens Wentz, fondateur de Pixel & Quill Studio"
+  "founder_sign": "Styvens Wentz, fondateur de Pixel & Quill Studio",
+  "game_line": "— une réplique du jeu",
+  "key_facts": "Fiche du jeu",
+  "fact_genre": "Genre",
+  "fact_platform": "Plateforme",
+  "fact_orientation": "Écran",
+  "fact_languages": "Langues",
+  "fact_status": "Statut",
+  "crew_gallery": "L’équipe",
+  "notfound_text": "Cette page n’existe pas ou a été déplacée."
 }

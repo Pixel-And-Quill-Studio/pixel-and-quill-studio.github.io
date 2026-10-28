@@ -27,19 +27,21 @@ All `*.html` files, `sitemap.xml` and `robots.txt` are generated. Do not edit th
 | Privacy policy | `/privacy/` | `/fr/privacy/` |
 | Terms of use | `/terms/` | `/fr/terms/` |
 
-Prefixes reserved for upcoming languages: `/es/`, `/pt-br/`, `/de/`.
+Published languages: English (no prefix), French `/fr/`, Spanish `/es/`, Brazilian Portuguese `/pt-br/` and German `/de/`; every page above exists under each prefix. Game pages live at `/<slug>/` (for example `/sentence/`, `/one-last-heist/`).
+
+In the Spanish, Portuguese and German legal documents, a note (`legal_binding_note` in `i18n/<code>.json`) states that only the French version is legally binding and links to it.
 
 Every page lists its translations with `hreflang` links plus `x-default` (English). Old URLs from the first version of the site (`en.html`, `jeux/`, `contact.html`, `mentions-legales.html`, `sentence/privacy-fr.html`, etc.) are kept as redirect stubs to their new location.
 
 ## Language selection
 
 1. A language chosen with the switcher is saved in the browser (`localStorage`, key `pq-lang`) and always wins.
-2. Otherwise, on English pages only, the browser languages (`navigator.languages`) are checked in order. The first supported one decides: French goes to `/fr/…`; Spanish, Brazilian Portuguese and German stay in English until their translation is published.
+2. Otherwise, on English pages only, the browser languages (`navigator.languages`) are checked in order. The first supported one decides: `fr*` goes to `/fr/…`, `es*` to `/es/…`, `pt*` to `/pt-br/…` and `de*` to `/de/…`; any other language stays in English.
 3. Otherwise the page stays in English.
 
 No cookie is set and nothing is sent to a server.
 
-## Publishing a new language (es, pt-BR, de)
+## Publishing a new language
 
 1. Add `i18n/<code>.json` (copy `i18n/en.json` and translate it).
 2. Add `content/legal/*.<code>.md` and `content/games/<slug>.<code>.md`; untranslated files fall back to English.
@@ -65,10 +67,14 @@ Add an entry to `games.json`:
 | `slug` | URL segment, e.g. `sentence` → `/sentence/` |
 | `name`, `subtitle`, `pitch` | Localized strings (`{"en": …, "fr": …}`) |
 | `description`, `features` | Localized lists of paragraphs / bullet points |
-| `status` | `in_development`, `coming_soon` or `available` |
+| `status` | `in_development`, `in_production`, `coming_soon` or `available` |
 | `icon` | Path to a square icon in `assets/` |
 | `store.google_play` | Store URL, or `null` until the game is released |
 | `details` | Game-specific Markdown, e.g. `content/games/<slug>.{lang}.md` |
+| `tagline` | Optional localized quote from the game, shown as a blockquote |
+| `facts` | Optional list of `{"key": …, "value": {lang: …}}` shown in a "Key facts" box (`key` is `genre`, `platform`, `orientation` or `languages`) |
+| `splash` | Optional `{"src", "width", "height", "alt": {lang: …}}` image shown next to the key facts |
+| `gallery` | Optional `{"title": <i18n key>, "images": [{"src", "width", "height", "alt", "caption"}]}` |
 | `legacy_paths` | Optional old URLs to redirect |
 
 Then add `content/games/<slug>.<lang>.md` describing the minimum age, the services and data used by the game, its purchases and the in-game privacy settings. The studio-wide legal documents apply to every game; only add game-specific information to the game's page.
