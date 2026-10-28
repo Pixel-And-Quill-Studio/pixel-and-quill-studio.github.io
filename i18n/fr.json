@@ -1,0 +1,21 @@
+{
+  "home": "Accueil", "games": "Jeux", "contact": "Contact",
+  "legal": "Mentions légales", "privacy": "Politique de confidentialité", "terms": "Conditions d’utilisation",
+  "our_games": "Nos jeux", "all_games": "Tous les jeux", "discover": "Découvrir",
+  "studio": "Le studio", "back_games": "← Tous les jeux", "features": "En bref",
+  "game_details": "Bon à savoir",
+  "legal_docs": "Documents légaux",
+  "legal_docs_note": "Ces documents s’appliquent à tous les jeux édités par Pixel & Quill Studio. Les informations propres à ce jeu figurent ci-dessus.",
+  "next_title": "Le prochain jeu", "next_text": "Un nouveau projet est en préparation. Reviens bientôt.",
+  "games_title": "Nos jeux", "games_intro": "Les jeux édités par Pixel & Quill Studio.",
+  "contact_intro": "Une question, un retour sur l’un de nos jeux, une demande de presse ou de partenariat ? Écris-nous, nous répondons dès que possible.",
+  "contact_mail": "Par e-mail", "contact_pub": "Éditeur",
+  "contact_note": "Pour une question sur un jeu, précise son nom et ton appareil. Pour tes données personnelles, consulte notre politique de confidentialité.",
+  "get_on": "Disponible sur",
+  "skip": "Aller au contenu", "lang_nav": "Langue",
+  "legal_desc": "Mentions légales de Pixel & Quill Studio et de ses jeux",
+  "privacy_desc": "Politique de confidentialité du site et des jeux Pixel & Quill Studio",
+  "terms_desc": "Conditions d’utilisation des jeux Pixel & Quill Studio",
+  "redirect_text": "Cette page a été déplacée.",
+  "status": {"coming_soon": "Bientôt sur Google Play", "available": "Disponible sur Google Play", "in_development": "En développement"}
+}

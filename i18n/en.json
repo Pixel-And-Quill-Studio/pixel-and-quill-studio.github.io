@@ -1,0 +1,21 @@
+{
+  "home": "Home", "games": "Games", "contact": "Contact",
+  "legal": "Legal notice", "privacy": "Privacy policy", "terms": "Terms of use",
+  "our_games": "Our games", "all_games": "All games", "discover": "Discover",
+  "studio": "The studio", "back_games": "← All games", "features": "At a glance",
+  "game_details": "Good to know",
+  "legal_docs": "Legal documents",
+  "legal_docs_note": "These documents apply to every game published by Pixel & Quill Studio. The information specific to this game is listed above.",
+  "next_title": "Next game", "next_text": "A new project is in the works. Check back soon.",
+  "games_title": "Our games", "games_intro": "The games published by Pixel & Quill Studio.",
+  "contact_intro": "A question, feedback on one of our games, a press or partnership request? Write to us, we reply as soon as we can.",
+  "contact_mail": "By email", "contact_pub": "Publisher",
+  "contact_note": "For a question about a game, mention its name and your device. For your personal data, see our privacy policy.",
+  "get_on": "Get it on",
+  "skip": "Skip to content", "lang_nav": "Language",
+  "legal_desc": "Legal notice of Pixel & Quill Studio and its games",
+  "privacy_desc": "Privacy policy for the Pixel & Quill Studio website and games",
+  "terms_desc": "Terms of use for Pixel & Quill Studio games",
+  "redirect_text": "This page has moved.",
+  "status": {"coming_soon": "Coming soon on Google Play", "available": "Available on Google Play", "in_development": "In development"}
+}

@@ -1,25 +1,27 @@
 {
-  "url": "https://pixel-quill-studio.github.io/",
+  "url": "https://pixel-and-quill-studio.github.io/",
+  "github_org": "Pixel-And-Quill-Studio",
   "name": "Pixel & Quill Studio",
   "owner": "Styvens Wentz",
-  "legal_form": {"fr": "EI", "en": "sole proprietorship (EI)"},
   "siren": "131 995 391",
-  "siret": "131 995 391 00011",
   "address": "138 avenue Victor Hugo, 75016 Paris, France",
   "email": "pixelandquillstudio.pro@gmail.com",
   "year": 2026,
+  "default_language": "en",
+  "languages": [
+    {"code": "en",    "prefix": "",       "label": "EN", "name": "English",            "locale": "en_US", "published": true},
+    {"code": "fr",    "prefix": "fr/",    "label": "FR", "name": "Français",           "locale": "fr_FR", "published": true},
+    {"code": "es",    "prefix": "es/",    "label": "ES", "name": "Español",            "locale": "es_ES", "published": false},
+    {"code": "pt-BR", "prefix": "pt-br/", "label": "PT", "name": "Português (Brasil)", "locale": "pt_BR", "published": false},
+    {"code": "de",    "prefix": "de/",    "label": "DE", "name": "Deutsch",            "locale": "de_DE", "published": false}
+  ],
   "tagline": {
-    "fr": "Studio indépendant de jeux mobiles, à Paris.",
-    "en": "Independent mobile game studio based in Paris."
+    "en": "Independent mobile game studio based in Paris.",
+    "fr": "Studio indépendant de jeux mobiles, à Paris."
   },
   "about": {
-    "fr": "Pixel & Quill Studio est un studio indépendant parisien fondé par Styvens Wentz. Nous faisons des jeux mobiles où chaque choix compte, avec des histoires écrites à la plume et un soin particulier pour le pixel. Sentence est notre premier jeu, d’autres suivront.",
-    "en": "Pixel & Quill Studio is an independent Paris-based studio founded by Styvens Wentz. We make mobile games where every choice matters, with stories written by quill and a particular care for the pixel. Sentence is our first game, more will follow."
+    "en": "Pixel & Quill Studio is an independent game studio based in Paris, founded by Styvens Wentz. We make mobile games where every choice matters, with stories written by quill and a particular care for the pixel.",
+    "fr": "Pixel & Quill Studio est un studio de jeux indépendant installé à Paris, fondé par Styvens Wentz. Nous créons des jeux mobiles où chaque choix compte, avec des histoires écrites à la plume et un soin particulier pour le pixel."
   },
-  "show_next_game_placeholder": true,
-  "legal_notice": {
-    "docs_dir": "/workspace/sentence-godot/docs",
-    "fr": "legal_notice_fr.md",
-    "en": "legal_notice_en.md"
-  }
+  "show_next_game_placeholder": true
 }

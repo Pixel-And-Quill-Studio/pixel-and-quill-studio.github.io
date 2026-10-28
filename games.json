@@ -2,45 +2,48 @@
   "games": [
     {
       "slug": "sentence",
-      "name": {"fr": "Sentence", "en": "Sentence"},
-      "subtitle": {"fr": "Survie en prison", "en": "Prison survival"},
+      "name": {"en": "Sentence", "fr": "Sentence"},
+      "subtitle": {"en": "Prison survival", "fr": "Survie en prison"},
       "pitch": {
-        "fr": "Jeu de cartes à glisser : choisis ta prison, ton détenu, et tiens le plus de jours possible.",
-        "en": "Swipe card game: pick your prison, your inmate, and survive as many days as you can."
+        "en": "Swipe card game: pick your prison, your inmate, and survive as many days as you can.",
+        "fr": "Jeu de cartes à glisser : choisis ta prison, ton détenu, et tiens le plus de jours possible."
       },
       "description": {
-        "fr": [
-          "Chaque jour, une carte, deux choix : glisse à gauche ou à droite. Garde tes jauges en équilibre, car une jauge vide est mortelle, mais une jauge trop pleine l’est aussi. Tiens jusqu’à la fin de ta peine.",
-          "Tu choisis ta prison, puis ton personnage, homme ou femme, puis tu découvres ton verdict. Chaque détenu a son histoire, ses cartes exclusives et ses fins."
-        ],
         "en": [
           "Every day, one card, two choices: swipe left or right. Keep your gauges balanced, because an empty gauge is deadly, and so is one that is too full. Hold on until the end of your sentence.",
           "You pick your prison, then your character, man or woman, then you hear your verdict. Every inmate has their own story, exclusive cards and endings."
+        ],
+        "fr": [
+          "Chaque jour, une carte, deux choix : glisse à gauche ou à droite. Garde tes jauges en équilibre, car une jauge vide est mortelle, mais une jauge trop pleine l’est aussi. Tiens jusqu’à la fin de ta peine.",
+          "Tu choisis ta prison, puis ton personnage, homme ou femme, puis tu découvres ton verdict. Chaque détenu a son histoire, ses cartes exclusives et ses fins."
         ]
       },
       "features": {
-        "fr": [
-          "Cartes à glisser, en français et en anglais",
-          "Plusieurs prisons et détenus jouables, en homme ou en femme",
-          "Succès et classements Google Play Jeux",
-          "Gratuit, avec publicité et achats facultatifs",
-          "À partir de 13 ans"
-        ],
         "en": [
-          "Swipe cards, in French and English",
+          "Swipe cards, in English and French",
           "Several prisons and playable inmates, as a man or a woman",
           "Google Play Games achievements and leaderboards",
           "Free, with ads and optional purchases",
           "Ages 13 and up"
+        ],
+        "fr": [
+          "Cartes à glisser, en anglais et en français",
+          "Plusieurs prisons et détenus jouables, en homme ou en femme",
+          "Succès et classements Google Play Jeux",
+          "Gratuit, avec publicité et achats facultatifs",
+          "À partir de 13 ans"
         ]
       },
       "status": "coming_soon",
       "icon": "assets/sentence-icon.png",
       "store": {"google_play": null},
-      "docs_dir": "/workspace/sentence-godot/docs",
-      "docs": {
-        "privacy": {"fr": "privacy_policy_fr.md", "en": "privacy_policy_en.md"},
-        "terms": {"fr": "terms_fr.md", "en": "terms_en.md"}
+      "details": "content/games/sentence.{lang}.md",
+      "legacy_paths": {
+        "sentence/en.html": {"page": "game:sentence", "lang": "en"},
+        "sentence/privacy-en.html": {"page": "privacy", "lang": "en"},
+        "sentence/privacy-fr.html": {"page": "privacy", "lang": "fr"},
+        "sentence/terms-en.html": {"page": "terms", "lang": "en"},
+        "sentence/terms-fr.html": {"page": "terms", "lang": "fr"}
       }
     }
   ]
