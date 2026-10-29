@@ -156,6 +156,9 @@ SWITCH_SCRIPT = (
 
 
 # ---------- Layout ----------
+FB_DOMAIN_VERIFICATION = "sy5xccnn9a1gnm4xt7x3a8zm6hb32p"
+
+
 def head(page, lang, title, desc, noindex=False, detect=True):
     canonical = BASE.rstrip("/") + url(page, lang)
     alts = "".join(
@@ -164,6 +167,8 @@ def head(page, lang, title, desc, noindex=False, detect=True):
     alts += f'<link rel="alternate" hreflang="x-default" href="{BASE.rstrip("/")}{url(page, DEFAULT)}">'
     robots = '<meta name="robots" content="noindex">' if noindex else ""
     script = lang_script(page, lang) if detect else ""
+    # Facebook domain verification (public token), on the home pages only.
+    fbv = "" if noindex or page != "home" else f'\n<meta name="facebook-domain-verification" content="{FB_DOMAIN_VERIFICATION}" />'
     return f"""<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 {script}<title>{E(title)}</title><meta name="description" content="{E(desc)}">{robots}
@@ -180,7 +185,7 @@ def head(page, lang, title, desc, noindex=False, detect=True):
 <meta property="og:url" content="{canonical}"><meta property="og:locale" content="{LANGS[lang]['locale']}">
 <meta property="og:image" content="{BASE}assets/brand/og-image.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Pixel &amp; Quill Studio">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE}assets/brand/og-image.png"></head>
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="{BASE}assets/brand/og-image.png">{fbv}</head>
 """
 
 
