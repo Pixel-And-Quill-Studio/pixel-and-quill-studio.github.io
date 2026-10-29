@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Código APE:** 6201Z (programação de computadores)  
 **Endereço:** 138 avenue Victor Hugo, 75016 Paris, França  
 **Contato:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
-**Última atualização:** 28 de outubro de 2026
+**Última atualização:** 29 de outubro de 2026
 
 ## 1. Objeto e escopo
 Estes termos regem o uso de **todos os jogos publicados pela Pixel & Quill Studio** (cada um, um "Jogo"), atuais e futuros, editados por Styvens Wentz EI, com o nome comercial Pixel & Quill Studio ("o editor"). As informações específicas de cada Jogo (idade mínima, conteúdo, compras oferecidas, serviços usados) constam da página desse Jogo neste site e da sua página na loja, e complementam estes termos. Você aceita estes termos na primeira abertura de um Jogo, por exemplo marcando a caixa "Aceito os termos de uso e a política de privacidade". Se não os aceitar, não use o Jogo.
@@ -24,7 +24,6 @@ Você pode jogar os Jogos sem criar uma conta com o editor. Fazer login em um se
 ## 6. Compras no app
 - Os Jogos podem ser gratuitos e oferecer compras no app (por exemplo, conteúdo extra, itens virtuais ou remoção de anúncios). Os itens oferecidos em cada Jogo são descritos no Jogo e na sua página. Os preços são exibidos com impostos incluídos no Jogo e na loja, que é quem recebe o pagamento.
 - Os **itens virtuais** (por exemplo, moeda do jogo ou bônus) não têm valor monetário: não podem ser trocados, reembolsados em dinheiro nem transferidos.
-- Quando uma oferta inclui **conteúdo futuro**, o editor não garante sua data de lançamento nem sua quantidade; o conteúdo marcado como "Em breve" só fica disponível depois de lançado.
 - As compras não consumíveis ficam vinculadas à sua conta da loja e podem ser restauradas com "Restaurar compras".
 - **Direito de desistência:** as compras são conteúdo digital fornecido imediatamente. Ao confirmar uma compra, você solicita a execução imediata e reconhece que perde o seu direito de desistência (artigo L221-28, 13°, do Código do Consumidor francês). Os pedidos de reembolso seguem as regras da loja; você também pode entrar em contato com o editor se algo der errado.
 

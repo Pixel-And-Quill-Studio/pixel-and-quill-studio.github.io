@@ -15,7 +15,7 @@ Sentence se joue gratuitement à la maison d’arrêt de Valmont. Achats faculta
 - **Détenus supplémentaires à Valmont :** 0,99 € chacun (l’ancien flic, le boxeur, l’escroc en col blanc, l’innocent, le vieux braqueur).
 - **Jokers** (objets virtuels sans valeur monétaire, pour annuler un choix) : 5 pour 0,99 €, 20 pour 2,99 €. Quelques jokers peuvent aussi s’obtenir en regardant une publicité récompensée facultative.
 - **Supprimer les pubs :** 3,99 €, à vie. Les publicités récompensées restent disponibles si tu le souhaites.
-- **Pack Premium :** 17,99 € : toutes les prisons, tous les détenus payants, plus aucune publicité et 20 jokers.
+- **Pack Premium :** 17,99 € : Tout le jeu : toutes les prisons, sans pubs à vie, les 5 détenus payants, 20 jokers.
 
 Les achats non consommables peuvent être restaurés avec « Restaurer les achats ».
 

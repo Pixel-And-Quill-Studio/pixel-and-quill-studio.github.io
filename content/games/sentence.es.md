@@ -15,7 +15,7 @@ Sentence se juega gratis en la prisión de Valmont. Compras opcionales, a los pr
 - **Reclusos adicionales en Valmont:** 0,99 € cada uno (el expolicía, el boxeador, el estafador de cuello blanco, el inocente, el viejo atracador).
 - **Comodines** (objetos virtuales sin valor monetario, para deshacer una elección): 5 por 0,99 €, 20 por 2,99 €. También se pueden conseguir algunos viendo un anuncio con recompensa opcional.
 - **Quitar anuncios:** 3,99 €, para siempre. Los anuncios con recompensa siguen disponibles si los quieres.
-- **Pack Premium:** 17,99 €: todas las prisiones, todos los reclusos de pago, sin anuncios y 20 comodines.
+- **Pack Premium:** 17,99 €: El juego completo: todas las prisiones, sin anuncios de por vida, los 5 personajes de pago, 20 comodines.
 
 Las compras no consumibles pueden restaurarse con «Restore purchases» (el juego está en inglés y francés).
 

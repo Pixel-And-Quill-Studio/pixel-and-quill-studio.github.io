@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE code:** 6201Z (computer programming)  
 **Address:** 138 avenue Victor Hugo, 75016 Paris, France  
 **Contact:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
-**Last updated:** October 28, 2026
+**Last updated:** October 29, 2026
 
 ## 1. Purpose and scope
 These terms govern the use of **all the games published by Pixel & Quill Studio** (each a “Game”), present and future, by Styvens Wentz EI, trading as Pixel & Quill Studio (“the publisher”). The information specific to a Game (minimum age, content, purchases on offer, services used) is given on that Game's page on this website and in its store listing, and completes these terms. You accept these terms at first launch of a Game, for example by ticking the box “I accept the terms of use and the privacy policy”. If you do not accept them, do not use the Game.
@@ -24,7 +24,6 @@ You can play the Games without creating an account with the publisher. Signing i
 ## 6. In-app purchases
 - The Games may be free and offer in-app purchases (for example extra content, virtual items or ad removal). The items on offer in each Game are described in the Game and on its page. Prices are shown including taxes in the Game and in the store, which collects the payment.
 - **Virtual items** (for example in-game currency or bonuses) have no monetary value: they cannot be exchanged, refunded for money or transferred.
-- When an offer includes **future content**, the publisher does not guarantee its release date or quantity; content marked “Coming soon” is only available once released.
 - Non-consumable purchases are tied to your store account and can be restored with “Restore purchases”.
 - **Right of withdrawal:** purchases are digital content supplied immediately. By confirming a purchase, you request immediate performance and acknowledge that you lose your right of withdrawal (Article L221-28 13° of the French Consumer Code). Refund requests follow the store's rules; you may also contact the publisher if something goes wrong.
 

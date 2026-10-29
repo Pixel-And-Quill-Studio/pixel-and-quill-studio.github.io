@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE-Code:** 6201Z (Programmierungstätigkeiten)  
 **Anschrift:** 138 avenue Victor Hugo, 75016 Paris, Frankreich  
 **Kontakt:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
-**Stand:** 28. Oktober 2026
+**Stand:** 29. Oktober 2026
 
 ## 1. Gegenstand und Geltungsbereich
 Diese Bedingungen regeln die Nutzung **aller heutigen und künftigen Spiele von Pixel & Quill Studio** (jeweils ein „Spiel“), herausgegeben von Styvens Wentz EI, handelnd unter dem Namen Pixel & Quill Studio („der Herausgeber“). Die spielspezifischen Angaben (Mindestalter, Inhalte, angebotene Käufe, genutzte Dienste) stehen auf der Seite des jeweiligen Spiels auf dieser Website und in seinem Store-Eintrag und ergänzen diese Bedingungen. Du akzeptierst diese Bedingungen beim ersten Start eines Spiels, zum Beispiel indem du das Kästchen „Ich akzeptiere die Nutzungsbedingungen und die Datenschutzerklärung“ ankreuzt. Wenn du sie nicht akzeptierst, nutze das Spiel nicht.
@@ -24,7 +24,6 @@ Du kannst die Spiele spielen, ohne ein Konto beim Herausgeber anzulegen. Die Anm
 ## 6. In-App-Käufe
 - Die Spiele können kostenlos sein und In-App-Käufe anbieten (zum Beispiel zusätzliche Inhalte, virtuelle Gegenstände oder das Entfernen von Werbung). Die in einem Spiel angebotenen Artikel werden im Spiel und auf seiner Seite beschrieben. Die Preise werden im Spiel und im Store, der die Zahlung einzieht, inklusive Steuern angezeigt.
 - **Virtuelle Gegenstände** (zum Beispiel Spielwährung oder Boni) haben keinen Geldwert: Sie können weder umgetauscht noch in Geld erstattet oder übertragen werden.
-- Umfasst ein Angebot **künftige Inhalte**, garantiert der Herausgeber weder deren Erscheinungstermin noch deren Umfang; als „Demnächst“ gekennzeichnete Inhalte sind erst nach ihrer Veröffentlichung verfügbar.
 - Nicht verbrauchbare Käufe sind an dein Store-Konto gebunden und können über „Käufe wiederherstellen“ wiederhergestellt werden.
 - **Widerrufsrecht:** Käufe sind digitale Inhalte, die sofort bereitgestellt werden. Mit der Bestätigung eines Kaufs verlangst du die sofortige Ausführung und bestätigst, dass du dein Widerrufsrecht verlierst (Artikel L221-28 Nr. 13 des französischen Verbrauchergesetzbuchs, *Code de la consommation*). Erstattungsanfragen richten sich nach den Regeln des Stores; bei Problemen kannst du dich auch an den Herausgeber wenden.
 

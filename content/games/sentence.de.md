@@ -15,7 +15,7 @@ Sentence ist im Gefängnis Valmont kostenlos spielbar. Optionale Käufe, zu den 
 - **Zusätzliche Häftlinge in Valmont:** je 0,99 € (der Ex-Polizist, der Boxer, der Wirtschaftsbetrüger, der Unschuldige, der alte Räuber).
 - **Joker** (virtuelle Gegenstände ohne Geldwert, um eine Entscheidung rückgängig zu machen): 5 für 0,99 €, 20 für 2,99 €. Einige Joker gibt es auch für eine freiwillige Werbung mit Belohnung.
 - **Werbung entfernen:** 3,99 €, dauerhaft. Werbung mit Belohnung bleibt verfügbar, wenn du sie möchtest.
-- **Premium-Paket:** 17,99 €: alle Gefängnisse, alle kostenpflichtigen Häftlinge, keine Werbung und 20 Joker.
+- **Premium-Paket:** 17,99 €: Das komplette Spiel: alle Gefängnisse, lebenslang werbefrei, alle 5 kostenpflichtigen Figuren, 20 Joker.
 
 Nicht verbrauchbare Käufe lassen sich über „Restore purchases“ wiederherstellen (das Spiel ist auf Englisch und Französisch).
 

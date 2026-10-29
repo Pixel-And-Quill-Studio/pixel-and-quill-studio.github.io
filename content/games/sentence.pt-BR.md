@@ -15,7 +15,7 @@ Sentence é gratuito na prisão de Valmont. Compras opcionais, pelos preços em 
 - **Detentos extras em Valmont:** 0,99 € cada (o ex-policial, o boxeador, o golpista de colarinho branco, o inocente, o velho assaltante).
 - **Coringas** (itens virtuais sem valor monetário, para desfazer uma escolha): 5 por 0,99 €, 20 por 2,99 €. Alguns também podem ser ganhos assistindo a um anúncio com recompensa opcional.
 - **Remover anúncios:** 3,99 €, para sempre. Os anúncios com recompensa continuam disponíveis se você quiser.
-- **Pacote Premium:** 17,99 €: todas as prisões, todos os detentos pagos, sem anúncios e 20 coringas.
+- **Pacote Premium:** 17,99 €: O jogo completo: todas as prisões, sem anúncios para sempre, os 5 personagens pagos, 20 curingas.
 
 Compras não consumíveis podem ser restauradas com "Restore purchases" (o jogo está em inglês e francês).
 

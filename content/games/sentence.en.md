@@ -15,7 +15,7 @@ Sentence is free to play at Valmont Prison. Optional purchases, at the prices in
 - **Extra inmates at Valmont:** €0.99 each (the ex-cop, the boxer, the white-collar swindler, the innocent, the old robber).
 - **Jokers** (virtual items with no monetary value, used to undo a choice): 5 for €0.99, 20 for €2.99. A few jokers can also be earned by watching an optional rewarded ad.
 - **Remove ads:** €3.99, for life. Rewarded ads stay available if you want them.
-- **Premium Pack:** €17.99: all the prisons, all the paid inmates, no ads and 20 jokers.
+- **Premium Pack:** €17.99: The whole game: every prison, no ads for life, all 5 paid inmates, 20 jokers.
 
 Non-consumable purchases can be restored with “Restore purchases”.
 

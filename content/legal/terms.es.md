@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Código APE:** 6201Z (programación informática)  
 **Dirección:** 138 avenue Victor Hugo, 75016 Paris, Francia  
 **Contacto:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
-**Última actualización:** 28 de octubre de 2026
+**Última actualización:** 29 de octubre de 2026
 
 ## 1. Objeto y ámbito de aplicación
 Estas condiciones regulan el uso de **todos los juegos publicados por Pixel & Quill Studio** (cada uno, un «Juego»), actuales y futuros, editados por Styvens Wentz EI, con el nombre comercial Pixel & Quill Studio («el editor»). La información propia de cada Juego (edad mínima, contenido, compras disponibles, servicios utilizados) figura en la página de ese Juego en este sitio web y en su ficha de la tienda, y completa estas condiciones. Aceptas estas condiciones en el primer inicio de un Juego, por ejemplo marcando la casilla «Acepto las condiciones de uso y la política de privacidad». Si no las aceptas, no utilices el Juego.
@@ -24,7 +24,6 @@ Puedes jugar a los Juegos sin crear una cuenta con el editor. Iniciar sesión en
 ## 6. Compras dentro de la aplicación
 - Los Juegos pueden ser gratuitos y ofrecer compras dentro de la aplicación (por ejemplo, contenido adicional, objetos virtuales o la eliminación de anuncios). Los artículos disponibles en cada Juego se describen en el Juego y en su página. Los precios se muestran con impuestos incluidos en el Juego y en la tienda, que es quien cobra el pago.
 - Los **objetos virtuales** (por ejemplo, monedas del juego o bonificaciones) no tienen valor monetario: no pueden canjearse, reembolsarse en dinero ni transferirse.
-- Cuando una oferta incluye **contenido futuro**, el editor no garantiza su fecha de lanzamiento ni su cantidad; el contenido marcado como «Próximamente» solo está disponible una vez publicado.
 - Las compras no consumibles están vinculadas a tu cuenta de la tienda y pueden restaurarse con «Restaurar compras».
 - **Derecho de desistimiento:** las compras son contenido digital suministrado de forma inmediata. Al confirmar una compra, solicitas su ejecución inmediata y reconoces que pierdes tu derecho de desistimiento (artículo L221-28, 13.º, del Código de Consumo francés). Las solicitudes de reembolso siguen las normas de la tienda; también puedes ponerte en contacto con el editor si algo sale mal.
 
