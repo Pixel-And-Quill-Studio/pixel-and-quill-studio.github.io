@@ -105,3 +105,23 @@ blockquote.quote footer{margin:.4em 0 0;padding:0;border:0;font-size:14px;color:
 .gallery figcaption{padding:8px 10px;font-size:14px;color:var(--muted)}
 .gallery figcaption b{color:var(--gold);font-weight:600}
 @media (max-width:640px){.showcase{grid-template-columns:1fr}.showcase .splash{max-width:260px;margin:0 auto}.facts dl{grid-template-columns:1fr;gap:2px}.facts dd{margin-bottom:8px}.gallery{grid-template-columns:repeat(2,1fr);gap:10px}}
+/* mobile polish */
+.badge{text-align:center;text-wrap:balance;line-height:1.45;max-width:100%;padding:4px 12px}
+h1{overflow-wrap:break-word;hyphens:auto}
+a.mail{overflow-wrap:anywhere}
+footer p{margin:0 0 .5em}
+.foot-links{display:flex;flex-wrap:wrap;column-gap:18px;row-gap:2px}
+.foot-links a{display:inline-block;padding:6px 0;min-height:32px}
+.foot-links .foot-mail{flex-basis:100%;overflow-wrap:anywhere}
+.lang-drop summary{min-height:40px;display:flex;align-items:center;padding:6px 14px}
+.lang-drop nav a{min-height:44px;display:flex;align-items:center}
+.lang a{display:inline-block;padding:6px 10px}
+@media (max-width:640px){
+ h1{font-size:clamp(22px,6.6vw,28px)}
+ nav.menu a{padding:10px 10px;display:inline-block}
+ a.mail{font-size:clamp(16px,4.6vw,20px)}
+}
+.lang-drop summary::after{margin-left:.4em}
+.lang-drop summary::after{content:"▾"}.lang-drop[open] summary::after{content:"▴"}
+.lang-drop summary{gap:.4em}.lang-drop summary::after{margin:0}
+.lang-drop nav{min-width:230px}.lang-drop nav a{white-space:nowrap}

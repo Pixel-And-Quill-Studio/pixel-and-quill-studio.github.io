@@ -69,6 +69,7 @@ Add an entry to `games.json`:
 | `description`, `features` | Localized lists of paragraphs / bullet points |
 | `status` | `in_development`, `in_production`, `coming_soon` or `available` |
 | `status_label` | Optional `{lang: …}` text that replaces the default status label in the badge and the key facts (for example a release month) |
+| `status_badge` | Optional short `{lang: …}` text for the status pill on the game cards and the game page header; keep it short enough to fit on one line on a 360 px phone (the full `status_label` stays in the key facts) |
 | `icon` | Path to a square icon in `assets/` |
 | `store.google_play` | Store URL, or `null` until the game is released |
 | `details` | Game-specific Markdown, e.g. `content/games/<slug>.{lang}.md` |

@@ -11,11 +11,11 @@ Sentence est destiné aux joueurs de **13 ans et plus**. Il aborde la vie en pri
 ## Achats dans Sentence
 Sentence se joue gratuitement à la maison d’arrêt de Valmont. Achats facultatifs, aux prix en euros prévus à la sortie (Google Play affiche le prix final dans ta devise) :
 
-- **Prisons payantes :** 2,99 € chacune, avec leur détenu exclusif : haute sécurité, la centrale de l’île, le centre de semi-liberté, la prison à l’étranger. La vieille forteresse est en production.
+- **Prisons payantes :** 2,99 € chacune, avec leur détenu exclusif : haute sécurité, la centrale de l’île, le centre de semi-liberté, la prison à l’étranger et la vieille forteresse.
 - **Détenus supplémentaires à Valmont :** 0,99 € chacun (l’ancien flic, le boxeur, l’escroc en col blanc, l’innocent, le vieux braqueur).
 - **Jokers** (objets virtuels sans valeur monétaire, pour annuler un choix) : 5 pour 0,99 €, 20 pour 2,99 €. Quelques jokers peuvent aussi s’obtenir en regardant une publicité récompensée facultative.
 - **Supprimer les pubs :** 3,99 €, à vie. Les publicités récompensées restent disponibles si tu le souhaites.
-- **Pack Premium :** 17,99 € : tous les détenus et prisons payants, plus de publicité, 20 jokers, et les prisons publiées ultérieurement, sans garantie sur leur date de sortie.
+- **Pack Premium :** 17,99 € : toutes les prisons, tous les détenus payants, plus aucune publicité et 20 jokers.
 
 Les achats non consommables peuvent être restaurés avec « Restaurer les achats ».
 

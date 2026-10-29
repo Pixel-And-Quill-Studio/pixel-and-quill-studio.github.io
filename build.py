@@ -201,11 +201,11 @@ def page(page_key, lang, title, body, desc, nav=None, home=False, noindex=False,
         for c in PUBLISHED
     )
     foot = (
-        f"© {s['year']} {E(s['name'])} — {E(s['owner'])}, EI — SIREN {s['siren']} — {E(s['address'])} — "
-        f'<a href="mailto:{s["email"]}">{s["email"]}</a><br>'
-        f'<a href="{url("legal", lang)}">{E(t(lang, "legal"))}</a> · '
-        f'<a href="{url("privacy", lang)}">{E(t(lang, "privacy"))}</a> · '
-        f'<a href="{url("terms", lang)}">{E(t(lang, "terms"))}</a>'
+        f"<p>© {s['year']} {E(s['name'])} — {E(s['owner'])}, EI — SIREN {s['siren']} — {E(s['address'])}</p>"
+        f'<p class="foot-links"><a class="foot-mail" href="mailto:{s["email"]}">{s["email"]}</a>'
+        f'<a href="{url("legal", lang)}">{E(t(lang, "legal"))}</a>'
+        f'<a href="{url("privacy", lang)}">{E(t(lang, "privacy"))}</a>'
+        f'<a href="{url("terms", lang)}">{E(t(lang, "terms"))}</a></p>'
     )
     return head(page_key, lang, title, desc, noindex, detect) + f"""<body><a class="skip" href="#main">{E(t(lang, 'skip'))}</a><div class="wrap"><header class="top"><a class="brand{' home' if home else ''}" href="{url('home', lang)}" aria-label="Pixel &amp; Quill Studio"><img class="brand-icon" src="/assets/brand/favicon.svg" alt="" width="44" height="44"><img class="brand-word" src="/assets/brand/logo-wordmark-inline.svg" alt="Pixel &amp; Quill Studio" height="24"></a>
 <nav class="menu" aria-label="Menu">{menu}</nav>
@@ -223,8 +223,10 @@ def status_text(g, lang):
 
 
 def badge(g, lang):
+    """Status pill: the short `status_badge` label when set (fits on one line on phones), else the status label."""
     st = g.get("status", "coming_soon")
-    return f'<span class="badge {E(st)}">{E(status_text(g, lang))}</span>'
+    text = loc(g["status_badge"], lang) if g.get("status_badge") else status_text(g, lang)
+    return f'<span class="badge {E(st)}">{E(text)}</span>'
 
 
 def binding_note(page_key, lang):
