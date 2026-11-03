@@ -24,7 +24,7 @@ export const LANGS: Record<string, any> = Object.fromEntries(SITE.languages.map(
 export const PUBLISHED: string[] = SITE.languages.filter((l: any) => l.published).map((l: any) => l.code);
 
 // Public token for Facebook domain verification (home pages only).
-export const FB_DOMAIN_VERIFICATION = "sy5xccnn9a1gnm4xt7x3a8zm6hb32p";
+export const FB_DOMAIN_VERIFICATION = "z5867vdmxg2tzpp1zln0nvqnqm39xi";
 
 // ---------- Interface strings ----------
 const I18N: Record<string, any> = {};
