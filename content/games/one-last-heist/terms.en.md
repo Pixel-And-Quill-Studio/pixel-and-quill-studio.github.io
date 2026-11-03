@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE code:** 6201Z (computer programming)  
 **Registered** with the RNE (French national business register) on October 26, 2026 — VAT not applicable, small-business exemption (franchise en base, art. L. 223 et seq. of the French CIBS)  
 **Address:** 138 avenue Victor Hugo, 75016 Paris, France  
-**Contact:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+**Contact:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
 **Last updated:** October 28, 2026
 
 ## 1. Purpose and acceptance
@@ -60,7 +60,7 @@ Data processing is described in the [privacy policy of One Last Heist](/one-last
 The publisher may change these terms. The date at the top of this page will be updated and, for any significant change, the Game will ask you to accept the new terms before you continue.
 
 ## 15. Applicable law and disputes
-These terms are governed by French law. Before any legal action, contact the publisher at [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com) to find an amicable solution. As a consumer, you may also turn to a consumer mediator free of charge (Article L612-1 of the French Consumer Code): [to be completed]. If no amicable solution is found, the competent French courts have jurisdiction, without prejudice to the protective rules of your country of residence.
+These terms are governed by French law. Before any legal action, contact the publisher at [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) to find an amicable solution. As a consumer, you may also turn to a consumer mediator free of charge (Article L612-1 of the French Consumer Code): [to be completed]. If no amicable solution is found, the competent French courts have jurisdiction, without prejudice to the protective rules of your country of residence.
 
 ## 16. Contact
-Styvens Wentz EI, trading as Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, France — [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Styvens Wentz EI, trading as Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

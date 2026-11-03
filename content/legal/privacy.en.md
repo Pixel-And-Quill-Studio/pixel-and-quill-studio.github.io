@@ -3,7 +3,7 @@
 **Publisher:** Styvens Wentz EI (Entrepreneur individuel, French sole proprietorship), trading as Pixel & Quill Studio  
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE code:** 6201Z (computer programming)  
 **Address:** 138 avenue Victor Hugo, 75016 Paris, France  
-**Contact:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+**Contact:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
 **Last updated:** October 28, 2026
 
 ## 1. Publisher and scope
@@ -67,7 +67,7 @@ Under the GDPR and the French Data Protection Act, you have the right of access,
 - from the game's ad settings (ads);
 - via your platform account, for example your Google account (game services, purchases, advertising ID).
 
-For any question, email the publisher at [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com); a reply is given within one month. If you believe your rights are not respected, you may lodge a complaint with the **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, France — [www.cnil.fr](https://www.cnil.fr)) or with the data protection authority of your country.
+For any question, email the publisher at [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com); a reply is given within one month. If you believe your rights are not respected, you may lodge a complaint with the **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, France — [www.cnil.fr](https://www.cnil.fr)) or with the data protection authority of your country.
 
 ## 9. Children
 Each game states its minimum age on its page and in its store listing. Pixel & Quill Studio does not knowingly collect data from children under 13. When a game asks for your age at first launch, only the age bracket is kept on the device. If you believe a child has provided data, contact the publisher so it can be deleted.
@@ -79,4 +79,4 @@ Local saves are encrypted. Communications with platform services are encrypted (
 Pixel & Quill Studio may update this policy, for example when a new game or feature is released. The date at the top of this page will be updated and, for significant changes, you will be informed in the games concerned and asked to accept the policy again.
 
 ## 12. Contact
-Styvens Wentz EI (Entrepreneur individuel, French sole proprietorship), trading as Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, France — [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Styvens Wentz EI (Entrepreneur individuel, French sole proprietorship), trading as Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

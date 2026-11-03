@@ -8,10 +8,12 @@ Le site pixelandquillstudio.com et l’ensemble des jeux édités par Pixel & Qu
 **Styvens Wentz**, entrepreneur individuel (EI), micro-entreprise, exerçant sous le nom commercial **Pixel & Quill Studio**  
 SIREN : 131 995 391  
 SIRET : 131 995 391 00011  
+Numéro D-U-N-S : 288626169  
 Code APE : 6201Z (programmation informatique)  
 Immatriculé au RNE (Registre national des entreprises) le 26/10/2026  
 Adresse : 138 avenue Victor Hugo, 75016 Paris, France  
-E-mail : [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+E-mail : [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
+Téléphone : [+33 9 72 11 42 56](tel:+33972114256)  
 TVA non applicable – franchise en base (art. L. 223 et s. du CIBS) ; pas de numéro de TVA intracommunautaire.
 
 ## Directeur de la publication
@@ -33,4 +35,4 @@ Ce site ne dépose aucun cookie, n’utilise aucun outil de mesure d’audience 
 Le traitement des données personnelles sur ce site et dans les jeux de Pixel & Quill Studio est décrit dans la [politique de confidentialité](/fr/privacy/). Les services utilisés par chaque jeu sont indiqués sur la page de ce jeu.
 
 ## Contact
-Pour toute question : [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Pour toute question : [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

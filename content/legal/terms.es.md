@@ -3,7 +3,7 @@
 **Editor:** Styvens Wentz EI (*Entrepreneur individuel*, empresario individual francés), con el nombre comercial Pixel & Quill Studio  
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Código APE:** 6201Z (programación informática)  
 **Dirección:** 138 avenue Victor Hugo, 75016 Paris, Francia  
-**Contacto:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+**Contacto:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
 **Última actualización:** 29 de octubre de 2026
 
 ## 1. Objeto y ámbito de aplicación
@@ -49,7 +49,7 @@ El tratamiento de tus datos se describe en la [política de privacidad](/privacy
 El editor puede modificar estas condiciones. La fecha que figura al principio de esta página se actualizará; en caso de cambios importantes, los Juegos afectados te pedirán que las aceptes de nuevo antes de continuar.
 
 ## 14. Ley aplicable y litigios
-Estas condiciones se rigen por la ley francesa. En caso de litigio, ponte primero en contacto con el editor en [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com) para buscar una solución amistosa. Conforme al artículo L612-1 del Código de Consumo francés, puedes someter el asunto gratuitamente al siguiente mediador de consumo: [pendiente de completar]. A falta de acuerdo, serán competentes los tribunales previstos por la ley; si eres consumidor, conservas la protección de las normas imperativas de tu país de residencia.
+Estas condiciones se rigen por la ley francesa. En caso de litigio, ponte primero en contacto con el editor en [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) para buscar una solución amistosa. Conforme al artículo L612-1 del Código de Consumo francés, puedes someter el asunto gratuitamente al siguiente mediador de consumo: [pendiente de completar]. A falta de acuerdo, serán competentes los tribunales previstos por la ley; si eres consumidor, conservas la protección de las normas imperativas de tu país de residencia.
 
 ## 15. Contacto
-Styvens Wentz EI (*Entrepreneur individuel*, empresario individual francés), con el nombre comercial Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, Francia — [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Styvens Wentz EI (*Entrepreneur individuel*, empresario individual francés), con el nombre comercial Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, Francia — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

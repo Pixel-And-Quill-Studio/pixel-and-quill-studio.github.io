@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Código APE:** 6201Z (programación informática)  
 **Inscrito** en el Registro Nacional de Empresas francés (RNE) el 26/10/2026 — IVA no aplicable, régimen de franquicia del IVA (*franchise en base*, art. L. 223 y siguientes del CIBS francés)  
 **Dirección:** 138 avenue Victor Hugo, 75016 Paris, Francia  
-**Contacto:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+**Contacto:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
 **Última actualización:** 28 de octubre de 2026
 
 ## 1. Objeto y aceptación
@@ -60,7 +60,7 @@ El tratamiento de datos se describe en la [política de privacidad de One Last H
 El editor puede cambiar estas condiciones. La fecha al principio de esta página se actualizará y, ante cualquier cambio importante, el Juego te pedirá que aceptes las nuevas condiciones antes de continuar.
 
 ## 15. Ley aplicable y litigios
-Estas condiciones se rigen por la ley francesa. Antes de cualquier acción judicial, ponte en contacto con el editor en [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com) para buscar una solución amistosa. Como consumidor, también puedes acudir gratuitamente a un mediador de consumo (artículo L612-1 del Código de Consumo francés): [pendiente de completar]. A falta de solución amistosa, serán competentes los tribunales franceses, sin perjuicio de las normas protectoras de tu país de residencia.
+Estas condiciones se rigen por la ley francesa. Antes de cualquier acción judicial, ponte en contacto con el editor en [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) para buscar una solución amistosa. Como consumidor, también puedes acudir gratuitamente a un mediador de consumo (artículo L612-1 del Código de Consumo francés): [pendiente de completar]. A falta de solución amistosa, serán competentes los tribunales franceses, sin perjuicio de las normas protectoras de tu país de residencia.
 
 ## 16. Contacto
-Styvens Wentz EI, con el nombre comercial Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, Francia — [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Styvens Wentz EI, con el nombre comercial Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, Francia — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

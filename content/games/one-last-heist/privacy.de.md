@@ -3,7 +3,7 @@
 **Herausgeber:** Styvens Wentz EI (*Entrepreneur individuel*, französisches Einzelunternehmen), handelnd unter dem Namen Pixel & Quill Studio  
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE-Code:** 6201Z (Programmierungstätigkeiten)  
 **Anschrift:** 138 avenue Victor Hugo, 75016 Paris, Frankreich  
-**Kontakt:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+**Kontakt:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
 **Stand:** 28. Oktober 2026
 
 Diese Erklärung gilt für das Handyspiel **One Last Heist** („das Spiel“). Sie ergänzt die [Datenschutzerklärung von Pixel & Quill Studio](/privacy/), die für alle Spiele des Studios gilt; für das Spiel enthält diese Seite die Einzelheiten und hat bei Abweichungen Vorrang. One Last Heist ist in Produktion: Diese Seite beschreibt die für die Veröffentlichung bei Google Play geplante Version. Als **geplant** gekennzeichnete Dienste sind im Spiel noch nicht aktiv. Das Spiel ist auf Englisch und Französisch verfügbar; die genannten Menünamen sind die der englischen Version.
@@ -72,7 +72,7 @@ Die Daten werden von **Google** verarbeitet (Google Ireland Limited / Google LLC
 ## 7. Deine Rechte
 Nach der DSGVO und dem französischen Datenschutzgesetz hast du das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit, das Recht, deine Einwilligung jederzeit zu widerrufen (**My account → Manage ad choices**), und das Recht, Anweisungen für den Umgang mit deinen Daten nach deinem Tod zu geben.
 
-**Daten löschen:** **My account → Delete my account and data** löscht Spielstand, Einstellungen, Profil, angegebenes Alter, akzeptierte Bedingungen und Werbeeinstellungen auf dem Gerät; sobald die Online-Dienste aktiv sind, beantragt es auch die Löschung der mit deiner Spieler-ID verknüpften Daten auf den Servern. Deine Käufe bleiben mit deinem Google-Play-Konto verknüpft und können wiederhergestellt werden. Du kannst auch an [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com) schreiben; du erhältst innerhalb eines Monats eine Antwort.
+**Daten löschen:** **My account → Delete my account and data** löscht Spielstand, Einstellungen, Profil, angegebenes Alter, akzeptierte Bedingungen und Werbeeinstellungen auf dem Gerät; sobald die Online-Dienste aktiv sind, beantragt es auch die Löschung der mit deiner Spieler-ID verknüpften Daten auf den Servern. Deine Käufe bleiben mit deinem Google-Play-Konto verknüpft und können wiederhergestellt werden. Du kannst auch an [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) schreiben; du erhältst innerhalb eines Monats eine Antwort.
 
 Du kannst dich bei der **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, Frankreich — [www.cnil.fr](https://www.cnil.fr)) oder bei der Datenschutzbehörde deines Landes beschweren.
 
@@ -86,6 +86,6 @@ Der lokale Spielstand ist signiert, um Veränderungen zu erkennen. Die Kommunika
 Der Herausgeber kann diese Erklärung aktualisieren. Das Datum oben auf dieser Seite wird angepasst, und bei wesentlichen Änderungen bittet dich das Spiel, die Erklärung erneut zu akzeptieren, bevor du weiterspielst.
 
 ## 11. Kontakt
-Styvens Wentz EI, handelnd unter dem Namen Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, Frankreich — [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Styvens Wentz EI, handelnd unter dem Namen Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, Frankreich — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)
 
 Siehe auch die [Nutzungsbedingungen von One Last Heist](/one-last-heist/terms/).

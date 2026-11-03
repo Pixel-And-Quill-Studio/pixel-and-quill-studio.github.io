@@ -3,7 +3,7 @@
 **Herausgeber:** Styvens Wentz EI (*Entrepreneur individuel*, französisches Einzelunternehmen), handelnd unter dem Namen Pixel & Quill Studio  
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE-Code:** 6201Z (Programmierungstätigkeiten)  
 **Anschrift:** 138 avenue Victor Hugo, 75016 Paris, Frankreich  
-**Kontakt:** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+**Kontakt:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
 **Stand:** 28. Oktober 2026
 
 ## 1. Herausgeber und Geltungsbereich
@@ -67,7 +67,7 @@ Nach der DSGVO und dem französischen Datenschutzgesetz (*Loi Informatique et Li
 - über die Werbeeinstellungen des Spiels (Werbung);
 - über dein Plattformkonto, zum Beispiel dein Google-Konto (Spieledienste, Käufe, Werbe-ID).
 
-Bei Fragen schreib dem Herausgeber an [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com); du erhältst innerhalb eines Monats eine Antwort. Wenn du der Meinung bist, dass deine Rechte nicht gewahrt werden, kannst du dich bei der **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, Frankreich — [www.cnil.fr](https://www.cnil.fr)) oder bei der Datenschutzaufsichtsbehörde deines Landes beschweren.
+Bei Fragen schreib dem Herausgeber an [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com); du erhältst innerhalb eines Monats eine Antwort. Wenn du der Meinung bist, dass deine Rechte nicht gewahrt werden, kannst du dich bei der **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, Frankreich — [www.cnil.fr](https://www.cnil.fr)) oder bei der Datenschutzaufsichtsbehörde deines Landes beschweren.
 
 ## 9. Kinder
 Jedes Spiel gibt sein Mindestalter auf seiner Seite und in seinem Store-Eintrag an. Pixel & Quill Studio erhebt nicht wissentlich Daten von Kindern unter 13 Jahren. Wenn ein Spiel beim ersten Start nach deinem Alter fragt, wird nur die Altersgruppe auf dem Gerät gespeichert. Wenn du glaubst, dass ein Kind Daten angegeben hat, wende dich an den Herausgeber, damit sie gelöscht werden.
@@ -79,4 +79,4 @@ Lokale Spielstände sind verschlüsselt. Die Kommunikation mit den Plattformdien
 Pixel & Quill Studio kann diese Erklärung aktualisieren, zum Beispiel wenn ein neues Spiel oder eine neue Funktion erscheint. Das Datum oben auf dieser Seite wird dann angepasst; bei wesentlichen Änderungen wirst du in den betroffenen Spielen informiert und gebeten, die Erklärung erneut zu akzeptieren.
 
 ## 12. Kontakt
-Styvens Wentz EI (*Entrepreneur individuel*, französisches Einzelunternehmen), handelnd unter dem Namen Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, Frankreich — [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Styvens Wentz EI (*Entrepreneur individuel*, französisches Einzelunternehmen), handelnd unter dem Namen Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, Frankreich — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

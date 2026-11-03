@@ -4,7 +4,7 @@
 **SIREN :** 131 995 391 — **SIRET :** 131 995 391 00011 — **Code APE :** 6201Z (programmation informatique)  
 **Immatriculation** au Registre national des entreprises (RNE) le 26/10/2026 — TVA non applicable, franchise en base (art. L. 223 et s. du CIBS)  
 **Adresse :** 138 avenue Victor Hugo, 75016 Paris, France  
-**Contact :** [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)  
+**Contact :** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
 **Dernière mise à jour :** 28 octobre 2026
 
 ## 1. Objet et acceptation
@@ -60,7 +60,7 @@ Les traitements de données sont décrits dans la [politique de confidentialité
 L’éditeur peut modifier ces conditions. La date en haut de cette page sera mise à jour et, en cas de changement important, le Jeu vous demandera d’accepter les nouvelles conditions avant de continuer.
 
 ## 15. Droit applicable et litiges
-Ces conditions sont soumises au droit français. Avant toute action en justice, contactez l’éditeur à [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com) pour trouver une solution amiable. En tant que consommateur, vous pouvez aussi recourir gratuitement à un médiateur de la consommation (article L612-1 du Code de la consommation) : [à compléter]. À défaut de solution amiable, les tribunaux français compétents sont saisis, sans préjudice des règles protectrices de votre pays de résidence.
+Ces conditions sont soumises au droit français. Avant toute action en justice, contactez l’éditeur à [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) pour trouver une solution amiable. En tant que consommateur, vous pouvez aussi recourir gratuitement à un médiateur de la consommation (article L612-1 du Code de la consommation) : [à compléter]. À défaut de solution amiable, les tribunaux français compétents sont saisis, sans préjudice des règles protectrices de votre pays de résidence.
 
 ## 16. Contact
-Styvens Wentz EI, exerçant sous le nom commercial Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, France — [pixelandquillstudio.pro@gmail.com](mailto:pixelandquillstudio.pro@gmail.com)
+Styvens Wentz EI, exerçant sous le nom commercial Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

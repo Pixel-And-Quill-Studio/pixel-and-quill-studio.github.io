@@ -5,7 +5,7 @@
   "owner": "Styvens Wentz",
   "siren": "131 995 391",
   "address": "138 avenue Victor Hugo, 75016 Paris, France",
-  "email": "pixelandquillstudio.pro@gmail.com",
+  "email": "contact@pixelandquillstudio.com",
   "year": 2026,
   "default_language": "en",
   "languages": [
@@ -71,5 +71,7 @@
     "es": "Soy Styvens y fundé Pixel & Quill Studio en París. Diseño, escribo y desarrollo cada juego yo mismo, desde la primera carta hasta el último píxel. Sentence es mi primer juego. ¡Gracias por tu visita!",
     "pt-BR": "Eu sou o Styvens e fundei a Pixel & Quill Studio em Paris. Eu mesmo crio, escrevo e desenvolvo cada jogo, da primeira carta ao último pixel. Sentence é o meu primeiro jogo. Obrigado pela visita!",
     "de": "Ich bin Styvens und habe Pixel & Quill Studio in Paris gegründet. Ich entwerfe, schreibe und entwickle jedes Spiel selbst, von der ersten Karte bis zum letzten Pixel. Sentence ist mein erstes Spiel. Danke für deinen Besuch!"
-  }
+  },
+  "phone": "+33 9 72 11 42 56",
+  "phone_tel": "tel:+33972114256"
 }

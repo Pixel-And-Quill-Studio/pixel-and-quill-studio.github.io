@@ -291,6 +291,7 @@ for lang in PUBLISHED:
 
     body = f"""<h1>{E(t(lang, 'contact'))}</h1><p class="lead">{E(t(lang, 'contact_intro'))}</p>
 <div class="card"><h3 style="margin-top:0">{E(t(lang, 'contact_mail'))}</h3><p><a class="mail" href="mailto:{s['email']}">{s['email']}</a></p>
+<h3>{E(t(lang, 'contact_phone'))}</h3><p><a class="mail" href="{s['phone_tel']}">{E(s['phone'])}</a></p>
 <h3>{E(t(lang, 'contact_pub'))}</h3><p>{E(s['name'])} — {E(s['owner'])}, EI<br>{E(s['address'])}</p></div>
 <p class="muted">{E(t(lang, 'contact_note'))} <a href="{url('privacy', lang)}">{E(t(lang, 'privacy'))}</a></p>
 <p><a href="{url('legal', lang)}">{E(t(lang, 'legal'))}</a></p>"""
