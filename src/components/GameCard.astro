@@ -1,0 +1,11 @@
+---
+/** Game card used on the home and games pages. */
+import { t, loc, url, badgeText } from "../lib/site";
+const { g, lang } = Astro.props;
+const gp = url(`game:${g.slug}`, lang);
+---
+<article class="card game"><img src={`/${g.icon}`} alt="" width="84" height="84">
+<div><h3><a class="plain" href={gp}>{loc(g.name, lang)}</a></h3>
+<p class="sub">{loc(g.subtitle, lang)}</p><p class="pitch">{loc(g.pitch, lang)}</p>
+<p><span class={`badge ${g.status ?? "coming_soon"}`}>{badgeText(g, lang)}</span></p>
+<div class="links"><a class="btn" href={gp}>{t(lang, "discover")}</a></div></div></article>

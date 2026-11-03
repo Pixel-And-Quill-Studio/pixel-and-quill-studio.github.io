@@ -1,0 +1,61 @@
+---
+/** Every regular page in every published language (see allPages() in src/lib/site.ts). */
+import Layout from "../layouts/Layout.astro";
+import GamesGrid from "../components/GamesGrid.astro";
+import BindingNote from "../components/BindingNote.astro";
+import { SITE, LANGS, t, loc, url, md, localizedFile, statusText, badgeText, allPages, type PageEntry } from "../lib/site";
+
+export function getStaticPaths() {
+  return allPages().map((p) => {
+    const route = (LANGS[p.lang].prefix + url(p.key, "en").slice(1)).replace(/\/$/, "");
+    return { params: { path: route || undefined }, props: p };
+  });
+}
+
+const { key, lang, kind, game: g, doc } = Astro.props as PageEntry;
+const s = SITE;
+const LEGAL_DOCS: Record<string, string> = { legal: "legal-notice", privacy: "privacy", terms: "terms" };
+
+let title = "", desc = "", nav: string | undefined = undefined;
+if (kind === "home") { title = s.name; desc = loc(s.tagline, lang); nav = "home"; }
+else if (kind === "games") { title = `${t(lang, "games_title")} — ${s.name}`; desc = t(lang, "games_intro"); nav = "games"; }
+else if (kind === "contact") { title = `${t(lang, "contact")} — ${s.name}`; desc = t(lang, "contact_intro"); nav = "contact"; }
+else if (kind === "legal") { title = `${t(lang, key)} — ${s.name}`; desc = t(lang, `${key}_desc`); }
+else if (kind === "game") { title = `${loc(g.name, lang)}: ${loc(g.subtitle, lang)} — ${s.name}`; desc = loc(g.pitch, lang); nav = "games"; }
+else { const name = loc(g.name, lang); title = `${t(lang, doc!)} — ${name} — ${s.name}`; desc = t(lang, `game_${doc}_desc`).replace("{game}", name); nav = "games"; }
+
+// Game page pieces
+const gameKey = g ? `game:${g.slug}` : "";
+const gameDocs = g ? Object.keys(g.legal_docs ?? {}) : [];
+const store = g?.store?.google_play;
+const details = g?.details ? md(localizedFile(g.details, lang), lang).replaceAll("<h2>", "<h3>").replaceAll("</h2>", "</h3>") : "";
+const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
+---
+<Layout pageKey={key} lang={lang} title={title} desc={desc} nav={nav} home={kind === "home"}>
+{kind === "home" && <Fragment>
+<h1 class="hero"><img src="/assets/brand/logo-full.svg" alt={s.name} width="340"></h1><p class="tagline">{loc(s.tagline, lang)}</p>
+<h2>{t(lang, "our_games")}</h2><GamesGrid lang={lang} />
+<p class="more"><a href={url("games", lang)}>{t(lang, "all_games")} →</a></p>
+<h2>{t(lang, "studio")}</h2><p>{loc(s.about, lang)}</p>
+<blockquote class="card founder"><p>{loc(s.founder, lang)}</p><footer>— {t(lang, "founder_sign")}</footer></blockquote>
+<p><a class="btn" href={url("contact", lang)}>{t(lang, "contact")}</a></p></Fragment>}
+{kind === "games" && <Fragment><h1>{t(lang, "games_title")}</h1><p class="lead">{t(lang, "games_intro")}</p><GamesGrid lang={lang} /></Fragment>}
+{kind === "contact" && <Fragment><h1>{t(lang, "contact")}</h1><p class="lead">{t(lang, "contact_intro")}</p>
+<div class="card"><h3 style="margin-top:0">{t(lang, "contact_mail")}</h3><p><a class="mail" href={`mailto:${s.email}`}>{s.email}</a></p>
+<h3>{t(lang, "contact_phone")}</h3><p><a class="mail" href={s.phone_tel}>{s.phone}</a></p>
+<h3>{t(lang, "contact_pub")}</h3><p>{s.name} — {s.owner}, EI<br>{s.address}</p></div>
+<p class="muted">{t(lang, "contact_note")} <a href={url("privacy", lang)}>{t(lang, "privacy")}</a></p>
+<p><a href={url("legal", lang)}>{t(lang, "legal")}</a></p></Fragment>}
+{kind === "legal" && <Fragment><BindingNote pageKey={key} lang={lang} /><Fragment set:html={md(localizedFile(`content/legal/${LEGAL_DOCS[key]}.{lang}.md`, lang), lang)} /></Fragment>}
+{kind === "game" && <Fragment><p class="crumb"><a href={url("games", lang)}>{t(lang, "back_games")}</a></p>
+<div class="game-head"><img src={`/${g.icon}`} alt="" width="120" height="120">
+<div><h1 style="margin:0">{loc(g.name, lang)}</h1><p class="sub">{loc(g.subtitle, lang)}</p><p><span class={`badge ${g.status ?? "coming_soon"}`}>{badgeText(g, lang)}</span></p></div></div>
+<p class="lead">{loc(g.pitch, lang)}</p>{store && <p><a class="btn gold" rel="noopener" href={store}>{t(lang, "get_on")} Google Play</a></p>}{loc(g.description, lang).map((x: string) => <p>{x}</p>)}{g.tagline && <blockquote class="quote"><p>“{loc(g.tagline, lang)}”</p><footer>{t(lang, "game_line")}</footer></blockquote>}
+{g.splash ? <div class="showcase"><img class="splash" src={`/${g.splash.src}`} alt={loc(g.splash.alt, lang)} width={g.splash.width} height={g.splash.height} loading="lazy">{g.facts && <div class="card facts"><h2>{t(lang, "key_facts")}</h2><dl>{g.facts.map((f: any) => <Fragment><dt>{t(lang, "fact_" + f.key)}</dt><dd>{loc(f.value, lang)}</dd></Fragment>)}<dt>{t(lang, "fact_status")}</dt><dd>{statusText(g, lang)}</dd></dl></div>}</div>
+  : g.facts && <div class="card facts"><h2>{t(lang, "key_facts")}</h2><dl>{g.facts.map((f: any) => <Fragment><dt>{t(lang, "fact_" + f.key)}</dt><dd>{loc(f.value, lang)}</dd></Fragment>)}<dt>{t(lang, "fact_status")}</dt><dd>{statusText(g, lang)}</dd></dl></div>}
+<h2>{t(lang, "features")}</h2><ul class="feat">{loc(g.features, lang).map((x: string) => <li>{x}</li>)}</ul>
+{g.gallery && <Fragment><h2>{t(lang, g.gallery.title)}</h2><div class={`gallery${layout}`}>{g.gallery.images.map((im: any) => <figure><img src={`/${im.src}`} alt={loc(im.alt, lang)} width={im.width} height={im.height} loading="lazy"><figcaption>{loc(im.caption, lang)}</figcaption></figure>)}</div></Fragment>}
+{details && <Fragment><h2>{t(lang, "game_details")}</h2><Fragment set:html={details} /></Fragment>}
+<h2>{t(lang, "legal_docs")}</h2><p class="muted">{t(lang, gameDocs.length ? "game_legal_docs_note" : "legal_docs_note")}</p><div class="links">{gameDocs.map((d) => <a href={url(`${gameKey}:${d}`, lang)}>{t(lang, d)} — {loc(g.name, lang)}</a>)}{["privacy", "terms", "legal"].filter((k) => !gameDocs.includes(k)).map((k) => <a href={url(k, lang)}>{t(lang, k)}</a>)}</div></Fragment>}
+{kind === "gamedoc" && <Fragment><p class="crumb"><a href={url(gameKey, lang)}>← {loc(g.name, lang)}</a></p><BindingNote pageKey={key} lang={lang} /><Fragment set:html={md(localizedFile(g.legal_docs[doc!], lang), lang)} /></Fragment>}
+</Layout>

@@ -1,0 +1,7 @@
+---
+/** Grid of all games (plus an optional "next game" placeholder). */
+import GameCard from "./GameCard.astro";
+import { SITE, GAMES, t } from "../lib/site";
+const { lang } = Astro.props;
+---
+<div class="grid">{GAMES.map((g) => <GameCard g={g} lang={lang} />)}{SITE.show_next_game_placeholder && <article class="card game next"><div class="next-ico" aria-hidden="true">?</div><div><h3>{t(lang, "next_title")}</h3><p class="pitch">{t(lang, "next_text")}</p></div></article>}</div>

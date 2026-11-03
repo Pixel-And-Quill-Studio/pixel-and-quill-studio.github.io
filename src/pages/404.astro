@@ -1,0 +1,8 @@
+---
+/** 404 page (served from any depth, links are root-absolute). */
+import Layout from "../layouts/Layout.astro";
+import { PUBLISHED, DEFAULT, t, url } from "../lib/site";
+---
+<Layout pageKey="home" lang={DEFAULT} title="404 — Pixel & Quill Studio" desc="Page not found" noindex={true} detect={false}>
+<h1>Page not found</h1>{PUBLISHED.map((c) => <p lang={c}>{t(c, "notfound_text")}</p>)}<p>{PUBLISHED.map((c) => <Fragment><a class="btn" lang={c} href={url("home", c)}>{t(c, "home")}</a> </Fragment>)}</p>
+</Layout>

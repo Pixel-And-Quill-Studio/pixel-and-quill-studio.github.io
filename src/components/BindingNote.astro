@@ -1,0 +1,7 @@
+---
+/** For translated legal documents: only the French version is legally binding. */
+import { LANGS, tOwn, url } from "../lib/site";
+const { pageKey, lang } = Astro.props;
+const note = tOwn(lang, "legal_binding_note");
+---
+{note && <p class="note">{note} <a href={url(pageKey, "fr")} hreflang="fr" lang="fr">{LANGS.fr.name}</a></p>}
