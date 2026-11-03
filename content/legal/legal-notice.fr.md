@@ -3,7 +3,7 @@
 **Dernière mise à jour :** 28 octobre 2026
 
 ## Éditeur
-Le site pixel-and-quill-studio.github.io et l’ensemble des jeux édités par Pixel & Quill Studio, actuels et futurs, sont édités par :
+Le site pixelandquillstudio.com et l’ensemble des jeux édités par Pixel & Quill Studio, actuels et futurs, sont édités par :
 
 **Styvens Wentz**, entrepreneur individuel (EI), micro-entreprise, exerçant sous le nom commercial **Pixel & Quill Studio**  
 SIREN : 131 995 391  

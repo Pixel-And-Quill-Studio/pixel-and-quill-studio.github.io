@@ -3,7 +3,7 @@
 **Última actualización:** 28 de octubre de 2026
 
 ## Editor
-El sitio web pixel-and-quill-studio.github.io y todos los juegos publicados por Pixel & Quill Studio, actuales y futuros, son editados por:
+El sitio web pixelandquillstudio.com y todos los juegos publicados por Pixel & Quill Studio, actuales y futuros, son editados por:
 
 **Styvens Wentz**, empresario individual (EI, *Entrepreneur individuel*), microempresa francesa, que opera con el nombre comercial **Pixel & Quill Studio**  
 SIREN: 131 995 391  

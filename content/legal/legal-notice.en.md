@@ -3,7 +3,7 @@
 **Last updated:** October 28, 2026
 
 ## Publisher
-The website pixel-and-quill-studio.github.io and all the games published by Pixel & Quill Studio, present and future, are published by:
+The website pixelandquillstudio.com and all the games published by Pixel & Quill Studio, present and future, are published by:
 
 **Styvens Wentz**, individual entrepreneur (EI, Entrepreneur individuel), French micro-enterprise, trading as **Pixel & Quill Studio**  
 SIREN: 131 995 391  

@@ -3,7 +3,7 @@
 **Stand:** 28. Oktober 2026
 
 ## Herausgeber
-Die Website pixel-and-quill-studio.github.io und alle heutigen und künftigen Spiele von Pixel & Quill Studio werden herausgegeben von:
+Die Website pixelandquillstudio.com und alle heutigen und künftigen Spiele von Pixel & Quill Studio werden herausgegeben von:
 
 **Styvens Wentz**, Einzelunternehmer (EI, *Entrepreneur individuel*), französisches Kleinstunternehmen (micro-entreprise), handelnd unter dem Namen **Pixel & Quill Studio**  
 SIREN: 131 995 391  

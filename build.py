@@ -378,4 +378,6 @@ pages = [p for p in written if p != "404.html" and p not in LEGACY]
 emit("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
      + "".join(f"<url><loc>{BASE}{p[:-len('index.html')]}</loc></url>\n" for p in pages) + "</urlset>\n")
 emit("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n")
+# GitHub Pages custom domain; written on every build so it is never dropped.
+emit("CNAME", "pixelandquillstudio.com\n")
 print(f"built {len(written)} files")
