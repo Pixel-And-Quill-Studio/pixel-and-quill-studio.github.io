@@ -1,5 +1,5 @@
 {
   "_comment": "Brevo double opt-in form action URL (https://....sibforms.com/serve/...). Empty = the newsletter block is hidden everywhere.",
-  "form_action": "",
+  "form_action": "https://079f362b.sibforms.com/serve/MUIFAFZoOXZAKFQ42hEil0iMqFyAn15l2Ewqw7i5Ytoxo66U1UDyISlNwuMES6zNK6ZIS89IWvNdPNEjqhUK57Y74x2d0p_0hHMkKsX9wtvQiDEJHkWl08yotDUdMK4dQG-kdWhT7_0VuczsDDtUjfSRF_EtKqgVM9rP7CPEvaC4LUgzFYgjq_AMheTa9AYj2XIa5v-8pi7fwxsMKA==",
   "language_field": "LANGUAGE"
 }
