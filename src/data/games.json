@@ -11,14 +11,16 @@
         "fr": "Survie en prison",
         "es": "Supervivencia en prisión",
         "pt-BR": "Sobrevivência na prisão",
-        "de": "Überleben im Gefängnis"
+        "de": "Überleben im Gefängnis",
+        "it": "Sopravvivenza in carcere"
       },
       "pitch": {
         "en": "Swipe card game: pick your prison, your inmate, and survive as many days as you can.",
         "fr": "Jeu de cartes à glisser : choisis ta prison, ton détenu, et tiens le plus de jours possible.",
         "es": "Juego de cartas para deslizar: elige tu prisión y tu recluso, y aguanta tantos días como puedas.",
         "pt-BR": "Jogo de cartas de deslizar: escolha sua prisão e seu detento, e sobreviva o máximo de dias que conseguir.",
-        "de": "Wisch-Kartenspiel: Wähle dein Gefängnis und deinen Häftling und überlebe so viele Tage wie möglich."
+        "de": "Wisch-Kartenspiel: Wähle dein Gefängnis und deinen Häftling und überlebe so viele Tage wie möglich.",
+        "it": "Gioco di carte da scorrere: scegli il carcere e il detenuto, e sopravvivi più giorni che puoi."
       },
       "description": {
         "en": [
@@ -45,6 +47,11 @@
           "Jeden Tag eine Karte, zwei Entscheidungen: nach links oder nach rechts wischen. Halte deine Anzeigen im Gleichgewicht, denn eine leere Anzeige ist tödlich – eine zu volle aber auch. Halte durch bis zum Ende deiner Strafe.",
           "Du wählst dein Gefängnis, dann deine Figur, Mann oder Frau, und hörst anschließend dein Urteil. Jeder Häftling hat seine eigene Geschichte, exklusive Karten und eigene Enden.",
           "Deine Strafe beginnt im Gefängnis Valmont, kostenlos spielbar: der Hof, die Werkstätten, die Banden. Danach kommen die kostenpflichtigen Gefängnisse, jedes mit eigenen Regeln, einem exklusiven Häftling und eigenen Karten: das Hochsicherheitsgefängnis Mornac, das Inselgefängnis Karreg, das Zentrum für offenen Vollzug Saint-Aubin, ein Gefängnis im Ausland, in Sarvanien, einem erfundenen Land, und die alte Festung Vauclair, eine Zitadelle aus dem 17. Jahrhundert, die am 30. Juni schließt."
+        ],
+        "it": [
+          "Ogni giorno, una carta, due scelte: scorri a sinistra o a destra. Tieni in equilibrio i tuoi indicatori, perché un indicatore vuoto è fatale, e lo è anche uno troppo pieno. Resisti fino alla fine della tua condanna.",
+          "Scegli il carcere, poi il personaggio, uomo o donna, poi ascolti la sentenza. Ogni detenuto ha la sua storia, le sue carte esclusive e i suoi finali.",
+          "La tua condanna inizia nel carcere di Valmont, gratuito: il cortile, i laboratori, le bande. Poi arrivano le carceri a pagamento, ognuna con le sue regole, il suo detenuto esclusivo e le sue carte: il carcere di massima sicurezza di Mornac, il carcere sull'isola di Karreg, il centro di semilibertà di Saint-Aubin, un carcere all'estero, in Sarvania, un paese immaginario, e la vecchia fortezza di Vauclair, una cittadella del XVII secolo."
         ]
       },
       "tagline": {
@@ -52,7 +59,8 @@
         "fr": "Tu viens d’être incarcéré. Survis le plus de jours possible.",
         "es": "Acabas de entrar en prisión. Sobrevive tantos días como puedas.",
         "pt-BR": "Você acaba de ser preso. Sobreviva o máximo de dias que puder.",
-        "de": "Du bist gerade eingesperrt worden. Überlebe so viele Tage wie möglich."
+        "de": "Du bist gerade eingesperrt worden. Überlebe so viele Tage wie möglich.",
+        "it": "Sei appena finito dentro. Sopravvivi più giorni che puoi."
       },
       "features": {
         "en": [
@@ -60,35 +68,42 @@
           "Valmont Prison is free; 5 more prisons can be unlocked, each with its exclusive inmate",
           "Play as a man or a woman, in single-sex prisons",
           "Google Play Games achievements and one leaderboard per prison",
-          "In English, French, Spanish, Brazilian Portuguese and German, for ages 13 and up"
+          "In English, French, Spanish, Brazilian Portuguese, German and Italian, for ages 13 and up"
         ],
         "fr": [
           "Un jour, une carte, deux choix : glisse à gauche ou à droite",
           "La maison d’arrêt de Valmont est gratuite ; 5 autres prisons se débloquent, chacune avec son détenu exclusif",
           "Joue en homme ou en femme, dans des prisons non mixtes",
           "Succès Google Play Jeux et un classement par prison",
-          "En anglais, français, espagnol, portugais du Brésil et allemand, à partir de 13 ans"
+          "En anglais, français, espagnol, portugais du Brésil, allemand et italien, à partir de 13 ans"
         ],
         "es": [
           "Un día, una carta, dos opciones: desliza a la izquierda o a la derecha",
           "La prisión de Valmont es gratis; se pueden desbloquear 5 prisiones más, cada una con su recluso exclusivo",
           "Juega como hombre o como mujer, en prisiones no mixtas",
           "Logros de Google Play Juegos y una clasificación por prisión",
-          "En inglés, francés, español, portugués de Brasil y alemán, a partir de 13 años"
+          "En inglés, francés, español, portugués de Brasil, alemán e italiano, a partir de 13 años"
         ],
         "pt-BR": [
           "Um dia, uma carta, duas escolhas: deslize para a esquerda ou para a direita",
           "A prisão de Valmont é grátis; mais 5 prisões podem ser desbloqueadas, cada uma com seu detento exclusivo",
           "Jogue como homem ou como mulher, em prisões não mistas",
           "Conquistas do Google Play Games e um placar por prisão",
-          "Em inglês, francês, espanhol, português do Brasil e alemão, a partir de 13 anos"
+          "Em inglês, francês, espanhol, português do Brasil, alemão e italiano, a partir de 13 anos"
         ],
         "de": [
           "Ein Tag, eine Karte, zwei Entscheidungen: nach links oder rechts wischen",
           "Gefängnis Valmont ist kostenlos; 5 weitere Gefängnisse lassen sich freischalten, jedes mit seinem exklusiven Häftling",
           "Spiele als Mann oder als Frau, in nach Geschlechtern getrennten Gefängnissen",
           "Erfolge in Google Play Spiele und eine Bestenliste pro Gefängnis",
-          "Auf Englisch, Französisch, Spanisch, brasilianischem Portugiesisch und Deutsch, ab 13 Jahren"
+          "Auf Englisch, Französisch, Spanisch, brasilianischem Portugiesisch, Deutsch und Italienisch, ab 13 Jahren"
+        ],
+        "it": [
+          "Un giorno, una carta, due scelte: scorri a sinistra o a destra",
+          "Il carcere di Valmont è gratuito; si possono sbloccare altre 5 carceri, ognuna con il suo detenuto esclusivo",
+          "Gioca come uomo o come donna, in carceri non miste",
+          "Obiettivi di Google Play Giochi e una classifica per ogni carcere",
+          "In inglese, francese, spagnolo, portoghese brasiliano, tedesco e italiano, dai 13 anni in su"
         ]
       },
       "facts": [
@@ -99,7 +114,8 @@
             "fr": "Cartes à glisser façon Reigns, survie en prison",
             "es": "Cartas para deslizar al estilo de Reigns, supervivencia en prisión",
             "pt-BR": "Cartas de deslizar no estilo de Reigns, sobrevivência na prisão",
-            "de": "Wischkarten im Stil von Reigns, Überleben im Gefängnis"
+            "de": "Wischkarten im Stil von Reigns, Überleben im Gefängnis",
+            "it": "Carte da scorrere in stile Reigns, sopravvivenza in carcere"
           }
         },
         {
@@ -109,7 +125,8 @@
             "fr": "Android 7.0 et versions ultérieures",
             "es": "Android 7.0 o posterior",
             "pt-BR": "Android 7.0 ou superior",
-            "de": "Android 7.0 oder neuer"
+            "de": "Android 7.0 oder neuer",
+            "it": "Android 7.0 o superiore"
           }
         },
         {
@@ -119,17 +136,19 @@
             "fr": "Portrait",
             "es": "Vertical",
             "pt-BR": "Retrato (vertical)",
-            "de": "Hochformat"
+            "de": "Hochformat",
+            "it": "Verticale"
           }
         },
         {
           "key": "languages",
           "value": {
-            "en": "English, French, Spanish, Brazilian Portuguese, German",
-            "fr": "Anglais, français, espagnol, portugais du Brésil, allemand",
-            "es": "Inglés, francés, español, portugués de Brasil, alemán",
-            "pt-BR": "Inglês, francês, espanhol, português do Brasil, alemão",
-            "de": "Englisch, Französisch, Spanisch, brasilianisches Portugiesisch, Deutsch"
+            "en": "English, French, Spanish, Brazilian Portuguese, German, Italian",
+            "fr": "Anglais, français, espagnol, portugais du Brésil, allemand, italien",
+            "es": "Inglés, francés, español, portugués de Brasil, alemán, italiano",
+            "pt-BR": "Inglês, francês, espanhol, português do Brasil, alemão, italiano",
+            "de": "Englisch, Französisch, Spanisch, brasilianisches Portugiesisch, Deutsch, Italienisch",
+            "it": "Inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano"
           }
         },
         {
@@ -139,7 +158,8 @@
             "fr": "Valmont (gratuite) et 5 prisons payantes",
             "es": "Valmont (gratis) y 5 prisiones de pago",
             "pt-BR": "Valmont (grátis) e 5 prisões pagas",
-            "de": "Valmont (kostenlos) und 5 kostenpflichtige Gefängnisse"
+            "de": "Valmont (kostenlos) und 5 kostenpflichtige Gefängnisse",
+            "it": "Valmont (gratuito) e 5 carceri a pagamento"
           }
         },
         {
@@ -149,7 +169,8 @@
             "fr": "Un homme ou une femme",
             "es": "Un hombre o una mujer",
             "pt-BR": "Um homem ou uma mulher",
-            "de": "Mann oder Frau"
+            "de": "Mann oder Frau",
+            "it": "Un uomo o una donna"
           }
         },
         {
@@ -159,7 +180,8 @@
             "fr": "Google Play Jeux, un par prison",
             "es": "Google Play Juegos, una por prisión",
             "pt-BR": "Google Play Games, um por prisão",
-            "de": "Google Play Spiele, eine pro Gefängnis"
+            "de": "Google Play Spiele, eine pro Gefängnis",
+            "it": "Google Play Giochi, una per carcere"
           }
         },
         {
@@ -169,7 +191,8 @@
             "fr": "Gratuit, avec publicité et achats intégrés facultatifs",
             "es": "Gratis, con anuncios y compras opcionales en la aplicación",
             "pt-BR": "Grátis, com anúncios e compras opcionais no app",
-            "de": "Kostenlos, mit Werbung und optionalen In-App-Käufen"
+            "de": "Kostenlos, mit Werbung und optionalen In-App-Käufen",
+            "it": "Gratuito, con pubblicità e acquisti in-app facoltativi"
           }
         },
         {
@@ -179,7 +202,8 @@
             "fr": "13 ans et plus",
             "es": "Mayores de 13 años",
             "pt-BR": "13 anos ou mais",
-            "de": "Ab 13 Jahren"
+            "de": "Ab 13 Jahren",
+            "it": "13+"
           }
         }
       ],
@@ -189,7 +213,8 @@
         "fr": "Bientôt sur Google Play",
         "es": "Muy pronto en Google Play",
         "pt-BR": "Em breve no Google Play",
-        "de": "Bald bei Google Play"
+        "de": "Bald bei Google Play",
+        "it": "Presto su Google Play"
       },
       "icon": "assets/sentence-icon.png",
       "splash": {
@@ -201,7 +226,8 @@
           "fr": "Écran titre de Sentence",
           "es": "Pantalla de título de Sentence (versión francesa)",
           "pt-BR": "Tela de título de Sentence (versão francesa)",
-          "de": "Titelbildschirm von Sentence (französische Version)"
+          "de": "Titelbildschirm von Sentence (französische Version)",
+          "it": "Schermata del titolo di Sentence"
         }
       },
       "gallery": {
@@ -217,14 +243,16 @@
               "fr": "Valmont · jour 23, une carte de ton voisin",
               "es": "Valmont · día 23, una carta de tu vecino",
               "pt-BR": "Valmont · dia 23, uma carta do seu vizinho",
-              "de": "Valmont · Tag 23, eine Karte von deinem Nachbarn"
+              "de": "Valmont · Tag 23, eine Karte von deinem Nachbarn",
+              "it": "Carcere di Valmont · giorno 23, una carta dal tuo vicino"
             },
             "alt": {
               "en": "In-game card at Valmont Prison: Mickaël, your neighbour, whispers through the window",
               "fr": "Carte du jeu à Valmont : Mickaël, ton voisin, chuchote à la fenêtre",
               "es": "Carta del juego en Valmont: Mickaël, tu vecino, susurra por la ventana",
               "pt-BR": "Carta do jogo em Valmont: Mickaël, seu vizinho, sussurra pela janela",
-              "de": "Spielkarte in Valmont: Mickaël, dein Nachbar, flüstert durchs Fenster"
+              "de": "Spielkarte in Valmont: Mickaël, dein Nachbar, flüstert durchs Fenster",
+              "it": "Carta di gioco nel carcere di Valmont: Mickaël, il tuo vicino, sussurra dalla finestra"
             }
           },
           {
@@ -236,14 +264,16 @@
               "fr": "Haute sécurité · Marchand, chef de la sécurité",
               "es": "Alta seguridad · Marchand, jefe de seguridad",
               "pt-BR": "Segurança máxima · Marchand, chefe da segurança",
-              "de": "Hochsicherheit · Marchand, Sicherheitschef"
+              "de": "Hochsicherheit · Marchand, Sicherheitschef",
+              "it": "Carcere di massima sicurezza · Marchand, capo della sicurezza"
             },
             "alt": {
               "en": "In-game card in the high-security prison with Marchand, head of security",
               "fr": "Carte du jeu en prison de haute sécurité avec Marchand, chef de la sécurité",
               "es": "Carta del juego en la prisión de alta seguridad con Marchand, jefe de seguridad",
               "pt-BR": "Carta do jogo na prisão de segurança máxima com Marchand, chefe da segurança",
-              "de": "Spielkarte im Hochsicherheitsgefängnis mit Marchand, dem Sicherheitschef"
+              "de": "Spielkarte im Hochsicherheitsgefängnis mit Marchand, dem Sicherheitschef",
+              "it": "Carta di gioco nel carcere di massima sicurezza con Marchand, capo della sicurezza"
             }
           },
           {
@@ -255,14 +285,16 @@
               "fr": "Le verdict · centrale de l’île",
               "es": "El veredicto · prisión de la isla (versión francesa)",
               "pt-BR": "O veredito · prisão da ilha (versão francesa)",
-              "de": "Das Urteil · Inselgefängnis (französische Version)"
+              "de": "Das Urteil · Inselgefängnis (französische Version)",
+              "it": "La sentenza · carcere sull'isola"
             },
             "alt": {
               "en": "Verdict screen before a sentence at the island prison",
               "fr": "Écran du verdict avant une peine à la centrale de l’île",
               "es": "Pantalla del veredicto antes de una condena en la prisión de la isla",
               "pt-BR": "Tela do veredito antes de uma pena na prisão da ilha",
-              "de": "Urteilsbildschirm vor einer Strafe im Inselgefängnis"
+              "de": "Urteilsbildschirm vor einer Strafe im Inselgefängnis",
+              "it": "Schermata della sentenza prima di una condanna nel carcere sull'isola"
             }
           },
           {
@@ -274,14 +306,16 @@
               "fr": "Choisis ton personnage, homme ou femme",
               "es": "Elige tu personaje, hombre o mujer (versión francesa)",
               "pt-BR": "Escolha seu personagem, homem ou mulher (versão francesa)",
-              "de": "Wähle deine Figur, Mann oder Frau (französische Version)"
+              "de": "Wähle deine Figur, Mann oder Frau (französische Version)",
+              "it": "Scegli il personaggio, uomo o donna"
             },
             "alt": {
               "en": "Character selection screen with the Man and Woman options",
               "fr": "Écran de choix du personnage avec les options Homme et Femme",
               "es": "Pantalla de elección de personaje con las opciones Hombre y Mujer",
               "pt-BR": "Tela de escolha de personagem com as opções Homem e Mulher",
-              "de": "Figurenauswahl mit den Optionen Mann und Frau"
+              "de": "Figurenauswahl mit den Optionen Mann und Frau",
+              "it": "Schermata di scelta del personaggio con le opzioni Uomo e Donna"
             }
           },
           {
@@ -293,14 +327,16 @@
               "fr": "Prison à l’étranger · l’agente du consulat",
               "es": "Prisión en el extranjero · la agente del consulado (versión francesa)",
               "pt-BR": "Prisão no exterior · a agente do consulado (versão francesa)",
-              "de": "Gefängnis im Ausland · die Konsulatsbeamtin (französische Version)"
+              "de": "Gefängnis im Ausland · die Konsulatsbeamtin (französische Version)",
+              "it": "Carcere all'estero · il funzionario del consolato"
             },
             "alt": {
               "en": "In-game card in the prison abroad with Rivière, a consulate officer",
               "fr": "Carte du jeu en prison à l’étranger avec Rivière, agente du consulat",
               "es": "Carta del juego en la prisión en el extranjero con Rivière, agente del consulado",
               "pt-BR": "Carta do jogo na prisão no exterior com Rivière, agente do consulado",
-              "de": "Spielkarte im Gefängnis im Ausland mit Rivière, Konsulatsbeamtin"
+              "de": "Spielkarte im Gefängnis im Ausland mit Rivière, Konsulatsbeamtin",
+              "it": "Carta di gioco nel carcere all'estero con Rivière, funzionario del consolato"
             }
           },
           {
@@ -312,14 +348,16 @@
               "fr": "Un classement par prison",
               "es": "Una clasificación por prisión",
               "pt-BR": "Um placar por prisão",
-              "de": "Eine Bestenliste pro Gefängnis"
+              "de": "Eine Bestenliste pro Gefängnis",
+              "it": "Una classifica per ogni carcere"
             },
             "alt": {
               "en": "Leaderboard screen with one tab per prison",
               "fr": "Écran du classement avec un onglet par prison",
               "es": "Pantalla de clasificación con una pestaña por prisión",
               "pt-BR": "Tela de placar com uma aba por prisão",
-              "de": "Bestenliste mit einem Reiter pro Gefängnis"
+              "de": "Bestenliste mit einem Reiter pro Gefängnis",
+              "it": "Schermata della classifica con una scheda per ogni carcere"
             }
           }
         ]
@@ -355,21 +393,24 @@
         "fr": "Bientôt sur Google Play",
         "es": "Muy pronto en Google Play",
         "pt-BR": "Em breve no Google Play",
-        "de": "Bald bei Google Play"
+        "de": "Bald bei Google Play",
+        "it": "Presto su Google Play"
       },
       "hero_tagline": {
         "en": "You’ve just been locked up.\nSurvive as long as you can.",
         "fr": "Tu viens d’être incarcéré.\nTiens le plus longtemps possible.",
         "es": "Acabas de entrar en prisión.\nAguanta todo lo que puedas.",
         "pt-BR": "Você acaba de ser preso.\nAguente o máximo que puder.",
-        "de": "Du wurdest gerade eingesperrt.\nHalte so lange durch, wie du kannst."
+        "de": "Du wurdest gerade eingesperrt.\nHalte so lange durch, wie du kannst.",
+        "it": "Sei appena finito dentro.\nSopravvivi il più a lungo possibile."
       },
       "hero_sub": {
         "en": "A swipe card game about prison life. One card a day, two choices, four gauges to keep in balance. Play as a man or a woman.",
         "fr": "Un jeu de cartes à glisser sur la vie en prison. Une carte par jour, deux choix, quatre jauges à garder en équilibre. Joue en homme ou en femme.",
         "es": "Un juego de cartas para deslizar sobre la vida en prisión. Una carta al día, dos opciones, cuatro indicadores que mantener en equilibrio. Juega como hombre o como mujer.",
         "pt-BR": "Um jogo de cartas de deslizar sobre a vida na prisão. Uma carta por dia, duas escolhas, quatro medidores para manter em equilíbrio. Jogue como homem ou como mulher.",
-        "de": "Ein Wisch-Kartenspiel über das Leben im Gefängnis. Eine Karte pro Tag, zwei Entscheidungen, vier Anzeigen im Gleichgewicht. Spiele als Mann oder als Frau."
+        "de": "Ein Wisch-Kartenspiel über das Leben im Gefängnis. Eine Karte pro Tag, zwei Entscheidungen, vier Anzeigen im Gleichgewicht. Spiele als Mann oder als Frau.",
+        "it": "Un gioco di carte da scorrere sulla vita in carcere. Una carta al giorno, due scelte, quattro indicatori da tenere in equilibrio. Gioca come uomo o come donna."
       },
       "carousel": [
         {
@@ -379,7 +420,8 @@
             "fr": "Chaque jour, une nouvelle carte",
             "es": "Cada día, una carta nueva",
             "pt-BR": "Todo dia, uma carta nova",
-            "de": "Jeden Tag eine neue Karte"
+            "de": "Jeden Tag eine neue Karte",
+            "it": "Ogni giorno, una nuova carta"
           }
         },
         {
@@ -389,7 +431,8 @@
             "fr": "Découvre ton verdict",
             "es": "Escucha tu veredicto",
             "pt-BR": "Ouça o seu veredito",
-            "de": "Hör dein Urteil"
+            "de": "Hör dein Urteil",
+            "it": "Ascolta la sentenza"
           }
         },
         {
@@ -399,7 +442,8 @@
             "fr": "Une jauge cède, et c’est fini",
             "es": "Un indicador se rompe y se acabó",
             "pt-BR": "Um medidor quebra e acabou",
-            "de": "Eine Anzeige kippt, und es ist vorbei"
+            "de": "Eine Anzeige kippt, und es ist vorbei",
+            "it": "Un indicatore cede, ed è finita"
           }
         },
         {
@@ -409,7 +453,8 @@
             "fr": "Ou sors libre",
             "es": "O sal en libertad",
             "pt-BR": "Ou saia em liberdade",
-            "de": "Oder geh als freier Mensch hinaus"
+            "de": "Oder geh als freier Mensch hinaus",
+            "it": "Oppure esci da persona libera"
           }
         },
         {
@@ -419,7 +464,8 @@
             "fr": "Joue en homme ou en femme",
             "es": "Juega como hombre o como mujer",
             "pt-BR": "Jogue como homem ou como mulher",
-            "de": "Spiele als Mann oder Frau"
+            "de": "Spiele als Mann oder Frau",
+            "it": "Gioca come uomo o come donna"
           }
         },
         {
@@ -429,7 +475,8 @@
             "fr": "Un classement par prison",
             "es": "Una clasificación por prisión",
             "pt-BR": "Um placar por prisão",
-            "de": "Eine Bestenliste pro Gefängnis"
+            "de": "Eine Bestenliste pro Gefängnis",
+            "it": "Una classifica per ogni carcere"
           }
         }
       ],
@@ -442,7 +489,8 @@
             "fr": "La maison d’arrêt gratuite : la cour, les ateliers, les bandes.",
             "es": "La prisión gratuita: el patio, los talleres, las bandas.",
             "pt-BR": "A prisão gratuita: o pátio, as oficinas, as gangues.",
-            "de": "Das kostenlose Gefängnis: der Hof, die Werkstätten, die Banden."
+            "de": "Das kostenlose Gefängnis: der Hof, die Werkstätten, die Banden.",
+            "it": "Il carcere iniziale gratuito: il cortile, i laboratori, le bande."
           }
         },
         {
@@ -453,7 +501,8 @@
             "fr": "Haute sécurité. Des caméras partout, l’isolement jamais loin.",
             "es": "Alta seguridad. Cámaras por todas partes, el aislamiento siempre cerca.",
             "pt-BR": "Segurança máxima. Câmeras por toda parte, o isolamento sempre perto.",
-            "de": "Hochsicherheit. Überall Kameras, die Isolation nie weit."
+            "de": "Hochsicherheit. Überall Kameras, die Isolation nie weit.",
+            "it": "Massima sicurezza. Telecamere ovunque, l'isolamento mai lontano."
           }
         },
         {
@@ -464,7 +513,8 @@
             "fr": "Une centrale sur une île, coupée de tout par la mer.",
             "es": "Una prisión en una isla, aislada de todo por el mar.",
             "pt-BR": "Uma prisão numa ilha, isolada de tudo pelo mar.",
-            "de": "Ein Inselgefängnis, vom Meer von allem abgeschnitten."
+            "de": "Ein Inselgefängnis, vom Meer von allem abgeschnitten.",
+            "it": "Un carcere su un'isola, separato da tutto dal mare."
           }
         },
         {
@@ -475,7 +525,8 @@
             "fr": "Semi-liberté : dehors le jour, dedans la nuit. Ne sois pas en retard.",
             "es": "Semilibertad: fuera de día, dentro de noche. No llegues tarde.",
             "pt-BR": "Semiliberdade: fora de dia, dentro à noite. Não se atrase.",
-            "de": "Offener Vollzug: tagsüber draußen, nachts zurück. Komm nicht zu spät."
+            "de": "Offener Vollzug: tagsüber draußen, nachts zurück. Komm nicht zu spät.",
+            "it": "Semilibertà: fuori di giorno, dentro di notte. Non fare tardi."
           }
         },
         {
@@ -486,7 +537,8 @@
             "fr": "Une prison à l’étranger, dans un pays imaginaire, dans une langue que tu ne parles pas.",
             "es": "Una prisión en el extranjero, en un país imaginario, en un idioma que no hablas.",
             "pt-BR": "Uma prisão no exterior, num país imaginário, numa língua que você não fala.",
-            "de": "Ein Gefängnis im Ausland, in einem erfundenen Land, in einer Sprache, die du nicht sprichst."
+            "de": "Ein Gefängnis im Ausland, in einem erfundenen Land, in einer Sprache, die du nicht sprichst.",
+            "it": "Un carcere all'estero, in un paese immaginario, in una lingua che non parli."
           }
         },
         {
@@ -497,7 +549,8 @@
             "fr": "Une forteresse du XVIIe siècle qui vit ses derniers mois avant sa fermeture.",
             "es": "Una fortaleza del siglo XVII en sus últimos meses antes de cerrar.",
             "pt-BR": "Uma fortaleza do século XVII vivendo seus últimos meses antes de fechar.",
-            "de": "Eine Festung aus dem 17. Jahrhundert in ihren letzten Monaten vor der Schließung."
+            "de": "Eine Festung aus dem 17. Jahrhundert in ihren letzten Monaten vor der Schließung.",
+            "it": "Una fortezza del XVII secolo che vive i suoi ultimi mesi prima della chiusura."
           }
         }
       ],
@@ -513,21 +566,24 @@
         "fr": "One Last Heist",
         "es": "One Last Heist",
         "pt-BR": "One Last Heist",
-        "de": "One Last Heist"
+        "de": "One Last Heist",
+        "it": "One Last Heist"
       },
       "subtitle": {
         "en": "Turn-based heist",
         "fr": "Casse au tour par tour",
         "es": "Atracos por turnos",
         "pt-BR": "Assaltos por turnos",
-        "de": "Rundenbasierter Heist"
+        "de": "Rundenbasierter Heist",
+        "it": "Colpo a turni"
       },
       "pitch": {
         "en": "Build a crew, plan the job and pull it off room by room, one turn at a time.",
         "fr": "Monte ton équipe, prépare le coup et mène-le pièce par pièce, un tour à la fois.",
         "es": "Forma tu banda, prepara el golpe y llévalo a cabo sala por sala, turno a turno.",
         "pt-BR": "Monte sua equipe, planeje o golpe e execute-o sala por sala, um turno de cada vez.",
-        "de": "Stell deine Crew zusammen, plane den Coup und zieh ihn Raum für Raum durch, Zug um Zug."
+        "de": "Stell deine Crew zusammen, plane den Coup und zieh ihn Raum für Raum durch, Zug um Zug.",
+        "it": "Forma una banda, pianifica il colpo e mettilo a segno stanza dopo stanza, un turno alla volta."
       },
       "description": {
         "en": [
@@ -549,6 +605,10 @@
         "de": [
           "One Last Heist ist ein rundenbasiertes Heist-Spiel von Pixel & Quill Studio. Heuere eine Crew aus Spezialisten an, kundschafte jeden Coup aus, plane ihn und zieh ihn Raum für Raum durch – mit Schleichen, Technik, Gewalt oder Täuschung und immer mit den echten Erfolgschancen vor Augen.",
           "Teile die Beute, halte deine Crew bei der Stange und bleib der Polizei lange genug vom Hals, um den letzten großen Coup der Stadt zu wagen."
+        ],
+        "it": [
+          "One Last Heist è un gioco di colpi a turni di Pixel & Quill Studio. Recluta una banda di specialisti, esplora e pianifica ogni colpo, poi giocalo stanza dopo stanza scegliendo Furtività, Tecnica, Forza o Raggiro, con le probabilità reali sempre in vista.",
+          "Dividi il bottino, mantieni leale la banda e tieni la polizia lontana abbastanza a lungo da mettere a segno l'ultimo colpo della città."
         ]
       },
       "tagline": {
@@ -556,7 +616,8 @@
         "fr": "Un dernier coup, et on raccroche. C’est ce qu’ils disent tous.",
         "es": "Un último golpe y lo dejamos. Eso dicen todos.",
         "pt-BR": "Um último golpe e a gente para. É o que todos dizem.",
-        "de": "Ein letzter Coup, dann hören wir auf. Das sagen sie alle."
+        "de": "Ein letzter Coup, dann hören wir auf. Das sagen sie alle.",
+        "it": "Un ultimo colpo, poi smettiamo. È quello che dicono tutti."
       },
       "features": {
         "en": [
@@ -603,6 +664,15 @@
           "Ziele vom kleinen Pfandhaus bis zum letzten großen Coup der Stadt",
           "Ein geführter erster Coup mit Victor, einem Hehler im Ruhestand",
           "Auf Englisch und Französisch"
+        ],
+        "it": [
+          "Recluta specialisti, da hacker e scassinatori ad autisti e truffatori, ognuno con abilità, tratti e vizi",
+          "Pianifica ogni colpo in più giorni: sopralluoghi, mazzette e attrezzatura",
+          "Gioca il colpo stanza dopo stanza con Furtività, Tecnica, Forza o Raggiro, con le probabilità reali in vista",
+          "Dividi il bottino, controlla la lealtà della banda e non attirare l'attenzione",
+          "Obiettivi dal piccolo banco dei pegni fino all'ultimo colpo della città",
+          "Un primo colpo guidato con Victor, un ricettatore in pensione",
+          "In inglese e francese"
         ]
       },
       "facts": [
@@ -613,7 +683,8 @@
             "fr": "Casse au tour par tour, gestion d’équipe",
             "es": "Atracos por turnos, gestión de banda",
             "pt-BR": "Assaltos por turnos, gestão de equipe",
-            "de": "Rundenbasierter Heist, Crew-Management"
+            "de": "Rundenbasierter Heist, Crew-Management",
+            "it": "Colpo a turni, gestione della banda"
           }
         },
         {
@@ -623,7 +694,8 @@
             "fr": "Android 7.0 et versions ultérieures",
             "es": "Android 7.0 o posterior",
             "pt-BR": "Android 7.0 ou superior",
-            "de": "Android 7.0 oder neuer"
+            "de": "Android 7.0 oder neuer",
+            "it": "Android 7.0 o superiore"
           }
         },
         {
@@ -633,7 +705,8 @@
             "fr": "Portrait",
             "es": "Vertical",
             "pt-BR": "Retrato (vertical)",
-            "de": "Hochformat"
+            "de": "Hochformat",
+            "it": "Verticale"
           }
         },
         {
@@ -643,7 +716,8 @@
             "fr": "Anglais, français",
             "es": "Inglés, francés",
             "pt-BR": "Inglês, francês",
-            "de": "Englisch, Französisch"
+            "de": "Englisch, Französisch",
+            "it": "Inglese, francese"
           }
         }
       ],
@@ -658,7 +732,8 @@
           "fr": "Écran titre de One Last Heist",
           "es": "Pantalla de título de One Last Heist",
           "pt-BR": "Tela de título de One Last Heist",
-          "de": "Titelbildschirm von One Last Heist"
+          "de": "Titelbildschirm von One Last Heist",
+          "it": "Schermata del titolo di One Last Heist"
         }
       },
       "gallery": {
@@ -673,14 +748,16 @@
               "fr": "Victor · ancien receleur, ton mentor",
               "es": "Victor · perista retirado, tu mentor",
               "pt-BR": "Victor · receptador aposentado, seu mentor",
-              "de": "Victor · Hehler im Ruhestand, dein Mentor"
+              "de": "Victor · Hehler im Ruhestand, dein Mentor",
+              "it": "Victor · ricettatore in pensione, il tuo mentore"
             },
             "alt": {
               "en": "Portrait of Victor, retired fence, your mentor",
               "fr": "Portrait de Victor, ancien receleur, ton mentor",
               "es": "Retrato de Victor, perista retirado, tu mentor",
               "pt-BR": "Retrato de Victor, receptador aposentado, seu mentor",
-              "de": "Porträt von Victor, Hehler im Ruhestand, dein Mentor"
+              "de": "Porträt von Victor, Hehler im Ruhestand, dein Mentor",
+              "it": "Ritratto di Victor, ricettatore in pensione, il tuo mentore"
             }
           },
           {
@@ -692,14 +769,16 @@
               "fr": "Nina · hackeuse",
               "es": "Nina · hacker",
               "pt-BR": "Nina · hacker",
-              "de": "Nina · Hackerin"
+              "de": "Nina · Hackerin",
+              "it": "Nina · hacker"
             },
             "alt": {
               "en": "Portrait of Nina, hacker",
               "fr": "Portrait de Nina, hackeuse",
               "es": "Retrato de Nina, hacker",
               "pt-BR": "Retrato de Nina, hacker",
-              "de": "Porträt von Nina, Hackerin"
+              "de": "Porträt von Nina, Hackerin",
+              "it": "Ritratto di Nina, hacker"
             }
           },
           {
@@ -711,14 +790,16 @@
               "fr": "Marcel · perceur de coffres",
               "es": "Marcel · revientacajas",
               "pt-BR": "Marcel · arrombador de cofres",
-              "de": "Marcel · Safeknacker"
+              "de": "Marcel · Safeknacker",
+              "it": "Marcel · scassinatore"
             },
             "alt": {
               "en": "Portrait of Marcel, safecracker",
               "fr": "Portrait de Marcel, perceur de coffres",
               "es": "Retrato de Marcel, revientacajas",
               "pt-BR": "Retrato de Marcel, arrombador de cofres",
-              "de": "Porträt von Marcel, Safeknacker"
+              "de": "Porträt von Marcel, Safeknacker",
+              "it": "Ritratto di Marcel, scassinatore"
             }
           },
           {
@@ -730,14 +811,16 @@
               "fr": "Rosa · chauffeuse",
               "es": "Rosa · conductora",
               "pt-BR": "Rosa · motorista",
-              "de": "Rosa · Fahrerin"
+              "de": "Rosa · Fahrerin",
+              "it": "Rosa · autista"
             },
             "alt": {
               "en": "Portrait of Rosa, driver",
               "fr": "Portrait de Rosa, chauffeuse",
               "es": "Retrato de Rosa, conductora",
               "pt-BR": "Retrato de Rosa, motorista",
-              "de": "Porträt von Rosa, Fahrerin"
+              "de": "Porträt von Rosa, Fahrerin",
+              "it": "Ritratto di Rosa, autista"
             }
           },
           {
@@ -749,14 +832,16 @@
               "fr": "Léon · manipulateur",
               "es": "Léon · estafador",
               "pt-BR": "Léon · vigarista",
-              "de": "Léon · Trickbetrüger"
+              "de": "Léon · Trickbetrüger",
+              "it": "Léon · truffatore"
             },
             "alt": {
               "en": "Portrait of Léon, con artist",
               "fr": "Portrait de Léon, manipulateur",
               "es": "Retrato de Léon, estafador",
               "pt-BR": "Retrato de Léon, vigarista",
-              "de": "Porträt von Léon, Trickbetrüger"
+              "de": "Porträt von Léon, Trickbetrüger",
+              "it": "Ritratto di Léon, truffatore"
             }
           },
           {
@@ -768,14 +853,16 @@
               "fr": "Tomasz “Big T” · gros bras",
               "es": "Tomasz “Big T” · el músculo",
               "pt-BR": "Tomasz “Big T” · o músculo",
-              "de": "Tomasz “Big T” · fürs Grobe"
+              "de": "Tomasz “Big T” · fürs Grobe",
+              "it": "Tomasz “Big T” · forzuto"
             },
             "alt": {
               "en": "Portrait of Tomasz “Big T”, muscle",
               "fr": "Portrait de Tomasz “Big T”, gros bras",
               "es": "Retrato de Tomasz “Big T”, el músculo",
               "pt-BR": "Retrato de Tomasz “Big T”, o músculo",
-              "de": "Porträt von Tomasz “Big T”, fürs Grobe"
+              "de": "Porträt von Tomasz “Big T”, fürs Grobe",
+              "it": "Ritratto di Tomasz “Big T”, forzuto"
             }
           },
           {
@@ -787,14 +874,16 @@
               "fr": "Inès · monte-en-l’air",
               "es": "Inès · ladrona escaladora",
               "pt-BR": "Inès · ladra escaladora",
-              "de": "Inès · Fassadenkletterin"
+              "de": "Inès · Fassadenkletterin",
+              "it": "Inès · ladra acrobata"
             },
             "alt": {
               "en": "Portrait of Inès, cat burglar",
               "fr": "Portrait de Inès, monte-en-l’air",
               "es": "Retrato de Inès, ladrona escaladora",
               "pt-BR": "Retrato de Inès, ladra escaladora",
-              "de": "Porträt von Inès, Fassadenkletterin"
+              "de": "Porträt von Inès, Fassadenkletterin",
+              "it": "Ritratto di Inès, ladra acrobata"
             }
           },
           {
@@ -806,14 +895,16 @@
               "fr": "Dmitri · démolisseur",
               "es": "Dmitri · experto en demoliciones",
               "pt-BR": "Dmitri · especialista em demolição",
-              "de": "Dmitri · Sprengmeister"
+              "de": "Dmitri · Sprengmeister",
+              "it": "Dmitri · esperto di demolizioni"
             },
             "alt": {
               "en": "Portrait of Dmitri, demolition expert",
               "fr": "Portrait de Dmitri, démolisseur",
               "es": "Retrato de Dmitri, experto en demoliciones",
               "pt-BR": "Retrato de Dmitri, especialista em demolição",
-              "de": "Porträt von Dmitri, Sprengmeister"
+              "de": "Porträt von Dmitri, Sprengmeister",
+              "it": "Ritratto di Dmitri, esperto di demolizioni"
             }
           },
           {
@@ -825,14 +916,16 @@
               "fr": "Clara · faussaire",
               "es": "Clara · falsificadora",
               "pt-BR": "Clara · falsificadora",
-              "de": "Clara · Fälscherin"
+              "de": "Clara · Fälscherin",
+              "it": "Clara · falsaria"
             },
             "alt": {
               "en": "Portrait of Clara, forger",
               "fr": "Portrait de Clara, faussaire",
               "es": "Retrato de Clara, falsificadora",
               "pt-BR": "Retrato de Clara, falsificadora",
-              "de": "Porträt von Clara, Fälscherin"
+              "de": "Porträt von Clara, Fälscherin",
+              "it": "Ritratto di Clara, falsaria"
             }
           }
         ]
