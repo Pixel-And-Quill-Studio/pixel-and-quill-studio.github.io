@@ -56,43 +56,38 @@
       },
       "features": {
         "en": [
-          "Swipe cards: one day, one card, two choices",
-          "Valmont Prison free, plus 5 prisons at €2.99 each, each with its exclusive inmate",
+          "One day, one card, two choices: swipe left or right",
+          "Valmont Prison is free; 5 more prisons can be unlocked, each with its exclusive inmate",
           "Play as a man or a woman, in single-sex prisons",
-          "Google Play Games achievements and leaderboards, one per prison",
-          "Jokers to undo a choice, an ad-free option and a Premium Pack at €17.99 with every prison",
+          "Google Play Games achievements and one leaderboard per prison",
           "In English, French, Spanish, Brazilian Portuguese and German, for ages 13 and up"
         ],
         "fr": [
-          "Cartes à glisser : un jour, une carte, deux choix",
-          "Maison d’arrêt de Valmont gratuite, plus 5 prisons à 2,99 € chacune, chacune avec son détenu exclusif",
+          "Un jour, une carte, deux choix : glisse à gauche ou à droite",
+          "La maison d’arrêt de Valmont est gratuite ; 5 autres prisons se débloquent, chacune avec son détenu exclusif",
           "Joue en homme ou en femme, dans des prisons non mixtes",
-          "Succès et classements Google Play Jeux, un classement par prison",
-          "Des jokers pour annuler un choix, une option sans publicité et un Pack Premium à 17,99 € avec toutes les prisons",
+          "Succès Google Play Jeux et un classement par prison",
           "En anglais, français, espagnol, portugais du Brésil et allemand, à partir de 13 ans"
         ],
         "es": [
-          "Cartas para deslizar: un día, una carta, dos opciones",
-          "La prisión de Valmont gratis, más 5 prisiones a 2,99 € cada una, cada una con su recluso exclusivo",
+          "Un día, una carta, dos opciones: desliza a la izquierda o a la derecha",
+          "La prisión de Valmont es gratis; se pueden desbloquear 5 prisiones más, cada una con su recluso exclusivo",
           "Juega como hombre o como mujer, en prisiones no mixtas",
-          "Logros y clasificaciones de Google Play Juegos, una clasificación por prisión",
-          "Comodines para deshacer una elección, una opción sin anuncios y un Pack Premium a 17,99 € con todas las prisiones",
+          "Logros de Google Play Juegos y una clasificación por prisión",
           "En inglés, francés, español, portugués de Brasil y alemán, a partir de 13 años"
         ],
         "pt-BR": [
-          "Cartas de deslizar: um dia, uma carta, duas escolhas",
-          "A prisão de Valmont grátis, mais 5 prisões a 2,99 € cada, cada uma com seu detento exclusivo",
+          "Um dia, uma carta, duas escolhas: deslize para a esquerda ou para a direita",
+          "A prisão de Valmont é grátis; mais 5 prisões podem ser desbloqueadas, cada uma com seu detento exclusivo",
           "Jogue como homem ou como mulher, em prisões não mistas",
-          "Conquistas e placares do Google Play Games, um placar por prisão",
-          "Coringas para desfazer uma escolha, uma opção sem anúncios e um Pacote Premium a 17,99 € com todas as prisões",
+          "Conquistas do Google Play Games e um placar por prisão",
           "Em inglês, francês, espanhol, português do Brasil e alemão, a partir de 13 anos"
         ],
         "de": [
-          "Wischkarten: ein Tag, eine Karte, zwei Entscheidungen",
-          "Gefängnis Valmont kostenlos, dazu 5 Gefängnisse für je 2,99 €, jedes mit seinem exklusiven Häftling",
+          "Ein Tag, eine Karte, zwei Entscheidungen: nach links oder rechts wischen",
+          "Gefängnis Valmont ist kostenlos; 5 weitere Gefängnisse lassen sich freischalten, jedes mit seinem exklusiven Häftling",
           "Spiele als Mann oder als Frau, in nach Geschlechtern getrennten Gefängnissen",
-          "Erfolge und Bestenlisten in Google Play Spiele, eine Bestenliste pro Gefängnis",
-          "Joker, um eine Entscheidung rückgängig zu machen, eine werbefreie Option und ein Premium-Paket für 17,99 € mit allen Gefängnissen",
+          "Erfolge in Google Play Spiele und eine Bestenliste pro Gefängnis",
           "Auf Englisch, Französisch, Spanisch, brasilianischem Portugiesisch und Deutsch, ab 13 Jahren"
         ]
       },
@@ -170,11 +165,11 @@
         {
           "key": "model",
           "value": {
-            "en": "Free with ads · prisons €2.99 each · Premium Pack (all prisons) €17.99",
-            "fr": "Gratuit avec publicité · prisons à 2,99 € · Pack Premium (toutes les prisons) à 17,99 €",
-            "es": "Gratis con anuncios · prisiones a 2,99 € · Pack Premium (todas las prisiones) a 17,99 €",
-            "pt-BR": "Grátis com anúncios · prisões a 2,99 € · Pacote Premium (todas as prisões) a 17,99 €",
-            "de": "Kostenlos mit Werbung · Gefängnisse je 2,99 € · Premium-Paket (alle Gefängnisse) 17,99 €"
+            "en": "Free to play, with ads and optional in-app purchases",
+            "fr": "Gratuit, avec publicité et achats intégrés facultatifs",
+            "es": "Gratis, con anuncios y compras opcionales en la aplicación",
+            "pt-BR": "Grátis, com anúncios e compras opcionais no app",
+            "de": "Kostenlos, mit Werbung und optionalen In-App-Käufen"
           }
         },
         {
@@ -190,11 +185,11 @@
       ],
       "status": "coming_soon",
       "status_label": {
-        "en": "Coming to Google Play in November 2026",
-        "fr": "Sortie sur Google Play en novembre 2026",
-        "es": "Llega a Google Play en noviembre de 2026",
-        "pt-BR": "Chega ao Google Play em novembro de 2026",
-        "de": "Ab November 2026 bei Google Play"
+        "en": "Coming soon to Google Play",
+        "fr": "Bientôt sur Google Play",
+        "es": "Muy pronto en Google Play",
+        "pt-BR": "Em breve no Google Play",
+        "de": "Bald bei Google Play"
       },
       "icon": "assets/sentence-icon.png",
       "splash": {
@@ -356,11 +351,159 @@
         }
       },
       "status_badge": {
-        "en": "Coming November 2026",
-        "fr": "Sortie en novembre 2026",
-        "es": "Llega en noviembre de 2026",
-        "pt-BR": "Chega em novembro de 2026",
-        "de": "Ab November 2026"
+        "en": "Coming soon to Google Play",
+        "fr": "Bientôt sur Google Play",
+        "es": "Muy pronto en Google Play",
+        "pt-BR": "Em breve no Google Play",
+        "de": "Bald bei Google Play"
+      },
+      "hero_tagline": {
+        "en": "You’ve just been locked up.\nSurvive as long as you can.",
+        "fr": "Tu viens d’être incarcéré.\nTiens le plus longtemps possible.",
+        "es": "Acabas de entrar en prisión.\nAguanta todo lo que puedas.",
+        "pt-BR": "Você acaba de ser preso.\nAguente o máximo que puder.",
+        "de": "Du wurdest gerade eingesperrt.\nHalte so lange durch, wie du kannst."
+      },
+      "hero_sub": {
+        "en": "A swipe card game about prison life. One card a day, two choices, four gauges to keep in balance. Play as a man or a woman.",
+        "fr": "Un jeu de cartes à glisser sur la vie en prison. Une carte par jour, deux choix, quatre jauges à garder en équilibre. Joue en homme ou en femme.",
+        "es": "Un juego de cartas para deslizar sobre la vida en prisión. Una carta al día, dos opciones, cuatro indicadores que mantener en equilibrio. Juega como hombre o como mujer.",
+        "pt-BR": "Um jogo de cartas de deslizar sobre a vida na prisão. Uma carta por dia, duas escolhas, quatro medidores para manter em equilíbrio. Jogue como homem ou como mulher.",
+        "de": "Ein Wisch-Kartenspiel über das Leben im Gefängnis. Eine Karte pro Tag, zwei Entscheidungen, vier Anzeigen im Gleichgewicht. Spiele als Mann oder als Frau."
+      },
+      "carousel": [
+        {
+          "src": "assets/games/sentence/shots/{lang2}/card.webp",
+          "caption": {
+            "en": "Every day, a new card",
+            "fr": "Chaque jour, une nouvelle carte",
+            "es": "Cada día, una carta nueva",
+            "pt-BR": "Todo dia, uma carta nova",
+            "de": "Jeden Tag eine neue Karte"
+          }
+        },
+        {
+          "src": "assets/games/sentence/shots/{lang2}/verdict.webp",
+          "caption": {
+            "en": "Hear your verdict",
+            "fr": "Découvre ton verdict",
+            "es": "Escucha tu veredicto",
+            "pt-BR": "Ouça o seu veredito",
+            "de": "Hör dein Urteil"
+          }
+        },
+        {
+          "src": "assets/games/sentence/shots/{lang2}/loss.webp",
+          "caption": {
+            "en": "One gauge breaks, and it’s over",
+            "fr": "Une jauge cède, et c’est fini",
+            "es": "Un indicador se rompe y se acabó",
+            "pt-BR": "Um medidor quebra e acabou",
+            "de": "Eine Anzeige kippt, und es ist vorbei"
+          }
+        },
+        {
+          "src": "assets/games/sentence/shots/{lang2}/win.webp",
+          "caption": {
+            "en": "Or walk out a free person",
+            "fr": "Ou sors libre",
+            "es": "O sal en libertad",
+            "pt-BR": "Ou saia em liberdade",
+            "de": "Oder geh als freier Mensch hinaus"
+          }
+        },
+        {
+          "src": "assets/games/sentence/shots/{lang2}/woman.webp",
+          "caption": {
+            "en": "Play as a man or a woman",
+            "fr": "Joue en homme ou en femme",
+            "es": "Juega como hombre o como mujer",
+            "pt-BR": "Jogue como homem ou como mulher",
+            "de": "Spiele als Mann oder Frau"
+          }
+        },
+        {
+          "src": "assets/games/sentence/shots/{lang2}/leaderboard.webp",
+          "caption": {
+            "en": "One leaderboard per prison",
+            "fr": "Un classement par prison",
+            "es": "Una clasificación por prisión",
+            "pt-BR": "Um placar por prisão",
+            "de": "Eine Bestenliste pro Gefängnis"
+          }
+        }
+      ],
+      "prisons": [
+        {
+          "name": "Valmont",
+          "free": true,
+          "text": {
+            "en": "The free starter prison: the yard, the workshops, the crews.",
+            "fr": "La maison d’arrêt gratuite : la cour, les ateliers, les bandes.",
+            "es": "La prisión gratuita: el patio, los talleres, las bandas.",
+            "pt-BR": "A prisão gratuita: o pátio, as oficinas, as gangues.",
+            "de": "Das kostenlose Gefängnis: der Hof, die Werkstätten, die Banden."
+          }
+        },
+        {
+          "name": "Mornac",
+          "free": false,
+          "text": {
+            "en": "High security. Cameras everywhere, isolation never far.",
+            "fr": "Haute sécurité. Des caméras partout, l’isolement jamais loin.",
+            "es": "Alta seguridad. Cámaras por todas partes, el aislamiento siempre cerca.",
+            "pt-BR": "Segurança máxima. Câmeras por toda parte, o isolamento sempre perto.",
+            "de": "Hochsicherheit. Überall Kameras, die Isolation nie weit."
+          }
+        },
+        {
+          "name": "Karreg",
+          "free": false,
+          "text": {
+            "en": "An island prison, cut off from everything by the sea.",
+            "fr": "Une centrale sur une île, coupée de tout par la mer.",
+            "es": "Una prisión en una isla, aislada de todo por el mar.",
+            "pt-BR": "Uma prisão numa ilha, isolada de tudo pelo mar.",
+            "de": "Ein Inselgefängnis, vom Meer von allem abgeschnitten."
+          }
+        },
+        {
+          "name": "Saint-Aubin",
+          "free": false,
+          "text": {
+            "en": "Semi-liberty: out by day, back by night. Don’t be late.",
+            "fr": "Semi-liberté : dehors le jour, dedans la nuit. Ne sois pas en retard.",
+            "es": "Semilibertad: fuera de día, dentro de noche. No llegues tarde.",
+            "pt-BR": "Semiliberdade: fora de dia, dentro à noite. Não se atrase.",
+            "de": "Offener Vollzug: tagsüber draußen, nachts zurück. Komm nicht zu spät."
+          }
+        },
+        {
+          "name": "Sarvania",
+          "free": false,
+          "text": {
+            "en": "A prison abroad, in an imaginary country, in a language you don’t speak.",
+            "fr": "Une prison à l’étranger, dans un pays imaginaire, dans une langue que tu ne parles pas.",
+            "es": "Una prisión en el extranjero, en un país imaginario, en un idioma que no hablas.",
+            "pt-BR": "Uma prisão no exterior, num país imaginário, numa língua que você não fala.",
+            "de": "Ein Gefängnis im Ausland, in einem erfundenen Land, in einer Sprache, die du nicht sprichst."
+          }
+        },
+        {
+          "name": "Vauclair",
+          "free": false,
+          "text": {
+            "en": "A 17th-century fortress living its last months before it closes.",
+            "fr": "Une forteresse du XVIIe siècle qui vit ses derniers mois avant sa fermeture.",
+            "es": "Una fortaleza del siglo XVII en sus últimos meses antes de cerrar.",
+            "pt-BR": "Uma fortaleza do século XVII vivendo seus últimos meses antes de fechar.",
+            "de": "Eine Festung aus dem 17. Jahrhundert in ihren letzten Monaten vor der Schließung."
+          }
+        }
+      ],
+      "trailer": {
+        "src": "assets/games/sentence/trailer.mp4",
+        "poster": "assets/games/sentence/trailer-poster.jpg"
       }
     },
     {

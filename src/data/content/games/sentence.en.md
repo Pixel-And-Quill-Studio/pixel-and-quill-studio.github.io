@@ -9,13 +9,7 @@ Sentence is intended for players aged **13 and over**. It deals with prison life
 - **Permissions:** Sentence requests no sensitive permissions (no location, contacts, camera or microphone).
 
 ## Purchases in Sentence
-Sentence is free to play at Valmont Prison. Optional purchases, at the prices in euros planned at release (Google Play shows the final price in your currency):
-
-- **Paid prisons:** €2.99 each, with their exclusive inmate: high security, the island prison, the semi-liberty centre, the prison abroad and the old fortress.
-- **Extra inmates at Valmont:** €0.99 each (the ex-cop, the boxer, the white-collar swindler, the innocent, the old robber).
-- **Jokers** (virtual items with no monetary value, used to undo a choice): 5 for €0.99, 20 for €2.99. A few jokers can also be earned by watching an optional rewarded ad.
-- **Remove ads:** €3.99, for life. Rewarded ads stay available if you want them.
-- **Premium Pack:** €17.99: The whole game: every prison, no ads for life, all 5 paid inmates, 20 jokers.
+Sentence is free to play at Valmont Prison. Other prisons, extra inmates, jokers (virtual items with no monetary value, used to undo a choice), an ad-free option and a Premium Pack are available as optional in-app purchases. Prices are shown in your currency on Google Play and in the in-game shop. A few jokers can also be earned by watching an optional rewarded ad.
 
 Non-consumable purchases can be restored with “Restore purchases”.
 

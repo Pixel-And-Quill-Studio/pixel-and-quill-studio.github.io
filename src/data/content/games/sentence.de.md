@@ -9,15 +9,9 @@ Sentence richtet sich an Spielerinnen und Spieler **ab 13 Jahren**. Es geht um d
 - **Berechtigungen:** Sentence fordert keine sensiblen Berechtigungen an (kein Standort, keine Kontakte, keine Kamera, kein Mikrofon).
 
 ## Käufe in Sentence
-Sentence ist im Gefängnis Valmont kostenlos spielbar. Optionale Käufe, zu den für den Start geplanten Euro-Preisen (Google Play zeigt den endgültigen Preis in deiner Währung):
+Sentence ist im Gefängnis Valmont kostenlos spielbar. Die weiteren Gefängnisse, zusätzliche Häftlinge, Joker (virtuelle Gegenstände ohne Geldwert, um eine Entscheidung rückgängig zu machen), eine werbefreie Option und ein Premium-Paket sind als optionale In-App-Käufe erhältlich. Die Preise werden bei Google Play und im Spielshop in deiner Währung angezeigt. Einige Joker gibt es auch für eine optionale Werbung mit Belohnung.
 
-- **Kostenpflichtige Gefängnisse:** je 2,99 €, mit ihrem exklusiven Häftling: Hochsicherheit, das Inselgefängnis, das Zentrum für offenen Vollzug, das Gefängnis im Ausland und die alte Festung.
-- **Zusätzliche Häftlinge in Valmont:** je 0,99 € (der Ex-Polizist, der Boxer, der Wirtschaftsbetrüger, der Unschuldige, der alte Räuber).
-- **Joker** (virtuelle Gegenstände ohne Geldwert, um eine Entscheidung rückgängig zu machen): 5 für 0,99 €, 20 für 2,99 €. Einige Joker gibt es auch für eine freiwillige Werbung mit Belohnung.
-- **Werbung entfernen:** 3,99 €, dauerhaft. Werbung mit Belohnung bleibt verfügbar, wenn du sie möchtest.
-- **Premium-Paket:** 17,99 €: Das komplette Spiel: alle Gefängnisse, lebenslang werbefrei, alle 5 kostenpflichtigen Figuren, 20 Joker.
-
-Nicht verbrauchbare Käufe lassen sich über „Restore purchases“ wiederherstellen (das Spiel ist auf Englisch und Französisch).
+Nicht verbrauchbare Käufe lassen sich mit „Käufe wiederherstellen“ wiederherstellen.
 
 ## Credits
 Entwickelt mit der Godot Engine (MIT-Lizenz). Die vollständigen Credits findest du im Spiel.
