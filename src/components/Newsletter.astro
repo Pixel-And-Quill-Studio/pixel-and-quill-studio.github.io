@@ -5,17 +5,50 @@ import { t, url } from "../lib/site";
 interface Props { lang: string; compact?: boolean }
 const { lang, compact = false } = Astro.props;
 const action = (import.meta.env.PUBLIC_NEWSLETTER_PREVIEW_URL || NL.form_action || "").trim();
+const MSG: Record<string, { ok: string; err: string }> = {
+  fr: { ok: "Merci ! Vérifie ta boîte mail pour confirmer ton inscription.", err: "Oups, l'inscription n'a pas fonctionné. Réessaie dans un instant." },
+  en: { ok: "Thanks! Check your inbox to confirm your subscription.", err: "Oops, the signup didn't go through. Please try again in a moment." },
+  es: { ok: "¡Gracias! Revisa tu correo para confirmar tu suscripción.", err: "Vaya, la suscripción no ha funcionado. Inténtalo de nuevo en un momento." },
+  pt: { ok: "Obrigado! Verifique seu e-mail para confirmar sua inscrição.", err: "Ops, a inscrição não funcionou. Tente novamente em instantes." },
+  de: { ok: "Danke! Sieh in deinem Postfach nach, um deine Anmeldung zu bestätigen.", err: "Hoppla, die Anmeldung hat nicht geklappt. Versuch es gleich noch einmal." },
+  it: { ok: "Grazie! Controlla la tua casella di posta per confermare l'iscrizione.", err: "Ops, l'iscrizione non è andata a buon fine. Riprova tra un attimo." },
+};
+const m = MSG[lang.slice(0, 2).toLowerCase()] || MSG.en;
 const id = compact ? "nl-foot" : "nl-main";
 ---
 {action && <section class={compact ? "newsletter compact" : "newsletter card"} aria-labelledby={`${id}-t`}>
 <p class="nl-title" id={`${id}-t`}>✉ {t(lang, "nl_title")}</p>
 {!compact && <p class="muted">{t(lang, "nl_text")}</p>}
-<form method="POST" action={action} accept-charset="utf-8">
+<form class="nl-form" data-ok={m.ok} data-err={m.err} method="POST" action={action} accept-charset="utf-8">
 <div class="nl-row"><label class="sr" for={`${id}-e`}>{t(lang, "nl_email")}</label>
-<input id={`${id}-e`} type="email" name="EMAIL" required autocomplete="email" placeholder={t(lang, "nl_email")}>
-<button class="btn gold" type="submit">{t(lang, "nl_submit")}</button></div>
+<input id={`${id}-e`} type="email" name="EMAIL" required autocomplete="email" placeholder={t(lang, "nl_email")}></div>
 <label class="nl-consent"><input type="checkbox" name="OPT_IN" value="1" required> <span>{t(lang, "nl_consent")} <a href={url("privacy", lang)}>{t(lang, "privacy")}</a>.</span></label>
+<button class="btn gold nl-btn" type="submit">{t(lang, "nl_submit")}</button>
+<p class="nl-msg" role="status" aria-live="polite" hidden></p>
 <input type="hidden" name={NL.language_field} value={lang}>
 <input type="hidden" name="locale" value={lang.slice(0, 2).toLowerCase()}>
 <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="nl-hp">
 </form></section>}
+<script>
+document.querySelectorAll<HTMLFormElement>("form.nl-form").forEach((f) => {
+  f.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const btn = f.querySelector<HTMLButtonElement>("button[type=submit]")!;
+    const msg = f.querySelector<HTMLElement>(".nl-msg")!;
+    const show = (ok: boolean) => { msg.textContent = (ok ? f.dataset.ok : f.dataset.err) || ""; msg.className = "nl-msg " + (ok ? "ok" : "err"); msg.hidden = false; };
+    btn.disabled = true; msg.hidden = true;
+    const data = new FormData(f);
+    let ok = false;
+    try {
+      const r = await fetch(f.action, { method: "POST", body: data, mode: "cors", headers: { Accept: "application/json" } });
+      let j: any = null; try { j = await r.json(); } catch {}
+      ok = r.ok && (!j || j.success !== false);
+    } catch {
+      try { await fetch(f.action, { method: "POST", body: data, mode: "no-cors" }); ok = true; } catch { ok = false; }
+    }
+    show(ok);
+    if (ok) f.reset();
+    btn.disabled = false;
+  });
+});
+</script>
