@@ -54,6 +54,7 @@ export const PAGES: Record<string, string> = {
   home: "",
   games: "games/",
   contact: "contact/",
+  press: "press/",
   legal: "legal-notice/",
   privacy: "privacy/",
   terms: "terms/",
@@ -163,6 +164,7 @@ export function allPages(): PageEntry[] {
     out.push({ key: "home", lang, kind: "home" });
     out.push({ key: "games", lang, kind: "games" });
     out.push({ key: "contact", lang, kind: "contact" });
+    out.push({ key: "press", lang, kind: "press" });
     for (const k of ["legal", "privacy", "terms"]) out.push({ key: k, lang, kind: "legal" });
     for (const g of GAMES) {
       out.push({ key: `game:${g.slug}`, lang, kind: "game", game: g });
@@ -171,4 +173,9 @@ export function allPages(): PageEntry[] {
     }
   }
   return out;
+}
+
+/** Screenshot path for a language: French shots on /fr, English shots elsewhere. */
+export function shot(src: string, lang: string): string {
+  return "/" + src.replace("{lang2}", lang === "fr" ? "fr" : "en");
 }

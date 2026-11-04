@@ -1,0 +1,6 @@
+---
+/** Horizontal, swipeable screenshot strip (CSS scroll-snap, no JS). */
+import { t, loc, shot } from "../lib/site";
+const { g, lang } = Astro.props;
+---
+<div class="carousel-wrap"><ul class="carousel" aria-label={t(lang, "screens_gallery")}>{g.carousel.map((c: any, i: number) => <li><figure><img src={shot(c.src, lang)} alt={loc(c.caption, lang)} width="540" height="960" loading={i < 2 ? "eager" : "lazy"}><figcaption>{loc(c.caption, lang)}</figcaption></figure></li>)}</ul><p class="swipe-hint" aria-hidden="true">{t(lang, "swipe_hint")} →</p></div>

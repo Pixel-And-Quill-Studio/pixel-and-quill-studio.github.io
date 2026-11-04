@@ -25,7 +25,7 @@ footer{margin-top:50px;border-top:1px solid var(--line);padding-top:14px;color:v
 .brand{display:inline-flex;align-items:center;gap:12px}
 .brand-icon{width:44px;height:44px;display:block}
 .brand-word{height:24px;width:auto;display:block}
-.brand.home .brand-word{display:none}
+
 h1.hero{text-align:center;margin:.4em 0 .2em}
 h1.hero img{width:min(340px,80vw);height:auto;display:inline-block}
 .tagline{text-align:center;color:var(--muted);letter-spacing:.3px;margin:0 0 1.6em}
@@ -125,3 +125,65 @@ footer p{margin:0 0 .5em}
 .lang-drop summary::after{content:"▾"}.lang-drop[open] summary::after{content:"▴"}
 .lang-drop summary{gap:.4em}.lang-drop summary::after{margin:0}
 .lang-drop nav{min-width:230px}.lang-drop nav a{white-space:nowrap}
+/* ---- v2: Sentence hero, carousel, prisons, trailer, press ---- */
+.hero-s{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;margin:0 0 10px}
+.kicker{font-family:"Allerta Stencil",sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--gold2);margin:0}
+h1.game-title{font-size:clamp(46px,8vw,68px);margin:.05em 0 0;letter-spacing:1px;line-height:1}
+.hero-sub-title{font-family:"Allerta Stencil",sans-serif;letter-spacing:3px;text-transform:uppercase;color:var(--gold2);font-size:14px;margin:.3em 0 1em}
+.punch{font-family:"Playfair SC",Georgia,serif;color:var(--text);font-size:clamp(22px,3.6vw,28px);line-height:1.25;margin:0 0 .6em}
+.punch span{display:block}.punch span+span{color:var(--gold)}
+.punch.small{font-size:clamp(20px,5vw,24px);margin:.4em 0 .8em}
+.hero-lead{color:var(--muted);margin:0 0 1em}
+.ctas{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 12px}
+.ctas .btn{margin:0}.btn.big{padding:12px 20px;font-size:14px}
+.gplay{display:inline-flex;align-items:center;gap:10px;background:#000;color:#fff;border:1px solid #6b6b70;border-radius:10px;padding:7px 16px 7px 12px;text-decoration:none;line-height:1.1;font-size:20px;font-weight:600}
+.gplay small{display:block;font-size:11px;font-weight:400;letter-spacing:.5px;text-transform:uppercase;color:#cfcfcf}
+.gplay.soon{opacity:.85;cursor:default}.gplay svg{color:var(--gold)}
+a.gplay:hover{border-color:var(--gold);color:#fff}
+.phones{position:relative;height:440px}
+.phones .ph{position:absolute;width:190px;height:auto;border-radius:18px;border:2px solid var(--gold2);box-shadow:0 18px 40px rgba(0,0,0,.6)}
+.phones .ph0{left:0;top:40px;transform:rotate(-6deg);opacity:.9}
+.phones .ph2{right:0;top:40px;transform:rotate(6deg);opacity:.9}
+.phones .ph1{left:50%;top:0;transform:translateX(-50%);width:220px;z-index:2}
+.carousel-wrap{margin:8px -20px 14px}
+.carousel{list-style:none;margin:0;padding:4px 20px 8px;display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 20px;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.carousel li{flex:0 0 min(62vw,230px);scroll-snap-align:start}
+.carousel figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.carousel img{display:block;width:100%;height:auto;aspect-ratio:9/16}
+.carousel figcaption{padding:8px 10px;font-size:14px;color:var(--muted)}
+.swipe-hint{margin:0 20px;font-size:13px;color:var(--muted);text-align:right}
+.prisons{list-style:none;padding:0;margin:12px 0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.prisons li{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;position:relative}
+.prisons h3{margin:0;font-family:"Playfair SC",Georgia,serif;color:var(--gold);font-size:20px}
+.prisons p{margin:.4em 0 0;font-size:15px;line-height:1.45}
+.ptag{display:inline-block;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--gold2);border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-top:4px}
+.prisons li.free .ptag{background:var(--gold);color:#16130c;border-color:var(--gold)}
+.trailer video{display:block;width:min(360px,100%);height:auto;aspect-ratio:9/16;border-radius:16px;border:1px solid var(--line);background:#000;margin:10px auto}
+.trailer .muted{text-align:center}
+details.more-info summary{cursor:pointer;font-family:"Allerta Stencil",sans-serif;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-size:14px}
+details.more-info h2,details.more-info h3{border:0;padding:0}
+.facts-dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:8px 18px}
+.facts-dl dt{color:var(--gold2);font-size:13px;letter-spacing:1px;text-transform:uppercase;padding-top:3px}
+.facts-dl dd{margin:0}
+h2.inline{margin:0 0 .8em;border:0;padding:0}
+.logos{display:flex;flex-wrap:wrap;gap:12px}
+.card.logo{display:flex;flex-direction:column;align-items:center;gap:8px;margin:0;padding:16px;text-decoration:none;font-size:14px;min-width:180px}
+.card.logo img{height:96px;width:auto;max-width:160px}
+@media (max-width:700px){
+ .hero-s{grid-template-columns:1fr;gap:6px}
+ .phones{height:300px;order:-1;max-width:360px;margin:0 auto;width:100%}
+ .phones .ph{width:130px}.phones .ph1{width:155px}.phones .ph0,.phones .ph2{top:30px}
+ .prisons{grid-template-columns:1fr 1fr;gap:10px}.prisons li{padding:12px}.prisons h3{font-size:17px}.prisons p{font-size:14px}
+ .facts-dl{grid-template-columns:1fr;gap:2px}.facts-dl dd{margin-bottom:8px}
+}
+@media (max-width:380px){.prisons{grid-template-columns:1fr}}
+/* language selector: more room on mobile */
+@media (max-width:640px){
+ header.top{flex-wrap:nowrap;align-items:center}
+ header.top{display:grid;grid-template-columns:1fr auto;grid-template-areas:"brand lang" "menu menu"}
+ header.top .brand{grid-area:brand;min-width:0}
+ header.top .lang-drop{grid-area:lang}
+ header.top nav.menu{grid-area:menu;margin-left:-10px;width:auto}
+ .lang-drop summary{min-height:44px;min-width:64px;justify-content:center;font-size:14px}
+ .lang-drop nav{min-width:min(260px,calc(100vw - 32px))}
+}

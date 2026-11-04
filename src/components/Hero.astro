@@ -1,0 +1,16 @@
+---
+/** Home hero centred on Sentence. */
+import PlayBadge from "./PlayBadge.astro";
+import { t, loc, url, shot } from "../lib/site";
+const { g, lang } = Astro.props;
+const pick = (k: string) => g.carousel.find((c: any) => c.src.includes(`/${k}.webp`));
+const phones = [pick("loss"), pick("card"), pick("win")];
+const gp = url(`game:${g.slug}`, lang);
+---
+<section class="hero-s"><div class="hero-txt"><p class="kicker">{t(lang, "new_game")} · Pixel &amp; Quill Studio</p>
+<h1 class="game-title">{loc(g.name, lang)}</h1><p class="hero-sub-title">{loc(g.subtitle, lang)}</p>
+<p class="punch">{loc(g.hero_tagline, lang).split("\n").map((l: string) => <span>{l}</span>)}</p>
+<p class="hero-lead">{loc(g.hero_sub, lang)}</p>
+<div class="ctas"><a class="btn gold big" href={gp}>{t(lang, "cta_discover")}</a><a class="btn big" href={gp + "#trailer"}>▶ {t(lang, "cta_trailer")}</a></div>
+<div class="ctas"><PlayBadge g={g} lang={lang} /></div></div>
+<div class="phones" aria-hidden="true">{phones.map((c: any, i: number) => <img class={`ph ph${i}`} src={shot(c.src, lang)} alt="" width="540" height="960" loading="eager">)}</div></section>

@@ -1,0 +1,6 @@
+---
+/** One tile per prison. */
+import { t, loc } from "../lib/site";
+const { g, lang } = Astro.props;
+---
+<h2>{t(lang, "prisons_title")}</h2><ul class="prisons">{g.prisons.map((p: any) => <li class={p.free ? "free" : undefined}><h3>{p.name}</h3><span class="ptag">{t(lang, p.free ? "free" : "unlockable")}</span><p>{loc(p.text, lang)}</p></li>)}</ul>
