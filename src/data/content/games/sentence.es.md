@@ -9,7 +9,7 @@ Sentence está destinado a jugadores de **13 años o más**. Trata sobre la vida
 - **Permisos:** Sentence no solicita ningún permiso sensible (ni ubicación, ni contactos, ni cámara, ni micrófono).
 
 ## Compras en Sentence
-Sentence se juega gratis en la prisión de Valmont. Las demás prisiones, reclusos adicionales, comodines (objetos virtuales sin valor monetario, para deshacer una elección), una opción sin anuncios y un Pack Premium están disponibles como compras opcionales en la aplicación. Los precios se muestran en tu moneda en Google Play y en la tienda del juego. También se pueden conseguir algunos comodines viendo un anuncio con recompensa opcional.
+Sentence se juega gratis en la prisión de Valmont. Las demás prisiones, reclusos adicionales, comodines (objetos virtuales sin valor monetario, para deshacer una elección), una opción sin anuncios, dos packs (personajes + sin anuncios, todas las prisiones) y un Pack Premium están disponibles como compras opcionales en la aplicación. Los precios se muestran en tu moneda en Google Play y en la tienda del juego. También se pueden conseguir algunos comodines viendo un anuncio con recompensa opcional.
 
 Las compras no consumibles se pueden restaurar con «Restaurar compras».
 

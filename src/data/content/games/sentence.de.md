@@ -9,7 +9,7 @@ Sentence richtet sich an Spielerinnen und Spieler **ab 13 Jahren**. Es geht um d
 - **Berechtigungen:** Sentence fordert keine sensiblen Berechtigungen an (kein Standort, keine Kontakte, keine Kamera, kein Mikrofon).
 
 ## Käufe in Sentence
-Sentence ist im Gefängnis Valmont kostenlos spielbar. Die weiteren Gefängnisse, zusätzliche Häftlinge, Joker (virtuelle Gegenstände ohne Geldwert, um eine Entscheidung rückgängig zu machen), eine werbefreie Option und ein Premium-Paket sind als optionale In-App-Käufe erhältlich. Die Preise werden bei Google Play und im Spielshop in deiner Währung angezeigt. Einige Joker gibt es auch für eine optionale Werbung mit Belohnung.
+Sentence ist im Gefängnis Valmont kostenlos spielbar. Die weiteren Gefängnisse, zusätzliche Häftlinge, Joker (virtuelle Gegenstände ohne Geldwert, um eine Entscheidung rückgängig zu machen), eine werbefreie Option, zwei Pakete (Figuren + werbefrei, alle Gefängnisse) und ein Premium-Paket sind als optionale In-App-Käufe erhältlich. Die Preise werden bei Google Play und im Spielshop in deiner Währung angezeigt. Einige Joker gibt es auch für eine optionale Werbung mit Belohnung.
 
 Nicht verbrauchbare Käufe lassen sich mit „Käufe wiederherstellen“ wiederherstellen.
 

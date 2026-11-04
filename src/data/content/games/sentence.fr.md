@@ -9,7 +9,7 @@ Sentence est destiné aux joueurs de **13 ans et plus**. Il aborde la vie en pri
 - **Autorisations :** Sentence ne demande aucune autorisation sensible (ni localisation, ni contacts, ni appareil photo, ni micro).
 
 ## Achats dans Sentence
-Sentence se joue gratuitement à la maison d’arrêt de Valmont. Les autres prisons, des détenus supplémentaires, des jokers (objets virtuels sans valeur monétaire, pour annuler un choix), une option sans publicité et un Pack Premium sont proposés en achats intégrés facultatifs. Les prix s’affichent dans ta devise sur Google Play et dans la boutique du jeu. Quelques jokers peuvent aussi s’obtenir en regardant une publicité récompensée facultative.
+Sentence se joue gratuitement à la maison d’arrêt de Valmont. Les autres prisons, des détenus supplémentaires, des jokers (objets virtuels sans valeur monétaire, pour annuler un choix), une option sans publicité, deux packs (détenus + sans pubs, toutes les prisons) et un Pack Premium sont proposés en achats intégrés facultatifs. Les prix s’affichent dans ta devise sur Google Play et dans la boutique du jeu. Quelques jokers peuvent aussi s’obtenir en regardant une publicité récompensée facultative.
 
 Les achats non consommables peuvent être restaurés avec « Restaurer les achats ».
 
