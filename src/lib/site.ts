@@ -177,5 +177,5 @@ export function allPages(): PageEntry[] {
 
 /** Screenshot path for a language: French shots on /fr, English shots elsewhere. */
 export function shot(src: string, lang: string): string {
-  return "/" + src.replace("{lang2}", lang === "fr" ? "fr" : "en");
+  return "/" + src.replace("{lang2}", lang.toLowerCase()).replace("{tlang}", lang === "fr" ? "fr" : "en");
 }

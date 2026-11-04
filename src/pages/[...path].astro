@@ -8,7 +8,7 @@ import Carousel from "../components/Carousel.astro";
 import Prisons from "../components/Prisons.astro";
 import Trailer from "../components/Trailer.astro";
 import PlayBadge from "../components/PlayBadge.astro";
-import { SITE, GAMES, LANGS, t, loc, url, md, localizedFile, statusText, badgeText, allPages, type PageEntry } from "../lib/site";
+import { SITE, GAMES, LANGS, t, loc, shot, url, md, localizedFile, statusText, badgeText, allPages, type PageEntry } from "../lib/site";
 
 export function getStaticPaths() {
   return allPages().map((p) => {
@@ -46,9 +46,9 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <blockquote class="card founder"><p>{loc(s.founder, lang)}</p><footer>— {t(lang, "founder_sign")}</footer></blockquote>
 <p><a class="btn" href={url("contact", lang)}>{t(lang, "contact")}</a></p></Fragment>}
 {kind === "games" && <Fragment><h1>{t(lang, "games_title")}</h1><p class="lead">{t(lang, "games_intro")}</p><GamesGrid lang={lang} /></Fragment>}
-{kind === "press" && (() => { const sg = GAMES.find((x: any) => x.slug === "sentence"); const facts = Object.fromEntries(sg.facts.map((f: any) => [f.key, loc(f.value, lang)])); const shotsList = ["sentence-fr-01","sentence-fr-02","sentence-en-card","sentence-fr-03","sentence-fr-04","sentence-fr-05","sentence-fr-06","sentence-en-card-2","sentence-en-leaderboard"]; return <Fragment>
+{kind === "press" && (() => { const sg = GAMES.find((x: any) => x.slug === "sentence"); const facts = Object.fromEntries(sg.facts.map((f: any) => [f.key, loc(f.value, lang)])); const l2 = lang.toLowerCase(); const tl = lang === "fr" ? "fr" : "en"; const shotsList = ["title","card","verdict","card2","loss","woman","win","leaderboard"].map((k) => `/press/shots/${l2}/sentence-${l2}-${k}.jpg`); return <Fragment>
 <h1>{t(lang, "press_title")} — {loc(sg.name, lang)}</h1><p class="lead">{t(lang, "press_intro")}</p>
-<p><a class="btn gold" href="/press/sentence-press-kit.zip" download>{t(lang, "dl_kit")}</a></p>
+<p><a class="btn gold" href={`/press/sentence-press-kit-${l2}.zip`} download>{t(lang, "dl_kit")}</a></p>
 <div class="card"><h2 class="inline">{t(lang, "fact_sheet")}</h2><dl class="facts-dl">
 <dt>{t(lang, "fact_game")}</dt><dd>{loc(sg.name, lang)} — {loc(sg.subtitle, lang)}</dd>
 <dt>{t(lang, "fact_studio")}</dt><dd>{t(lang, "studio_value")}</dd>
@@ -61,8 +61,8 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <dt>{t(lang, "fact_contact")}</dt><dd><a href={`mailto:${s.email}`}>{s.email}</a></dd></dl></div>
 <h2>{t(lang, "short_desc")}</h2><p>{loc(sg.pitch, lang)}</p>
 <h2>{t(lang, "long_desc")}</h2>{loc(sg.description, lang).map((x: string) => <p>{x}</p>)}
-<h2>{t(lang, "dl_trailer")}</h2><Trailer g={sg} lang={lang} heading={false} /><p class="links"><a href="/press/sentence-trailer-16x9.mp4" download>16:9 (1920×1080)</a><a href={`/${sg.trailer.src}`} download>9:16 (720×1280)</a></p>
-<h2>{t(lang, "dl_shots")}</h2><div class="gallery shots">{shotsList.map((n) => <figure><a href={`/press/shots/${n}.jpg`} download><img src={`/press/shots/${n}.jpg`} alt="" width="1080" height="1920" loading="lazy"></a><figcaption><a href={`/press/shots/${n}.jpg`} download>{t(lang, "full_size")}</a></figcaption></figure>)}</div>
+<h2>{t(lang, "dl_trailer")}</h2><Trailer g={sg} lang={lang} heading={false} /><p class="links"><a href={`/press/sentence-trailer-${tl}-16x9.mp4`} download>16:9 (1920×1080)</a><a href={shot(sg.trailer.src, lang)} download>9:16 (720×1280)</a></p>
+<h2>{t(lang, "dl_shots")}</h2><div class="gallery shots">{shotsList.map((n) => <figure><a href={n} download><img src={n} alt="" width="1080" height="1920" loading="lazy"></a><figcaption><a href={n} download>{t(lang, "full_size")}</a></figcaption></figure>)}</div>
 <h2>{t(lang, "dl_logos")}</h2><div class="logos"><a class="card logo" href="/press/sentence-icon-512.png" download><img src="/press/sentence-icon-512.png" alt="" width="96" height="96"><span>{t(lang, "logo_icon")}</span></a><a class="card logo" href="/assets/brand/logo-full.svg" download="pixel-and-quill-studio-logo.svg"><img src="/assets/brand/logo-full.svg" alt="" width="160" height="96"><span>{t(lang, "logo_studio")}</span></a><a class="card logo" href="/assets/brand/logo-icon.svg" download="pixel-and-quill-studio-emblem.svg"><img src="/assets/brand/logo-icon.svg" alt="" width="96" height="96"><span>{t(lang, "logo_studio_icon")}</span></a></div>
 <h2>{t(lang, "contact")}</h2><p>{t(lang, "press_mail_note")} <a class="mail" href={`mailto:${s.email}`}>{s.email}</a></p></Fragment>; })()}
 {kind === "contact" && <Fragment><h1>{t(lang, "contact")}</h1><p class="lead">{t(lang, "contact_intro")}</p>

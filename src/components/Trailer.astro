@@ -1,5 +1,5 @@
 ---
-import { t } from "../lib/site";
+import { t, shot } from "../lib/site";
 const { g, lang, heading = true } = Astro.props;
 ---
-<section id="trailer" class="trailer">{heading && <h2>{t(lang, "trailer_title")}</h2>}<video controls playsinline preload="none" poster={`/${g.trailer.poster}`} width="360" height="640"><source src={`/${g.trailer.src}`} type="video/mp4"></video><p class="muted">{t(lang, "trailer_note")}</p></section>
+<section id="trailer" class="trailer">{heading && <h2>{t(lang, "trailer_title")}</h2>}<video controls playsinline preload="none" poster={shot(g.trailer.poster, lang)} width="360" height="640"><source src={shot(g.trailer.src, lang)} type="video/mp4"></video></section>

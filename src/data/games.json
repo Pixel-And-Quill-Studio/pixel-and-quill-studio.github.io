@@ -502,8 +502,8 @@
         }
       ],
       "trailer": {
-        "src": "assets/games/sentence/trailer.mp4",
-        "poster": "assets/games/sentence/trailer-poster.jpg"
+        "src": "assets/games/sentence/trailer-{tlang}.mp4",
+        "poster": "assets/games/sentence/trailer-poster-{tlang}.jpg"
       }
     },
     {
