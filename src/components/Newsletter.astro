@@ -1,0 +1,21 @@
+---
+/** Newsletter signup (Brevo hosted double opt-in form). Hidden while src/data/newsletter.json has no form_action. */
+import NL from "../data/newsletter.json";
+import { t, url } from "../lib/site";
+interface Props { lang: string; compact?: boolean }
+const { lang, compact = false } = Astro.props;
+const action = (import.meta.env.PUBLIC_NEWSLETTER_PREVIEW_URL || NL.form_action || "").trim();
+const id = compact ? "nl-foot" : "nl-main";
+---
+{action && <section class={compact ? "newsletter compact" : "newsletter card"} aria-labelledby={`${id}-t`}>
+<p class="nl-title" id={`${id}-t`}>✉ {t(lang, "nl_title")}</p>
+{!compact && <p class="muted">{t(lang, "nl_text")}</p>}
+<form method="POST" action={action} accept-charset="utf-8">
+<div class="nl-row"><label class="sr" for={`${id}-e`}>{t(lang, "nl_email")}</label>
+<input id={`${id}-e`} type="email" name="EMAIL" required autocomplete="email" placeholder={t(lang, "nl_email")}>
+<button class="btn gold" type="submit">{t(lang, "nl_submit")}</button></div>
+<label class="nl-consent"><input type="checkbox" name="OPT_IN" value="1" required> <span>{t(lang, "nl_consent")} <a href={url("privacy", lang)}>{t(lang, "privacy")}</a>.</span></label>
+<input type="hidden" name={NL.language_field} value={lang}>
+<input type="hidden" name="locale" value={lang.slice(0, 2).toLowerCase()}>
+<input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" class="nl-hp">
+</form></section>}

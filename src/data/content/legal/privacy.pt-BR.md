@@ -17,7 +17,10 @@ Nem todo jogo usa necessariamente todos os serviços descritos aqui. **Os servi�
 - A Pixel & Quill Studio não vende os seus dados.
 
 ## 3. Este site
-Este site não usa cookies, não usa ferramentas de análise e não tem formulários. O idioma que você escolhe fica salvo apenas no seu navegador (armazenamento local) e nunca é enviado ao editor. O provedor de hospedagem GitHub pode registrar dados técnicos de conexão (incluindo endereços IP) por motivos de segurança, conforme a sua própria [declaração de privacidade](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Este site não usa cookies, não usa ferramentas de análise e não tem formulários, exceto o formulário opcional de inscrição na newsletter (veja abaixo). O idioma que você escolhe fica salvo apenas no seu navegador (armazenamento local) e nunca é enviado ao editor. O provedor de hospedagem GitHub pode registrar dados técnicos de conexão (incluindo endereços IP) por motivos de segurança, conforme a sua própria [declaração de privacidade](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+### Newsletter (opcional)
+Se você assinar a newsletter, seu endereço de e-mail, seu idioma e a data do seu consentimento são tratados para enviar novidades sobre os jogos do estúdio. **Base legal:** seu consentimento (art. 6.º, n.º 1, alínea a, do RGPD), confirmado por um e-mail de dupla confirmação. **Operador:** Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, França), que hospeda os dados na União Europeia. Todo e-mail traz um **link para cancelar a inscrição**, e você pode retirar seu consentimento a qualquer momento, inclusive escrevendo para o endereço de contato acima. **Conservação:** até você cancelar a inscrição; endereços que não confirmam a inscrição são excluídos após 30 dias, e os dados são excluídos no máximo 3 anos após a última interação com a newsletter.
 
 ## 4. Dados tratados nos jogos
 ### 4.1 Salvamento local (no seu aparelho)

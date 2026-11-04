@@ -17,7 +17,10 @@ Nicht jedes Spiel nutzt zwangsläufig alle hier beschriebenen Dienste. **Die von
 - Pixel & Quill Studio verkauft deine Daten nicht.
 
 ## 3. Diese Website
-Diese Website setzt keine Cookies, nutzt keine Analysetools und enthält keine Formulare. Deine Sprachwahl wird nur in deinem Browser (Local Storage) gespeichert und nie an den Herausgeber übermittelt. Der Hosting-Anbieter GitHub kann aus Sicherheitsgründen technische Verbindungsdaten (einschließlich IP-Adressen) protokollieren, gemäß seiner eigenen [Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Diese Website setzt keine Cookies, nutzt keine Analysetools und enthält außer der freiwilligen Newsletter-Anmeldung (siehe unten) keine Formulare. Deine Sprachwahl wird nur in deinem Browser (Local Storage) gespeichert und nie an den Herausgeber übermittelt. Der Hosting-Anbieter GitHub kann aus Sicherheitsgründen technische Verbindungsdaten (einschließlich IP-Adressen) protokollieren, gemäß seiner eigenen [Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+### Newsletter (freiwillig)
+Wenn du den Newsletter abonnierst, werden deine E-Mail-Adresse, deine Sprache und das Datum deiner Einwilligung verarbeitet, um dir Neuigkeiten zu den Spielen des Studios zu senden. **Rechtsgrundlage:** deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), bestätigt per Double-Opt-in-E-Mail. **Auftragsverarbeiter:** Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, Frankreich), das die Daten in der Europäischen Union speichert. Jede E-Mail enthält einen **Abmeldelink**, und du kannst deine Einwilligung jederzeit widerrufen, auch per E-Mail an die oben genannte Kontaktadresse. **Speicherdauer:** bis zu deiner Abmeldung; nicht bestätigte Adressen werden nach 30 Tagen gelöscht, und die Daten werden spätestens 3 Jahre nach der letzten Interaktion mit dem Newsletter gelöscht.
 
 ## 4. In den Spielen verarbeitete Daten
 ### 4.1 Lokaler Spielstand (auf deinem Gerät)

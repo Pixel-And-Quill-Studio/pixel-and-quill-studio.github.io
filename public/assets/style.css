@@ -197,3 +197,9 @@ h2.inline{margin:0 0 .8em;border:0;padding:0}
  header.top .lang a{margin-left:0;padding:4px 8px;font-size:12px;letter-spacing:1px}
 }
 @media (min-width:641px) and (max-width:900px){header.top .lang{display:none}header.top .lang-drop{display:block}}
+.newsletter{margin:28px 0}.newsletter.compact{border-top:1px solid var(--line);padding-top:16px;margin:0 0 14px}
+.nl-title{font-family:"Allerta Stencil",sans-serif;color:var(--gold);letter-spacing:1.5px;text-transform:uppercase;margin:0 0 .4em}
+.nl-row{display:flex;gap:10px;flex-wrap:wrap}.nl-row input{flex:1 1 220px;min-width:0;background:#0b0b0d;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:11px 14px;font:inherit}
+.nl-row input:focus{outline:2px solid var(--gold);border-color:var(--gold)}.nl-row .btn{flex:0 0 auto;cursor:pointer;border:0;font:inherit}
+.nl-consent{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--muted);margin-top:10px}.nl-consent input{accent-color:var(--gold);margin-top:3px}
+.sr,.nl-hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}

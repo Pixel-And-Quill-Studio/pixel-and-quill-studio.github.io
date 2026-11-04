@@ -17,7 +17,10 @@ Chaque jeu n’utilise pas forcément tous les services décrits ici. **Les serv
 - Pixel & Quill Studio ne vend pas vos données.
 
 ## 3. Ce site
-Ce site ne dépose aucun cookie, n’utilise aucun outil de mesure d’audience et ne contient aucun formulaire. Votre choix de langue est enregistré uniquement dans votre navigateur (stockage local) et n’est jamais transmis à l’éditeur. L’hébergeur GitHub peut enregistrer des données techniques de connexion (adresse IP notamment) à des fins de sécurité, selon sa propre [déclaration de confidentialité](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).
+Ce site ne dépose aucun cookie, n’utilise aucun outil de mesure d’audience et ne contient aucun formulaire, à part l’inscription facultative à la newsletter (voir ci-dessous). Votre choix de langue est enregistré uniquement dans votre navigateur (stockage local) et n’est jamais transmis à l’éditeur. L’hébergeur GitHub peut enregistrer des données techniques de connexion (adresse IP notamment) à des fins de sécurité, selon sa propre [déclaration de confidentialité](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).
+
+### Newsletter (facultative)
+Si vous vous inscrivez à la newsletter, votre adresse e-mail, votre langue et la date de votre consentement sont traitées pour vous envoyer des nouvelles des jeux du studio. **Base légale :** votre consentement (art. 6.1.a du RGPD), confirmé par un e-mail de double validation. **Sous-traitant :** Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, France), qui héberge les données dans l’Union européenne. Chaque e-mail contient un **lien de désinscription**, et vous pouvez retirer votre consentement à tout moment, y compris en écrivant à l’adresse de contact ci-dessus. **Conservation :** jusqu’à votre désinscription ; les adresses qui ne confirment pas l’inscription sont supprimées après 30 jours, et les données sont supprimées au plus tard 3 ans après le dernier contact avec la newsletter.
 
 ## 4. Données traitées dans les jeux
 ### 4.1 Sauvegarde locale (sur votre appareil)

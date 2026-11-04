@@ -8,6 +8,7 @@ import Carousel from "../components/Carousel.astro";
 import Prisons from "../components/Prisons.astro";
 import Trailer from "../components/Trailer.astro";
 import PlayBadge from "../components/PlayBadge.astro";
+import Newsletter from "../components/Newsletter.astro";
 import { SITE, GAMES, LANGS, t, loc, shot, url, md, localizedFile, statusText, badgeText, allPages, type PageEntry } from "../lib/site";
 
 export function getStaticPaths() {
@@ -44,7 +45,8 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <p class="more"><a href={url("games", lang)}>{t(lang, "all_games")} →</a></p>
 <h2>{t(lang, "studio")}</h2><p>{loc(s.about, lang)}</p>
 <blockquote class="card founder"><p>{loc(s.founder, lang)}</p><footer>— {t(lang, "founder_sign")}</footer></blockquote>
-<p><a class="btn" href={url("contact", lang)}>{t(lang, "contact")}</a></p></Fragment>}
+<p><a class="btn" href={url("contact", lang)}>{t(lang, "contact")}</a></p>
+<Newsletter lang={lang} /></Fragment>}
 {kind === "games" && <Fragment><h1>{t(lang, "games_title")}</h1><p class="lead">{t(lang, "games_intro")}</p><GamesGrid lang={lang} /></Fragment>}
 {kind === "press" && (() => { const sg = GAMES.find((x: any) => x.slug === "sentence"); const facts = Object.fromEntries(sg.facts.map((f: any) => [f.key, loc(f.value, lang)])); const l2 = lang.toLowerCase(); const tl = lang.toLowerCase(); const shotsList = ["title","card","verdict","card2","loss","woman","win","leaderboard"].map((k) => `/press/shots/${l2}/sentence-${l2}-${k}.jpg`); return <Fragment>
 <h1>{t(lang, "press_title")} — {loc(sg.name, lang)}</h1><p class="lead">{t(lang, "press_intro")}</p>
@@ -81,6 +83,7 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <div class="ctas"><PlayBadge g={g} lang={lang} /><a class="btn" href="#trailer">▶ {t(lang, "cta_trailer")}</a></div>
 <Prisons g={g} lang={lang} />
 <Trailer g={g} lang={lang} />
+<Newsletter lang={lang} />
 <h2>{t(lang, "features")}</h2><ul class="feat">{loc(g.features, lang).map((x: string) => <li>{x}</li>)}</ul>
 <details class="more-info card"><summary>{t(lang, "more_info")}</summary>{g.facts && <Fragment><h3>{t(lang, "key_facts")}</h3><dl class="facts-dl">{g.facts.map((f: any) => <Fragment><dt>{t(lang, "fact_" + f.key)}</dt><dd>{loc(f.value, lang)}</dd></Fragment>)}<dt>{t(lang, "fact_status")}</dt><dd>{statusText(g, lang)}</dd></dl></Fragment>}<Fragment set:html={details} /></details>
 <p class="muted"><a href={url("press", lang)}>{t(lang, "press_title")} →</a></p>

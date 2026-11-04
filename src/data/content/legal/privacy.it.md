@@ -17,7 +17,10 @@ Non tutti i giochi utilizzano necessariamente tutti i servizi descritti qui. **I
 - Pixel & Quill Studio non vende i tuoi dati.
 
 ## 3. Questo sito
-Questo sito non usa cookie, non usa strumenti di analisi e non contiene moduli. La lingua che scegli è memorizzata solo nel tuo browser (archiviazione locale) e non viene mai inviata all'editore. Il fornitore di hosting GitHub può registrare dati tecnici di connessione (compresi gli indirizzi IP) per motivi di sicurezza, secondo la propria [informativa sulla privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Questo sito non usa cookie, non usa strumenti di analisi e non contiene moduli, a parte il modulo facoltativo di iscrizione alla newsletter (vedi sotto). La lingua che scegli è memorizzata solo nel tuo browser (archiviazione locale) e non viene mai inviata all'editore. Il fornitore di hosting GitHub può registrare dati tecnici di connessione (compresi gli indirizzi IP) per motivi di sicurezza, secondo la propria [informativa sulla privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+### Newsletter (facoltativa)
+Se ti iscrivi alla newsletter, il tuo indirizzo email, la tua lingua e la data del tuo consenso vengono trattati per inviarti notizie sui giochi dello studio. **Base giuridica:** il tuo consenso (art. 6, par. 1, lett. a del GDPR), confermato da un'email di doppia conferma. **Responsabile del trattamento:** Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Parigi, Francia), che ospita i dati nell'Unione europea. Ogni email contiene un **link per annullare l'iscrizione**, e puoi revocare il consenso in qualsiasi momento, anche scrivendo all'indirizzo di contatto indicato sopra. **Conservazione:** fino all'annullamento dell'iscrizione; gli indirizzi che non confermano l'iscrizione vengono eliminati dopo 30 giorni, e i dati vengono eliminati al più tardi 3 anni dopo l'ultima interazione con la newsletter.
 
 ## 4. Dati trattati nei giochi
 ### 4.1 Salvataggio locale (sul tuo dispositivo)

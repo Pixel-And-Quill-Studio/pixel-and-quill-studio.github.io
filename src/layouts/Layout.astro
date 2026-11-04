@@ -1,5 +1,6 @@
 ---
 /** Page shell: head (SEO, language alternates, detection script), header, footer. */
+import Newsletter from "../components/Newsletter.astro";
 import { SITE, LANGS, PUBLISHED, DEFAULT, ORIGIN, BASE, FB_DOMAIN_VERIFICATION, t, url, langScript, SWITCH_SCRIPT } from "../lib/site";
 
 interface Props {
@@ -34,4 +35,4 @@ const s = SITE;
 <nav class="menu" aria-label="Menu">{menu.map(([k, lbl]) => <a class={k === nav ? "on" : undefined} href={url(k, lang)}>{lbl}</a>)}</nav>
 <nav class="lang" aria-label={t(lang, "lang_nav")}>{PUBLISHED.map((c) => <a class={c === lang ? "on" : ""} hreflang={c} lang={c} data-lang={c.toLowerCase()} href={url(pageKey, c)} title={LANGS[c].name}>{LANGS[c].label}</a>)}</nav>
 <details class="lang-drop"><summary aria-label={`${t(lang, "lang_nav")}: ${LANGS[lang].name}`}>{LANGS[lang].label}</summary><nav aria-label={t(lang, "lang_nav")}>{PUBLISHED.map((c) => <a class={c === lang ? "on" : ""} hreflang={c} lang={c} data-lang={c.toLowerCase()} href={url(pageKey, c)}>{LANGS[c].label} · {LANGS[c].name}</a>)}</nav></details></header>
-<main id="main"><slot /></main><footer><p>© {s.year} {s.name} — {s.owner}, EI — SIREN {s.siren} — {s.address}</p><p class="foot-links"><a class="foot-mail" href={`mailto:${s.email}`}>{s.email}</a><a href={url("legal", lang)}>{t(lang, "legal")}</a><a href={url("privacy", lang)}>{t(lang, "privacy")}</a><a href={url("terms", lang)}>{t(lang, "terms")}</a><a href={url("press", lang)}>{t(lang, "press")}</a></p></footer></div><script is:inline set:html={SWITCH_SCRIPT}></script></body></html>
+<main id="main"><slot /></main><footer>{!home && pageKey !== "game:sentence" && pageKey !== "privacy" && <Newsletter lang={lang} compact />}<p>© {s.year} {s.name} — {s.owner}, EI — SIREN {s.siren} — {s.address}</p><p class="foot-links"><a class="foot-mail" href={`mailto:${s.email}`}>{s.email}</a><a href={url("legal", lang)}>{t(lang, "legal")}</a><a href={url("privacy", lang)}>{t(lang, "privacy")}</a><a href={url("terms", lang)}>{t(lang, "terms")}</a><a href={url("press", lang)}>{t(lang, "press")}</a></p></footer></div><script is:inline set:html={SWITCH_SCRIPT}></script></body></html>

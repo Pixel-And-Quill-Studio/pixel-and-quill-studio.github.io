@@ -17,7 +17,10 @@ No todos los juegos utilizan necesariamente todos los servicios descritos aquí.
 - Pixel & Quill Studio no vende tus datos.
 
 ## 3. Este sitio web
-Este sitio web no instala cookies, no utiliza herramientas de analítica y no contiene formularios. El idioma que eliges se guarda únicamente en tu navegador (almacenamiento local) y nunca se envía al editor. El proveedor de alojamiento GitHub puede registrar datos técnicos de conexión (incluidas las direcciones IP) por motivos de seguridad, conforme a su propia [declaración de privacidad](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Este sitio web no instala cookies, no utiliza herramientas de analítica y no contiene formularios, salvo el formulario opcional de suscripción a la newsletter (ver más abajo). El idioma que eliges se guarda únicamente en tu navegador (almacenamiento local) y nunca se envía al editor. El proveedor de alojamiento GitHub puede registrar datos técnicos de conexión (incluidas las direcciones IP) por motivos de seguridad, conforme a su propia [declaración de privacidad](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+### Newsletter (opcional)
+Si te suscribes a la newsletter, se tratan tu dirección de correo electrónico, tu idioma y la fecha de tu consentimiento para enviarte noticias sobre los juegos del estudio. **Base jurídica:** tu consentimiento (art. 6.1.a del RGPD), confirmado mediante un correo de doble confirmación. **Encargado del tratamiento:** Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 París, Francia), que aloja los datos en la Unión Europea. Cada correo incluye un **enlace para darse de baja**, y puedes retirar tu consentimiento en cualquier momento, también escribiendo a la dirección de contacto indicada arriba. **Conservación:** hasta que te des de baja; las direcciones que no confirman la suscripción se eliminan a los 30 días, y los datos se eliminan como máximo 3 años después de la última interacción con la newsletter.
 
 ## 4. Datos tratados en los juegos
 ### 4.1 Guardado local (en tu dispositivo)

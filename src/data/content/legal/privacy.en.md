@@ -17,7 +17,10 @@ Each game does not necessarily use every service described here. **The services 
 - Pixel & Quill Studio does not sell your data.
 
 ## 3. This website
-This website sets no cookies, uses no analytics and contains no forms. Your language choice is stored only in your browser (local storage) and is never sent to the publisher. The hosting provider GitHub may log technical connection data (including IP addresses) for security purposes, under its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+This website sets no cookies, uses no analytics and contains no forms other than the optional newsletter signup form (see below). Your language choice is stored only in your browser (local storage) and is never sent to the publisher. The hosting provider GitHub may log technical connection data (including IP addresses) for security purposes, under its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+### Newsletter (optional)
+If you subscribe to the newsletter, your email address, your language and the date of your consent are processed to send you news about the studio's games. **Legal basis:** your consent (GDPR art. 6(1)(a)), confirmed by a double opt-in email. **Processor:** Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, France), which hosts the data in the European Union. Every email contains an **unsubscribe link**, and you can withdraw your consent at any time, also by writing to the contact address above. **Retention:** until you unsubscribe; addresses that never confirm the subscription are deleted after 30 days, and data is deleted at the latest 3 years after the last interaction with the newsletter.
 
 ## 4. Data processed in the games
 ### 4.1 Local save (on your device)

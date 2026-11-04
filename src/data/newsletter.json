@@ -1,0 +1,5 @@
+{
+  "_comment": "Brevo double opt-in form action URL (https://....sibforms.com/serve/...). Empty = the newsletter block is hidden everywhere.",
+  "form_action": "",
+  "language_field": "LANGUAGE"
+}

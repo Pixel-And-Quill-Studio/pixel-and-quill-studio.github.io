@@ -88,5 +88,10 @@
   "logo_studio_icon": "Emblema dello studio (SVG)",
   "full_size": "Dimensione originale",
   "press_mail_note": "Per interviste, copie per la recensione o altro materiale, scrivi a:",
-  "legal_binding_note": "Traduzione fornita a titolo informativo. Solo la versione francese di questo documento ha valore giuridico:"
+  "legal_binding_note": "Traduzione fornita a titolo informativo. Solo la versione francese di questo documento ha valore giuridico:",
+  "nl_title": "Newsletter",
+  "nl_text": "Ricevi notizie sui giochi dello studio: uscite, aggiornamenti e retroscena. Poche email all'anno, disiscrizione con un clic.",
+  "nl_email": "Il tuo indirizzo email",
+  "nl_submit": "Iscriviti",
+  "nl_consent": "Accetto di ricevere la newsletter di Pixel & Quill Studio via email. Vedi la"
 }

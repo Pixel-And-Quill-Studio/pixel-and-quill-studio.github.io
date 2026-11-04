@@ -88,5 +88,10 @@
   "logo_studio": "Studio-Logo (SVG)",
   "logo_studio_icon": "Studio-Emblem (SVG)",
   "full_size": "Originalgröße",
-  "press_mail_note": "Für Interviews, Testversionen oder weiteres Material schreib an:"
+  "press_mail_note": "Für Interviews, Testversionen oder weiteres Material schreib an:",
+  "nl_title": "Newsletter",
+  "nl_text": "Erhalte Neuigkeiten zu den Spielen des Studios: Veröffentlichungen, Updates und Einblicke hinter die Kulissen. Höchstens ein paar E-Mails im Jahr, Abmeldung mit einem Klick.",
+  "nl_email": "Deine E-Mail-Adresse",
+  "nl_submit": "Abonnieren",
+  "nl_consent": "Ich bin einverstanden, den Newsletter von Pixel & Quill Studio per E-Mail zu erhalten. Siehe"
 }
