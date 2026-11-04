@@ -14,7 +14,7 @@ export const GET: APIRoute = ({ props }) => {
   const full = ORIGIN + target;
   const text = escapeHtml(t(lang, "redirect_text"));
   const body = `<!doctype html>
-<html lang="${lang}"><head><meta charset="utf-8"><meta name="robots" content="noindex">
+<html lang="${lang}"><head><meta charset="utf-8"><meta name="google-adsense-account" content="ca-pub-5227293216340878"><meta name="robots" content="noindex">
 <title>${text}</title>
 <link rel="canonical" href="${full}"><meta http-equiv="refresh" content="0; url=${target}">
 <script>location.replace(${JSON.stringify(target)}+location.hash)</script></head>
