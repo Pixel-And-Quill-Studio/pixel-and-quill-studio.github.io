@@ -3,7 +3,7 @@ import json,shutil
 from PIL import Image,ImageDraw,ImageFont,ImageFilter
 G=[x for x in json.load(open('../src/data/games.json'))['games'] if x['slug']=='sentence'][0]
 SUB=G['subtitle']; TAG={k:v.split('\n') for k,v in G['hero_tagline'].items()}
-for L in ['en','fr','es','pt-BR','de']:
+for L in ['en','fr','es','pt-BR','de','it']:
   W,H=1200,630; im=Image.new('RGB',(W,H),(11,11,13)); d=ImageDraw.Draw(im)
   for r in range(700,0,-10):
     c=int(42*(1-r/700)); d.ellipse((150-r,-200-r,150+r,-200+r),fill=(c+11,int(c*.86)+11,int(c*.5)+13))
