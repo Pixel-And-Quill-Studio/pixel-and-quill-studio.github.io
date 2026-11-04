@@ -6,12 +6,12 @@ interface Props { lang: string; compact?: boolean }
 const { lang, compact = false } = Astro.props;
 const action = (import.meta.env.PUBLIC_NEWSLETTER_PREVIEW_URL || NL.form_action || "").trim();
 const MSG: Record<string, { ok: string; err: string }> = {
-  fr: { ok: "Merci ! Vérifie ta boîte mail pour confirmer ton inscription.", err: "Oups, l'inscription n'a pas fonctionné. Réessaie dans un instant." },
-  en: { ok: "Thanks! Check your inbox to confirm your subscription.", err: "Oops, the signup didn't go through. Please try again in a moment." },
-  es: { ok: "¡Gracias! Revisa tu correo para confirmar tu suscripción.", err: "Vaya, la suscripción no ha funcionado. Inténtalo de nuevo en un momento." },
-  pt: { ok: "Obrigado! Verifique seu e-mail para confirmar sua inscrição.", err: "Ops, a inscrição não funcionou. Tente novamente em instantes." },
-  de: { ok: "Danke! Sieh in deinem Postfach nach, um deine Anmeldung zu bestätigen.", err: "Hoppla, die Anmeldung hat nicht geklappt. Versuch es gleich noch einmal." },
-  it: { ok: "Grazie! Controlla la tua casella di posta per confermare l'iscrizione.", err: "Ops, l'iscrizione non è andata a buon fine. Riprova tra un attimo." },
+  fr: { ok: "Merci ! Vérifie ta boîte mail (et tes spams) pour confirmer ton inscription.", err: "Oups, l'inscription n'a pas fonctionné. Réessaie dans un instant." },
+  en: { ok: "Thanks! Check your inbox (and your spam folder) to confirm your subscription.", err: "Oops, the signup didn't go through. Please try again in a moment." },
+  es: { ok: "¡Gracias! Revisa tu correo (y la carpeta de spam) para confirmar tu suscripción.", err: "Vaya, la suscripción no ha funcionado. Inténtalo de nuevo en un momento." },
+  pt: { ok: "Obrigado! Confira seu e-mail (e a pasta de spam) para confirmar sua inscrição.", err: "Ops, a inscrição não funcionou. Tente novamente em instantes." },
+  de: { ok: "Danke! Sieh in deinem Postfach (und im Spam-Ordner) nach, um deine Anmeldung zu bestätigen.", err: "Hoppla, die Anmeldung hat nicht geklappt. Versuch es gleich noch einmal." },
+  it: { ok: "Grazie! Controlla la tua casella di posta (e lo spam) per confermare l'iscrizione.", err: "Ops, l'iscrizione non è andata a buon fine. Riprova tra un attimo." },
 };
 const m = MSG[lang.slice(0, 2).toLowerCase()] || MSG.en;
 const id = compact ? "nl-foot" : "nl-main";
