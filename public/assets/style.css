@@ -75,17 +75,18 @@ a.mail{font-size:20px}
 @media (max-width:640px){.card.game{gap:14px;padding:18px}.card.game>img,.next-ico{width:64px;height:64px;border-radius:14px}.card.game h3{font-size:22px}}
 blockquote.founder{margin:18px 0;font-style:italic}blockquote.founder p{margin:0 0 .6em}
 blockquote.founder footer{margin:0;padding:0;border:0;font-style:normal;color:var(--gold2);font-size:14px}
-/* language dropdown (mobile) */
-.lang-drop{display:none;position:relative}
-.lang-drop summary{list-style:none;cursor:pointer;font-family:"Allerta Stencil",sans-serif;font-size:13px;letter-spacing:2px;color:#16130c;background:var(--gold);border:1px solid var(--gold);padding:5px 12px;border-radius:999px}
+/* language dropdown */
+.lang-drop{position:relative}
+.lang-drop summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-family:"Allerta Stencil",sans-serif;font-size:13px;letter-spacing:2px;color:var(--gold);border:1px solid var(--gold2);padding:6px 12px;border-radius:999px;user-select:none}
+.lang-drop summary:hover,.lang-drop[open] summary{background:var(--gold);color:#16130c;border-color:var(--gold)}
+.lang-drop summary:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
 .lang-drop summary::-webkit-details-marker{display:none}
-.lang-drop summary::after{content:" ▾"}
-.lang-drop[open] summary::after{content:" ▴"}
-.lang-drop nav{position:absolute;right:0;top:calc(100% + 6px);z-index:20;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px;min-width:190px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
-.lang-drop nav a{display:block;padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--text);font-size:15px}
-.lang-drop nav a:hover{background:#1e1e24;color:#fff}
-.lang-drop nav a.on{color:var(--gold)}
-@media (max-width:640px){.lang{display:none}.lang-drop{display:block}}
+.lang-drop .chev{transition:transform .15s}.lang-drop[open] .chev{transform:rotate(180deg)}
+.lang-drop nav{position:absolute;right:0;top:calc(100% + 8px);z-index:20;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px;min-width:200px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.lang-drop nav a{display:block;padding:9px 12px;border-radius:8px;text-decoration:none;color:var(--text);font-size:15px;white-space:nowrap}
+.lang-drop nav a:hover,.lang-drop nav a:focus-visible{background:#1e1e24;color:#fff;outline:none}
+.lang-drop nav a.on{color:var(--gold);background:rgba(224,194,122,.1)}
+.lang-drop nav a.on::after{content:" ✓";float:right;margin-left:12px}
 /* game page extras */
 .note{border-left:3px solid var(--gold2);background:var(--panel);padding:10px 14px;border-radius:0 10px 10px 0;color:var(--muted);font-size:15px}
 blockquote.quote{margin:1.4em 0;padding:4px 0 4px 18px;border-left:3px solid var(--gold2)}
@@ -121,9 +122,6 @@ footer p{margin:0 0 .5em}
  nav.menu a{padding:10px 10px;display:inline-block}
  a.mail{font-size:clamp(16px,4.6vw,20px)}
 }
-.lang-drop summary::after{margin-left:.4em}
-.lang-drop summary::after{content:"▾"}.lang-drop[open] summary::after{content:"▴"}
-.lang-drop summary{gap:.4em}.lang-drop summary::after{margin:0}
 .lang-drop nav{min-width:230px}.lang-drop nav a{white-space:nowrap}
 /* ---- v2: Sentence hero, carousel, prisons, trailer, press ---- */
 .hero-s{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;margin:0 0 10px}
@@ -196,7 +194,6 @@ h2.inline{margin:0 0 .8em;border:0;padding:0}
  header.top .lang{display:flex;gap:4px;flex:none}
  header.top .lang a{margin-left:0;padding:4px 8px;font-size:12px;letter-spacing:1px}
 }
-@media (min-width:641px) and (max-width:900px){header.top .lang{display:none}header.top .lang-drop{display:block}}
 .newsletter{margin:28px 0}.newsletter.compact{border-top:1px solid var(--line);padding-top:16px;margin:0 0 14px}
 .nl-title{font-family:"Allerta Stencil",sans-serif;color:var(--gold);letter-spacing:1.5px;text-transform:uppercase;margin:0 0 .4em}
 .nl-row{display:flex;gap:10px;flex-wrap:wrap}.nl-row input{flex:1 1 220px;min-width:0;background:#0b0b0d;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:11px 14px;font:inherit}

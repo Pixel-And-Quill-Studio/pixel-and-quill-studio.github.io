@@ -153,7 +153,11 @@ export function langScript(page: string, lang: string): string {
 
 export const SWITCH_SCRIPT =
   "document.querySelectorAll('a[data-lang]').forEach(function(a){" +
-  "a.addEventListener('click',function(){try{localStorage.setItem('pq-lang',a.dataset.lang)}catch(e){}})});";
+  "a.addEventListener('click',function(){try{localStorage.setItem('pq-lang',a.dataset.lang)}catch(e){}})});" +
+  "document.querySelectorAll('details.lang-drop').forEach(function(d){var sm=d.querySelector('summary');" +
+  "d.addEventListener('toggle',function(){sm.setAttribute('aria-expanded',d.open?'true':'false')});" +
+  "d.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;sm.focus()}});" +
+  "document.addEventListener('click',function(e){if(d.open&&!d.contains(e.target))d.open=false})});";
 
 // ---------- Page list (also drives the sitemap) ----------
 export type PageEntry = { key: string; lang: string; kind: string; game?: any; doc?: string };
