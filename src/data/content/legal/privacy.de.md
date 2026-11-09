@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE-Code:** 6201Z (Programmierungstätigkeiten)  
 **Anschrift:** 138 avenue Victor Hugo, 75016 Paris, Frankreich  
 **Kontakt:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Stand:** 28. Oktober 2026
+**Stand:** 9. November 2026
 
 ## 1. Herausgeber und Geltungsbereich
 Pixel & Quill Studio („der Herausgeber“) ist der Handelsname von Styvens Wentz, Einzelunternehmer (EI). Diese Erklärung gilt für diese Website und für **alle heutigen und künftigen Spiele von Pixel & Quill Studio**. Styvens Wentz EI ist Verantwortlicher für die nachfolgend beschriebenen Verarbeitungen, außer wenn ein Plattformanbieter (zum Beispiel Google für Google Play Spiele, Google Play Billing und AdMob) für seine eigenen Dienste als eigenständiger Verantwortlicher handelt.
@@ -12,7 +12,7 @@ Pixel & Quill Studio („der Herausgeber“) ist der Handelsname von Styvens Wen
 Nicht jedes Spiel nutzt zwangsläufig alle hier beschriebenen Dienste. **Die von einem Spiel tatsächlich genutzten Dienste, sein Mindestalter und seine Datenschutzeinstellungen im Spiel stehen auf der Seite des jeweiligen Spiels**, im Abschnitt „Gut zu wissen“ ([zu den Spielen](/games/)).
 
 ## 2. Was Pixel & Quill Studio nicht tut
-- Die Spiele verlangen kein Konto beim Herausgeber: Pixel & Quill Studio hat **kein eigenes Kontosystem** und **keinen Server**, der deine Spieldaten empfängt.
+- Die Spiele verlangen kein Konto beim Herausgeber: Pixel & Quill Studio hat **kein eigenes Kontosystem** und **keinen Server**, der deine Spieldaten empfängt. Einzige Ausnahme ist die in Abschnitt 4.3 beschriebene Kaufprüfung.
 - Pixel & Quill Studio erhebt nicht direkt **deinen echten Namen, deine E-Mail-Adresse, deinen genauen Standort, deine Kontakte oder deine Fotos**.
 - Pixel & Quill Studio verkauft deine Daten nicht.
 
@@ -30,7 +30,7 @@ Dein Fortschritt, freigeschaltete Käufe, Einstellungen, ein eventuell im Spiel 
 Manche Spiele bieten eine optionale Anmeldung bei einem Spieledienst der Plattform wie **Google Play Spiele** an (Erfolge, Bestenlisten, Cloud-Speicherstände). Du kannst immer ohne Anmeldung spielen. Wenn du dich anmeldest, verarbeitet die Plattform deine Spieler-ID, deinen Spielernamen, deine Erfolge, deine Punktzahlen und gegebenenfalls eine Kopie deines Spielstands nach ihren eigenen Regeln (für Google: [Datenschutzerklärung von Google](https://policies.google.com/privacy)).
 
 ### 4.3 In-App-Käufe
-Käufe werden über den App-Store abgewickelt (zum Beispiel **Google Play Billing**). **Der Herausgeber erhält niemals deine Zahlungsdaten.** Das Spiel erhält vom Store nur eine Kaufbestätigung (Produkt-ID, Kauf-Token), um den Inhalt freizuschalten.
+Käufe werden über den App-Store abgewickelt (zum Beispiel **Google Play Billing**). **Der Herausgeber erhält niemals deine Zahlungsdaten.** Das Spiel erhält vom Store nur eine Kaufbestätigung (Produkt-ID, Kauf-Token), um den Inhalt freizuschalten. Zum Schutz vor betrügerischen Käufen sendet das Spiel diese Bestätigung (App-Name, Produkt-ID und Kauf-Token, ohne Namen, E-Mail-Adresse oder Zahlungsdaten) an einen Prüfdienst, der für den Herausgeber auf **Cloudflare Workers** (Cloudflare, Inc.) betrieben wird; er prüft sie bei Google Play und bestätigt den Kauf. Der Herausgeber speichert diese Bestätigungen nicht; Cloudflare verarbeitet sie zusammen mit technischen Verbindungsdaten wie deiner IP-Adresse nur für diese Prüfung.
 
 ### 4.4 Werbung und Einwilligung
 Kostenlose Spiele können Werbung anzeigen, die von **Google AdMob** ausgeliefert wird (zum Beispiel Banner, Interstitials und optionale Werbung mit Belohnung). AdMob kann die Werbe-ID deines Geräts, deine IP-Adresse, technische Informationen (Modell, Betriebssystem, Sprache) und Daten zur Interaktion mit Anzeigen verarbeiten, um Anzeigen auszuliefern und zu messen und um Betrug zu verhindern.
@@ -57,11 +57,12 @@ Wenn du Pixel & Quill Studio schreibst, werden deine E-Mail-Adresse und deine Na
 | Beantwortung deiner E-Mails | Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO) |
 
 ## 6. Empfänger und Übermittlungen
-Die einzigen Empfänger sind die Plattform- und Werbedienste, die das betreffende Spiel nutzt, derzeit Dienste von **Google** (Google Ireland Limited / Google LLC: Play Spiele, Play Billing, AdMob und UMP), sowie die Werbepartner von AdMob im Rahmen deiner Einwilligung. Einige Daten können außerhalb der Europäischen Union übermittelt werden (insbesondere in die USA); Google sichert diese Übermittlungen durch die Standardvertragsklauseln der Europäischen Kommission und das EU-US Data Privacy Framework ab. Nutzt ein künftiges Spiel einen anderen Anbieter, wird dieser auf der Seite des Spiels und in dieser Erklärung genannt.
+Die einzigen Empfänger sind die Plattform- und Werbedienste, die das betreffende Spiel nutzt, derzeit Dienste von **Google** (Google Ireland Limited / Google LLC: Play Spiele, Play Billing, AdMob und UMP), sowie die Werbepartner von AdMob im Rahmen deiner Einwilligung. Einige Daten können außerhalb der Europäischen Union übermittelt werden (insbesondere in die USA); Google sichert diese Übermittlungen durch die Standardvertragsklauseln der Europäischen Kommission und das EU-US Data Privacy Framework ab. Nutzt ein künftiges Spiel einen anderen Anbieter, wird dieser auf der Seite des Spiels und in dieser Erklärung genannt. Die Kaufprüfung übernimmt **Cloudflare, Inc.** (Cloudflare Workers) als Auftragsverarbeiter des Herausgebers; Cloudflare sichert Übermittlungen außerhalb der Europäischen Union durch die Standardvertragsklauseln und das EU-US Data Privacy Framework ab.
 
 ## 7. Speicherdauer
 - Lokaler Spielstand: bis du das Spiel deinstallierst oder seine Daten löschst.
 - Plattform-, Abrechnungs- und Werbedaten: gemäß den Speicherfristen des jeweiligen Anbieters.
+- An den Prüfdienst gesendete Kaufbestätigungen: werden vom Herausgeber nicht gespeichert (nur für die Dauer der Prüfung verarbeitet).
 - E-Mails an den Herausgeber: so lange, wie es für die Bearbeitung deiner Anfrage nötig ist, höchstens 3 Jahre.
 
 ## 8. Deine Rechte

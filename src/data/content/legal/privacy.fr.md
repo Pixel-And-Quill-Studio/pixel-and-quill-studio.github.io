@@ -4,7 +4,7 @@
 **SIREN :** 131 995 391 — **SIRET :** 131 995 391 00011 — **Code APE :** 6201Z (programmation informatique)  
 **Adresse :** 138 avenue Victor Hugo, 75016 Paris, France  
 **Contact :** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Dernière mise à jour :** 28 octobre 2026
+**Dernière mise à jour :** 9 novembre 2026
 
 ## 1. Éditeur et champ d’application
 Pixel & Quill Studio (« l’éditeur ») est le nom commercial de Styvens Wentz, entrepreneur individuel (EI). Cette politique s’applique à ce site et à **tous les jeux édités par Pixel & Quill Studio**, actuels et futurs. Styvens Wentz EI est responsable du traitement des données décrites ci-dessous, sauf lorsqu’un fournisseur de plateforme (par exemple Google pour Google Play Jeux, Google Play Billing et AdMob) agit comme responsable de traitement indépendant pour ses propres services.
@@ -12,7 +12,7 @@ Pixel & Quill Studio (« l’éditeur ») est le nom commercial de Styvens Wentz
 Chaque jeu n’utilise pas forcément tous les services décrits ici. **Les services réellement utilisés par un jeu, son âge minimum et ses réglages de confidentialité sont indiqués sur la page de ce jeu**, dans la rubrique « Bon à savoir » ([voir les jeux](/fr/games/)).
 
 ## 2. Ce que Pixel & Quill Studio ne fait pas
-- Les jeux ne vous demandent pas de créer de compte auprès de l’éditeur : Pixel & Quill Studio n’a **aucun système de compte propre** et **aucun serveur** qui reçoit vos données de jeu.
+- Les jeux ne vous demandent pas de créer de compte auprès de l’éditeur : Pixel & Quill Studio n’a **aucun système de compte propre** et **aucun serveur** qui reçoit vos données de jeu. Seule exception : la vérification des achats décrite au point 4.3.
 - Pixel & Quill Studio ne collecte directement **ni nom réel, ni e-mail, ni localisation précise, ni contacts, ni photos**.
 - Pixel & Quill Studio ne vend pas vos données.
 
@@ -30,7 +30,7 @@ Votre progression, vos achats débloqués, vos réglages, le nom que vous choisi
 Certains jeux proposent une connexion facultative à un service de jeu de la plateforme, comme **Google Play Jeux** (succès, classements, sauvegarde dans le cloud). Vous pouvez toujours jouer sans vous connecter. Si vous vous connectez, la plateforme traite votre identifiant de joueur, votre pseudo, vos succès, vos scores et, le cas échéant, une copie de votre sauvegarde, selon ses propres règles (pour Google : [Règles de confidentialité de Google](https://policies.google.com/privacy)).
 
 ### 4.3 Achats intégrés
-Les achats sont réalisés via la boutique d’applications (par exemple **Google Play Billing**). **L’éditeur ne reçoit jamais vos coordonnées bancaires.** Le jeu reçoit seulement de la boutique la confirmation de l’achat (identifiant du produit, jeton d’achat) afin de débloquer le contenu.
+Les achats sont réalisés via la boutique d’applications (par exemple **Google Play Billing**). **L’éditeur ne reçoit jamais vos coordonnées bancaires.** Le jeu reçoit seulement de la boutique la confirmation de l’achat (identifiant du produit, jeton d’achat) afin de débloquer le contenu. Pour lutter contre les achats frauduleux, le jeu transmet cette confirmation (nom de l’application, identifiant du produit et jeton d’achat, sans nom, e-mail ni coordonnées bancaires) à un service de vérification exploité pour l’éditeur sur **Cloudflare Workers** (Cloudflare, Inc.), qui la contrôle auprès de Google Play puis confirme l’achat. L’éditeur ne conserve pas ces confirmations ; Cloudflare les traite, avec des données techniques de connexion comme votre adresse IP, uniquement pour effectuer ce contrôle.
 
 ### 4.4 Publicités et consentement
 Les jeux gratuits peuvent afficher des publicités fournies par **Google AdMob** (par exemple bannières, interstitiels et publicités récompensées facultatives). AdMob peut traiter l’identifiant publicitaire de votre appareil, votre adresse IP, des informations techniques (modèle, système, langue) et des données d’interaction avec les publicités, afin de diffuser, mesurer les publicités et lutter contre la fraude.
@@ -57,11 +57,12 @@ Si vous écrivez à Pixel & Quill Studio, votre adresse e-mail et votre message 
 | Répondre à vos e-mails | Intérêt légitime (art. 6.1.f RGPD) |
 
 ## 6. Destinataires et transferts
-Les seuls destinataires sont les services de plateforme et de publicité utilisés par le jeu concerné, actuellement les services de **Google** (Google Ireland Limited / Google LLC : Play Jeux, Play Billing, AdMob et UMP), ainsi que les partenaires publicitaires d’AdMob dans la limite de votre consentement. Certaines données peuvent être transférées hors de l’Union européenne (notamment aux États-Unis) ; Google encadre ces transferts par les clauses contractuelles types de la Commission européenne et par le Data Privacy Framework UE–États-Unis. Si un futur jeu utilise un autre prestataire, celui-ci sera indiqué sur la page du jeu et dans cette politique.
+Les seuls destinataires sont les services de plateforme et de publicité utilisés par le jeu concerné, actuellement les services de **Google** (Google Ireland Limited / Google LLC : Play Jeux, Play Billing, AdMob et UMP), ainsi que les partenaires publicitaires d’AdMob dans la limite de votre consentement. Certaines données peuvent être transférées hors de l’Union européenne (notamment aux États-Unis) ; Google encadre ces transferts par les clauses contractuelles types de la Commission européenne et par le Data Privacy Framework UE–États-Unis. Si un futur jeu utilise un autre prestataire, celui-ci sera indiqué sur la page du jeu et dans cette politique. La vérification des achats est assurée par **Cloudflare, Inc.** (Cloudflare Workers), sous-traitant de l’éditeur ; Cloudflare encadre les transferts hors de l’Union européenne par les clauses contractuelles types et le Data Privacy Framework UE–États-Unis.
 
 ## 7. Durée de conservation
 - Sauvegarde locale : jusqu’à la désinstallation du jeu ou l’effacement de ses données.
 - Données de plateforme, d’achat et de publicité : selon les durées fixées par le prestataire concerné.
+- Confirmations d’achat transmises au service de vérification : non conservées par l’éditeur (traitées le seul temps du contrôle).
 - E-mails envoyés à l’éditeur : le temps de traiter votre demande, puis 3 ans au maximum.
 
 ## 8. Vos droits

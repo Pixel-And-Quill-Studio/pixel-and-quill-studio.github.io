@@ -3,8 +3,8 @@ Sentence è destinato a giocatori dai **13 anni in su**. Parla della vita in car
 
 ## Dati e servizi usati da Sentence
 - **Salvataggio locale:** i tuoi progressi sono memorizzati solo sul tuo dispositivo, in un file cifrato.
-- **Google Play Giochi (facoltativo):** accedi per sbloccare gli obiettivi, comparire nelle classifiche (una per carcere) e sincronizzare il salvataggio. I record di ogni personaggio restano sul tuo dispositivo.
-- **Google Play Billing:** per gli acquisti in-app. Pixel & Quill Studio non riceve mai i tuoi dati di pagamento.
+- **Google Play Giochi (facoltativo):** accedi per sbloccare gli obiettivi e comparire nelle classifiche (una per carcere). I record di ogni personaggio restano sul tuo dispositivo.
+- **Google Play Billing:** per gli acquisti in-app. Pixel & Quill Studio non riceve mai i tuoi dati di pagamento. Ogni acquisto viene verificato presso Google Play da un servizio di verifica ospitato su Cloudflare (solo ID del prodotto e token di acquisto).
 - **Google AdMob e UMP:** banner, annunci interstitial e annunci con premio facoltativi, con un modulo di consenso in Europa. Gli annunci sono limitati a contenuti classificati «T» (Teen) o inferiori. I giocatori sotto i 15 anni ricevono solo annunci non personalizzati. Gestisci le tue scelte in qualsiasi momento in **Impostazioni → Privacy e pubblicità → Gestisci le scelte pubblicitarie**.
 - **Autorizzazioni:** Sentence non richiede autorizzazioni sensibili (niente posizione, contatti, fotocamera o microfono).
 

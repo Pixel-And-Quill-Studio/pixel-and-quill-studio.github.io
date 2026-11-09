@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Código APE:** 6201Z (programação de computadores)  
 **Endereço:** 138 avenue Victor Hugo, 75016 Paris, França  
 **Contato:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Última atualização:** 28 de outubro de 2026
+**Última atualização:** 9 de novembro de 2026
 
 ## 1. Editor e escopo
 Pixel & Quill Studio ("o editor") é o nome comercial de Styvens Wentz, empresário individual (EI). Esta política se aplica a este site e a **todos os jogos publicados pela Pixel & Quill Studio**, atuais e futuros. Styvens Wentz EI é o controlador dos tratamentos descritos abaixo, exceto quando um provedor de plataforma (por exemplo, o Google para o Google Play Games, o Google Play Billing e o AdMob) atua como controlador independente dos seus próprios serviços.
@@ -12,7 +12,7 @@ Pixel & Quill Studio ("o editor") é o nome comercial de Styvens Wentz, empresá
 Nem todo jogo usa necessariamente todos os serviços descritos aqui. **Os serviços realmente usados por um jogo, sua idade mínima e suas configurações de privacidade no jogo estão listados na página desse jogo**, na seção "Bom saber" ([ver os jogos](/games/)).
 
 ## 2. O que a Pixel & Quill Studio não faz
-- Os jogos não pedem que você crie uma conta com o editor: a Pixel & Quill Studio **não tem um sistema de contas próprio** nem **nenhum servidor** que receba os dados das suas partidas.
+- Os jogos não pedem que você crie uma conta com o editor: a Pixel & Quill Studio **não tem um sistema de contas próprio** nem **nenhum servidor** que receba os dados das suas partidas. A única exceção é a verificação de compras descrita no item 4.3.
 - A Pixel & Quill Studio não coleta diretamente **seu nome real, seu endereço de e-mail, sua localização precisa, seus contatos ou suas fotos**.
 - A Pixel & Quill Studio não vende os seus dados.
 
@@ -30,7 +30,7 @@ Seu progresso, as compras desbloqueadas, as configurações, o nome que você es
 Alguns jogos oferecem login opcional em um serviço de jogos da plataforma, como o **Google Play Games** (conquistas, placares, salvamento na nuvem). Você sempre pode jogar sem fazer login. Se fizer login, a plataforma trata seu ID de jogador, seu nome de jogador, suas conquistas, suas pontuações e, se for o caso, uma cópia do seu progresso, de acordo com as suas próprias regras (no caso do Google: [Política de Privacidade do Google](https://policies.google.com/privacy)).
 
 ### 4.3 Compras no app
-As compras são feitas pela loja de aplicativos (por exemplo, o **Google Play Billing**). **O editor nunca recebe seus dados de pagamento.** O jogo recebe da loja apenas uma confirmação da compra (ID do produto, token de compra) para desbloquear o conteúdo.
+As compras são feitas pela loja de aplicativos (por exemplo, o **Google Play Billing**). **O editor nunca recebe seus dados de pagamento.** O jogo recebe da loja apenas uma confirmação da compra (ID do produto, token de compra) para desbloquear o conteúdo. Para evitar compras fraudulentas, o jogo envia essa confirmação (nome do app, ID do produto e token de compra, sem nome, e-mail ou dados de pagamento) a um serviço de verificação operado para o editor no **Cloudflare Workers** (Cloudflare, Inc.), que a confere com o Google Play e confirma a compra. O editor não armazena essas confirmações; a Cloudflare as trata, junto com dados técnicos de conexão como seu endereço IP, apenas para fazer essa verificação.
 
 ### 4.4 Publicidade e consentimento
 Os jogos gratuitos podem exibir anúncios veiculados pelo **Google AdMob** (por exemplo, banners, intersticiais e anúncios premiados opcionais). O AdMob pode tratar o ID de publicidade do seu aparelho, seu endereço IP, informações técnicas (modelo, sistema operacional, idioma) e dados de interação com os anúncios, para veicular e medir os anúncios e prevenir fraudes.
@@ -57,11 +57,12 @@ Se você escrever para a Pixel & Quill Studio, seu endereço de e-mail e sua men
 | Resposta aos seus e-mails | Interesse legítimo (art. 6.º, n.º 1, alínea f, RGPD) |
 
 ## 6. Destinatários e transferências
-Os únicos destinatários são os serviços de plataforma e de publicidade usados pelo jogo em questão, atualmente serviços do **Google** (Google Ireland Limited / Google LLC: Play Games, Play Billing, AdMob e UMP), além dos parceiros de publicidade do AdMob na medida do seu consentimento. Alguns dados podem ser transferidos para fora da União Europeia (em especial para os Estados Unidos); o Google protege essas transferências com as cláusulas contratuais-padrão da Comissão Europeia e o Data Privacy Framework UE–EUA. Se um jogo futuro usar outro provedor, ele será indicado na página desse jogo e nesta política.
+Os únicos destinatários são os serviços de plataforma e de publicidade usados pelo jogo em questão, atualmente serviços do **Google** (Google Ireland Limited / Google LLC: Play Games, Play Billing, AdMob e UMP), além dos parceiros de publicidade do AdMob na medida do seu consentimento. Alguns dados podem ser transferidos para fora da União Europeia (em especial para os Estados Unidos); o Google protege essas transferências com as cláusulas contratuais-padrão da Comissão Europeia e o Data Privacy Framework UE–EUA. Se um jogo futuro usar outro provedor, ele será indicado na página desse jogo e nesta política. A verificação de compras é feita pela **Cloudflare, Inc.** (Cloudflare Workers), como operadora do editor; a Cloudflare protege as transferências para fora da União Europeia com as cláusulas contratuais padrão e o EU–US Data Privacy Framework.
 
 ## 7. Retenção
 - Salvamento local: até você desinstalar o jogo ou limpar os dados dele.
 - Dados de plataforma, de cobrança e de publicidade: conforme os prazos de retenção do provedor em questão.
+- Confirmações de compra enviadas ao serviço de verificação: não armazenadas pelo editor (tratadas apenas durante a verificação).
 - E-mails enviados ao editor: pelo tempo necessário para atender à sua solicitação e, no máximo, 3 anos.
 
 ## 8. Seus direitos

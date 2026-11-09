@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE code:** 6201Z (computer programming)  
 **Address:** 138 avenue Victor Hugo, 75016 Paris, France  
 **Contact:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Last updated:** October 28, 2026
+**Last updated:** November 9, 2026
 
 ## 1. Publisher and scope
 Pixel & Quill Studio (“the publisher”) is the trade name of Styvens Wentz, an individual entrepreneur (EI). This policy applies to this website and to **all the games published by Pixel & Quill Studio**, present and future. Styvens Wentz EI is the data controller for the processing described below, except where a platform provider (for example Google for Google Play Games, Google Play Billing and AdMob) acts as an independent controller for its own services.
@@ -12,7 +12,7 @@ Pixel & Quill Studio (“the publisher”) is the trade name of Styvens Wentz, a
 Each game does not necessarily use every service described here. **The services actually used by a game, its minimum age and its in-game privacy settings are listed on that game's page**, in the “Good to know” section ([see the games](/games/)).
 
 ## 2. What Pixel & Quill Studio does not do
-- The games do not ask you to create an account with the publisher: Pixel & Quill Studio has **no account system of its own** and **no server** that receives your game data.
+- The games do not ask you to create an account with the publisher: Pixel & Quill Studio has **no account system of its own** and **no server** that receives your game data. The only exception is the purchase check described in section 4.3.
 - Pixel & Quill Studio does not directly collect **your real name, email address, precise location, contacts or photos**.
 - Pixel & Quill Studio does not sell your data.
 
@@ -30,7 +30,7 @@ Your progress, purchases unlocked, settings, any in-game name you choose, your *
 Some games offer optional sign-in to a platform game service such as **Google Play Games** (achievements, leaderboards, cloud saves). You can always play without signing in. If you sign in, the platform processes your player ID, gamer name, achievements, scores and, where applicable, a copy of your save, under its own rules (for Google: [Google Privacy Policy](https://policies.google.com/privacy)).
 
 ### 4.3 In-app purchases
-Purchases are made through the app store (for example **Google Play Billing**). **The publisher never receives your payment details.** The game only receives a confirmation of the purchase (product ID, purchase token) from the store in order to unlock the content.
+Purchases are made through the app store (for example **Google Play Billing**). **The publisher never receives your payment details.** The game only receives a confirmation of the purchase (product ID, purchase token) from the store in order to unlock the content. To protect against fraudulent purchases, the game sends this confirmation (app name, product ID and purchase token, with no name, email or payment details) to a verification service operated for the publisher on **Cloudflare Workers** (Cloudflare, Inc.), which checks it with Google Play and confirms the purchase. The publisher does not store these confirmations; Cloudflare processes them, together with technical connection data such as your IP address, only to run this check.
 
 ### 4.4 Advertising and consent
 Free games may show ads served by **Google AdMob** (for example banners, interstitials and optional rewarded ads). AdMob may process your device's advertising ID, your IP address, technical information (model, OS, language) and ad interaction data, in order to serve and measure ads and to prevent fraud.
@@ -57,11 +57,12 @@ If you write to Pixel & Quill Studio, your email address and message are used on
 | Replying to your emails | Legitimate interest (Art. 6(1)(f) GDPR) |
 
 ## 6. Recipients and transfers
-The only recipients are the platform and advertising services used by the game concerned, currently **Google** services (Google Ireland Limited / Google LLC: Play Games, Play Billing, AdMob and UMP), as well as AdMob's advertising partners to the extent of your consent. Some data may be transferred outside the European Union (notably to the United States); Google safeguards these transfers with the European Commission's standard contractual clauses and the EU–US Data Privacy Framework. If a future game uses another provider, it will be listed on that game's page and in this policy.
+The only recipients are the platform and advertising services used by the game concerned, currently **Google** services (Google Ireland Limited / Google LLC: Play Games, Play Billing, AdMob and UMP), as well as AdMob's advertising partners to the extent of your consent. Some data may be transferred outside the European Union (notably to the United States); Google safeguards these transfers with the European Commission's standard contractual clauses and the EU–US Data Privacy Framework. If a future game uses another provider, it will be listed on that game's page and in this policy. Purchase checks are handled by **Cloudflare, Inc.** (Cloudflare Workers), acting as the publisher's processor; Cloudflare safeguards transfers outside the European Union with the standard contractual clauses and the EU–US Data Privacy Framework.
 
 ## 7. Retention
 - Local save: until you uninstall the game or clear its data.
 - Platform, billing and advertising data: according to the retention periods of the provider concerned.
+- Purchase confirmations sent to the verification service: not stored by the publisher (processed only for the time of the check).
 - Emails sent to the publisher: for as long as needed to handle your request, then 3 years at most.
 
 ## 8. Your rights

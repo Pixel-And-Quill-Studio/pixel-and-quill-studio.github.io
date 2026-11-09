@@ -3,8 +3,8 @@ Sentence is intended for players aged **13 and over**. It deals with prison life
 
 ## Data and services used by Sentence
 - **Local save:** your progress is stored only on your device, in an encrypted file.
-- **Google Play Games (optional):** sign in to unlock achievements, appear on the leaderboards (one per prison) and sync your save. Per-character records stay on your device.
-- **Google Play Billing:** for in-app purchases. Pixel & Quill Studio never receives your payment details.
+- **Google Play Games (optional):** sign in to unlock achievements and appear on the leaderboards (one per prison). Per-character records stay on your device.
+- **Google Play Billing:** for in-app purchases. Pixel & Quill Studio never receives your payment details. Each purchase is checked with Google Play by a verification service on Cloudflare (product ID and purchase token only).
 - **Google AdMob and UMP:** banners, interstitials and optional rewarded ads, with a consent form in Europe. Ads are limited to content rated “T” (Teen) or lower. Players under 15 only get non-personalised ads. Manage your choices anytime in **Settings → Privacy & ads → Manage ad choices**.
 - **Permissions:** Sentence requests no sensitive permissions (no location, contacts, camera or microphone).
 

@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Codice APE:** 6201Z (programmazione informatica)  
 **Indirizzo:** 138 avenue Victor Hugo, 75016 Parigi, Francia  
 **Contatto:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Ultimo aggiornamento:** 28 ottobre 2026
+**Ultimo aggiornamento:** 9 novembre 2026
 
 ## 1. Editore e ambito di applicazione
 Pixel & Quill Studio («l'editore») è il nome commerciale di Styvens Wentz, imprenditore individuale (EI). La presente informativa si applica a questo sito e a **tutti i giochi pubblicati da Pixel & Quill Studio**, presenti e futuri. Styvens Wentz EI è il titolare del trattamento descritto di seguito, salvo quando un fornitore di piattaforma (ad esempio Google per Google Play Giochi, Google Play Billing e AdMob) agisce come titolare autonomo per i propri servizi.
@@ -12,7 +12,7 @@ Pixel & Quill Studio («l'editore») è il nome commerciale di Styvens Wentz, im
 Non tutti i giochi utilizzano necessariamente tutti i servizi descritti qui. **I servizi effettivamente usati da un gioco, la sua età minima e le impostazioni di privacy nel gioco sono indicati nella pagina del gioco**, nella sezione «Da sapere» ([vedi i giochi](/games/)).
 
 ## 2. Cosa Pixel & Quill Studio non fa
-- I giochi non chiedono di creare un account presso l'editore: Pixel & Quill Studio **non ha un proprio sistema di account** né **un server** che riceva i tuoi dati di gioco.
+- I giochi non chiedono di creare un account presso l'editore: Pixel & Quill Studio **non ha un proprio sistema di account** né **un server** che riceva i tuoi dati di gioco. L'unica eccezione è la verifica degli acquisti descritta al punto 4.3.
 - Pixel & Quill Studio non raccoglie direttamente **il tuo nome reale, il tuo indirizzo email, la tua posizione precisa, i tuoi contatti o le tue foto**.
 - Pixel & Quill Studio non vende i tuoi dati.
 
@@ -30,7 +30,7 @@ I tuoi progressi, gli acquisti sbloccati, le impostazioni, l'eventuale nome che 
 Alcuni giochi offrono l'accesso facoltativo a un servizio di gioco della piattaforma come **Google Play Giochi** (obiettivi, classifiche, salvataggi nel cloud). Puoi sempre giocare senza accedere. Se accedi, la piattaforma tratta il tuo ID giocatore, il nome da giocatore, gli obiettivi, i punteggi e, se previsto, una copia del salvataggio, secondo le proprie regole (per Google: [Norme sulla privacy di Google](https://policies.google.com/privacy)).
 
 ### 4.3 Acquisti in-app
-Gli acquisti avvengono tramite lo store delle app (ad esempio **Google Play Billing**). **L'editore non riceve mai i tuoi dati di pagamento.** Il gioco riceve dallo store solo una conferma dell'acquisto (ID del prodotto, token di acquisto) per sbloccare il contenuto.
+Gli acquisti avvengono tramite lo store delle app (ad esempio **Google Play Billing**). **L'editore non riceve mai i tuoi dati di pagamento.** Il gioco riceve dallo store solo una conferma dell'acquisto (ID del prodotto, token di acquisto) per sbloccare il contenuto. Per prevenire acquisti fraudolenti, il gioco invia questa conferma (nome dell'app, ID del prodotto e token di acquisto, senza nome, email o dati di pagamento) a un servizio di verifica gestito per l'editore su **Cloudflare Workers** (Cloudflare, Inc.), che la controlla presso Google Play e conferma l'acquisto. L'editore non conserva queste conferme; Cloudflare le tratta, insieme a dati tecnici di connessione come il tuo indirizzo IP, solo per effettuare questo controllo.
 
 ### 4.4 Pubblicità e consenso
 I giochi gratuiti possono mostrare annunci forniti da **Google AdMob** (ad esempio banner, annunci interstitial e annunci con premio facoltativi). AdMob può trattare l'ID pubblicitario del tuo dispositivo, il tuo indirizzo IP, informazioni tecniche (modello, sistema operativo, lingua) e dati di interazione con gli annunci, per fornire e misurare gli annunci e prevenire le frodi.
@@ -57,11 +57,12 @@ Se scrivi a Pixel & Quill Studio, il tuo indirizzo email e il tuo messaggio sono
 | Risposta alle tue email | Legittimo interesse (art. 6, par. 1, lett. f GDPR) |
 
 ## 6. Destinatari e trasferimenti
-Gli unici destinatari sono i servizi di piattaforma e pubblicitari usati dal gioco interessato, attualmente i servizi di **Google** (Google Ireland Limited / Google LLC: Play Giochi, Play Billing, AdMob e UMP), nonché i partner pubblicitari di AdMob nei limiti del tuo consenso. Alcuni dati possono essere trasferiti al di fuori dell'Unione europea (in particolare negli Stati Uniti); Google tutela questi trasferimenti con le clausole contrattuali tipo della Commissione europea e con il Data Privacy Framework UE–USA. Se un gioco futuro userà un altro fornitore, questo sarà indicato nella pagina del gioco e nella presente informativa.
+Gli unici destinatari sono i servizi di piattaforma e pubblicitari usati dal gioco interessato, attualmente i servizi di **Google** (Google Ireland Limited / Google LLC: Play Giochi, Play Billing, AdMob e UMP), nonché i partner pubblicitari di AdMob nei limiti del tuo consenso. Alcuni dati possono essere trasferiti al di fuori dell'Unione europea (in particolare negli Stati Uniti); Google tutela questi trasferimenti con le clausole contrattuali tipo della Commissione europea e con il Data Privacy Framework UE–USA. Se un gioco futuro userà un altro fornitore, questo sarà indicato nella pagina del gioco e nella presente informativa. La verifica degli acquisti è svolta da **Cloudflare, Inc.** (Cloudflare Workers), in qualità di responsabile del trattamento per conto dell'editore; Cloudflare tutela i trasferimenti fuori dall'Unione europea con le clausole contrattuali tipo e l'EU-US Data Privacy Framework.
 
 ## 7. Conservazione
 - Salvataggio locale: finché non disinstalli il gioco o ne cancelli i dati.
 - Dati di piattaforma, di pagamento e pubblicitari: secondo i tempi di conservazione del fornitore interessato.
+- Conferme di acquisto inviate al servizio di verifica: non conservate dall'editore (trattate solo per il tempo del controllo).
 - Email inviate all'editore: per il tempo necessario a gestire la tua richiesta, poi al massimo 3 anni.
 
 ## 8. I tuoi diritti
