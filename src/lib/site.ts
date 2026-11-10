@@ -192,6 +192,21 @@ export function pressLang(lang: string): string {
   return fs.existsSync(path.resolve("public/press", `sentence-press-kit-${l}.zip`)) ? l : DEFAULT;
 }
 
+/** Language code for press-page screenshots: the page language when its shot folder exists, else English. */
+export function pressShotsLang(lang: string): string {
+  const l = lang.toLowerCase();
+  const f = `press/shots/${l}/sentence-${l}-title.jpg`;
+  return fs.existsSync(path.resolve("public", f)) ? l : DEFAULT;
+}
+
+/** 16:9 trailer download path, falling back to English when a language has none. */
+export function pressTrailer16(lang: string): string {
+  const l = lang.toLowerCase();
+  const own = `press/sentence-trailer-${l}-16x9.mp4`;
+  const fallback = `press/sentence-trailer-${DEFAULT}-16x9.mp4`;
+  return "/" + (fs.existsSync(path.resolve("public", own)) ? own : fallback);
+}
+
 /** Share image (og-<lang>.png) for a language, falling back to English. */
 export function ogImage(lang: string): string {
   const l = lang.toLowerCase();

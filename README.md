@@ -60,7 +60,7 @@ No cookie is set and nothing is sent to a server.
 3. Add the `<code>` texts to `site.json` (`tagline`, `about`) and `games.json` (`name`, `subtitle`, `pitch`, `description`, `features`).
 4. Set `"published": true` for the language in `src/data/site.json`, then push.
 
-Screenshots (`assets/games/sentence/shots/<lang>/`), trailers (`trailer-<lang>.mp4`), press kits (`public/press/sentence-press-kit-<lang>.zip`) and share images (`og-<lang>.png`) fall back to the English files when a language has none (`shot()`, `pressLang()`, `ogImage()` in `src/lib/site.ts`). Japanese and Korean currently use the English screenshots and trailer.
+Screenshots (`assets/games/sentence/shots/<lang>/`), trailers (`trailer-<lang>.mp4`), press kits (`public/press/sentence-press-kit-<lang>.zip`) and share images (`og-<lang>.png`) fall back to the English files when a language has none (`shot()`, `pressLang()`, `pressShotsLang()`, `ogImage()` in `src/lib/site.ts`). Japanese and Korean have localized screenshots, press-page stills and share images; their trailers still fall back to English (the press-kit zip for those languages contains screenshots and logos only).
 
 Japanese and Korean: the display fonts (Playfair SC, Allerta Stencil) have no CJK glyphs, so `style.css` adds `:lang(ja)` / `:lang(ko)` fallbacks to system CJK fonts and drops letter-spacing and uppercase. `tools/make_og.py` needs a CJK font for `og-ja.png` / `og-ko.png` (see the script header).
 
