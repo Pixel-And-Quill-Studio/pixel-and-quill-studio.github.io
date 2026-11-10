@@ -179,7 +179,21 @@ export function allPages(): PageEntry[] {
   return out;
 }
 
-/** Screenshot path for a language: French shots on /fr, English shots elsewhere. */
+/** Screenshot or trailer path for a language: that language's file when it exists in public/, else the English one. */
 export function shot(src: string, lang: string): string {
-  return "/" + src.replace("{lang2}", lang.toLowerCase()).replace("{tlang}", lang.toLowerCase());
+  const pick = (l: string) => src.replace("{lang2}", l).replace("{tlang}", l);
+  const own = pick(lang.toLowerCase());
+  return "/" + (fs.existsSync(path.resolve("public", own)) ? own : pick(DEFAULT));
+}
+
+/** Language code used for press-kit files: the page language when its kit exists, else English. */
+export function pressLang(lang: string): string {
+  const l = lang.toLowerCase();
+  return fs.existsSync(path.resolve("public/press", `sentence-press-kit-${l}.zip`)) ? l : DEFAULT;
+}
+
+/** Share image (og-<lang>.png) for a language, falling back to English. */
+export function ogImage(lang: string): string {
+  const l = lang.toLowerCase();
+  return fs.existsSync(path.resolve("public", `og-${l}.png`)) ? `og-${l}.png` : `og-${DEFAULT}.png`;
 }

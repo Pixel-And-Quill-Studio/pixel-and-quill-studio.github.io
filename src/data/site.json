@@ -56,6 +56,22 @@
       "name": "Italiano",
       "locale": "it_IT",
       "published": true
+    },
+    {
+      "code": "ja",
+      "prefix": "ja/",
+      "label": "JA",
+      "name": "日本語",
+      "locale": "ja_JP",
+      "published": true
+    },
+    {
+      "code": "ko",
+      "prefix": "ko/",
+      "label": "KO",
+      "name": "한국어",
+      "locale": "ko_KR",
+      "published": true
     }
   ],
   "tagline": {
@@ -64,7 +80,9 @@
     "es": "Estudio independiente de juegos para móviles, en París.",
     "pt-BR": "Estúdio independente de jogos para celular, em Paris.",
     "de": "Unabhängiges Studio für Mobile Games in Paris.",
-    "it": "Studio indipendente di giochi per dispositivi mobili, a Parigi."
+    "it": "Studio indipendente di giochi per dispositivi mobili, a Parigi.",
+    "ja": "パリのインディーモバイルゲームスタジオ。",
+    "ko": "파리의 인디 모바일 게임 스튜디오."
   },
   "about": {
     "en": "Pixel & Quill Studio is an independent game studio based in Paris. It creates mobile games where every choice matters, with stories written by quill and a particular care for the pixel.",
@@ -72,7 +90,9 @@
     "es": "Pixel & Quill Studio es un estudio de juegos independiente con sede en París. Crea juegos para móviles en los que cada decisión cuenta, con historias escritas a pluma y un cuidado especial por cada píxel.",
     "pt-BR": "A Pixel & Quill Studio é um estúdio de jogos independente sediado em Paris. Cria jogos para celular em que cada escolha importa, com histórias escritas a pena e um cuidado especial com cada pixel.",
     "de": "Pixel & Quill Studio ist ein unabhängiges Spielestudio mit Sitz in Paris. Es entwickelt Mobile Games, in denen jede Entscheidung zählt – mit Geschichten, die mit der Feder geschrieben sind, und viel Liebe zum Pixel.",
-    "it": "Pixel & Quill Studio è uno studio di giochi indipendente con sede a Parigi. Crea giochi per dispositivi mobili in cui ogni scelta conta, con storie scritte a penna d'oca e una cura particolare per il pixel."
+    "it": "Pixel & Quill Studio è uno studio di giochi indipendente con sede a Parigi. Crea giochi per dispositivi mobili in cui ogni scelta conta, con storie scritte a penna d'oca e una cura particolare per il pixel.",
+    "ja": "Pixel & Quill Studio は、パリを拠点とするインディーゲームスタジオです。ひとつひとつの選択が意味を持つモバイルゲームを、羽根ペンで綴る物語とピクセルへのこだわりをもって制作しています。",
+    "ko": "Pixel & Quill Studio는 파리에 기반을 둔 인디 게임 스튜디오입니다. 모든 선택이 중요한 모바일 게임을, 깃펜으로 써 내려간 이야기와 픽셀 하나하나에 대한 정성으로 만듭니다."
   },
   "show_next_game_placeholder": false,
   "founder": {
@@ -81,7 +101,9 @@
     "es": "Soy Styvens y fundé Pixel & Quill Studio en París. Diseño, escribo y desarrollo cada juego yo mismo, desde la primera carta hasta el último píxel. Sentence es mi primer juego. ¡Gracias por tu visita!",
     "pt-BR": "Eu sou o Styvens e fundei a Pixel & Quill Studio em Paris. Eu mesmo crio, escrevo e desenvolvo cada jogo, da primeira carta ao último pixel. Sentence é o meu primeiro jogo. Obrigado pela visita!",
     "de": "Ich bin Styvens und habe Pixel & Quill Studio in Paris gegründet. Ich entwerfe, schreibe und entwickle jedes Spiel selbst, von der ersten Karte bis zum letzten Pixel. Sentence ist mein erstes Spiel. Danke für deinen Besuch!",
-    "it": "Sono Styvens e ho fondato Pixel & Quill Studio a Parigi. Progetto, scrivo e sviluppo personalmente ogni gioco, dalla prima carta all'ultimo pixel. Sentence è il mio primo gioco. Grazie della visita!"
+    "it": "Sono Styvens e ho fondato Pixel & Quill Studio a Parigi. Progetto, scrivo e sviluppo personalmente ogni gioco, dalla prima carta all'ultimo pixel. Sentence è il mio primo gioco. Grazie della visita!",
+    "ja": "Styvens です。パリで Pixel & Quill Studio を立ち上げました。最初のカードから最後のピクセルまで、すべてのゲームを自分で企画し、書き、開発しています。Sentence は私の最初のゲームです。お越しいただきありがとうございます！",
+    "ko": "저는 Styvens이고, 파리에서 Pixel & Quill Studio를 설립했습니다. 첫 카드부터 마지막 픽셀까지 모든 게임을 직접 기획하고, 쓰고, 개발합니다. Sentence는 제 첫 게임입니다. 방문해 주셔서 감사합니다!"
   },
   "phone": "+33 9 72 11 42 56",
   "phone_tel": "tel:+33972114256"

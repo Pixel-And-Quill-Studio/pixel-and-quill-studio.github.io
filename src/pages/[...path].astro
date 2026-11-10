@@ -9,7 +9,7 @@ import Prisons from "../components/Prisons.astro";
 import Trailer from "../components/Trailer.astro";
 import PlayBadge from "../components/PlayBadge.astro";
 import Newsletter from "../components/Newsletter.astro";
-import { SITE, GAMES, LANGS, t, loc, shot, url, md, localizedFile, statusText, badgeText, allPages, type PageEntry } from "../lib/site";
+import { SITE, GAMES, LANGS, t, loc, shot, pressLang, url, md, localizedFile, statusText, badgeText, allPages, type PageEntry } from "../lib/site";
 
 export function getStaticPaths() {
   return allPages().map((p) => {
@@ -48,7 +48,7 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <p><a class="btn" href={url("contact", lang)}>{t(lang, "contact")}</a></p>
 <Newsletter lang={lang} /></Fragment>}
 {kind === "games" && <Fragment><h1>{t(lang, "games_title")}</h1><p class="lead">{t(lang, "games_intro")}</p><GamesGrid lang={lang} /></Fragment>}
-{kind === "press" && (() => { const sg = GAMES.find((x: any) => x.slug === "sentence"); const facts = Object.fromEntries(sg.facts.map((f: any) => [f.key, loc(f.value, lang)])); const l2 = lang.toLowerCase(); const tl = lang.toLowerCase(); const shotsList = ["title","card","verdict","card2","loss","woman","win","leaderboard"].map((k) => `/press/shots/${l2}/sentence-${l2}-${k}.jpg`); return <Fragment>
+{kind === "press" && (() => { const sg = GAMES.find((x: any) => x.slug === "sentence"); const facts = Object.fromEntries(sg.facts.map((f: any) => [f.key, loc(f.value, lang)])); const l2 = pressLang(lang); const tl = l2; const shotsList = ["title","card","verdict","card2","loss","woman","win","leaderboard"].map((k) => `/press/shots/${l2}/sentence-${l2}-${k}.jpg`); return <Fragment>
 <h1>{t(lang, "press_title")} — {loc(sg.name, lang)}</h1><p class="lead">{t(lang, "press_intro")}</p>
 <p><a class="btn gold" href={`/press/sentence-press-kit-${l2}.zip`} download>{t(lang, "dl_kit")}</a></p>
 <div class="card"><h2 class="inline">{t(lang, "fact_sheet")}</h2><dl class="facts-dl">

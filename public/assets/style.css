@@ -202,3 +202,11 @@ h2.inline{margin:0 0 .8em;border:0;padding:0}
 .nl-consent{margin:12px 0}.nl-btn{margin-top:4px;cursor:pointer;border:0;font:inherit}.nl-btn:disabled{opacity:.55;cursor:wait}
 .nl-msg{margin:12px 0 0;padding:10px 14px;border-radius:10px;font-size:15px;border:1px solid var(--gold);background:rgba(224,190,110,.08);color:var(--gold)}.nl-msg.err{border-color:#c0605a;color:#e8a29c;background:rgba(192,96,90,.08)}
 .sr,.nl-hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
+/* Japanese and Korean: the display fonts have no CJK glyphs, so CJK text falls back to a system sans-serif; tracking and uppercase are dropped. */
+:lang(ja){--cjk:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic UI","Yu Gothic",Meiryo,"Noto Sans JP","Noto Sans CJK JP",sans-serif;line-break:strict}
+:lang(ko){--cjk:"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Noto Sans CJK KR",sans-serif;word-break:keep-all}
+body:lang(ja),body:lang(ko){font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",var(--cjk)}
+:lang(ja) :is(.brand,h1,blockquote.quote p,.card.game h3,.punch,.prisons h3),:lang(ko) :is(.brand,h1,blockquote.quote p,.card.game h3,.punch,.prisons h3){font-family:"Playfair SC",var(--cjk)}
+:lang(ja) :is(h2,.lang a,nav.menu a,.btn,.lang-drop summary,.kicker,.hero-sub-title,details.more-info summary,.nl-title),:lang(ko) :is(h2,.lang a,nav.menu a,.btn,.lang-drop summary,.kicker,.hero-sub-title,details.more-info summary,.nl-title){font-family:"Allerta Stencil",var(--cjk);letter-spacing:normal;text-transform:none}
+:lang(ja) :is(.tagline,.card.game .sub,.game-head .sub,.badge,.facts dt,.facts-dl dt,.ptag,.gplay small),:lang(ko) :is(.tagline,.card.game .sub,.game-head .sub,.badge,.facts dt,.facts-dl dt,.ptag,.gplay small){letter-spacing:normal;text-transform:none}
+:lang(ja) h1,:lang(ko) h1,:lang(ja) .punch,:lang(ko) .punch{line-height:1.35}
