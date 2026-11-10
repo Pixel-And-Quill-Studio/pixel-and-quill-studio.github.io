@@ -62,12 +62,12 @@
         "ja": [
           "毎日1枚のカード、2つの選択肢：左か右にスワイプ。ゲージのバランスを保とう。ゲージが空になっても、満タンになりすぎても命取り。刑期の終わりまで持ちこたえよう。",
           "刑務所を選び、次に男性か女性のキャラクターを選んで、判決を聞く。受刑者にはそれぞれ独自のストーリー、専用カード、エンディングがある。",
-          "刑期は無料でプレイできるヴァルモン刑務所から始まる：運動場、作業場、グループ。その先には有料の刑務所が待っていて、それぞれに独自のルール、専用の受刑者、カードがある：モルナックの重警備刑務所、カレグの島の刑務所、サントーバンの外部通勤センター、架空の国サルヴァニアにある異国の刑務所、そして17世紀の城塞、ヴォークレールの古い要塞。"
+          "刑期は無料でプレイできるヴァルモン刑務所から始まる：運動場、作業場、グループ。その先には有料の刑務所が待っていて、それぞれに独自のルール、専用の受刑者、カードがある：モルナック重警備刑務所、カレグ島の刑務所、サントーバン外部通勤センター、架空の国サルヴァニアにある異国の刑務所、そして17世紀の城塞、ヴォークレール要塞。"
         ],
         "ko": [
           "매일 카드 한 장, 선택지 두 개: 왼쪽이나 오른쪽으로 스와이프하세요. 게이지의 균형을 지켜야 합니다. 게이지가 바닥나도, 너무 가득 차도 치명적입니다. 형기가 끝날 때까지 버티세요.",
           "교도소를 고르고, 남성이나 여성 캐릭터를 고른 다음, 판결을 듣습니다. 수감자마다 고유한 이야기, 전용 카드, 엔딩이 있습니다.",
-          "형기는 무료로 플레이할 수 있는 발몽 교도소에서 시작됩니다: 운동장, 작업장, 패거리. 그다음에는 유료 교도소들이 기다립니다. 저마다 고유한 규칙, 전용 수감자, 카드가 있습니다: 모르나크의 중경비 교도소, 카레그의 섬 교도소, 생토뱅의 외부통근센터, 가상의 나라 사르바니아에 있는 해외 교도소, 그리고 17세기 성채인 보클레르의 옛 요새."
+          "형기는 무료로 플레이할 수 있는 발몽 교도소에서 시작됩니다: 운동장, 작업장, 패거리. 그다음에는 유료 교도소들이 기다립니다. 저마다 고유한 규칙, 전용 수감자, 카드가 있습니다: 모르나크 중경비 교도소, 카레그 섬 교도소, 생토뱅 외부통근센터, 가상의 나라 사르바니아에 있는 해외 교도소, 그리고 17세기 성채인 보클레르 요새."
         ]
       },
       "tagline": {
@@ -86,56 +86,56 @@
           "Valmont Prison is free; 5 more prisons can be unlocked, each with its exclusive inmate",
           "Play as a man or a woman, in single-sex prisons",
           "Google Play Games achievements and one leaderboard per prison",
-          "In English, French, Spanish, Brazilian Portuguese, German and Italian, for ages 13 and up"
+          "In English, French, Spanish, Brazilian Portuguese, German, Italian, Japanese and Korean, for ages 13 and up"
         ],
         "fr": [
           "Un jour, une carte, deux choix : glisse à gauche ou à droite",
           "La maison d’arrêt de Valmont est gratuite ; 5 autres prisons se débloquent, chacune avec son détenu exclusif",
           "Joue en homme ou en femme, dans des prisons non mixtes",
           "Succès Google Play Jeux et un classement par prison",
-          "En anglais, français, espagnol, portugais du Brésil, allemand et italien, à partir de 13 ans"
+          "En anglais, français, espagnol, portugais du Brésil, allemand, italien, japonais et coréen, à partir de 13 ans"
         ],
         "es": [
           "Un día, una carta, dos opciones: desliza a la izquierda o a la derecha",
           "La prisión de Valmont es gratis; se pueden desbloquear 5 prisiones más, cada una con su recluso exclusivo",
           "Juega como hombre o como mujer, en prisiones no mixtas",
           "Logros de Google Play Juegos y una clasificación por prisión",
-          "En inglés, francés, español, portugués de Brasil, alemán e italiano, a partir de 13 años"
+          "En inglés, francés, español, portugués de Brasil, alemán, italiano, japonés y coreano, a partir de 13 años"
         ],
         "pt-BR": [
           "Um dia, uma carta, duas escolhas: deslize para a esquerda ou para a direita",
           "A prisão de Valmont é grátis; mais 5 prisões podem ser desbloqueadas, cada uma com seu detento exclusivo",
           "Jogue como homem ou como mulher, em prisões não mistas",
           "Conquistas do Google Play Games e um placar por prisão",
-          "Em inglês, francês, espanhol, português do Brasil, alemão e italiano, a partir de 13 anos"
+          "Em inglês, francês, espanhol, português do Brasil, alemão, italiano, japonês e coreano, a partir de 13 anos"
         ],
         "de": [
           "Ein Tag, eine Karte, zwei Entscheidungen: nach links oder rechts wischen",
           "Gefängnis Valmont ist kostenlos; 5 weitere Gefängnisse lassen sich freischalten, jedes mit seinem exklusiven Häftling",
           "Spiele als Mann oder als Frau, in nach Geschlechtern getrennten Gefängnissen",
           "Erfolge in Google Play Spiele und eine Bestenliste pro Gefängnis",
-          "Auf Englisch, Französisch, Spanisch, brasilianischem Portugiesisch, Deutsch und Italienisch, ab 13 Jahren"
+          "Auf Englisch, Französisch, Spanisch, brasilianischem Portugiesisch, Deutsch, Italienisch, Japanisch und Koreanisch, ab 13 Jahren"
         ],
         "it": [
           "Un giorno, una carta, due scelte: scorri a sinistra o a destra",
           "Il carcere di Valmont è gratuito; si possono sbloccare altre 5 carceri, ognuna con il suo detenuto esclusivo",
           "Gioca come uomo o come donna, in carceri non miste",
           "Obiettivi di Google Play Giochi e una classifica per ogni carcere",
-          "In inglese, francese, spagnolo, portoghese brasiliano, tedesco e italiano, dai 13 anni in su"
+          "In inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano, giapponese e coreano, dai 13 anni in su"
         ],
         "ja": [
           "1日1枚のカード、2つの選択肢：左か右にスワイプ",
           "ヴァルモン刑務所は無料。さらに5つの刑務所を解放でき、それぞれに専用の受刑者がいる",
           "男性でも女性でもプレイ可能、刑務所は男女別",
           "Google Play Games の実績と、刑務所ごとのランキング",
-          "英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語に対応、13歳以上向け"
+          "日本語、韓国語、英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語に対応、13歳以上向け"
         ],
         "ko": [
           "하루에 카드 한 장, 선택지 두 개: 왼쪽이나 오른쪽으로 스와이프",
           "발몽 교도소는 무료, 5곳의 교도소를 추가로 잠금 해제할 수 있으며 각각 전용 수감자가 있음",
           "남성 또는 여성으로 플레이, 교도소는 성별로 분리",
           "Google Play 게임즈 업적과 교도소별 리더보드",
-          "영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어 지원, 13세 이상"
+          "한국어, 일본어, 영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어 지원, 13세 이상"
         ]
       },
       "facts": [
@@ -181,14 +181,14 @@
         {
           "key": "languages",
           "value": {
-            "en": "English, French, Spanish, Brazilian Portuguese, German, Italian",
-            "fr": "Anglais, français, espagnol, portugais du Brésil, allemand, italien",
-            "es": "Inglés, francés, español, portugués de Brasil, alemán, italiano",
-            "pt-BR": "Inglês, francês, espanhol, português do Brasil, alemão, italiano",
-            "de": "Englisch, Französisch, Spanisch, brasilianisches Portugiesisch, Deutsch, Italienisch",
-            "it": "Inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano",
-            "ja": "英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語",
-            "ko": "영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어"
+            "en": "English, French, Spanish, Brazilian Portuguese, German, Italian, Japanese, Korean",
+            "fr": "Anglais, français, espagnol, portugais du Brésil, allemand, italien, japonais, coréen",
+            "es": "Inglés, francés, español, portugués de Brasil, alemán, italiano, japonés, coreano",
+            "pt-BR": "Inglês, francês, espanhol, português do Brasil, alemão, italiano, japonês, coreano",
+            "de": "Englisch, Französisch, Spanisch, brasilianisches Portugiesisch, Deutsch, Italienisch, Japanisch, Koreanisch",
+            "it": "Inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano, giapponese, coreano",
+            "ja": "日本語、韓国語、英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語",
+            "ko": "한국어, 일본어, 영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어"
           }
         },
         {
@@ -324,7 +324,7 @@
               "pt-BR": "Segurança máxima · Marchand, chefe da segurança",
               "de": "Hochsicherheit · Marchand, Sicherheitschef",
               "it": "Carcere di massima sicurezza · Marchand, capo della sicurezza",
-              "ja": "重警備刑務所・警備主任のマルシャン",
+              "ja": "重警備刑務所・保安責任者のマルシャン",
               "ko": "중경비 교도소 · 보안 책임자 마르샹"
             },
             "alt": {
@@ -334,7 +334,7 @@
               "pt-BR": "Carta do jogo na prisão de segurança máxima com Marchand, chefe da segurança",
               "de": "Spielkarte im Hochsicherheitsgefängnis mit Marchand, dem Sicherheitschef",
               "it": "Carta di gioco nel carcere di massima sicurezza con Marchand, capo della sicurezza",
-              "ja": "重警備刑務所のゲーム内カード、警備主任のマルシャン",
+              "ja": "重警備刑務所のゲーム内カード、保安責任者のマルシャン",
               "ko": "중경비 교도소의 게임 속 카드, 보안 책임자 마르샹"
             }
           },
