@@ -1,7 +1,7 @@
 ---
 /** Page shell: head (SEO, language alternates, detection script), header, footer. */
 import Newsletter from "../components/Newsletter.astro";
-import { SITE, LANGS, PUBLISHED, DEFAULT, ORIGIN, BASE, FB_DOMAIN_VERIFICATION, t, url, langScript, SWITCH_SCRIPT } from "../lib/site";
+import { SITE, LANGS, PUBLISHED, DEFAULT, ORIGIN, BASE, FB_DOMAIN_VERIFICATION, t, url, langScript, SWITCH_SCRIPT, ogImage } from "../lib/site";
 
 interface Props {
   pageKey: string; lang: string; title: string; desc: string;
@@ -28,9 +28,9 @@ const s = SITE;
 <meta property="og:type" content="website"><meta property="og:site_name" content="Pixel &amp; Quill Studio">
 <meta property="og:title" content={title}><meta property="og:description" content={desc}>
 <meta property="og:url" content={canonical}><meta property="og:locale" content={LANGS[lang].locale}>
-<meta property="og:image" content={`${BASE}og-${lang.toLowerCase()}.png`}><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image" content={`${BASE}${ogImage(lang)}`}><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Sentence — Pixel &amp; Quill Studio"><meta name="twitter:title" content={title}><meta name="twitter:description" content={desc}>
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content={`${BASE}og-${lang.toLowerCase()}.png`}>{fbv && <meta name="facebook-domain-verification" content={FB_DOMAIN_VERIFICATION} />}</head>
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content={`${BASE}${ogImage(lang)}`}>{fbv && <meta name="facebook-domain-verification" content={FB_DOMAIN_VERIFICATION} />}</head>
 <body><a class="skip" href="#main">{t(lang, "skip")}</a><div class="wrap"><header class="top"><a class={home ? "brand home" : "brand"} href={url("home", lang)} aria-label="Pixel &amp; Quill Studio"><img class="brand-icon" src="/assets/brand/favicon.svg" alt="" width="44" height="44"><img class="brand-word" src="/assets/brand/logo-wordmark-inline.svg" alt="Pixel &amp; Quill Studio" height="24"></a>
 <nav class="menu" aria-label="Menu">{menu.map(([k, lbl]) => <a class={k === nav ? "on" : undefined} href={url(k, lang)}>{lbl}</a>)}</nav>
 <details class="lang-drop"><summary aria-label={`${t(lang, "lang_nav")}: ${LANGS[lang].name}`} aria-expanded="false"><Fragment set:html={'<svg class="globe" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>'} /><span>{LANGS[lang].label}</span><Fragment set:html={'<svg class="chev" aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="m6 9 6 6 6-6"/></svg>'} /></summary><nav aria-label={t(lang, "lang_nav")}>{PUBLISHED.map((c) => <a class={c === lang ? "on" : ""} aria-current={c === lang ? "true" : undefined} hreflang={c} lang={c} data-lang={c.toLowerCase()} href={url(pageKey, c)}>{LANGS[c].name}</a>)}</nav></details></header>

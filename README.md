@@ -39,16 +39,16 @@ Source of **https://pixelandquillstudio.com/**, the website of Pixel & Quill Stu
 | Privacy policy | `/privacy/` | `/fr/privacy/` |
 | Terms of use | `/terms/` | `/fr/terms/` |
 
-Published languages: English (no prefix), French `/fr/`, Spanish `/es/`, Brazilian Portuguese `/pt-br/` and German `/de/`; every page above exists under each prefix. Game pages live at `/<slug>/` (for example `/sentence/`, `/one-last-heist/`).
+Published languages: English (no prefix), French `/fr/`, Spanish `/es/`, Brazilian Portuguese `/pt-br/`, German `/de/`, Italian `/it/`, Japanese `/ja/` and Korean `/ko/`; every page above exists under each prefix. Game pages live at `/<slug>/` (for example `/sentence/`, `/one-last-heist/`).
 
-In the Spanish, Portuguese and German legal documents, a note (`legal_binding_note` in `i18n/<code>.json`) states that only the French version is legally binding and links to it.
+In the translated legal documents (every language except French and English), a note (`legal_binding_note` in `i18n/<code>.json`) states that only the French version is legally binding and links to it.
 
 Every page lists its translations with `hreflang` links plus `x-default` (English). Old URLs from the first version of the site (`en.html`, `jeux/`, `contact.html`, `mentions-legales.html`, `sentence/privacy-fr.html`, etc.) are kept as redirect stubs to their new location.
 
 ## Language selection
 
 1. A language chosen with the switcher is saved in the browser (`localStorage`, key `pq-lang`) and always wins.
-2. Otherwise, on English pages only, the browser languages (`navigator.languages`) are checked in order. The first supported one decides: `fr*` goes to `/fr/…`, `es*` to `/es/…`, `pt*` to `/pt-br/…` and `de*` to `/de/…`; any other language stays in English.
+2. Otherwise, on English pages only, the browser languages (`navigator.languages`) are checked in order. The first supported one decides: `fr*` goes to `/fr/…`, `es*` to `/es/…`, `pt*` to `/pt-br/…`, `de*` to `/de/…`, `it*` to `/it/…`, `ja*` to `/ja/…` and `ko*` to `/ko/…`; any other language stays in English.
 3. Otherwise the page stays in English.
 
 No cookie is set and nothing is sent to a server.
@@ -59,6 +59,10 @@ No cookie is set and nothing is sent to a server.
 2. Add `content/legal/*.<code>.md` and `content/games/<slug>.<code>.md`; untranslated files fall back to English.
 3. Add the `<code>` texts to `site.json` (`tagline`, `about`) and `games.json` (`name`, `subtitle`, `pitch`, `description`, `features`).
 4. Set `"published": true` for the language in `src/data/site.json`, then push.
+
+Screenshots (`assets/games/sentence/shots/<lang>/`), trailers (`trailer-<lang>.mp4`), press kits (`public/press/sentence-press-kit-<lang>.zip`) and share images (`og-<lang>.png`) fall back to the English files when a language has none (`shot()`, `pressLang()`, `ogImage()` in `src/lib/site.ts`). Japanese and Korean currently use the English screenshots and trailer.
+
+Japanese and Korean: the display fonts (Playfair SC, Allerta Stencil) have no CJK glyphs, so `style.css` adds `:lang(ja)` / `:lang(ko)` fallbacks to system CJK fonts and drops letter-spacing and uppercase. `tools/make_og.py` needs a CJK font for `og-ja.png` / `og-ko.png` (see the script header).
 
 ## Build
 
