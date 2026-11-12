@@ -1,6 +1,6 @@
 # Pixel & Quill Studio website
 
-Source of **https://pixelandquillstudio.com/**, the website of Pixel & Quill Studio, an independent game studio based in Paris. Built with [Astro](https://astro.build/) and deployed to GitHub Pages by GitHub Actions (`.github/workflows/deploy.yml`) on every push to `main`. The repository contains only sources; no generated HTML is committed.
+Source of **https://pixelandquillstudio.com/**, the website of Pixel & Quill Studio, a mobile game studio based in Paris. Built with [Astro](https://astro.build/) and deployed to GitHub Pages by GitHub Actions (`.github/workflows/deploy.yml`) on every push to `main`. The repository contains only sources; no generated HTML is committed.
 
 ## Sources
 
@@ -15,7 +15,7 @@ Source of **https://pixelandquillstudio.com/**, the website of Pixel & Quill Stu
 | `public/assets/` | Stylesheet, fonts (SIL OFL 1.1), logos, game icons and screenshots (served as-is at `/assets/…`) |
 | `public/CNAME` | GitHub Pages custom domain |
 | `src/lib/site.ts` | Data loading, URL scheme, page list, legacy redirects, language-detection script |
-| `src/layouts/Layout.astro` | Page shell: head (canonical, hreflang, Open Graph, Facebook verification), header, language switcher, footer |
+| `src/layouts/Layout.astro` | Page shell: head (canonical, hreflang, Open Graph, JSON-LD, Facebook verification), header, language switcher, footer |
 | `src/components/` | Game card, games grid, legal "French version is binding" note |
 | `src/pages/[...path].astro` | Every regular page in every language |
 | `src/pages/404.astro`, `[legacy].html.ts`, `[dir]/[legacy].html.ts`, `sitemap.xml.ts`, `robots.txt.ts` | 404 page, old-URL redirect stubs, sitemap, robots.txt |
@@ -51,7 +51,9 @@ Every page lists its translations with `hreflang` links plus `x-default` (Englis
 2. Otherwise, on English pages only, the browser languages (`navigator.languages`) are checked in order. The first supported one decides: `fr*` goes to `/fr/…`, `es*` to `/es/…`, `pt*` to `/pt-br/…`, `de*` to `/de/…`, `it*` to `/it/…`, `ja*` to `/ja/…` and `ko*` to `/ko/…`; any other language stays in English.
 3. Otherwise the page stays in English.
 
-No cookie is set and nothing is sent to a server.
+Search crawlers and social-preview bots are not redirected, so they can index every language from the URL they request. Visitors still get the language-detection behaviour above. No cookie is set and nothing is sent to a server.
+
+Each page has a self-referencing canonical in its own language, `hreflang` alternates for all eight locales plus `x-default` (English), and the sitemap lists the same alternates (`xhtml:link`). Home titles and meta descriptions are unique per language. Structured data (`Organization`, `WebSite`, and `VideoGame`/`SoftwareApplication` for the games) is emitted as JSON-LD. There is no Google Search Console verification file or meta tag in this repository; the domain is verified in Search Console with a DNS TXT record when that is set up.
 
 ## Publishing a new language
 

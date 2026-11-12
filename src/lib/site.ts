@@ -132,13 +132,15 @@ function spacedJson(v: any): string {
   return JSON.stringify(v);
 }
 
-/** Inline script: saved choice first, then browser languages (default-language pages only). */
+/** Inline script: saved choice first, then browser languages (default-language pages only).
+ *  Search crawlers and social-preview bots are never redirected, so they can index every locale. */
 export function langScript(page: string, lang: string): string {
   const alternates = Object.fromEntries(PUBLISHED.map((c) => [c.toLowerCase(), url(page, c)]));
   const supported = Object.keys(LANGS).map((c) => c.toLowerCase());
   const isDefault = lang === DEFAULT ? "true" : "false";
   return (
     "(function(){try{" +
+    "if(/bot|crawler|spider|slurp|bingpreview|facebookexternalhit|embedly|pinterest|whatsapp|telegram|applebot|yandex|baidu|duckduck|semrush|ahrefs|ia_archiver|twitterbot|linkedinbot|discordbot|google-inspectiontool|storebot-google|googleother|google-read-aloud|mediapartners-google|bytespider/i.test(navigator.userAgent||''))return;" +
     `var A=${spacedJson(alternates)},S=${spacedJson(supported)},cur=${JSON.stringify(lang.toLowerCase())},D=${isDefault};` +
     "var want=null,s=localStorage.getItem('pq-lang');" +
     "if(s&&A[s]){want=s}else if(D){" +
@@ -212,3 +214,79 @@ export function ogImage(lang: string): string {
   const l = lang.toLowerCase();
   return fs.existsSync(path.resolve("public", `og-${l}.png`)) ? `og-${l}.png` : `og-${DEFAULT}.png`;
 }
+
+/** Absolute URL of a page in a language. */
+export function absUrl(page: string, lang: string): string {
+  return ORIGIN + url(page, lang);
+}
+
+/** JSON-LD graph: Organization and WebSite on every page, plus VideoGame/SoftwareApplication on the home and game pages.
+ *  No offers, prices, ratings or store URLs are included unless a real Play link is already in games.json. */
+export function jsonLd(pageKey: string, lang: string): Record<string, unknown>[] {
+  const about = loc(SITE.about, lang);
+  const orgId = ORIGIN + "/#organization";
+  const org: Record<string, unknown> = {
+    "@type": "Organization",
+    "@id": orgId,
+    name: SITE.name,
+    url: BASE,
+    logo: {
+      "@type": "ImageObject",
+      url: BASE + "assets/brand/logo-email.png",
+      width: 480,
+      height: 368,
+    },
+    email: SITE.email,
+    telephone: SITE.phone,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "138 avenue Victor Hugo",
+      addressLocality: "Paris",
+      postalCode: "75016",
+      addressCountry: "FR",
+    },
+    description: about,
+  };
+  const website: Record<string, unknown> = {
+    "@type": "WebSite",
+    "@id": ORIGIN + "/#website",
+    url: BASE,
+    name: SITE.name,
+    description: about,
+    publisher: { "@id": orgId },
+    inLanguage: PUBLISHED,
+  };
+  const graph: Record<string, unknown>[] = [org, website];
+
+  const addGame = (g: any) => {
+    const node: Record<string, unknown> = {
+      "@type": g.slug === "sentence" ? ["VideoGame", "SoftwareApplication"] : "SoftwareApplication",
+      "@id": ORIGIN + "/#" + g.slug,
+      name: `${loc(g.name, lang)}: ${loc(g.subtitle, lang)}`,
+      url: absUrl(`game:${g.slug}`, lang),
+      image: BASE + g.icon,
+      description: loc(g.pitch, lang),
+      author: { "@id": orgId },
+      publisher: { "@id": orgId },
+      applicationCategory: "GameApplication",
+      operatingSystem: "Android",
+    };
+    if (g.slug === "sentence") node.availableLanguage = PUBLISHED;
+    const play = g.store?.google_play;
+    if (play) {
+      node.installUrl = play;
+      node.sameAs = [play];
+    }
+    graph.push(node);
+  };
+
+  if (pageKey === "home") {
+    for (const g of GAMES) addGame(g);
+  } else if (pageKey.startsWith("game:")) {
+    const slug = pageKey.split(":")[1];
+    const g = GAMES.find((x: any) => x.slug === slug);
+    if (g) addGame(g);
+  }
+  return graph;
+}
+

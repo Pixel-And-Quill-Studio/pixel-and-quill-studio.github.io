@@ -17,7 +17,7 @@
   "next_title": "次のゲーム",
   "next_text": "新しいプロジェクトが進行中です。またお立ち寄りください。",
   "games_title": "ゲーム",
-  "games_intro": "Pixel & Quill Studio が発行するゲーム。",
+  "games_intro": "パリを拠点とする Pixel & Quill Studio が制作するモバイルゲーム。",
   "contact_intro": "ご質問、ゲームへのご意見、取材や提携のご依頼などは、Pixel & Quill Studio までご連絡ください。すべてのメッセージにできるだけ早く返信します。",
   "contact_mail": "メール",
   "contact_pub": "発行者",
@@ -75,7 +75,7 @@
   "fact_game": "ゲーム",
   "fact_release": "リリース",
   "fact_contact": "プレス窓口",
-  "studio_value": "Pixel & Quill Studio、インディースタジオ、パリ（フランス）",
+  "studio_value": "Pixel & Quill Studio、モバイルゲームスタジオ、パリ（フランス）",
   "short_desc": "短い紹介文",
   "long_desc": "詳しい紹介文",
   "downloads": "ダウンロード",
@@ -93,5 +93,16 @@
   "nl_email": "メールアドレス",
   "nl_submit": "登録する",
   "nl_consent": "Pixel & Quill Studio のニュースレターをメールで受け取ることに同意します。詳しくは次をご覧ください：",
-  "legal_binding_note": "この翻訳は参考のために提供しています。法的効力を持つのは、この文書のフランス語版のみです："
+  "legal_binding_note": "この翻訳は参考のために提供しています。法的効力を持つのは、この文書のフランス語版のみです：",
+  "og_image_alt": "Sentence：刑務所サバイバル — Pixel & Quill Studio",
+  "press_shot_alt": {
+    "title": "Sentence のタイトル画面",
+    "card": "2つの選択肢がある Sentence のイベントカード",
+    "verdict": "Sentence の判決画面",
+    "card2": "Sentence のゲームカード",
+    "loss": "Sentence のゲームオーバー画面",
+    "woman": "Sentence の女性受刑者",
+    "win": "Sentence の釈放画面",
+    "leaderboard": "Sentence のランキング"
+  }
 }

@@ -17,7 +17,7 @@
   "next_title": "Le prochain jeu",
   "next_text": "Un nouveau projet est en préparation. Reviens bientôt.",
   "games_title": "Les jeux",
-  "games_intro": "Les jeux édités par Pixel & Quill Studio.",
+  "games_intro": "Les jeux mobiles édités par Pixel & Quill Studio, un studio installé à Paris.",
   "contact_intro": "Une question, un retour sur un jeu, une demande de presse ou de partenariat ? Écris à Pixel & Quill Studio ; chaque message reçoit une réponse dès que possible.",
   "contact_mail": "Par e-mail",
   "contact_pub": "Éditeur",
@@ -75,7 +75,7 @@
   "fact_game": "Jeu",
   "fact_release": "Sortie",
   "fact_contact": "Contact presse",
-  "studio_value": "Pixel & Quill Studio, studio indépendant, Paris (France)",
+  "studio_value": "Pixel & Quill Studio, studio de jeux mobiles, Paris (France)",
   "short_desc": "Description courte",
   "long_desc": "Description longue",
   "downloads": "Téléchargements",
@@ -92,5 +92,16 @@
   "nl_text": "Reçois les nouvelles des jeux du studio : sorties, mises à jour et coulisses. Quelques e-mails par an au plus, désinscription en un clic.",
   "nl_email": "Ton adresse e-mail",
   "nl_submit": "S’abonner",
-  "nl_consent": "J’accepte de recevoir la newsletter de Pixel & Quill Studio par e-mail. Voir la"
+  "nl_consent": "J’accepte de recevoir la newsletter de Pixel & Quill Studio par e-mail. Voir la",
+  "og_image_alt": "Sentence : Survie en prison — Pixel & Quill Studio",
+  "press_shot_alt": {
+    "title": "Écran titre de Sentence",
+    "card": "Une carte d’événement de Sentence, avec deux choix",
+    "verdict": "L’écran du verdict dans Sentence",
+    "card2": "Une carte de Sentence",
+    "loss": "Un écran de fin de partie dans Sentence",
+    "woman": "Une détenue dans Sentence",
+    "win": "Un écran de libération dans Sentence",
+    "leaderboard": "Le classement de Sentence"
+  }
 }

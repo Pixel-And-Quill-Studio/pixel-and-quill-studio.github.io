@@ -23,7 +23,7 @@ const s = SITE;
 const LEGAL_DOCS: Record<string, string> = { legal: "legal-notice", privacy: "privacy", terms: "terms" };
 
 let title = "", desc = "", nav: string | undefined = undefined;
-if (kind === "home") { title = s.name; desc = loc(s.tagline, lang); nav = "home"; }
+if (kind === "home") { title = loc(s.home_title, lang); desc = loc(s.about, lang); nav = "home"; }
 else if (kind === "games") { title = `${t(lang, "games_title")} — ${s.name}`; desc = t(lang, "games_intro"); nav = "games"; }
 else if (kind === "press") { title = `${t(lang, "press_title")} — ${s.name}`; desc = t(lang, "press_desc"); }
 else if (kind === "contact") { title = `${t(lang, "contact")} — ${s.name}`; desc = t(lang, "contact_intro"); nav = "contact"; }
@@ -48,7 +48,7 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <p><a class="btn" href={url("contact", lang)}>{t(lang, "contact")}</a></p>
 <Newsletter lang={lang} /></Fragment>}
 {kind === "games" && <Fragment><h1>{t(lang, "games_title")}</h1><p class="lead">{t(lang, "games_intro")}</p><GamesGrid lang={lang} /></Fragment>}
-{kind === "press" && (() => { const sg = GAMES.find((x: any) => x.slug === "sentence"); const facts = Object.fromEntries(sg.facts.map((f: any) => [f.key, loc(f.value, lang)])); const l2 = pressLang(lang); const sl = pressShotsLang(lang); const shotsList = ["title","card","verdict","card2","loss","woman","win","leaderboard"].map((k) => `/press/shots/${sl}/sentence-${sl}-${k}.jpg`); return <Fragment>
+{kind === "press" && (() => { const sg = GAMES.find((x: any) => x.slug === "sentence"); const facts = Object.fromEntries(sg.facts.map((f: any) => [f.key, loc(f.value, lang)])); const l2 = pressLang(lang); const sl = pressShotsLang(lang); const shotKeys = ["title","card","verdict","card2","loss","woman","win","leaderboard"]; const shotAlts = t(lang, "press_shot_alt"); const shotsList = shotKeys.map((k) => ({ src: `/press/shots/${sl}/sentence-${sl}-${k}.jpg`, alt: shotAlts[k] })); return <Fragment>
 <h1>{t(lang, "press_title")} — {loc(sg.name, lang)}</h1><p class="lead">{t(lang, "press_intro")}</p>
 <p><a class="btn gold" href={`/press/sentence-press-kit-${l2}.zip`} download>{t(lang, "dl_kit")}</a></p>
 <div class="card"><h2 class="inline">{t(lang, "fact_sheet")}</h2><dl class="facts-dl">
@@ -64,18 +64,18 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <h2>{t(lang, "short_desc")}</h2><p>{loc(sg.pitch, lang)}</p>
 <h2>{t(lang, "long_desc")}</h2>{loc(sg.description, lang).map((x: string) => <p>{x}</p>)}
 <h2>{t(lang, "dl_trailer")}</h2><Trailer g={sg} lang={lang} heading={false} /><p class="links"><a href={pressTrailer16(lang)} download>16:9 (1920×1080)</a><a href={shot(sg.trailer.src, lang)} download>9:16 (720×1280)</a></p>
-<h2>{t(lang, "dl_shots")}</h2><div class="gallery shots">{shotsList.map((n) => <figure><a href={n} download><img src={n} alt="" width="1080" height="1920" loading="lazy"></a><figcaption><a href={n} download>{t(lang, "full_size")}</a></figcaption></figure>)}</div>
-<h2>{t(lang, "dl_logos")}</h2><div class="logos"><a class="card logo" href="/press/sentence-icon-512.png" download><img src="/press/sentence-icon-512.png" alt="" width="96" height="96"><span>{t(lang, "logo_icon")}</span></a><a class="card logo" href="/assets/brand/logo-full.svg" download="pixel-and-quill-studio-logo.svg"><img src="/assets/brand/logo-full.svg" alt="" width="160" height="96"><span>{t(lang, "logo_studio")}</span></a><a class="card logo" href="/assets/brand/logo-icon.svg" download="pixel-and-quill-studio-emblem.svg"><img src="/assets/brand/logo-icon.svg" alt="" width="96" height="96"><span>{t(lang, "logo_studio_icon")}</span></a></div>
+<h2>{t(lang, "dl_shots")}</h2><div class="gallery shots">{shotsList.map((n) => <figure><a href={n.src} download><img src={n.src} alt={n.alt} width="1080" height="1920" loading="lazy"></a><figcaption><a href={n.src} download>{t(lang, "full_size")}</a></figcaption></figure>)}</div>
+<h2>{t(lang, "dl_logos")}</h2><div class="logos"><a class="card logo" href="/press/sentence-icon-512.png" download><img src="/press/sentence-icon-512.png" alt={t(lang, "logo_icon")} width="96" height="96"><span>{t(lang, "logo_icon")}</span></a><a class="card logo" href="/assets/brand/logo-full.svg" download="pixel-and-quill-studio-logo.svg"><img src="/assets/brand/logo-full.svg" alt={t(lang, "logo_studio")} width="160" height="96"><span>{t(lang, "logo_studio")}</span></a><a class="card logo" href="/assets/brand/logo-icon.svg" download="pixel-and-quill-studio-emblem.svg"><img src="/assets/brand/logo-icon.svg" alt={t(lang, "logo_studio_icon")} width="96" height="96"><span>{t(lang, "logo_studio_icon")}</span></a></div>
 <h2>{t(lang, "contact")}</h2><p>{t(lang, "press_mail_note")} <a class="mail" href={`mailto:${s.email}`}>{s.email}</a></p></Fragment>; })()}
 {kind === "contact" && <Fragment><h1>{t(lang, "contact")}</h1><p class="lead">{t(lang, "contact_intro")}</p>
-<div class="card"><h3 style="margin-top:0">{t(lang, "contact_mail")}</h3><p><a class="mail" href={`mailto:${s.email}`}>{s.email}</a></p>
-<h3>{t(lang, "contact_phone")}</h3><p><a class="mail" href={s.phone_tel}>{s.phone}</a></p>
-<h3>{t(lang, "contact_pub")}</h3><p>{s.name} — {s.owner}, EI<br>{s.address}</p></div>
+<div class="card"><h2 style="margin-top:0">{t(lang, "contact_mail")}</h2><p><a class="mail" href={`mailto:${s.email}`}>{s.email}</a></p>
+<h2>{t(lang, "contact_phone")}</h2><p><a class="mail" href={s.phone_tel}>{s.phone}</a></p>
+<h2>{t(lang, "contact_pub")}</h2><p>{s.name} — {s.owner}, EI<br>{s.address}</p></div>
 <p class="muted">{t(lang, "contact_note")} <a href={url("privacy", lang)}>{t(lang, "privacy")}</a></p>
 <p><a href={url("legal", lang)}>{t(lang, "legal")}</a></p></Fragment>}
 {kind === "legal" && <Fragment><BindingNote pageKey={key} lang={lang} /><Fragment set:html={md(localizedFile(`content/legal/${LEGAL_DOCS[key]}.{lang}.md`, lang), lang)} /></Fragment>}
 {kind === "game" && g.carousel && <Fragment><p class="crumb"><a href={url("games", lang)}>{t(lang, "back_games")}</a></p>
-<div class="game-head"><img src={`/${g.icon}`} alt="" width="120" height="120">
+<div class="game-head"><img src={`/${g.icon}`} alt={loc(g.name, lang)} width="120" height="120">
 <div><h1 style="margin:0">{loc(g.name, lang)}</h1><p class="sub">{loc(g.subtitle, lang)}</p><p><span class={`badge ${g.status ?? "coming_soon"}`}>{badgeText(g, lang)}</span></p></div></div>
 <p class="punch small">{loc(g.hero_tagline, lang).split("\n").map((l: string) => <span>{l}</span>)}</p>
 <Carousel g={g} lang={lang} />
@@ -89,7 +89,7 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <p class="muted"><a href={url("press", lang)}>{t(lang, "press_title")} →</a></p>
 <h2>{t(lang, "legal_docs")}</h2><p class="muted">{t(lang, gameDocs.length ? "game_legal_docs_note" : "legal_docs_note")}</p><div class="links">{gameDocs.map((d) => <a href={url(`${gameKey}:${d}`, lang)}>{t(lang, d)} — {loc(g.name, lang)}</a>)}{["privacy", "terms", "legal"].filter((k) => !gameDocs.includes(k)).map((k) => <a href={url(k, lang)}>{t(lang, k)}</a>)}</div></Fragment>}
 {kind === "game" && !g.carousel && <Fragment><p class="crumb"><a href={url("games", lang)}>{t(lang, "back_games")}</a></p>
-<div class="game-head"><img src={`/${g.icon}`} alt="" width="120" height="120">
+<div class="game-head"><img src={`/${g.icon}`} alt={loc(g.name, lang)} width="120" height="120">
 <div><h1 style="margin:0">{loc(g.name, lang)}</h1><p class="sub">{loc(g.subtitle, lang)}</p><p><span class={`badge ${g.status ?? "coming_soon"}`}>{badgeText(g, lang)}</span></p></div></div>
 <p class="lead">{loc(g.pitch, lang)}</p>{store && <p><a class="btn gold" rel="noopener" href={store}>{t(lang, "get_on")} Google Play</a></p>}{loc(g.description, lang).map((x: string) => <p>{x}</p>)}{g.tagline && <blockquote class="quote"><p>“{loc(g.tagline, lang)}”</p><footer>{t(lang, "game_line")}</footer></blockquote>}
 {g.splash ? <div class="showcase"><img class="splash" src={`/${g.splash.src}`} alt={loc(g.splash.alt, lang)} width={g.splash.width} height={g.splash.height} loading="lazy">{g.facts && <div class="card facts"><h2>{t(lang, "key_facts")}</h2><dl>{g.facts.map((f: any) => <Fragment><dt>{t(lang, "fact_" + f.key)}</dt><dd>{loc(f.value, lang)}</dd></Fragment>)}<dt>{t(lang, "fact_status")}</dt><dd>{statusText(g, lang)}</dd></dl></div>}</div>

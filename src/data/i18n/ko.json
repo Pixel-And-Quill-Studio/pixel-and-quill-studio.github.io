@@ -17,7 +17,7 @@
   "next_title": "다음 게임",
   "next_text": "새 프로젝트가 진행 중입니다. 곧 다시 들러 주세요.",
   "games_title": "게임",
-  "games_intro": "Pixel & Quill Studio가 발행하는 게임.",
+  "games_intro": "파리를 기반으로 한 Pixel & Quill Studio가 만드는 모바일 게임.",
   "contact_intro": "질문, 게임에 대한 의견, 취재나 제휴 요청이 있나요? Pixel & Quill Studio로 연락해 주세요. 모든 메시지에 최대한 빨리 답장합니다.",
   "contact_mail": "이메일",
   "contact_pub": "발행인",
@@ -75,7 +75,7 @@
   "fact_game": "게임",
   "fact_release": "출시",
   "fact_contact": "보도 문의",
-  "studio_value": "Pixel & Quill Studio, 인디 스튜디오, 파리(프랑스)",
+  "studio_value": "Pixel & Quill Studio, 모바일 게임 스튜디오, 파리(프랑스)",
   "short_desc": "짧은 소개",
   "long_desc": "자세한 소개",
   "downloads": "다운로드",
@@ -93,5 +93,16 @@
   "nl_email": "이메일 주소",
   "nl_submit": "구독하기",
   "nl_consent": "Pixel & Quill Studio 뉴스레터를 이메일로 받는 데 동의합니다. 자세한 내용:",
-  "legal_binding_note": "이 번역은 참고용으로 제공됩니다. 법적 효력은 이 문서의 프랑스어판에만 있습니다:"
+  "legal_binding_note": "이 번역은 참고용으로 제공됩니다. 법적 효력은 이 문서의 프랑스어판에만 있습니다:",
+  "og_image_alt": "Sentence: 교도소 서바이벌 — Pixel & Quill Studio",
+  "press_shot_alt": {
+    "title": "Sentence 타이틀 화면",
+    "card": "선택지가 두 개인 Sentence 이벤트 카드",
+    "verdict": "Sentence의 선고 화면",
+    "card2": "Sentence 게임 카드",
+    "loss": "Sentence 게임 오버 화면",
+    "woman": "Sentence의 여성 수감자",
+    "win": "Sentence 출소 화면",
+    "leaderboard": "Sentence 리더보드"
+  }
 }

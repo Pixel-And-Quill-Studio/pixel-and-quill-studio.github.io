@@ -2,4 +2,4 @@
 import { t, shot } from "../lib/site";
 const { g, lang, heading = true } = Astro.props;
 ---
-<section id="trailer" class="trailer">{heading && <h2>{t(lang, "trailer_title")}</h2>}<video controls playsinline preload="none" poster={shot(g.trailer.poster, lang)} width="360" height="640"><source src={shot(g.trailer.src, lang)} type="video/mp4"></video></section>
+<section id="trailer" class="trailer">{heading && <h2>{t(lang, "trailer_title")}</h2>}<video controls playsinline preload="none" poster={shot(g.trailer.poster, lang)} width="360" height="640" aria-label={t(lang, "trailer_title")}><source src={shot(g.trailer.src, lang)} type="video/mp4"></video></section>
