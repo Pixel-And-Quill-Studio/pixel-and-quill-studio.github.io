@@ -1,0 +1,19 @@
+---
+/** Consent bar for Google Analytics 4. The script itself is injected in the layout; this is the UI only. */
+import { t, url } from "../lib/site";
+
+interface Props { lang: string }
+const { lang } = Astro.props;
+---
+<div id="pq-cookies" class="cookie-banner" role="region" aria-labelledby="pq-cookie-title" aria-describedby="pq-cookie-text" tabindex="-1">
+  <div class="cookie-inner">
+    <div class="cookie-copy">
+      <p id="pq-cookie-title" class="sr">{t(lang, "cookie_title")}</p>
+      <p id="pq-cookie-text">{t(lang, "cookie_text")} <a href={url("privacy", lang)}>{t(lang, "privacy")}</a></p>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" id="pq-cookie-accept">{t(lang, "cookie_accept")}</button>
+      <button type="button" id="pq-cookie-refuse">{t(lang, "cookie_refuse")}</button>
+    </div>
+  </div>
+</div>

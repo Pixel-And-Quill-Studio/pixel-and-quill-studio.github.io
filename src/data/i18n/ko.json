@@ -94,6 +94,11 @@
   "nl_submit": "구독하기",
   "nl_consent": "Pixel & Quill Studio 뉴스레터를 이메일로 받는 데 동의합니다. 자세한 내용:",
   "legal_binding_note": "이 번역은 참고용으로 제공됩니다. 법적 효력은 이 문서의 프랑스어판에만 있습니다:",
+  "cookie_title": "쿠키",
+  "cookie_text": "이 사이트는 동의하는 경우에만 이용자 측정 도구(Google Analytics 4)를 사용합니다. 이 페이지에서는 광고가 설정되지 않습니다.",
+  "cookie_accept": "동의",
+  "cookie_refuse": "거부",
+  "cookie_settings": "쿠키 설정",
   "og_image_alt": "Sentence: 교도소 서바이벌 — Pixel & Quill Studio",
   "press_shot_alt": {
     "title": "Sentence 타이틀 화면",

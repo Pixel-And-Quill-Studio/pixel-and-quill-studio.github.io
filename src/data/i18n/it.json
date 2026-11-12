@@ -94,6 +94,11 @@
   "nl_email": "Il tuo indirizzo email",
   "nl_submit": "Iscriviti",
   "nl_consent": "Accetto di ricevere la newsletter di Pixel & Quill Studio via email. Vedi la",
+  "cookie_title": "Cookie",
+  "cookie_text": "Questo sito usa uno strumento di misurazione dell’audience (Google Analytics 4) soltanto se accetti. Queste pagine non impostano alcuna pubblicità.",
+  "cookie_accept": "Accetta",
+  "cookie_refuse": "Rifiuta",
+  "cookie_settings": "Gestione dei cookie",
   "og_image_alt": "Sentence: Sopravvivenza in carcere — Pixel & Quill Studio",
   "press_shot_alt": {
     "title": "Schermata del titolo di Sentence",

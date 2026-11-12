@@ -94,6 +94,11 @@
   "nl_submit": "登録する",
   "nl_consent": "Pixel & Quill Studio のニュースレターをメールで受け取ることに同意します。詳しくは次をご覧ください：",
   "legal_binding_note": "この翻訳は参考のために提供しています。法的効力を持つのは、この文書のフランス語版のみです：",
+  "cookie_title": "Cookie",
+  "cookie_text": "このサイトでは、同意した場合にのみオーディエンス測定ツール（Google Analytics 4）を使用します。これらのページから広告が設定されることはありません。",
+  "cookie_accept": "同意する",
+  "cookie_refuse": "同意しない",
+  "cookie_settings": "Cookieの設定",
   "og_image_alt": "Sentence：刑務所サバイバル — Pixel & Quill Studio",
   "press_shot_alt": {
     "title": "Sentence のタイトル画面",

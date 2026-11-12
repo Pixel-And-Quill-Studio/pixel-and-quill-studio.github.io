@@ -93,6 +93,11 @@
   "nl_email": "Your email address",
   "nl_submit": "Subscribe",
   "nl_consent": "I agree to receive the Pixel & Quill Studio newsletter by email. See the",
+  "cookie_title": "Cookies",
+  "cookie_text": "This site uses an audience-measurement tool (Google Analytics 4) only if you accept. No advertising is set from these pages.",
+  "cookie_accept": "Accept",
+  "cookie_refuse": "Decline",
+  "cookie_settings": "Cookie settings",
   "og_image_alt": "Sentence: Prison Survival — Pixel & Quill Studio",
   "press_shot_alt": {
     "title": "Sentence title screen",

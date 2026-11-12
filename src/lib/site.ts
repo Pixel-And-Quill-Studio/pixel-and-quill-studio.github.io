@@ -161,6 +161,60 @@ export const SWITCH_SCRIPT =
   "d.addEventListener('keydown',function(e){if(e.key==='Escape'&&d.open){d.open=false;sm.focus()}});" +
   "document.addEventListener('click',function(e){if(d.open&&!d.contains(e.target))d.open=false})});";
 
+// ---------- Audience measurement (loaded only after consent) ----------
+export const GA_MEASUREMENT_ID = "G-7VHPQT581J";
+const CONSENT_KEY = "pq-cookie-consent";
+const CONSENT_TTL_MS = 183 * 24 * 60 * 60 * 1000; // 6 months (CNIL allows 13; the shorter period is used)
+const GA_COOKIE_EXPIRES = 33696000; // 13 months in seconds
+
+/** Early head script: hide the banner for returning visitors before first paint. Does not load gtag. */
+export const CONSENT_BOOT_SCRIPT =
+  "(function(){try{" +
+  `var k=${JSON.stringify(CONSENT_KEY)},raw=localStorage.getItem(k);` +
+  "if(!raw)return;var d=JSON.parse(raw);" +
+  "if(!d||!d.choice||!d.at)return;" +
+  `if(Date.now()-d.at>${CONSENT_TTL_MS}){localStorage.removeItem(k);return;}` +
+  "document.documentElement.setAttribute('data-pq-consent',d.choice);" +
+  "}catch(e){}})();";
+
+/** Banner logic: store the choice for 6 months, load gtag.js only after accept, delete GA cookies on withdrawal. */
+export const COOKIE_SCRIPT =
+  "(function(){" +
+  `var KEY=${JSON.stringify(CONSENT_KEY)},TTL=${CONSENT_TTL_MS},ID=${JSON.stringify(GA_MEASUREMENT_ID)},EXPIRES=${GA_COOKIE_EXPIRES};` +
+  "function getChoice(){try{var raw=localStorage.getItem(KEY);if(!raw)return null;var d=JSON.parse(raw);" +
+  "if(!d||!d.choice||!d.at)return null;if(Date.now()-d.at>TTL){localStorage.removeItem(KEY);return null;}return d.choice;}catch(e){return null}}" +
+  "function saveChoice(choice){try{localStorage.setItem(KEY,JSON.stringify({choice:choice,at:Date.now()}))}catch(e){}" +
+  "document.documentElement.setAttribute('data-pq-consent',choice);" +
+  "document.documentElement.removeAttribute('data-pq-banner');}" +
+  "function showBanner(){document.documentElement.setAttribute('data-pq-banner','open');" +
+  "var b=document.getElementById('pq-cookies');if(b){b.removeAttribute('hidden');}" +
+  "var btn=document.getElementById('pq-cookie-accept');if(btn)btn.focus();}" +
+  "function hideBanner(){document.documentElement.removeAttribute('data-pq-banner');}" +
+  "function deleteGaCookies(){var parts=document.cookie.split(';'),host=location.hostname,domains=[host,'.'+host];" +
+  "if(host.indexOf('www.')===0){var root=host.slice(4);domains.push(root,'.'+root)}" +
+  "for(var i=0;i<parts.length;i++){var name=parts[i].split('=')[0].trim();" +
+  "if(name==='_ga'||name.indexOf('_ga_')===0||name==='_gid'||name==='_gat'||name.indexOf('_gat_')===0){" +
+  "document.cookie=name+'=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;SameSite=Lax';" +
+  "for(var j=0;j<domains.length;j++){document.cookie=name+'=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/;domain='+domains[j]+';SameSite=Lax'}}}}" +
+  "function loadGA(){if(window.__pqGaLoaded)return;window.__pqGaLoaded=true;" +
+  "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;" +
+  "gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});" +
+  "gtag('consent','update',{analytics_storage:'granted',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});" +
+  "gtag('js',new Date());" +
+  "gtag('config',ID,{anonymize_ip:true,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_expires:EXPIRES,cookie_flags:'SameSite=Lax;Secure'});" +
+  "var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s);}" +
+  "function denyGA(){if(window.gtag){window.gtag('consent','update',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});}deleteGaCookies();}" +
+  "function accept(){saveChoice('accepted');hideBanner();loadGA();}" +
+  "function refuse(){saveChoice('refused');hideBanner();denyGA();}" +
+  "function init(){var a=document.getElementById('pq-cookie-accept'),r=document.getElementById('pq-cookie-refuse');" +
+  "if(a)a.addEventListener('click',accept);if(r)r.addEventListener('click',refuse);" +
+  "document.querySelectorAll('[data-cookie-settings]').forEach(function(el){el.addEventListener('click',function(e){e.preventDefault();showBanner();});});" +
+  "document.addEventListener('keydown',function(e){if(e.key==='Escape'&&document.documentElement.getAttribute('data-pq-banner')==='open'){hideBanner();var l=document.querySelector('[data-cookie-settings]');if(l)l.focus();}});" +
+  "var choice=getChoice();if(choice)document.documentElement.setAttribute('data-pq-consent',choice);if(choice==='accepted')loadGA();}" +
+  "if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();" +
+  "})();";
+
+
 // ---------- Page list (also drives the sitemap) ----------
 export type PageEntry = { key: string; lang: string; kind: string; game?: any; doc?: string };
 

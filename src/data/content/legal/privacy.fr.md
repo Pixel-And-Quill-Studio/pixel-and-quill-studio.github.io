@@ -4,7 +4,7 @@
 **SIREN :** 131 995 391 — **SIRET :** 131 995 391 00011 — **Code APE :** 6201Z (programmation informatique)  
 **Adresse :** 138 avenue Victor Hugo, 75016 Paris, France  
 **Contact :** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Dernière mise à jour :** 9 novembre 2026
+**Dernière mise à jour :** 12 novembre 2026
 
 ## 1. Éditeur et champ d’application
 Pixel & Quill Studio (« l’éditeur ») est le nom commercial de Styvens Wentz, entrepreneur individuel (EI). Cette politique s’applique à ce site et à **tous les jeux édités par Pixel & Quill Studio**, actuels et futurs. Styvens Wentz EI est responsable du traitement des données décrites ci-dessous, sauf lorsqu’un fournisseur de plateforme (par exemple Google pour Google Play Jeux, Google Play Billing et AdMob) agit comme responsable de traitement indépendant pour ses propres services.
@@ -17,7 +17,20 @@ Chaque jeu n’utilise pas forcément tous les services décrits ici. **Les serv
 - Pixel & Quill Studio ne vend pas vos données.
 
 ## 3. Ce site
-Ce site ne dépose aucun cookie, n’utilise aucun outil de mesure d’audience et ne contient aucun formulaire, à part l’inscription facultative à la newsletter (voir ci-dessous). Votre choix de langue est enregistré uniquement dans votre navigateur (stockage local) et n’est jamais transmis à l’éditeur. L’hébergeur GitHub peut enregistrer des données techniques de connexion (adresse IP notamment) à des fins de sécurité, selon sa propre [déclaration de confidentialité](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).
+Ce site propose un outil de mesure d’audience, utilisé uniquement avec votre consentement (voir ci-dessous), et un formulaire d’inscription facultative à la newsletter. Votre choix de langue, comme votre choix d’accepter ou de refuser la mesure d’audience, est enregistré uniquement dans votre navigateur (stockage local) et n’est jamais transmis à l’éditeur. L’hébergeur GitHub peut enregistrer des données techniques de connexion (adresse IP notamment) à des fins de sécurité, selon sa propre [déclaration de confidentialité](https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement).
+
+### Mesure d’audience (Google Analytics 4)
+Avec votre consentement, ce site utilise **Google Analytics 4**, fourni par **Google Ireland Limited** (Gordon House, Barrow Street, Dublin 4, Irlande). Cet outil sert uniquement à établir des statistiques d’audience aussi anonymes que possible (pages consultées, pays ou ville approximative, type d’appareil, source de la visite). Aucune publicité n’est déposée depuis ce site. Les signaux Google (Google signals) et la personnalisation publicitaire sont désactivés.
+
+**Base légale :** votre consentement (art. 6.1.a du RGPD et art. 82 de la loi Informatique et Libertés). Le script de Google n’est chargé et aucun cookie de mesure n’est déposé tant que vous n’avez pas accepté.
+
+**Cookies concernés :** `_ga` et `_ga_*`, déposés par Google pour une durée maximale de 13 mois.
+
+**Transferts :** certaines données (par exemple une adresse IP) peuvent être transférées aux États-Unis. Google encadre ces transferts par le Data Privacy Framework UE–États-Unis et par les clauses contractuelles types de la Commission européenne. Plus d’informations : [Règles de confidentialité de Google](https://policies.google.com/privacy) et [Comment Google utilise les données des sites partenaires](https://policies.google.com/technologies/partner-sites).
+
+**Retrait du consentement :** vous pouvez accepter ou refuser la mesure d’audience, et retirer votre consentement à tout moment, via le lien « Gestion des cookies » en bas de chaque page. En cas de refus ou de retrait, les cookies `_ga` et `_ga_*` sont supprimés. Vous pouvez aussi installer le [module complémentaire de désactivation de Google Analytics](https://tools.google.com/dlpage/gaoptout).
+
+Votre choix (acceptation ou refus) est mémorisé dans votre navigateur (stockage local) pendant 6 mois, puis vous est de nouveau demandé.
 
 ### Newsletter (facultative)
 Si vous vous inscrivez à la newsletter, votre adresse e-mail, votre langue et la date de votre consentement sont traitées pour vous envoyer des nouvelles des jeux du studio. **Base légale :** votre consentement (art. 6.1.a du RGPD), confirmé par un e-mail de double validation. **Sous-traitant :** Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, France), qui héberge les données dans l’Union européenne. Chaque e-mail contient un **lien de désinscription**, et vous pouvez retirer votre consentement à tout moment, y compris en écrivant à l’adresse de contact ci-dessus. **Conservation :** jusqu’à votre désinscription ; les adresses qui ne confirment pas l’inscription sont supprimées après 30 jours, et les données sont supprimées au plus tard 3 ans après le dernier contact avec la newsletter.
@@ -55,21 +68,27 @@ Si vous écrivez à Pixel & Quill Studio, votre adresse e-mail et votre message 
 | Publicités personnalisées | Consentement (art. 6.1.a RGPD et règles ePrivacy) |
 | Publicités non personnalisées, sécurité et lutte contre la fraude | Intérêt légitime (art. 6.1.f RGPD), financer des jeux gratuits |
 | Répondre à vos e-mails | Intérêt légitime (art. 6.1.f RGPD) |
+| Mesure d’audience du site (Google Analytics 4) | Consentement (art. 6.1.a RGPD et règles ePrivacy) |
 
 ## 6. Destinataires et transferts
 Les seuls destinataires sont les services de plateforme et de publicité utilisés par le jeu concerné, actuellement les services de **Google** (Google Ireland Limited / Google LLC : Play Jeux, Play Billing, AdMob et UMP), ainsi que les partenaires publicitaires d’AdMob dans la limite de votre consentement. Certaines données peuvent être transférées hors de l’Union européenne (notamment aux États-Unis) ; Google encadre ces transferts par les clauses contractuelles types de la Commission européenne et par le Data Privacy Framework UE–États-Unis. Si un futur jeu utilise un autre prestataire, celui-ci sera indiqué sur la page du jeu et dans cette politique. La vérification des achats est assurée par **Cloudflare, Inc.** (Cloudflare Workers), sous-traitant de l’éditeur ; Cloudflare encadre les transferts hors de l’Union européenne par les clauses contractuelles types et le Data Privacy Framework UE–États-Unis.
+
+Lorsque la mesure d’audience du site a été acceptée, **Google Ireland Limited / Google LLC** (Google Analytics 4) est également destinataire, dans les conditions décrites au point 3.
 
 ## 7. Durée de conservation
 - Sauvegarde locale : jusqu’à la désinstallation du jeu ou l’effacement de ses données.
 - Données de plateforme, d’achat et de publicité : selon les durées fixées par le prestataire concerné.
 - Confirmations d’achat transmises au service de vérification : non conservées par l’éditeur (traitées le seul temps du contrôle).
 - E-mails envoyés à l’éditeur : le temps de traiter votre demande, puis 3 ans au maximum.
+- Cookies de mesure d’audience (`_ga`, `_ga_*`) : 13 mois au plus, uniquement si vous avez accepté.
+- Choix relatif à la mesure d’audience (stockage local du navigateur) : 6 mois.
 
 ## 8. Vos droits
 Conformément au RGPD et à la loi Informatique et Libertés, vous disposez des droits d’accès, de rectification, d’effacement, de limitation, d’opposition, de portabilité, du droit de retirer votre consentement à tout moment et du droit de définir des directives sur le sort de vos données après votre décès. Comme l’éditeur ne détient aucune donnée de jeu vous concernant sur un serveur, la plupart de ces droits s’exercent directement :
 - en effaçant les données du jeu ou en le désinstallant (sauvegarde locale) ;
 - depuis les réglages publicitaires du jeu (publicités) ;
-- via votre compte de plateforme, par exemple votre compte Google (services de jeu, achats, identifiant publicitaire).
+- via votre compte de plateforme, par exemple votre compte Google (services de jeu, achats, identifiant publicitaire) ;
+- via le lien « Gestion des cookies » en bas de chaque page du site (mesure d’audience).
 
 Pour toute question, écrivez à l’éditeur à [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) ; une réponse vous est apportée sous un mois. Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de la **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07 — [www.cnil.fr](https://www.cnil.fr)) ou de l’autorité de protection des données de votre pays.
 
