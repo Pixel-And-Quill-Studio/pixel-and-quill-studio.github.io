@@ -40,7 +40,10 @@ nav.menu a.on{color:var(--gold);box-shadow:inset 0 -2px 0 var(--gold2)}
 .lang{white-space:nowrap}
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:18px 0}
 .grid .card{margin:0}
-.card.game{align-items:flex-start;height:100%}
+.card.game{display:grid;grid-template-columns:auto 1fr;align-items:start;column-gap:18px;row-gap:12px;height:100%}
+.card.game>img,.card.game>.next-ico{grid-column:1;grid-row:1}
+.card.game>div:not(.ctas){grid-column:2;grid-row:1;min-width:0}
+.card.game>.ctas{grid-column:1/-1;grid-row:2;margin:0}
 .card.game h3{margin:0;font-family:"Playfair SC",Georgia,serif;color:var(--gold);font-size:24px}
 .card.game .sub{margin:.1em 0 .4em;color:var(--gold2);font-size:14px;letter-spacing:1px;text-transform:uppercase}
 .card.game .pitch{margin:.3em 0 .6em;font-size:16px;line-height:1.5}
@@ -72,7 +75,7 @@ a.mail{font-size:20px}
 }
 .links{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px}
 .links a{margin:0}.links a.btn{margin:6px 6px 0 0}
-@media (max-width:640px){.card.game{gap:14px;padding:18px}.card.game>img,.next-ico{width:64px;height:64px;border-radius:14px}.card.game h3{font-size:22px}}
+@media (max-width:640px){.card.game{column-gap:14px;row-gap:10px;padding:18px}.card.game>img,.next-ico{width:64px;height:64px;border-radius:14px}.card.game h3{font-size:22px}}
 blockquote.founder{margin:18px 0;font-style:italic}blockquote.founder p{margin:0 0 .6em}
 blockquote.founder footer{margin:0;padding:0;border:0;font-style:normal;color:var(--gold2);font-size:14px}
 /* language dropdown */
@@ -138,11 +141,12 @@ h1.game-title{font-size:clamp(46px,8vw,68px);margin:.05em 0 0;letter-spacing:1px
 .gplay small{display:block;font-size:11px;font-weight:400;letter-spacing:.5px;text-transform:uppercase;color:#cfcfcf}
 .gplay.soon{opacity:.85;cursor:default}.gplay svg{color:var(--gold)}
 a.gplay:hover{border-color:var(--gold);color:#fff}
-.gplay-badge{display:inline-block;line-height:0;flex:0 0 auto}
-.gplay-badge img{display:block;height:80px;width:auto;max-width:100%}
-.gplay-badge:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.gplay-badge{display:inline-flex;align-items:center;line-height:0;flex:0 1 auto;min-width:0;max-width:100%;margin:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none;outline:none;text-decoration:none;color:inherit}
+.gplay-badge:hover,.gplay-badge:active,.gplay-badge:visited{margin:0;padding:0;border:0;border-radius:0;background:none;box-shadow:none;color:inherit;text-decoration:none}
+.gplay-badge:focus{outline:none}
+.gplay-badge:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.gplay-badge img{display:block;width:auto;height:auto;max-height:52px;max-width:100%;min-width:0;margin:0;padding:0;border:0;border-radius:0;box-shadow:none;background:none;object-fit:contain}
 .foot-store{margin:4px 0 12px}
-.foot-store .gplay-badge img{height:64px}
 .phones{position:relative;height:440px}
 .phones .ph{position:absolute;width:190px;height:auto;border-radius:18px;border:2px solid var(--gold2);box-shadow:0 18px 40px rgba(0,0,0,.6)}
 .phones .ph0{left:0;top:40px;transform:rotate(-6deg);opacity:.9}
