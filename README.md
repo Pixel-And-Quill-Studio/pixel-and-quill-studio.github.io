@@ -39,7 +39,7 @@ Source of **https://pixelandquillstudio.com/**, the website of Pixel & Quill Stu
 | Privacy policy | `/privacy/` | `/fr/privacy/` |
 | Terms of use | `/terms/` | `/fr/terms/` |
 
-Published languages: English (no prefix), French `/fr/`, Spanish `/es/`, Brazilian Portuguese `/pt-br/`, German `/de/`, Italian `/it/`, Japanese `/ja/` and Korean `/ko/`; every page above exists under each prefix. Game pages live at `/<slug>/` (for example `/sentence/`, `/one-last-heist/`).
+Published languages: English (no prefix), French `/fr/`, Spanish `/es/`, Brazilian Portuguese `/pt-br/`, German `/de/`, Italian `/it/`, Japanese `/ja/`, Korean `/ko/` and Polish `/pl/`; every page above exists under each prefix. Game pages live at `/<slug>/` (for example `/sentence/`, `/one-last-heist/`).
 
 In the translated legal documents (every language except French and English), a note (`legal_binding_note` in `i18n/<code>.json`) states that only the French version is legally binding and links to it.
 
@@ -48,12 +48,12 @@ Every page lists its translations with `hreflang` links plus `x-default` (Englis
 ## Language selection
 
 1. A language chosen with the switcher is saved in the browser (`localStorage`, key `pq-lang`) and always wins.
-2. Otherwise, on English pages only, the browser languages (`navigator.languages`) are checked in order. The first supported one decides: `fr*` goes to `/fr/…`, `es*` to `/es/…`, `pt*` to `/pt-br/…`, `de*` to `/de/…`, `it*` to `/it/…`, `ja*` to `/ja/…` and `ko*` to `/ko/…`; any other language stays in English.
+2. Otherwise, on English pages only, the browser languages (`navigator.languages`) are checked in order. The first supported one decides: `fr*` goes to `/fr/…`, `es*` to `/es/…`, `pt*` to `/pt-br/…`, `de*` to `/de/…`, `it*` to `/it/…`, `ja*` to `/ja/…`, `ko*` to `/ko/…` and `pl*` to `/pl/…`; any other language stays in English.
 3. Otherwise the page stays in English.
 
 Search crawlers and social-preview bots are not redirected, so they can index every language from the URL they request. Visitors still get the language-detection behaviour above. No cookie is set and nothing is sent to a server.
 
-Each page has a self-referencing canonical in its own language, `hreflang` alternates for all eight locales plus `x-default` (English), and the sitemap lists the same alternates (`xhtml:link`). Home titles and meta descriptions are unique per language. Structured data (`Organization`, `WebSite`, and `VideoGame`/`SoftwareApplication` for the games) is emitted as JSON-LD. There is no Google Search Console verification file or meta tag in this repository; the domain is verified in Search Console with a DNS TXT record when that is set up.
+Each page has a self-referencing canonical in its own language, `hreflang` alternates for all nine locales plus `x-default` (English), and the sitemap lists the same alternates (`xhtml:link`). Home titles and meta descriptions are unique per language. Structured data (`Organization`, `WebSite`, and `VideoGame`/`SoftwareApplication` for the games) is emitted as JSON-LD. There is no Google Search Console verification file or meta tag in this repository; the domain is verified in Search Console with a DNS TXT record when that is set up.
 
 ## Publishing a new language
 
@@ -63,6 +63,8 @@ Each page has a self-referencing canonical in its own language, `hreflang` alter
 4. Set `"published": true` for the language in `src/data/site.json`, then push.
 
 Screenshots (`assets/games/sentence/shots/<lang>/`), trailers (`trailer-<lang>.mp4`), press kits (`public/press/sentence-press-kit-<lang>.zip`) and share images (`og-<lang>.png`) fall back to the English files when a language has none (`shot()`, `pressLang()`, `pressShotsLang()`, `ogImage()` in `src/lib/site.ts`). Japanese and Korean have localized screenshots, press-page stills and share images; their trailers still fall back to English (the press-kit zip for those languages contains screenshots and logos only).
+
+Polish: Allerta Stencil has no ą ć ę ń ś ź ż or „, so `style.css` adds `SentenceStencil-Regular.ttf` (a renamed, OFL-modified Allerta Stencil with those glyphs, the same file as in the game) as a per-glyph fallback limited by `unicode-range`. Polish has its own screenshots, press-page stills, trailer (`trailer-pl.mp4`, captured with the same trailer pipeline), press kit and share image. The studio and game privacy policies and terms are not translated yet and fall back to English (the legal notice is translated).
 
 Japanese and Korean: the display fonts (Playfair SC, Allerta Stencil) have no CJK glyphs, so `style.css` adds `:lang(ja)` / `:lang(ko)` fallbacks to system CJK fonts and drops letter-spacing and uppercase. `tools/make_og.py` needs a CJK font for `og-ja.png` / `og-ko.png` (see the script header).
 
