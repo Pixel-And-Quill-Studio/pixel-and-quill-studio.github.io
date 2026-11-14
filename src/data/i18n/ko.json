@@ -101,6 +101,12 @@
   "cookie_refuse": "거부",
   "cookie_settings": "쿠키 설정",
   "og_image_alt": "Sentence: 교도소 서바이벌 — Pixel & Quill Studio",
+  "social_nav": "소셜 미디어",
+  "social_instagram": "Pixel & Quill Studio의 Instagram",
+  "social_facebook": "Pixel & Quill Studio의 Facebook",
+  "social_youtube": "Pixel & Quill Studio의 YouTube",
+  "social_tiktok": "Pixel & Quill Studio의 TikTok",
+  "social_linkedin": "Pixel & Quill Studio의 LinkedIn",
   "press_shot_alt": {
     "title": "Sentence 타이틀 화면",
     "card": "선택지가 두 개인 Sentence 이벤트 카드",

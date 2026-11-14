@@ -117,6 +117,11 @@ footer p{margin:0 0 .5em}
 .foot-links{display:flex;flex-wrap:wrap;column-gap:18px;row-gap:2px}
 .foot-links a{display:inline-block;padding:6px 0;min-height:32px}
 .foot-links .foot-mail{flex-basis:100%;overflow-wrap:anywhere}
+.foot-social{display:flex;flex-wrap:wrap;align-items:center;gap:2px;margin:2px 0 10px;padding:0}
+.foot-social a{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;color:var(--gold2);border-radius:8px;text-decoration:none}
+.foot-social a:hover{color:var(--gold);background:rgba(224,194,122,.12)}
+.foot-social a:focus-visible{outline:2px solid var(--gold);outline-offset:2px;color:var(--gold)}
+.foot-social svg{display:block;width:18px;height:18px}
 .lang-drop summary{min-height:40px;display:flex;align-items:center;padding:6px 14px}
 .lang-drop nav a{min-height:44px;display:flex;align-items:center}
 .lang a{display:inline-block;padding:6px 10px}

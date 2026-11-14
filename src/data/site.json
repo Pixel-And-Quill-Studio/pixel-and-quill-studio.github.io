@@ -116,5 +116,27 @@
     "it": "Pixel & Quill Studio — Studio di giochi per dispositivi mobili a Parigi",
     "ja": "Pixel & Quill Studio — パリのモバイルゲームスタジオ",
     "ko": "Pixel & Quill Studio — 파리의 모바일 게임 스튜디오"
-  }
+  },
+  "socials": [
+    {
+      "id": "instagram",
+      "url": "https://www.instagram.com/pixelandquillstudio"
+    },
+    {
+      "id": "facebook",
+      "url": "https://www.facebook.com/pixelandquillstudio"
+    },
+    {
+      "id": "youtube",
+      "url": "https://www.youtube.com/@pixelandquillstudio"
+    },
+    {
+      "id": "tiktok",
+      "url": "https://www.tiktok.com/@pixel.and.quill.studio"
+    },
+    {
+      "id": "linkedin",
+      "url": "https://www.linkedin.com/company/pixel-and-quill-studio"
+    }
+  ]
 }

@@ -327,6 +327,8 @@ export function jsonLd(pageKey: string, lang: string): Record<string, unknown>[]
     },
     description: about,
   };
+  const socials = (SITE.socials ?? []).map((s: { url: string }) => s.url).filter(Boolean);
+  if (socials.length) org.sameAs = socials;
   const website: Record<string, unknown> = {
     "@type": "WebSite",
     "@id": ORIGIN + "/#website",
