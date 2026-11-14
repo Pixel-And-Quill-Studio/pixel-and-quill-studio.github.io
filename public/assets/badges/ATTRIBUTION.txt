@@ -1,0 +1,7 @@
+Official Google Play badges, downloaded from https://play.google.com/intl/en_us/badges/
+and stored here without visual alteration (lossless compression only).
+
+Google Play and the Google Play logo are trademarks of Google LLC.
+Use of these badges is subject to Google's brand guidelines:
+https://play.google.com/intl/en_us/badges/
+https://developer.android.com/distribute/marketing-tools/brand-guidelines

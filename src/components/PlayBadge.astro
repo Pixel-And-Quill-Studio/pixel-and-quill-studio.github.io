@@ -1,10 +1,12 @@
 ---
-/** Google Play button: links to the store page when it exists, otherwise a non-clickable "coming soon" badge. */
-import { t } from "../lib/site";
+/** Official Google Play badge when the store page exists, otherwise a non-clickable "coming soon" badge. */
+import { t, playStoreUrl, playBadgeSrc } from "../lib/site";
 const { g, lang } = Astro.props;
-const store = g?.store?.google_play;
+const store = playStoreUrl(g, lang);
+const src = playBadgeSrc(lang);
+const alt = t(lang, "gp_alt");
 const icon = `<svg viewBox="0 0 24 26" width="22" height="24" aria-hidden="true"><path fill="currentColor" d="M3 1.5 21.5 13 3 24.5z"/></svg>`;
 ---
 {store
-  ? <a class="gplay" rel="noopener" href={store}><Fragment set:html={icon} /><span><small>{t(lang, "get_on")}</small>Google Play</span></a>
+  ? <a class="gplay-badge" href={store} target="_blank" rel="noopener"><img src={src} alt={alt} width="646" height="250"></a>
   : <span class="gplay soon" role="img" aria-label={t(lang, "gp_soon_aria")}><Fragment set:html={icon} /><span><small>{t(lang, "gp_soon_top")}</small>Google Play</span></span>}

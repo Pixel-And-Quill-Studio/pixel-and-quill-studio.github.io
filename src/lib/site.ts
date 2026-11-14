@@ -124,6 +124,32 @@ export function badgeText(g: any, lang: string): string {
   return g.status_badge ? loc(g.status_badge, lang) : statusText(g, lang);
 }
 
+
+/** Google Play listing, with a language `hl` parameter. English keeps the canonical URL (no `hl`). */
+export function playStoreUrl(g: any, lang: string): string | null {
+  const play = g?.store?.google_play;
+  if (!play) return null;
+  const hl: Record<string, string> = {
+    fr: "fr",
+    es: "es",
+    "pt-BR": "pt_BR",
+    de: "de",
+    it: "it",
+    ja: "ja",
+    ko: "ko",
+  };
+  if (!hl[lang]) return play;
+  const u = new URL(play);
+  u.searchParams.set("hl", hl[lang]);
+  return u.toString();
+}
+
+/** Official localized Google Play badge (PNG), stored under public/assets/badges/. */
+export function playBadgeSrc(lang: string): string {
+  const code = LANGS[lang] ? lang : DEFAULT;
+  return `/assets/badges/google-play-${code}.png`;
+}
+
 // ---------- Language detection ----------
 /** JSON with ", " and ": " separators (keeps the inline script byte-identical to the previous generator). */
 function spacedJson(v: any): string {
@@ -275,7 +301,7 @@ export function absUrl(page: string, lang: string): string {
 }
 
 /** JSON-LD graph: Organization and WebSite on every page, plus VideoGame/SoftwareApplication on the home and game pages.
- *  No offers, prices, ratings or store URLs are included unless a real Play link is already in games.json. */
+ *  No offers, prices or ratings. A real Play listing is added as installUrl and sameAs (the page URL stays the game page). */
 export function jsonLd(pageKey: string, lang: string): Record<string, unknown>[] {
   const about = loc(SITE.about, lang);
   const orgId = ORIGIN + "/#organization";
@@ -328,7 +354,7 @@ export function jsonLd(pageKey: string, lang: string): Record<string, unknown>[]
     if (g.slug === "sentence") node.availableLanguage = PUBLISHED;
     const play = g.store?.google_play;
     if (play) {
-      node.installUrl = play;
+      node.installUrl = playStoreUrl(g, lang) ?? play;
       node.sameAs = [play];
     }
     graph.push(node);

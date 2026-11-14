@@ -257,17 +257,7 @@
           }
         }
       ],
-      "status": "coming_soon",
-      "status_label": {
-        "en": "Coming soon to Google Play",
-        "fr": "Bientôt sur Google Play",
-        "es": "Muy pronto en Google Play",
-        "pt-BR": "Em breve no Google Play",
-        "de": "Bald bei Google Play",
-        "it": "Presto su Google Play",
-        "ja": "Google Play で近日公開",
-        "ko": "Google Play 출시 예정"
-      },
+      "status": "available",
       "icon": "assets/sentence-icon.png",
       "splash": {
         "src": "assets/games/sentence/title.webp",
@@ -441,7 +431,7 @@
         ]
       },
       "store": {
-        "google_play": null
+        "google_play": "https://play.google.com/store/apps/details?id=com.sentence.prisongame"
       },
       "details": "content/games/sentence.{lang}.md",
       "legacy_paths": {
@@ -465,16 +455,6 @@
           "page": "terms",
           "lang": "fr"
         }
-      },
-      "status_badge": {
-        "en": "Coming soon to Google Play",
-        "fr": "Bientôt sur Google Play",
-        "es": "Muy pronto en Google Play",
-        "pt-BR": "Em breve no Google Play",
-        "de": "Bald bei Google Play",
-        "it": "Presto su Google Play",
-        "ja": "Google Play で近日公開",
-        "ko": "Google Play 출시 예정"
       },
       "hero_tagline": {
         "en": "You’ve just been locked up.\nSurvive as long as you can.",
