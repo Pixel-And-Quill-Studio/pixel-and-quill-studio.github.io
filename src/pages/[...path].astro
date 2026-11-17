@@ -8,6 +8,7 @@ import Carousel from "../components/Carousel.astro";
 import Prisons from "../components/Prisons.astro";
 import Trailer from "../components/Trailer.astro";
 import PlayBadge from "../components/PlayBadge.astro";
+import PlayGet from "../components/PlayGet.astro";
 import Newsletter from "../components/Newsletter.astro";
 import { SITE, GAMES, LANGS, t, loc, shot, pressLang, pressShotsLang, pressTrailer16, url, md, localizedFile, statusText, badgeText, allPages, type PageEntry } from "../lib/site";
 
@@ -65,6 +66,7 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <h2>{t(lang, "long_desc")}</h2>{loc(sg.description, lang).map((x: string) => <p>{x}</p>)}
 <h2>{t(lang, "dl_trailer")}</h2><Trailer g={sg} lang={lang} heading={false} /><p class="links"><a href={pressTrailer16(lang)} download>16:9 (1920×1080)</a><a href={shot(sg.trailer.src, lang)} download>9:16 (720×1280)</a></p><div class="ctas"><PlayBadge g={sg} lang={lang} /></div>
 <h2>{t(lang, "dl_shots")}</h2><div class="gallery shots">{shotsList.map((n) => <figure><a href={n.src} download><img src={n.src} alt={n.alt} width="1080" height="1920" loading="lazy"></a><figcaption><a href={n.src} download>{t(lang, "full_size")}</a></figcaption></figure>)}</div>
+<h2>{t(lang, "dl_flyers")}</h2><div class="links"><a href="/press/flyers/sentence-flyer-fr.jpg" download>{t(lang, "dl_flyer_web")}</a><a href="/press/flyers/sentence-flyer-fr-print-bleed.jpg" download>{t(lang, "dl_flyer_print")}</a></div>
 <h2>{t(lang, "dl_logos")}</h2><div class="logos"><a class="card logo" href="/press/sentence-icon-512.png" download><img src="/press/sentence-icon-512.png" alt={t(lang, "logo_icon")} width="96" height="96"><span>{t(lang, "logo_icon")}</span></a><a class="card logo" href="/assets/brand/logo-full.svg" download="pixel-and-quill-studio-logo.svg"><img src="/assets/brand/logo-full.svg" alt={t(lang, "logo_studio")} width="160" height="96"><span>{t(lang, "logo_studio")}</span></a><a class="card logo" href="/assets/brand/logo-icon.svg" download="pixel-and-quill-studio-emblem.svg"><img src="/assets/brand/logo-icon.svg" alt={t(lang, "logo_studio_icon")} width="96" height="96"><span>{t(lang, "logo_studio_icon")}</span></a></div>
 <h2>{t(lang, "contact")}</h2><p>{t(lang, "press_mail_note")} <a class="mail" href={`mailto:${s.email}`}>{s.email}</a></p></Fragment>; })()}
 {kind === "contact" && <Fragment><h1>{t(lang, "contact")}</h1><p class="lead">{t(lang, "contact_intro")}</p>
@@ -80,7 +82,7 @@ const layout = g?.gallery?.layout ? " " + g.gallery.layout : "";
 <p class="punch small">{loc(g.hero_tagline, lang).split("\n").map((l: string) => <span>{l}</span>)}</p>
 <Carousel g={g} lang={lang} />
 <p class="lead">{loc(g.description, lang)[0]}</p>
-<div class="ctas"><PlayBadge g={g} lang={lang} /><a class="btn" href="#trailer">▶ {t(lang, "cta_trailer")}</a></div>
+<div class="ctas"><PlayGet g={g} lang={lang} qr={true} /><a class="btn" href="#trailer">▶ {t(lang, "cta_trailer")}</a></div>
 <Prisons g={g} lang={lang} />
 <Trailer g={g} lang={lang} />
 <div class="ctas"><PlayBadge g={g} lang={lang} /></div>

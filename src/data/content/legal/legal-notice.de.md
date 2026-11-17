@@ -1,6 +1,6 @@
 # Impressum
 
-**Stand:** 28. Oktober 2026
+**Stand:** 17. November 2026
 
 ## Herausgeber
 Die Website pixelandquillstudio.com und alle heutigen und künftigen Spiele von Pixel & Quill Studio werden herausgegeben von:
@@ -27,10 +27,10 @@ Website: [github.com](https://github.com) — Kontakt: [support.github.com](http
 Die Spiele von Pixel & Quill Studio werden über die App-Stores vertrieben, in denen sie angeboten werden (zum Beispiel Google Play, betrieben von Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland).
 
 ## Geistiges Eigentum
-Die Texte, Bilder, Logos, Klänge, Figuren und sonstigen Elemente der von Pixel & Quill Studio veröffentlichten Spiele und dieser Website sind Eigentum von Styvens Wentz (Pixel & Quill Studio) oder seiner Lizenzgeber. Jede Vervielfältigung oder Weiterverwendung ohne vorherige schriftliche Genehmigung ist untersagt. Die auf dieser Website verwendeten Schriften (Playfair Display SC, Allerta Stencil) stehen unter der SIL Open Font License 1.1.
+Die Texte, Bilder, Logos, Klänge, Figuren und sonstigen Elemente der von Pixel & Quill Studio veröffentlichten Spiele und dieser Website sind Eigentum von Styvens Wentz (Pixel & Quill Studio) oder seiner Lizenzgeber. Jede Vervielfältigung oder Weiterverwendung ohne vorherige schriftliche Genehmigung ist untersagt. Die auf dieser Website verwendeten Schriften (Playfair Display SC, Allerta Stencil und deren abgewandelte Fassung Sentence Stencil) stehen unter der SIL Open Font License 1.1.
 
 ## Personenbezogene Daten und Cookies
-Diese Website setzt keine Cookies, nutzt keine Analysetools und enthält keine Formulare. Deine Sprachwahl wird nur in deinem Browser (Local Storage) gespeichert und nie an den Herausgeber übermittelt. Der Hosting-Anbieter GitHub kann aus Sicherheitsgründen technische Verbindungsdaten (einschließlich IP-Adressen) protokollieren, gemäß seiner eigenen [Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Diese Website bietet ein Tool zur Reichweitenmessung (Google Analytics 4), das nur mit deiner Einwilligung genutzt wird, sowie ein optionales Anmeldeformular für den Newsletter. Deine Sprachwahl, ebenso wie deine Entscheidung, die Reichweitenmessung zu akzeptieren oder abzulehnen, wird nur in deinem Browser (Local Storage) gespeichert und nie an den Herausgeber übermittelt. Der Hosting-Anbieter GitHub kann aus Sicherheitsgründen technische Verbindungsdaten (einschließlich IP-Adressen) protokollieren, gemäß seiner eigenen [Datenschutzerklärung](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 Wie personenbezogene Daten auf dieser Website und in den Spielen von Pixel & Quill Studio verarbeitet werden, beschreibt die [Datenschutzerklärung](/privacy/). Die von einem Spiel genutzten Dienste sind auf der Seite des jeweiligen Spiels aufgeführt.
 

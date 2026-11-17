@@ -15,10 +15,10 @@
   "legal_docs": "Dokumenty prawne",
   "legal_docs_note": "Te dokumenty dotyczą wszystkich gier wydanych przez Pixel & Quill Studio. Informacje dotyczące tej gry znajdują się powyżej.",
   "next_title": "Następna gra",
-  "next_text": "Pracujemy nad nowym projektem. Zajrzyj tu wkrótce.",
+  "next_text": "Nowe projekty są w przygotowaniu. Zajrzyj tu wkrótce.",
   "games_title": "Gry",
   "games_intro": "Gry mobilne wydane przez Pixel & Quill Studio, studio z Paryża.",
-  "contact_intro": "Pytanie, opinia o grze, prośba od prasy lub propozycja współpracy? Napisz do Pixel & Quill Studio; na każdą wiadomość odpowiadamy najszybciej, jak to możliwe.",
+  "contact_intro": "Pytanie, opinia o grze, prośba od prasy lub propozycja współpracy? Napisz do Pixel & Quill Studio; każda wiadomość otrzymuje odpowiedź tak szybko, jak to możliwe.",
   "contact_mail": "E-mailem",
   "contact_pub": "Wydawca",
   "contact_note": "Jeśli pytasz o grę, podaj jej nazwę i model urządzenia. W sprawie danych osobowych zajrzyj do polityki prywatności.",
@@ -116,5 +116,10 @@
     "win": "Ekran wyjścia na wolność w Sentence",
     "leaderboard": "Ranking w Sentence"
   },
-  "legal_binding_note": "Tłumaczenie ma charakter wyłącznie informacyjny. Moc prawną ma jedynie francuska wersja tego dokumentu:"
+  "legal_binding_note": "Tłumaczenie ma charakter wyłącznie informacyjny. Moc prawną ma jedynie francuska wersja tego dokumentu:",
+  "qr_caption": "Zeskanuj, aby zainstalować na telefonie",
+  "qr_alt": "Kod QR gry Sentence w Google Play",
+  "dl_flyers": "Ulotki (po francusku)",
+  "dl_flyer_web": "Francuska ulotka, wersja ekranowa (JPG)",
+  "dl_flyer_print": "Francuska ulotka, wersja do druku ze spadami (JPG)"
 }

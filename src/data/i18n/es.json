@@ -116,5 +116,10 @@
     "woman": "Una reclusa en Sentence",
     "win": "Una pantalla de puesta en libertad en Sentence",
     "leaderboard": "La clasificación de Sentence"
-  }
+  },
+  "qr_caption": "Escanea para instalarlo en tu teléfono",
+  "qr_alt": "Código QR de Sentence en Google Play",
+  "dl_flyers": "Folletos (en francés)",
+  "dl_flyer_web": "Folleto en francés, versión pantalla (JPG)",
+  "dl_flyer_print": "Folleto en francés, versión impresión con sangrado (JPG)"
 }

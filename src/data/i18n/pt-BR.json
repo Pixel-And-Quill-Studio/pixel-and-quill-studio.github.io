@@ -116,5 +116,10 @@
     "woman": "Uma detenta em Sentence",
     "win": "Uma tela de libertação em Sentence",
     "leaderboard": "O ranking de Sentence"
-  }
+  },
+  "qr_caption": "Escaneie para instalar no seu celular",
+  "qr_alt": "Código QR do Sentence no Google Play",
+  "dl_flyers": "Folhetos (em francês)",
+  "dl_flyer_web": "Folheto em francês, versão para tela (JPG)",
+  "dl_flyer_print": "Folheto em francês, versão para impressão com sangria (JPG)"
 }

@@ -1,6 +1,6 @@
 # 法的表示
 
-**最終更新日：** 2026年10月28日
+**最終更新日：** 2026年11月17日
 
 ## 発行者
 ウェブサイト pixelandquillstudio.com、および Pixel & Quill Studio が現在および将来に発行するすべてのゲームの発行者は次のとおりです。
@@ -27,10 +27,10 @@ GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United Stat
 Pixel & Quill Studio のゲームは、掲載先のアプリストアを通じて配信されます（例：Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland が運営する Google Play）。
 
 ## 知的財産
-Pixel & Quill Studio が発行するゲームおよび本ウェブサイトのテキスト、画像、ロゴ、サウンド、キャラクター、その他の要素は、Styvens Wentz（Pixel & Quill Studio）またはそのライセンサーに帰属します。事前の書面による許可なく複製・再利用することは禁止されています。本ウェブサイトで使用しているフォント（Playfair Display SC、Allerta Stencil）は SIL Open Font License 1.1 のもとで配布されています。
+Pixel & Quill Studio が発行するゲームおよび本ウェブサイトのテキスト、画像、ロゴ、サウンド、キャラクター、その他の要素は、Styvens Wentz（Pixel & Quill Studio）またはそのライセンサーに帰属します。事前の書面による許可なく複製・再利用することは禁止されています。本ウェブサイトで使用しているフォント（Playfair Display SC、Allerta Stencil、およびその改変版 Sentence Stencil）は SIL Open Font License 1.1 のもとで配布されています。
 
 ## 個人データとCookie
-本ウェブサイトはCookieを設定せず、アクセス解析を使用せず、フォームもありません。言語の選択はブラウザ内（ローカルストレージ）にのみ保存され、発行者に送信されることはありません。ホスティング事業者である GitHub は、セキュリティ目的で技術的な接続データ（IPアドレスを含む）を記録することがあり、その扱いは同社の[プライバシーステートメント](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)に従います。
+本ウェブサイトでは、同意いただいた場合に限り視聴測定ツール（Google Analytics 4）を使用し、任意のニュースレター登録フォームも用意しています。言語の選択や、視聴測定の同意・拒否の選択は、ブラウザ内（ローカルストレージ）にのみ保存され、発行者に送信されることはありません。ホスティング事業者である GitHub は、セキュリティ目的で技術的な接続データ（IPアドレスを含む）を記録することがあり、その扱いは同社の[プライバシーステートメント](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)に従います。
 
 本ウェブサイトおよび Pixel & Quill Studio のゲームにおける個人データの取り扱いは、[プライバシーポリシー](/privacy/)に記載しています。各ゲームが利用するサービスは、そのゲームのページに掲載しています。
 

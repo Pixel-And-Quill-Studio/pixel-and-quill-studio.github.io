@@ -1,6 +1,6 @@
 # Note legali
 
-**Ultimo aggiornamento:** 28 ottobre 2026
+**Ultimo aggiornamento:** 17 novembre 2026
 
 ## Editore
 Il sito pixelandquillstudio.com e tutti i giochi pubblicati da Pixel & Quill Studio, presenti e futuri, sono pubblicati da:
@@ -27,10 +27,10 @@ Sito: [github.com](https://github.com) — contatto: [support.github.com](https:
 I giochi di Pixel & Quill Studio sono distribuiti tramite gli store delle app in cui sono pubblicati (ad esempio Google Play, gestito da Google Ireland Limited, Gordon House, Barrow Street, Dublino 4, Irlanda).
 
 ## Proprietà intellettuale
-I testi, le immagini, i loghi, i suoni, i personaggi e gli altri elementi dei giochi pubblicati da Pixel & Quill Studio e di questo sito sono di proprietà di Styvens Wentz (Pixel & Quill Studio) o dei suoi licenzianti. È vietata qualsiasi riproduzione o riutilizzo senza previa autorizzazione scritta. I font usati su questo sito (Playfair Display SC, Allerta Stencil) sono distribuiti con licenza SIL Open Font License 1.1.
+I testi, le immagini, i loghi, i suoni, i personaggi e gli altri elementi dei giochi pubblicati da Pixel & Quill Studio e di questo sito sono di proprietà di Styvens Wentz (Pixel & Quill Studio) o dei suoi licenzianti. È vietata qualsiasi riproduzione o riutilizzo senza previa autorizzazione scritta. I font usati su questo sito (Playfair Display SC, Allerta Stencil e la sua versione modificata Sentence Stencil) sono distribuiti con licenza SIL Open Font License 1.1.
 
 ## Dati personali e cookie
-Questo sito non usa cookie, non usa strumenti di analisi e non contiene moduli. La lingua che scegli è memorizzata solo nel tuo browser (archiviazione locale) e non viene mai inviata all'editore. Il fornitore di hosting GitHub può registrare dati tecnici di connessione (compresi gli indirizzi IP) per motivi di sicurezza, secondo la propria [informativa sulla privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Questo sito propone uno strumento di misurazione dell’audience (Google Analytics 4), usato soltanto con il tuo consenso, e un modulo facoltativo di iscrizione alla newsletter. La lingua che scegli, come la tua scelta di accettare o rifiutare la misurazione dell’audience, è memorizzata solo nel tuo browser (archiviazione locale) e non viene mai inviata all'editore. Il fornitore di hosting GitHub può registrare dati tecnici di connessione (compresi gli indirizzi IP) per motivi di sicurezza, secondo la propria [informativa sulla privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 Il trattamento dei dati personali su questo sito e nei giochi di Pixel & Quill Studio è descritto nell'[informativa sulla privacy](/privacy/). I servizi usati da ogni gioco sono elencati nella pagina del gioco.
 

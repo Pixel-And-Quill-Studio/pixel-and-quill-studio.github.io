@@ -1,6 +1,6 @@
 # Nota prawna
 
-**Ostatnia aktualizacja:** 28 października 2026
+**Ostatnia aktualizacja:** 17 listopada 2026
 
 ## Wydawca
 Strona pixelandquillstudio.com oraz wszystkie gry wydawane przez Pixel & Quill Studio, obecne i przyszłe, są wydawane przez:
@@ -30,7 +30,7 @@ Gry Pixel & Quill Studio są dystrybuowane przez sklepy z aplikacjami, w któryc
 Teksty, obrazy, logotypy, dźwięki, postacie i inne elementy gier wydawanych przez Pixel & Quill Studio oraz tej strony są własnością Styvensa Wentza (Pixel & Quill Studio) lub jego licencjodawców. Wszelkie powielanie lub ponowne wykorzystanie bez uprzedniej pisemnej zgody jest zabronione. Czcionki używane na tej stronie (Playfair Display SC, Allerta Stencil i jej zmodyfikowana wersja Sentence Stencil) są rozpowszechniane na licencji SIL Open Font License 1.1.
 
 ## Dane osobowe i pliki cookie
-Ta strona nie ustawia plików cookie, nie korzysta z analityki i nie zawiera formularzy. Twój wybór języka jest przechowywany tylko w przeglądarce (local storage) i nigdy nie jest przesyłany wydawcy. Dostawca hostingu GitHub może rejestrować techniczne dane połączenia (w tym adresy IP) do celów bezpieczeństwa, zgodnie z własnym [oświadczeniem o prywatności](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+Ta strona oferuje narzędzie do pomiaru oglądalności (Google Analytics 4), używane wyłącznie za Twoją zgodą, oraz opcjonalny formularz zapisu do newslettera. Twój wybór języka, podobnie jak decyzja o zaakceptowaniu lub odrzuceniu pomiaru oglądalności, jest przechowywany tylko w przeglądarce (local storage) i nigdy nie jest przesyłany wydawcy. Dostawca hostingu GitHub może rejestrować techniczne dane połączenia (w tym adresy IP) do celów bezpieczeństwa, zgodnie z własnym [oświadczeniem o prywatności](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 Sposób przetwarzania danych osobowych na tej stronie i w grach Pixel & Quill Studio opisuje [polityka prywatności](/privacy/). Usługi używane przez każdą grę są wymienione na stronie tej gry.
 

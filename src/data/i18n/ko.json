@@ -116,5 +116,10 @@
     "woman": "Sentence의 여성 수감자",
     "win": "Sentence 출소 화면",
     "leaderboard": "Sentence 리더보드"
-  }
+  },
+  "qr_caption": "스캔해서 휴대폰에 설치하세요",
+  "qr_alt": "Google Play의 Sentence QR 코드",
+  "dl_flyers": "전단지(프랑스어)",
+  "dl_flyer_web": "프랑스어 전단지, 화면용(JPG)",
+  "dl_flyer_print": "프랑스어 전단지, 재단여백 포함 인쇄용(JPG)"
 }
