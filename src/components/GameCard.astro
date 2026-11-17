@@ -9,7 +9,9 @@ const store = playStoreUrl(g, lang);
 <article class="card game"><img src={`/${g.icon}`} alt={loc(g.name, lang)} width="84" height="84">
 <div class="game-card-body"><h3><a class="plain" href={gp}>{loc(g.name, lang)}</a></h3>
 <p class="sub">{loc(g.subtitle, lang)}</p><p class="pitch">{loc(g.pitch, lang)}</p></div>
+<div class="game-card-actions">
 <div class="game-card-status">{store
   ? <PlayBadge g={g} lang={lang} />
   : <span class={`badge ${g.status ?? "coming_soon"}`}>{badgeText(g, lang)}</span>}</div>
-<div class="ctas"><a class="btn" href={gp}>{t(lang, "discover")}</a></div></article>
+<div class="ctas"><a class="btn" href={gp}>{t(lang, "discover")}</a></div>
+</div></article>

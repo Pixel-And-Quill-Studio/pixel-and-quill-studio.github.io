@@ -42,12 +42,15 @@ nav.menu a.on{color:var(--gold);box-shadow:inset 0 -2px 0 var(--gold2)}
 .lang{white-space:nowrap}
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:18px 0}
 .grid .card{margin:0}
-.card.game{display:grid;grid-template-columns:auto 1fr;grid-template-rows:1fr auto auto;align-items:start;column-gap:18px;row-gap:12px;height:100%}
+.card.game{display:grid;grid-template-columns:auto 1fr;grid-template-rows:1fr auto;align-items:start;column-gap:18px;row-gap:14px;height:100%}
 .card.game>img,.card.game>.next-ico{grid-column:1;grid-row:1}
-.card.game>.game-card-body,.card.game>div:not(.ctas):not(.game-card-status){grid-column:2;grid-row:1;min-width:0}
-.card.game>.game-card-status{grid-column:2;grid-row:2;min-width:0;min-height:52px;display:flex;align-items:center}
-.card.game>.game-card-status .gplay-badge{max-width:100%}
-.card.game>.ctas{grid-column:1/-1;grid-row:3;margin:0}
+.card.game>.game-card-body,.card.game>div:not(.ctas):not(.game-card-status):not(.game-card-actions){grid-column:2;grid-row:1;min-width:0}
+.card.game>.game-card-actions{grid-column:1/-1;grid-row:2;display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-width:0}
+.card.game .game-card-status{display:flex;align-items:flex-start;min-height:48px;min-width:0}
+.card.game .game-card-status .gplay-badge{max-width:100%}
+.card.game .game-card-status .gplay-badge img{max-height:48px}
+.card.game .game-card-actions .ctas{margin:0}
+.card.game .game-card-actions .btn{margin:0;min-height:48px;padding:0 22px;display:inline-flex;align-items:center}
 .card.game h3{margin:0;font-family:"Playfair SC",Georgia,serif;color:var(--gold);font-size:24px}
 .card.game .sub{margin:.1em 0 .4em;color:var(--gold2);font-size:14px;letter-spacing:1px;text-transform:uppercase}
 .card.game .pitch{margin:.3em 0 0;font-size:16px;line-height:1.5}
