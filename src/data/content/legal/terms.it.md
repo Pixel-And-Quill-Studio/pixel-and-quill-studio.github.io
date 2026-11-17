@@ -49,7 +49,7 @@ Il trattamento dei tuoi dati è descritto nell'[informativa sulla privacy](/priv
 L'editore può modificare le presenti condizioni. La data in cima alla pagina verrà aggiornata; in caso di modifiche importanti, i Giochi interessati ti chiederanno di accettarle di nuovo prima di continuare.
 
 ## 14. Legge applicabile e controversie
-Le presenti condizioni sono regolate dalla legge francese. In caso di controversia, contatta prima l'editore a [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) per trovare una soluzione amichevole. Ai sensi dell'articolo L612-1 del Codice del consumo francese, puoi rivolgerti gratuitamente al seguente mediatore dei consumatori: [da completare]. In mancanza di accordo, sono competenti i tribunali previsti dalla legge; se sei un consumatore, mantieni la tutela delle norme imperative del tuo paese di residenza.
+Le presenti condizioni sono regolate dalla legge francese. In caso di controversia, contatta prima l'editore a [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) per trovare una soluzione amichevole. In mancanza di accordo, sono competenti i tribunali previsti dalla legge; se sei un consumatore, mantieni la tutela delle norme imperative del tuo paese di residenza.
 
 ## 15. Contatti
 Styvens Wentz EI (Entrepreneur individuel, impresa individuale francese), con il nome commerciale Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Parigi, Francia — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

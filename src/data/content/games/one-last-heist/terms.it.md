@@ -60,7 +60,7 @@ Il trattamento dei dati è descritto nell'[informativa sulla privacy di One Last
 L'editore può modificare le presenti condizioni. La data in cima alla pagina verrà aggiornata e, in caso di modifiche importanti, il Gioco ti chiederà di accettare le nuove condizioni prima di continuare.
 
 ## 15. Legge applicabile e controversie
-Le presenti condizioni sono regolate dalla legge francese. Prima di qualsiasi azione legale, contatta l'editore a [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) per trovare una soluzione amichevole. In quanto consumatore, puoi anche rivolgerti gratuitamente a un mediatore dei consumatori (articolo L612-1 del Codice del consumo francese): [da completare]. In mancanza di una soluzione amichevole, sono competenti i tribunali francesi, fatte salve le norme di tutela del tuo paese di residenza.
+Le presenti condizioni sono regolate dalla legge francese. Prima di qualsiasi azione legale, contatta l'editore a [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) per trovare una soluzione amichevole. In mancanza di una soluzione amichevole, sono competenti i tribunali francesi, fatte salve le norme di tutela del tuo paese di residenza.
 
 ## 16. Contatti
 Styvens Wentz EI, con il nome commerciale Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Parigi, Francia — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

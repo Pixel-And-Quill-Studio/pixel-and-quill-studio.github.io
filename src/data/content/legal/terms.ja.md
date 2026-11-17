@@ -49,7 +49,7 @@
 発行者は本規約を変更することがあります。このページ上部の日付が更新され、重要な変更の場合は、該当するゲームが続行する前に改めて同意を求めます。
 
 ## 14. 準拠法と紛争
-本規約はフランス法に準拠します。紛争が生じた場合は、友好的な解決を図るため、まず発行者 [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) にご連絡ください。フランス消費法典第L612-1条に基づき、次の消費者調停人に無料で申し立てることができます：［記入予定］。合意に至らない場合は、法律で定められた裁判所が管轄します。消費者の方は、居住国の強行規定による保護を引き続き受けられます。
+本規約はフランス法に準拠します。紛争が生じた場合は、友好的な解決を図るため、まず発行者 [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) にご連絡ください。合意に至らない場合は、法律で定められた裁判所が管轄します。消費者の方は、居住国の強行規定による保護を引き続き受けられます。
 
 ## 15. 連絡先
 Styvens Wentz EI（Entrepreneur individuel、フランスの個人事業主）、屋号 Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

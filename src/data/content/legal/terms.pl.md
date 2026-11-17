@@ -63,7 +63,7 @@ Wydawca może zmienić niniejsze warunki. Data na początku strony zostanie zakt
 
 ## 14. Prawo właściwe i spory
 
-Niniejsze warunki podlegają prawu francuskiemu. W razie sporu najpierw skontaktuj się z wydawcą pod adresem [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com), aby znaleźć polubowne rozwiązanie. Zgodnie z art. L612-1 francuskiego Kodeksu konsumpcji możesz bezpłatnie skorzystać z następującego mediatora konsumenckiego: [do uzupełnienia]. W braku porozumienia właściwe są sądy przewidziane przez prawo; jeśli jesteś konsumentem, zachowujesz ochronę bezwzględnie obowiązujących przepisów swojego kraju zamieszkania.
+Niniejsze warunki podlegają prawu francuskiemu. W razie sporu najpierw skontaktuj się z wydawcą pod adresem [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com), aby znaleźć polubowne rozwiązanie. W braku porozumienia właściwe są sądy przewidziane przez prawo; jeśli jesteś konsumentem, zachowujesz ochronę bezwzględnie obowiązujących przepisów swojego kraju zamieszkania.
 
 ## 15. Kontakt
 

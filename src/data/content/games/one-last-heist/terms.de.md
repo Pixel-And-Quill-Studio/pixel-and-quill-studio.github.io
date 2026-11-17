@@ -60,7 +60,7 @@ Die Datenverarbeitung ist in der [Datenschutzerklärung von One Last Heist](/one
 Der Herausgeber kann diese Bedingungen ändern. Das Datum oben auf dieser Seite wird angepasst, und bei wesentlichen Änderungen bittet dich das Spiel, die neuen Bedingungen zu akzeptieren, bevor du weiterspielst.
 
 ## 15. Anwendbares Recht und Streitigkeiten
-Diese Bedingungen unterliegen französischem Recht. Bitte wende dich vor jedem gerichtlichen Schritt an den Herausgeber unter [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com), um eine gütliche Lösung zu finden. Als Verbraucher kannst du dich außerdem kostenlos an einen Verbraucherschlichter wenden (Artikel L612-1 des französischen Verbrauchergesetzbuchs): [noch zu ergänzen]. Kommt keine gütliche Lösung zustande, sind die französischen Gerichte zuständig, unbeschadet der Schutzvorschriften deines Wohnsitzlandes.
+Diese Bedingungen unterliegen französischem Recht. Bitte wende dich vor jedem gerichtlichen Schritt an den Herausgeber unter [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com), um eine gütliche Lösung zu finden. Kommt keine gütliche Lösung zustande, sind die französischen Gerichte zuständig, unbeschadet der Schutzvorschriften deines Wohnsitzlandes.
 
 ## 16. Kontakt
 Styvens Wentz EI, handelnd unter dem Namen Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, Frankreich — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

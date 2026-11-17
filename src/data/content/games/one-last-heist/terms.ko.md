@@ -60,7 +60,7 @@ One Last Heist는 강도 작전을 다룬 픽션으로, 범죄, 경찰, 체포, 
 발행인은 이 약관을 변경할 수 있습니다. 이 페이지 상단의 날짜가 갱신되며, 중요한 변경이 있으면 게임이 계속하기 전에 새 약관에 대한 동의를 요청합니다.
 
 ## 15. 준거법과 분쟁
-이 약관은 프랑스 법을 따릅니다. 법적 조치 전에 원만한 해결을 위해 [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)으로 발행인에게 연락해 주세요. 소비자는 소비자 조정인에게 무료로 조정을 신청할 수도 있습니다(프랑스 소비자법 제L612-1조): [추후 기재]. 원만한 해결에 이르지 못하면 거주 국가의 보호 규정을 해치지 않는 범위에서 관할권이 있는 프랑스 법원이 관할합니다.
+이 약관은 프랑스 법을 따릅니다. 법적 조치 전에 원만한 해결을 위해 [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)으로 발행인에게 연락해 주세요. 원만한 해결에 이르지 못하면 거주 국가의 보호 규정을 해치지 않는 범위에서 관할권이 있는 프랑스 법원이 관할합니다.
 
 ## 16. 연락처
 Styvens Wentz EI, 상호 Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

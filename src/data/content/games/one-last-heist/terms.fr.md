@@ -60,7 +60,7 @@ Les traitements de données sont décrits dans la [politique de confidentialité
 L’éditeur peut modifier ces conditions. La date en haut de cette page sera mise à jour et, en cas de changement important, le Jeu vous demandera d’accepter les nouvelles conditions avant de continuer.
 
 ## 15. Droit applicable et litiges
-Ces conditions sont soumises au droit français. Avant toute action en justice, contactez l’éditeur à [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) pour trouver une solution amiable. En tant que consommateur, vous pouvez aussi recourir gratuitement à un médiateur de la consommation (article L612-1 du Code de la consommation) : [à compléter]. À défaut de solution amiable, les tribunaux français compétents sont saisis, sans préjudice des règles protectrices de votre pays de résidence.
+Ces conditions sont soumises au droit français. Avant toute action en justice, contactez l’éditeur à [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) pour trouver une solution amiable. À défaut de solution amiable, les tribunaux français compétents sont saisis, sans préjudice des règles protectrices de votre pays de résidence.
 
 ## 16. Contact
 Styvens Wentz EI, exerçant sous le nom commercial Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

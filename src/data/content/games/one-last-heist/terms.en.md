@@ -60,7 +60,7 @@ Data processing is described in the [privacy policy of One Last Heist](/one-last
 The publisher may change these terms. The date at the top of this page will be updated and, for any significant change, the Game will ask you to accept the new terms before you continue.
 
 ## 15. Applicable law and disputes
-These terms are governed by French law. Before any legal action, contact the publisher at [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) to find an amicable solution. As a consumer, you may also turn to a consumer mediator free of charge (Article L612-1 of the French Consumer Code): [to be completed]. If no amicable solution is found, the competent French courts have jurisdiction, without prejudice to the protective rules of your country of residence.
+These terms are governed by French law. Before any legal action, contact the publisher at [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com) to find an amicable solution. If no amicable solution is found, the competent French courts have jurisdiction, without prejudice to the protective rules of your country of residence.
 
 ## 16. Contact
 Styvens Wentz EI, trading as Pixel & Quill Studio — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)

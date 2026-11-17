@@ -49,7 +49,7 @@
 발행인은 이 약관을 변경할 수 있습니다. 이 페이지 상단의 날짜가 갱신되며, 중요한 변경이 있으면 해당 게임이 계속하기 전에 다시 동의를 요청합니다.
 
 ## 14. 준거법과 분쟁
-이 약관은 프랑스 법을 따릅니다. 분쟁이 생기면 원만한 해결을 위해 먼저 발행인에게 [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)으로 연락해 주세요. 프랑스 소비자법 제L612-1조에 따라 다음 소비자 조정인에게 무료로 조정을 신청할 수 있습니다: [추후 기재]. 합의에 이르지 못하면 법률이 정한 법원이 관할하며, 소비자는 거주 국가의 강행 규정에 따른 보호를 계속 받습니다.
+이 약관은 프랑스 법을 따릅니다. 분쟁이 생기면 원만한 해결을 위해 먼저 발행인에게 [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)으로 연락해 주세요. 합의에 이르지 못하면 법률이 정한 법원이 관할하며, 소비자는 거주 국가의 강행 규정에 따른 보호를 계속 받습니다.
 
 ## 15. 연락처
 Styvens Wentz EI(Entrepreneur individuel, 프랑스 개인사업자), 상호 Pixel & Quill Studio — SIREN 131 995 391 — SIRET 131 995 391 00011 — 138 avenue Victor Hugo, 75016 Paris, France — [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)
