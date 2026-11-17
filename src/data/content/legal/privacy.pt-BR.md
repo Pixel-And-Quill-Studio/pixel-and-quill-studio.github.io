@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Código APE:** 6201Z (programação de computadores)  
 **Endereço:** 138 avenue Victor Hugo, 75016 Paris, França  
 **Contato:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Última atualização:** 12 de novembro de 2026
+**Última atualização:** 17 de novembro de 2026
 
 ## 1. Editor e escopo
 Pixel & Quill Studio ("o editor") é o nome comercial de Styvens Wentz, empresário individual (EI). Esta política se aplica a este site e a **todos os jogos publicados pela Pixel & Quill Studio**, atuais e futuros. Styvens Wentz EI é o controlador dos tratamentos descritos abaixo, exceto quando um provedor de plataforma (por exemplo, o Google para o Google Play Games, o Google Play Billing e o AdMob) atua como controlador independente dos seus próprios serviços.
@@ -37,10 +37,10 @@ Se você assinar a newsletter, seu endereço de e-mail, seu idioma e a data do s
 
 ## 4. Dados tratados nos jogos
 ### 4.1 Salvamento local (no seu aparelho)
-Seu progresso, as compras desbloqueadas, as configurações, o nome que você escolher no jogo, sua **faixa etária** (nunca a sua data de nascimento) e a versão dos termos que você aceitou ficam salvos **apenas no seu aparelho**, em um arquivo criptografado. O editor não tem acesso a ele. Ele é apagado quando você desinstala o jogo ou limpa os dados dele.
+Seu progresso, as compras desbloqueadas, as configurações, o sexo e o nome do personagem que você escolher no jogo, sua **faixa etária** (nunca a sua data de nascimento) e a versão dos termos que você aceitou ficam salvos **no seu aparelho**, em um arquivo criptografado. No modo convidado, eles não saem do seu aparelho; se você fizer login em um serviço de jogos da plataforma, uma cópia também pode ser mantida no seu salvamento na nuvem (veja 4.2). O editor não tem acesso a ele. Ele é apagado quando você desinstala o jogo ou limpa os dados dele.
 
 ### 4.2 Serviços de jogos da plataforma (opcionais)
-Alguns jogos oferecem login opcional em um serviço de jogos da plataforma, como o **Google Play Games** (conquistas, placares, salvamento na nuvem). Você sempre pode jogar sem fazer login. Se fizer login, a plataforma trata seu ID de jogador, seu nome de jogador, suas conquistas, suas pontuações e, se for o caso, uma cópia do seu progresso, de acordo com as suas próprias regras (no caso do Google: [Política de Privacidade do Google](https://policies.google.com/privacy)).
+Alguns jogos oferecem login opcional em um serviço de jogos da plataforma, como o **Google Play Games** (conquistas, placares, salvamento na nuvem). Você sempre pode jogar sem fazer login. Se fizer login, a plataforma trata seu ID de jogador, seu nome de jogador, suas conquistas, suas pontuações e, se for o caso, uma cópia do seu progresso, de acordo com as suas próprias regras (no caso do Google: [Política de Privacidade do Google](https://policies.google.com/privacy)). Quando um jogo prevê isso (por exemplo, Sentence), essa cópia também contém as suas respostas da primeira abertura: sua **faixa etária** (nunca o seu ano nem a sua data de nascimento), a versão dos termos que você aceitou e o sexo e o nome do seu personagem. Essas respostas são restauradas quando você faz login com a mesma conta, por exemplo em outro aparelho; a faixa etária salva na nuvem passa então a valer no lugar da informada no aparelho. Sua escolha de consentimento de publicidade não faz parte dela: ela continua salva em cada aparelho.
 
 ### 4.3 Compras no app
 As compras são feitas pela loja de aplicativos (por exemplo, o **Google Play Billing**). **O editor nunca recebe seus dados de pagamento.** O jogo recebe da loja apenas uma confirmação da compra (ID do produto, token de compra) para desbloquear o conteúdo. Para evitar compras fraudulentas, o jogo envia essa confirmação (nome do app, ID do produto e token de compra, sem nome, e-mail ou dados de pagamento) a um serviço de verificação operado para o editor no **Cloudflare Workers** (Cloudflare, Inc.), que a confere com o Google Play e confirma a compra. O editor não armazena essas confirmações; a Cloudflare as trata, junto com dados técnicos de conexão como seu endereço IP, apenas para fazer essa verificação.
@@ -77,6 +77,7 @@ Quando a medição de audiência deste site tiver sido aceita, a **Google Irelan
 
 ## 7. Retenção
 - Salvamento local: até você desinstalar o jogo ou limpar os dados dele.
+- Cópia no salvamento na nuvem (se você tiver feito login): até você apagá-la na sua conta da plataforma (no caso do Google: configurações do Google Play Games), conforme as regras da plataforma.
 - Dados de plataforma, de cobrança e de publicidade: conforme os prazos de retenção do provedor em questão.
 - Confirmações de compra enviadas ao serviço de verificação: não armazenadas pelo editor (tratadas apenas durante a verificação).
 - E-mails enviados ao editor: pelo tempo necessário para atender à sua solicitação e, no máximo, 3 anos.
@@ -93,7 +94,7 @@ De acordo com o RGPD e a lei francesa de proteção de dados (*Loi Informatique 
 Para qualquer dúvida, escreva ao editor em [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com); a resposta é dada em até um mês. Se você considerar que seus direitos não foram respeitados, pode apresentar uma reclamação à **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, França — [www.cnil.fr](https://www.cnil.fr)) ou à autoridade de proteção de dados do seu país.
 
 ## 9. Crianças
-Cada jogo informa sua idade mínima na própria página e na página da loja. A Pixel & Quill Studio não coleta intencionalmente dados de crianças menores de 13 anos. Quando um jogo pergunta a sua idade na primeira abertura, apenas a faixa etária fica salva no aparelho. Se você acredita que uma criança forneceu dados, entre em contato com o editor para que eles sejam apagados.
+Cada jogo informa sua idade mínima na própria página e na página da loja. A Pixel & Quill Studio não coleta intencionalmente dados de crianças menores de 13 anos. Quando um jogo pergunta a sua idade na primeira abertura, apenas a faixa etária fica salva, no aparelho e, se você tiver feito login em um serviço de jogos da plataforma, no seu salvamento na nuvem. Se você acredita que uma criança forneceu dados, entre em contato com o editor para que eles sejam apagados.
 
 ## 10. Segurança
 Os salvamentos locais são criptografados. As comunicações com os serviços da plataforma são criptografadas (HTTPS). Os jogos não pedem permissões sensíveis (localização, contatos, câmera, microfone), a menos que a página de um jogo diga o contrário e explique o motivo.

@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **Codice APE:** 6201Z (programmazione informatica)  
 **Indirizzo:** 138 avenue Victor Hugo, 75016 Parigi, Francia  
 **Contatto:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Ultimo aggiornamento:** 12 novembre 2026
+**Ultimo aggiornamento:** 17 novembre 2026
 
 ## 1. Editore e ambito di applicazione
 Pixel & Quill Studio («l'editore») è il nome commerciale di Styvens Wentz, imprenditore individuale (EI). La presente informativa si applica a questo sito e a **tutti i giochi pubblicati da Pixel & Quill Studio**, presenti e futuri. Styvens Wentz EI è il titolare del trattamento descritto di seguito, salvo quando un fornitore di piattaforma (ad esempio Google per Google Play Giochi, Google Play Billing e AdMob) agisce come titolare autonomo per i propri servizi.
@@ -37,10 +37,10 @@ Se ti iscrivi alla newsletter, il tuo indirizzo email, la tua lingua e la data d
 
 ## 4. Dati trattati nei giochi
 ### 4.1 Salvataggio locale (sul tuo dispositivo)
-I tuoi progressi, gli acquisti sbloccati, le impostazioni, l'eventuale nome che scegli nel gioco, la tua **fascia d'età** (mai la data di nascita) e la versione delle condizioni che hai accettato sono memorizzati **solo sul tuo dispositivo**, in un file cifrato. L'editore non vi ha accesso. Il file viene eliminato quando disinstalli il gioco o ne cancelli i dati.
+I tuoi progressi, gli acquisti sbloccati, le impostazioni, l'eventuale sesso e nome del personaggio che scegli nel gioco, la tua **fascia d'età** (mai la data di nascita) e la versione delle condizioni che hai accettato sono memorizzati **sul tuo dispositivo**, in un file cifrato. In modalità ospite non lasciano il dispositivo; se accedi a un servizio di gioco della piattaforma, una copia può essere conservata anche nel tuo salvataggio nel cloud (vedi 4.2). L'editore non vi ha accesso. Il file viene eliminato quando disinstalli il gioco o ne cancelli i dati.
 
 ### 4.2 Servizi di gioco della piattaforma (facoltativi)
-Alcuni giochi offrono l'accesso facoltativo a un servizio di gioco della piattaforma come **Google Play Giochi** (obiettivi, classifiche, salvataggi nel cloud). Puoi sempre giocare senza accedere. Se accedi, la piattaforma tratta il tuo ID giocatore, il nome da giocatore, gli obiettivi, i punteggi e, se previsto, una copia del salvataggio, secondo le proprie regole (per Google: [Norme sulla privacy di Google](https://policies.google.com/privacy)).
+Alcuni giochi offrono l'accesso facoltativo a un servizio di gioco della piattaforma come **Google Play Giochi** (obiettivi, classifiche, salvataggi nel cloud). Puoi sempre giocare senza accedere. Se accedi, la piattaforma tratta il tuo ID giocatore, il nome da giocatore, gli obiettivi, i punteggi e, se previsto, una copia del salvataggio, secondo le proprie regole (per Google: [Norme sulla privacy di Google](https://policies.google.com/privacy)). Quando un gioco lo prevede (per esempio Sentence), questa copia contiene anche le tue risposte del primo avvio: la tua **fascia d'età** (mai l'anno né la data di nascita), la versione delle condizioni che hai accettato e il sesso e il nome del tuo personaggio. Queste risposte vengono ripristinate quando accedi con lo stesso account, per esempio su un altro dispositivo; la fascia d'età salvata nel cloud prevale allora su quella inserita sul dispositivo. La tua scelta sul consenso pubblicitario non ne fa parte: resta memorizzata su ciascun dispositivo.
 
 ### 4.3 Acquisti in-app
 Gli acquisti avvengono tramite lo store delle app (ad esempio **Google Play Billing**). **L'editore non riceve mai i tuoi dati di pagamento.** Il gioco riceve dallo store solo una conferma dell'acquisto (ID del prodotto, token di acquisto) per sbloccare il contenuto. Per prevenire acquisti fraudolenti, il gioco invia questa conferma (nome dell'app, ID del prodotto e token di acquisto, senza nome, email o dati di pagamento) a un servizio di verifica gestito per l'editore su **Cloudflare Workers** (Cloudflare, Inc.), che la controlla presso Google Play e conferma l'acquisto. L'editore non conserva queste conferme; Cloudflare le tratta, insieme a dati tecnici di connessione come il tuo indirizzo IP, solo per effettuare questo controllo.
@@ -77,6 +77,7 @@ Quando la misurazione dell’audience di questo sito è stata accettata, **Googl
 
 ## 7. Conservazione
 - Salvataggio locale: finché non disinstalli il gioco o ne cancelli i dati.
+- Copia nel salvataggio nel cloud (se hai effettuato l'accesso): finché non la elimini dal tuo account della piattaforma (per Google: impostazioni di Google Play Giochi), secondo le regole della piattaforma.
 - Dati di piattaforma, di pagamento e pubblicitari: secondo i tempi di conservazione del fornitore interessato.
 - Conferme di acquisto inviate al servizio di verifica: non conservate dall'editore (trattate solo per il tempo del controllo).
 - Email inviate all'editore: per il tempo necessario a gestire la tua richiesta, poi al massimo 3 anni.
@@ -93,7 +94,7 @@ Ai sensi del GDPR e della legge francese sulla protezione dei dati, hai diritto 
 Per qualsiasi domanda, scrivi all'editore a [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com); riceverai una risposta entro un mese. Se ritieni che i tuoi diritti non siano rispettati, puoi presentare un reclamo alla **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, Francia — [www.cnil.fr](https://www.cnil.fr)) o all'autorità di protezione dei dati del tuo paese (in Italia, il Garante per la protezione dei dati personali).
 
 ## 9. Minori
-Ogni gioco indica la sua età minima nella propria pagina e nella scheda dello store. Pixel & Quill Studio non raccoglie consapevolmente dati di minori di 13 anni. Quando un gioco chiede la tua età al primo avvio, sul dispositivo viene conservata solo la fascia d'età. Se ritieni che un minore abbia fornito dati, contatta l'editore affinché vengano eliminati.
+Ogni gioco indica la sua età minima nella propria pagina e nella scheda dello store. Pixel & Quill Studio non raccoglie consapevolmente dati di minori di 13 anni. Quando un gioco chiede la tua età al primo avvio, viene conservata solo la fascia d'età, sul dispositivo e, se hai effettuato l'accesso a un servizio di gioco della piattaforma, nel tuo salvataggio nel cloud. Se ritieni che un minore abbia fornito dati, contatta l'editore affinché vengano eliminati.
 
 ## 10. Sicurezza
 I salvataggi locali sono cifrati. Le comunicazioni con i servizi della piattaforma sono cifrate (HTTPS). I giochi non richiedono autorizzazioni sensibili (posizione, contatti, fotocamera, microfono), salvo diversa indicazione motivata nella pagina del gioco.

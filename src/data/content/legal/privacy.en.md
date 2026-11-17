@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE code:** 6201Z (computer programming)  
 **Address:** 138 avenue Victor Hugo, 75016 Paris, France  
 **Contact:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Last updated:** November 12, 2026
+**Last updated:** November 17, 2026
 
 ## 1. Publisher and scope
 Pixel & Quill Studio (“the publisher”) is the trade name of Styvens Wentz, an individual entrepreneur (EI). This policy applies to this website and to **all the games published by Pixel & Quill Studio**, present and future. Styvens Wentz EI is the data controller for the processing described below, except where a platform provider (for example Google for Google Play Games, Google Play Billing and AdMob) acts as an independent controller for its own services.
@@ -37,10 +37,10 @@ If you subscribe to the newsletter, your email address, your language and the da
 
 ## 4. Data processed in the games
 ### 4.1 Local save (on your device)
-Your progress, purchases unlocked, settings, any in-game name you choose, your **age bracket** (never your date of birth) and the version of the terms you accepted are stored **only on your device**, in an encrypted file. The publisher has no access to it. It is deleted when you uninstall the game or clear its data.
+Your progress, purchases unlocked, settings, the character sex and name you may choose in the game, your **age bracket** (never your date of birth) and the version of the terms you accepted are stored **on your device**, in an encrypted file. As a guest, they do not leave your device; if you sign in to a platform game service, a copy may also be kept in your cloud save (see 4.2). The publisher has no access to it. It is deleted when you uninstall the game or clear its data.
 
 ### 4.2 Platform game services (optional)
-Some games offer optional sign-in to a platform game service such as **Google Play Games** (achievements, leaderboards, cloud saves). You can always play without signing in. If you sign in, the platform processes your player ID, gamer name, achievements, scores and, where applicable, a copy of your save, under its own rules (for Google: [Google Privacy Policy](https://policies.google.com/privacy)).
+Some games offer optional sign-in to a platform game service such as **Google Play Games** (achievements, leaderboards, cloud saves). You can always play without signing in. If you sign in, the platform processes your player ID, gamer name, achievements, scores and, where applicable, a copy of your save, under its own rules (for Google: [Google Privacy Policy](https://policies.google.com/privacy)). Where a game provides for it (for example Sentence), this copy also holds your first-launch answers: your **age bracket** (never your year or date of birth), the version of the terms you accepted, and your character’s sex and name. These answers are restored when you sign in with the same account, for example on another device; the age bracket stored in the cloud then takes precedence over the one entered on the device. Your ad consent choice is not part of it: it stays stored on each device.
 
 ### 4.3 In-app purchases
 Purchases are made through the app store (for example **Google Play Billing**). **The publisher never receives your payment details.** The game only receives a confirmation of the purchase (product ID, purchase token) from the store in order to unlock the content. To protect against fraudulent purchases, the game sends this confirmation (app name, product ID and purchase token, with no name, email or payment details) to a verification service operated for the publisher on **Cloudflare Workers** (Cloudflare, Inc.), which checks it with Google Play and confirms the purchase. The publisher does not store these confirmations; Cloudflare processes them, together with technical connection data such as your IP address, only to run this check.
@@ -77,6 +77,7 @@ When audience measurement on this website has been accepted, **Google Ireland Li
 
 ## 7. Retention
 - Local save: until you uninstall the game or clear its data.
+- Copy in the cloud save (if you are signed in): until you delete it from your platform account (for Google: Google Play Games settings), under the platform’s rules.
 - Platform, billing and advertising data: according to the retention periods of the provider concerned.
 - Purchase confirmations sent to the verification service: not stored by the publisher (processed only for the time of the check).
 - Emails sent to the publisher: for as long as needed to handle your request, then 3 years at most.
@@ -93,7 +94,7 @@ Under the GDPR and the French Data Protection Act, you have the right of access,
 For any question, email the publisher at [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com); a reply is given within one month. If you believe your rights are not respected, you may lodge a complaint with the **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, France — [www.cnil.fr](https://www.cnil.fr)) or with the data protection authority of your country.
 
 ## 9. Children
-Each game states its minimum age on its page and in its store listing. Pixel & Quill Studio does not knowingly collect data from children under 13. When a game asks for your age at first launch, only the age bracket is kept on the device. If you believe a child has provided data, contact the publisher so it can be deleted.
+Each game states its minimum age on its page and in its store listing. Pixel & Quill Studio does not knowingly collect data from children under 13. When a game asks for your age at first launch, only the age bracket is kept, on the device and, if you are signed in to a platform game service, in your cloud save. If you believe a child has provided data, contact the publisher so it can be deleted.
 
 ## 10. Security
 Local saves are encrypted. Communications with platform services are encrypted (HTTPS). The games request no sensitive permissions (location, contacts, camera, microphone) unless a game's page says otherwise and explains why.

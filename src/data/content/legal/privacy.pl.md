@@ -44,11 +44,11 @@ Jeśli zapiszesz się do newslettera, Twój adres e-mail, język i data zgody s�
 
 ### 4.1 Zapis lokalny (na Twoim urządzeniu)
 
-Twoje postępy, odblokowane zakupy, ustawienia, imię ewentualnie wybrane w grze, **przedział wiekowy** (nigdy data urodzenia) oraz wersja zaakceptowanych warunków są zapisywane **wyłącznie na Twoim urządzeniu**, w zaszyfrowanym pliku. Wydawca nie ma do nich dostępu. Są usuwane, gdy odinstalujesz grę lub wyczyścisz jej dane.
+Twoje postępy, odblokowane zakupy, ustawienia, płeć i imię postaci ewentualnie wybrane w grze, **przedział wiekowy** (nigdy data urodzenia) oraz wersja zaakceptowanych warunków są zapisywane **na Twoim urządzeniu**, w zaszyfrowanym pliku. W trybie gościa nie opuszczają urządzenia; jeśli zalogujesz się do usługi gamingowej platformy, kopia może być też przechowywana w Twoim zapisie w chmurze (zob. 4.2). Wydawca nie ma do nich dostępu. Są usuwane, gdy odinstalujesz grę lub wyczyścisz jej dane.
 
 ### 4.2 Usługi gamingowe platformy (opcjonalne)
 
-Niektóre gry oferują opcjonalne logowanie do usługi gamingowej platformy, na przykład **Google Play Games** (osiągnięcia, rankingi, zapis w chmurze). Zawsze możesz grać bez logowania. Jeśli się zalogujesz, platforma przetwarza Twój identyfikator gracza, pseudonim, osiągnięcia, wyniki i — w razie potrzeby — kopię zapisu, zgodnie z własnymi zasadami (w przypadku Google: [Zasady prywatności Google](https://policies.google.com/privacy)).
+Niektóre gry oferują opcjonalne logowanie do usługi gamingowej platformy, na przykład **Google Play Games** (osiągnięcia, rankingi, zapis w chmurze). Zawsze możesz grać bez logowania. Jeśli się zalogujesz, platforma przetwarza Twój identyfikator gracza, pseudonim, osiągnięcia, wyniki i — w razie potrzeby — kopię zapisu, zgodnie z własnymi zasadami (w przypadku Google: [Zasady prywatności Google](https://policies.google.com/privacy)). Jeśli gra to przewiduje (na przykład Sentence), ta kopia zawiera też Twoje odpowiedzi z pierwszego uruchomienia: **przedział wiekowy** (nigdy rok ani data urodzenia), wersję zaakceptowanych warunków oraz płeć i imię Twojej postaci. Odpowiedzi te są przywracane, gdy zalogujesz się na to samo konto, na przykład na innym urządzeniu; przedział wiekowy zapisany w chmurze ma wtedy pierwszeństwo przed podanym na urządzeniu. Twój wybór dotyczący zgody na reklamy nie jest częścią tej kopii: pozostaje zapisany osobno na każdym urządzeniu.
 
 ### 4.3 Zakupy w aplikacji
 
@@ -91,6 +91,7 @@ Gdy pomiar oglądalności tej strony został zaakceptowany, **Google Ireland Lim
 ## 7. Okres przechowywania
 
 - Zapis lokalny: do odinstalowania gry lub wyczyszczenia jej danych.
+- Kopia w zapisie w chmurze (po zalogowaniu): do czasu jej usunięcia z konta platformy (w przypadku Google: w ustawieniach Google Play Games), zgodnie z zasadami platformy.
 - Dane platformy, zakupów i reklam: zgodnie z okresami ustalonymi przez danego dostawcę.
 - Potwierdzenia zakupów przekazywane usłudze weryfikacyjnej: nieprzechowywane przez wydawcę (przetwarzane wyłącznie na czas kontroli).
 - E-maile wysyłane do wydawcy: przez czas potrzebny do rozpatrzenia sprawy, a następnie maksymalnie 3 lata.
@@ -109,7 +110,7 @@ W razie pytań napisz do wydawcy na adres [contact@pixelandquillstudio.com](mail
 
 ## 9. Dzieci
 
-Każda gra podaje minimalny wiek na swojej stronie i w karcie sklepu. Pixel & Quill Studio świadomie nie zbiera danych dotyczących dzieci poniżej 13. roku życia. Gdy gra pyta o wiek przy pierwszym uruchomieniu, na urządzeniu przechowywany jest wyłącznie przedział wiekowy. Jeśli uważasz, że dziecko przekazało jakieś dane, skontaktuj się z wydawcą, aby je usunąć.
+Każda gra podaje minimalny wiek na swojej stronie i w karcie sklepu. Pixel & Quill Studio świadomie nie zbiera danych dotyczących dzieci poniżej 13. roku życia. Gdy gra pyta o wiek przy pierwszym uruchomieniu, przechowywany jest wyłącznie przedział wiekowy: na urządzeniu oraz, jeśli zalogujesz się do usługi gamingowej platformy, w Twoim zapisie w chmurze. Jeśli uważasz, że dziecko przekazało jakieś dane, skontaktuj się z wydawcą, aby je usunąć.
 
 ## 10. Bezpieczeństwo
 

@@ -4,7 +4,7 @@
 **SIREN:** 131 995 391 — **SIRET:** 131 995 391 00011 — **APE-Code:** 6201Z (Programmierungstätigkeiten)  
 **Anschrift:** 138 avenue Victor Hugo, 75016 Paris, Frankreich  
 **Kontakt:** [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com)  
-**Stand:** 12. November 2026
+**Stand:** 17. November 2026
 
 ## 1. Herausgeber und Geltungsbereich
 Pixel & Quill Studio („der Herausgeber“) ist der Handelsname von Styvens Wentz, Einzelunternehmer (EI). Diese Erklärung gilt für diese Website und für **alle heutigen und künftigen Spiele von Pixel & Quill Studio**. Styvens Wentz EI ist Verantwortlicher für die nachfolgend beschriebenen Verarbeitungen, außer wenn ein Plattformanbieter (zum Beispiel Google für Google Play Spiele, Google Play Billing und AdMob) für seine eigenen Dienste als eigenständiger Verantwortlicher handelt.
@@ -37,10 +37,10 @@ Wenn du den Newsletter abonnierst, werden deine E-Mail-Adresse, deine Sprache un
 
 ## 4. In den Spielen verarbeitete Daten
 ### 4.1 Lokaler Spielstand (auf deinem Gerät)
-Dein Fortschritt, freigeschaltete Käufe, Einstellungen, ein eventuell im Spiel gewählter Name, deine **Altersgruppe** (nie dein Geburtsdatum) und die Version der von dir akzeptierten Bedingungen werden **ausschließlich auf deinem Gerät** gespeichert, in einer verschlüsselten Datei. Der Herausgeber hat keinen Zugriff darauf. Sie wird gelöscht, wenn du das Spiel deinstallierst oder seine Daten löschst.
+Dein Fortschritt, freigeschaltete Käufe, Einstellungen, das eventuell im Spiel gewählte Geschlecht und der Name deiner Spielfigur, deine **Altersgruppe** (nie dein Geburtsdatum) und die Version der von dir akzeptierten Bedingungen werden **auf deinem Gerät** gespeichert, in einer verschlüsselten Datei. Im Gastmodus verlassen sie dein Gerät nicht; wenn du dich bei einem Spieledienst der Plattform anmeldest, kann eine Kopie auch in deinem Cloud-Speicherstand liegen (siehe 4.2). Der Herausgeber hat keinen Zugriff darauf. Sie wird gelöscht, wenn du das Spiel deinstallierst oder seine Daten löschst.
 
 ### 4.2 Spieledienste der Plattform (optional)
-Manche Spiele bieten eine optionale Anmeldung bei einem Spieledienst der Plattform wie **Google Play Spiele** an (Erfolge, Bestenlisten, Cloud-Speicherstände). Du kannst immer ohne Anmeldung spielen. Wenn du dich anmeldest, verarbeitet die Plattform deine Spieler-ID, deinen Spielernamen, deine Erfolge, deine Punktzahlen und gegebenenfalls eine Kopie deines Spielstands nach ihren eigenen Regeln (für Google: [Datenschutzerklärung von Google](https://policies.google.com/privacy)).
+Manche Spiele bieten eine optionale Anmeldung bei einem Spieledienst der Plattform wie **Google Play Spiele** an (Erfolge, Bestenlisten, Cloud-Speicherstände). Du kannst immer ohne Anmeldung spielen. Wenn du dich anmeldest, verarbeitet die Plattform deine Spieler-ID, deinen Spielernamen, deine Erfolge, deine Punktzahlen und gegebenenfalls eine Kopie deines Spielstands nach ihren eigenen Regeln (für Google: [Datenschutzerklärung von Google](https://policies.google.com/privacy)). Wenn ein Spiel dies vorsieht (zum Beispiel Sentence), enthält diese Kopie auch deine Antworten vom ersten Start: deine **Altersgruppe** (nie dein Geburtsjahr oder Geburtsdatum), die Version der von dir akzeptierten Bedingungen sowie Geschlecht und Name deiner Spielfigur. Diese Antworten werden wiederhergestellt, wenn du dich mit demselben Konto anmeldest, zum Beispiel auf einem anderen Gerät; die in der Cloud gespeicherte Altersgruppe hat dann Vorrang vor der auf dem Gerät eingegebenen. Deine Werbe-Einwilligung gehört nicht dazu: Sie bleibt auf jedem Gerät einzeln gespeichert.
 
 ### 4.3 In-App-Käufe
 Käufe werden über den App-Store abgewickelt (zum Beispiel **Google Play Billing**). **Der Herausgeber erhält niemals deine Zahlungsdaten.** Das Spiel erhält vom Store nur eine Kaufbestätigung (Produkt-ID, Kauf-Token), um den Inhalt freizuschalten. Zum Schutz vor betrügerischen Käufen sendet das Spiel diese Bestätigung (App-Name, Produkt-ID und Kauf-Token, ohne Namen, E-Mail-Adresse oder Zahlungsdaten) an einen Prüfdienst, der für den Herausgeber auf **Cloudflare Workers** (Cloudflare, Inc.) betrieben wird; er prüft sie bei Google Play und bestätigt den Kauf. Der Herausgeber speichert diese Bestätigungen nicht; Cloudflare verarbeitet sie zusammen mit technischen Verbindungsdaten wie deiner IP-Adresse nur für diese Prüfung.
@@ -77,6 +77,7 @@ Wurde der Reichweitenmessung auf dieser Website zugestimmt, ist **Google Ireland
 
 ## 7. Speicherdauer
 - Lokaler Spielstand: bis du das Spiel deinstallierst oder seine Daten löschst.
+- Kopie im Cloud-Speicherstand (wenn du angemeldet bist): bis du sie in deinem Plattformkonto löschst (für Google: Einstellungen von Google Play Spiele), nach den Regeln der Plattform.
 - Plattform-, Abrechnungs- und Werbedaten: gemäß den Speicherfristen des jeweiligen Anbieters.
 - An den Prüfdienst gesendete Kaufbestätigungen: werden vom Herausgeber nicht gespeichert (nur für die Dauer der Prüfung verarbeitet).
 - E-Mails an den Herausgeber: so lange, wie es für die Bearbeitung deiner Anfrage nötig ist, höchstens 3 Jahre.
@@ -93,7 +94,7 @@ Nach der DSGVO und dem französischen Datenschutzgesetz (*Loi Informatique et Li
 Bei Fragen schreib dem Herausgeber an [contact@pixelandquillstudio.com](mailto:contact@pixelandquillstudio.com); du erhältst innerhalb eines Monats eine Antwort. Wenn du der Meinung bist, dass deine Rechte nicht gewahrt werden, kannst du dich bei der **CNIL** (3 place de Fontenoy, TSA 80715, 75334 Paris Cedex 07, Frankreich — [www.cnil.fr](https://www.cnil.fr)) oder bei der Datenschutzaufsichtsbehörde deines Landes beschweren.
 
 ## 9. Kinder
-Jedes Spiel gibt sein Mindestalter auf seiner Seite und in seinem Store-Eintrag an. Pixel & Quill Studio erhebt nicht wissentlich Daten von Kindern unter 13 Jahren. Wenn ein Spiel beim ersten Start nach deinem Alter fragt, wird nur die Altersgruppe auf dem Gerät gespeichert. Wenn du glaubst, dass ein Kind Daten angegeben hat, wende dich an den Herausgeber, damit sie gelöscht werden.
+Jedes Spiel gibt sein Mindestalter auf seiner Seite und in seinem Store-Eintrag an. Pixel & Quill Studio erhebt nicht wissentlich Daten von Kindern unter 13 Jahren. Wenn ein Spiel beim ersten Start nach deinem Alter fragt, wird nur die Altersgruppe gespeichert, auf dem Gerät und, wenn du bei einem Spieledienst der Plattform angemeldet bist, in deinem Cloud-Speicherstand. Wenn du glaubst, dass ein Kind Daten angegeben hat, wende dich an den Herausgeber, damit sie gelöscht werden.
 
 ## 10. Sicherheit
 Lokale Spielstände sind verschlüsselt. Die Kommunikation mit den Plattformdiensten ist verschlüsselt (HTTPS). Die Spiele fordern keine sensiblen Berechtigungen an (Standort, Kontakte, Kamera, Mikrofon), es sei denn, die Seite eines Spiels gibt etwas anderes an und erklärt den Grund.
