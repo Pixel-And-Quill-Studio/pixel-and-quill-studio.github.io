@@ -1,0 +1,14 @@
+---
+/** Google Play badge, optionally with a desktop-only QR code to the store page. */
+import PlayBadge from "./PlayBadge.astro";
+import { t, playStoreUrl } from "../lib/site";
+const { g, lang, qr = false } = Astro.props;
+const store = playStoreUrl(g, lang);
+---
+<div class:list={["play-get", { "has-qr": qr && store }]}>
+  <PlayBadge g={g} lang={lang} />
+  {qr && store && <figure class="play-qr">
+    <img src="/assets/games/sentence/play-qr.png" alt={t(lang, "qr_alt")} width="160" height="160">
+    <figcaption>{t(lang, "qr_caption")}</figcaption>
+  </figure>}
+</div>

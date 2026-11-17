@@ -1,6 +1,6 @@
 # Legal notice
 
-**Last updated:** October 28, 2026
+**Last updated:** November 17, 2026
 
 ## Publisher
 The website pixelandquillstudio.com and all the games published by Pixel & Quill Studio, present and future, are published by:
@@ -27,10 +27,10 @@ Website: [github.com](https://github.com) — contact: [support.github.com](http
 The games of Pixel & Quill Studio are distributed through the app stores where they are listed (for example Google Play, operated by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland).
 
 ## Intellectual property
-The texts, images, logos, sounds, characters and other elements of the games published by Pixel & Quill Studio, and of this website, are the property of Styvens Wentz (Pixel & Quill Studio) or its licensors. Any reproduction or reuse without prior written permission is prohibited. The fonts used on this website (Playfair Display SC, Allerta Stencil) are distributed under the SIL Open Font License 1.1.
+The texts, images, logos, sounds, characters and other elements of the games published by Pixel & Quill Studio, and of this website, are the property of Styvens Wentz (Pixel & Quill Studio) or its licensors. Any reproduction or reuse without prior written permission is prohibited. The fonts used on this website (Playfair Display SC, Allerta Stencil and its modified version Sentence Stencil) are distributed under the SIL Open Font License 1.1.
 
 ## Personal data and cookies
-This website sets no cookies, uses no analytics and contains no forms. Your language choice is stored only in your browser (local storage) and is never sent to the publisher. The hosting provider GitHub may log technical connection data (including IP addresses) for security purposes, under its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+This website offers an audience-measurement tool (Google Analytics 4), used only with your consent, and an optional newsletter sign-up form. Your language choice, like your choice to accept or refuse audience measurement, is stored only in your browser (local storage) and is never sent to the publisher. The hosting provider GitHub may log technical connection data (including IP addresses) for security purposes, under its own [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 How personal data is processed on this website and in the games of Pixel & Quill Studio is described in the [privacy policy](/privacy/). The services used by each game are listed on that game's page.
 

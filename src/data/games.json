@@ -6,7 +6,8 @@
         "en": "Sentence",
         "fr": "Sentence",
         "ja": "Sentence",
-        "ko": "Sentence"
+        "ko": "Sentence",
+        "pl": "Sentence"
       },
       "subtitle": {
         "en": "Prison survival",
@@ -16,7 +17,8 @@
         "de": "Überleben im Gefängnis",
         "it": "Sopravvivenza in carcere",
         "ja": "刑務所サバイバル",
-        "ko": "교도소 서바이벌"
+        "ko": "교도소 서바이벌",
+        "pl": "Przetrwaj za kratami"
       },
       "pitch": {
         "en": "Swipe card game: pick your prison, your inmate, and survive as many days as you can.",
@@ -26,7 +28,8 @@
         "de": "Wisch-Kartenspiel: Wähle dein Gefängnis und deinen Häftling und überlebe so viele Tage wie möglich.",
         "it": "Gioco di carte da scorrere: scegli il carcere e il detenuto, e sopravvivi più giorni che puoi.",
         "ja": "スワイプ式カードゲーム：刑務所と受刑者を選び、できるだけ長く生き延びよう。",
-        "ko": "스와이프 카드 게임: 교도소와 수감자를 고르고, 최대한 오래 버텨라."
+        "ko": "스와이프 카드 게임: 교도소와 수감자를 고르고, 최대한 오래 버텨라.",
+        "pl": "Karcianka z przesuwaniem: wybierz więzienie i postać, a potem przetrwaj jak najwięcej dni."
       },
       "description": {
         "en": [
@@ -68,6 +71,11 @@
           "매일 카드 한 장, 선택지 두 개: 왼쪽이나 오른쪽으로 스와이프하세요. 게이지의 균형을 지켜야 합니다. 게이지가 바닥나도, 너무 가득 차도 치명적입니다. 형기가 끝날 때까지 버티세요.",
           "교도소를 고르고, 남성이나 여성 캐릭터를 고른 다음, 판결을 듣습니다. 수감자마다 고유한 이야기, 전용 카드, 엔딩이 있습니다.",
           "형기는 무료로 플레이할 수 있는 발몽 교도소에서 시작됩니다: 운동장, 작업장, 패거리. 그다음에는 유료 교도소들이 기다립니다. 저마다 고유한 규칙, 전용 수감자, 카드가 있습니다: 모르나크 중경비 교도소, 카레그 섬 교도소, 생토뱅 외부통근센터, 가상의 나라 사르바니아에 있는 해외 교도소, 그리고 17세기 성채인 보클레르 요새."
+        ],
+        "pl": [
+          "Każdego dnia jedna karta i dwa wybory: przesuń w lewo albo w prawo. Pilnuj równowagi wskaźników, bo pusty wskaźnik jest zabójczy, tak samo jak przepełniony. Wytrzymaj do końca kary.",
+          "Wybierasz więzienie, potem postać, mężczyznę lub kobietę, a potem słuchasz wyroku. Każdy więzień ma własną historię, ekskluzywne karty i zakończenia.",
+          "Twoja kara zaczyna się w areszcie Valmont, darmowym: spacerniak, warsztaty, paczki. Potem przychodzą płatne więzienia, każde z własnymi zasadami, ekskluzywnym więźniem i kartami: więzienie o zaostrzonym rygorze w Mornac, więzienie na wyspie Karreg, ośrodek półwolnościowy w Saint-Aubin, więzienie za granicą, w Sarwanii, wymyślonym kraju, oraz stara twierdza Vauclair, cytadela z XVII wieku."
         ]
       },
       "tagline": {
@@ -78,7 +86,8 @@
         "de": "Du bist gerade eingesperrt worden. Überlebe so viele Tage wie möglich.",
         "it": "Sei appena finito dentro. Sopravvivi più giorni che puoi.",
         "ja": "投獄されたばかりのあなた。できるだけ長く生き延びよう。",
-        "ko": "방금 수감되었다. 최대한 오래 버텨라."
+        "ko": "방금 수감되었다. 최대한 오래 버텨라.",
+        "pl": "Właśnie trafiasz za kraty. Przetrwaj jak najwięcej dni."
       },
       "features": {
         "en": [
@@ -86,56 +95,63 @@
           "Valmont Prison is free; 5 more prisons can be unlocked, each with its exclusive inmate",
           "Play as a man or a woman, in single-sex prisons",
           "Google Play Games achievements and one leaderboard per prison",
-          "In English, French, Spanish, Brazilian Portuguese, German, Italian, Japanese and Korean, for ages 13 and up"
+          "In English, French, Spanish, Brazilian Portuguese, German, Italian, Japanese, Korean and Polish, for ages 13 and up"
         ],
         "fr": [
           "Un jour, une carte, deux choix : glisse à gauche ou à droite",
           "La maison d’arrêt de Valmont est gratuite ; 5 autres prisons se débloquent, chacune avec son détenu exclusif",
           "Joue en homme ou en femme, dans des prisons non mixtes",
           "Succès Google Play Jeux et un classement par prison",
-          "En anglais, français, espagnol, portugais du Brésil, allemand, italien, japonais et coréen, à partir de 13 ans"
+          "En anglais, français, espagnol, portugais du Brésil, allemand, italien, japonais, coréen et polonais, à partir de 13 ans"
         ],
         "es": [
           "Un día, una carta, dos opciones: desliza a la izquierda o a la derecha",
           "La prisión de Valmont es gratis; se pueden desbloquear 5 prisiones más, cada una con su recluso exclusivo",
           "Juega como hombre o como mujer, en prisiones no mixtas",
           "Logros de Google Play Juegos y una clasificación por prisión",
-          "En inglés, francés, español, portugués de Brasil, alemán, italiano, japonés y coreano, a partir de 13 años"
+          "En inglés, francés, español, portugués de Brasil, alemán, italiano, japonés, coreano y polaco, a partir de 13 años"
         ],
         "pt-BR": [
           "Um dia, uma carta, duas escolhas: deslize para a esquerda ou para a direita",
           "A prisão de Valmont é grátis; mais 5 prisões podem ser desbloqueadas, cada uma com seu detento exclusivo",
           "Jogue como homem ou como mulher, em prisões não mistas",
           "Conquistas do Google Play Games e um placar por prisão",
-          "Em inglês, francês, espanhol, português do Brasil, alemão, italiano, japonês e coreano, a partir de 13 anos"
+          "Em inglês, francês, espanhol, português do Brasil, alemão, italiano, japonês, coreano e polonês, a partir de 13 anos"
         ],
         "de": [
           "Ein Tag, eine Karte, zwei Entscheidungen: nach links oder rechts wischen",
           "Gefängnis Valmont ist kostenlos; 5 weitere Gefängnisse lassen sich freischalten, jedes mit seinem exklusiven Häftling",
           "Spiele als Mann oder als Frau, in nach Geschlechtern getrennten Gefängnissen",
           "Erfolge in Google Play Spiele und eine Bestenliste pro Gefängnis",
-          "Auf Englisch, Französisch, Spanisch, brasilianischem Portugiesisch, Deutsch, Italienisch, Japanisch und Koreanisch, ab 13 Jahren"
+          "Auf Englisch, Französisch, Spanisch, brasilianischem Portugiesisch, Deutsch, Italienisch, Japanisch, Koreanisch und Polnisch, ab 13 Jahren"
         ],
         "it": [
           "Un giorno, una carta, due scelte: scorri a sinistra o a destra",
           "Il carcere di Valmont è gratuito; si possono sbloccare altre 5 carceri, ognuna con il suo detenuto esclusivo",
           "Gioca come uomo o come donna, in carceri non miste",
           "Obiettivi di Google Play Giochi e una classifica per ogni carcere",
-          "In inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano, giapponese e coreano, dai 13 anni in su"
+          "In inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano, giapponese, coreano e polacco, dai 13 anni in su"
         ],
         "ja": [
           "1日1枚のカード、2つの選択肢：左か右にスワイプ",
           "ヴァルモン刑務所は無料。さらに5つの刑務所を解放でき、それぞれに専用の受刑者がいる",
           "男性でも女性でもプレイ可能、刑務所は男女別",
           "Google Play Games の実績と、刑務所ごとのランキング",
-          "日本語、韓国語、英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語に対応、13歳以上向け"
+          "日本語、韓国語、英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語、ポーランド語に対応、13歳以上向け"
         ],
         "ko": [
           "하루에 카드 한 장, 선택지 두 개: 왼쪽이나 오른쪽으로 스와이프",
           "발몽 교도소는 무료, 5곳의 교도소를 추가로 잠금 해제할 수 있으며 각각 전용 수감자가 있음",
           "남성 또는 여성으로 플레이, 교도소는 성별로 분리",
           "Google Play 게임즈 업적과 교도소별 리더보드",
-          "한국어, 일본어, 영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어 지원, 13세 이상"
+          "한국어, 일본어, 영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어, 폴란드어 지원, 13세 이상"
+        ],
+        "pl": [
+          "Jeden dzień, jedna karta, dwa wybory: przesuń w lewo albo w prawo",
+          "Areszt Valmont jest darmowy; 5 kolejnych więzień do odblokowania, każde z ekskluzywnym więźniem",
+          "Graj jako mężczyzna lub kobieta, w więzieniach męskich i kobiecych",
+          "Osiągnięcia Google Play Games i osobny ranking dla każdego więzienia",
+          "Po angielsku, francusku, hiszpańsku, portugalsku (Brazylia), niemiecku, włosku, japońsku, koreańsku i polsku, od 13 lat"
         ]
       },
       "facts": [
@@ -149,7 +165,8 @@
             "de": "Wischkarten im Stil von Reigns, Überleben im Gefängnis",
             "it": "Carte da scorrere in stile Reigns, sopravvivenza in carcere",
             "ja": "Reigns風スワイプカード、刑務所サバイバル",
-            "ko": "Reigns 스타일 스와이프 카드, 교도소 서바이벌"
+            "ko": "Reigns 스타일 스와이프 카드, 교도소 서바이벌",
+            "pl": "Karty z przesuwaniem w stylu Reigns, przetrwanie w więzieniu"
           }
         },
         {
@@ -162,7 +179,8 @@
             "de": "Android 7.0 oder neuer",
             "it": "Android 7.0 o superiore",
             "ja": "Android 7.0以降",
-            "ko": "Android 7.0 이상"
+            "ko": "Android 7.0 이상",
+            "pl": "Android 7.0 i nowszy"
           }
         },
         {
@@ -175,20 +193,22 @@
             "de": "Hochformat",
             "it": "Verticale",
             "ja": "縦画面",
-            "ko": "세로 화면"
+            "ko": "세로 화면",
+            "pl": "Pionowa"
           }
         },
         {
           "key": "languages",
           "value": {
-            "en": "English, French, Spanish, Brazilian Portuguese, German, Italian, Japanese, Korean",
-            "fr": "Anglais, français, espagnol, portugais du Brésil, allemand, italien, japonais, coréen",
-            "es": "Inglés, francés, español, portugués de Brasil, alemán, italiano, japonés, coreano",
-            "pt-BR": "Inglês, francês, espanhol, português do Brasil, alemão, italiano, japonês, coreano",
-            "de": "Englisch, Französisch, Spanisch, brasilianisches Portugiesisch, Deutsch, Italienisch, Japanisch, Koreanisch",
-            "it": "Inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano, giapponese, coreano",
-            "ja": "日本語、韓国語、英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語",
-            "ko": "한국어, 일본어, 영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어"
+            "en": "English, French, Spanish, Brazilian Portuguese, German, Italian, Japanese, Korean, Polish",
+            "fr": "Anglais, français, espagnol, portugais du Brésil, allemand, italien, japonais, coréen, polonais",
+            "es": "Inglés, francés, español, portugués de Brasil, alemán, italiano, japonés, coreano, polaco",
+            "pt-BR": "Inglês, francês, espanhol, português do Brasil, alemão, italiano, japonês, coreano, polonês",
+            "de": "Englisch, Französisch, Spanisch, brasilianisches Portugiesisch, Deutsch, Italienisch, Japanisch, Koreanisch, Polnisch",
+            "it": "Inglese, francese, spagnolo, portoghese brasiliano, tedesco, italiano, giapponese, coreano, polacco",
+            "ja": "日本語、韓国語、英語、フランス語、スペイン語、ブラジルポルトガル語、ドイツ語、イタリア語、ポーランド語",
+            "ko": "한국어, 일본어, 영어, 프랑스어, 스페인어, 브라질 포르투갈어, 독일어, 이탈리아어, 폴란드어",
+            "pl": "Angielski, francuski, hiszpański, portugalski (Brazylia), niemiecki, włoski, japoński, koreański, polski"
           }
         },
         {
@@ -201,7 +221,8 @@
             "de": "Valmont (kostenlos) und 5 kostenpflichtige Gefängnisse",
             "it": "Valmont (gratuito) e 5 carceri a pagamento",
             "ja": "ヴァルモン（無料）と有料の刑務所5つ",
-            "ko": "발몽(무료)과 유료 교도소 5곳"
+            "ko": "발몽(무료)과 유료 교도소 5곳",
+            "pl": "Valmont (darmowy) i 5 płatnych więzień"
           }
         },
         {
@@ -214,7 +235,8 @@
             "de": "Mann oder Frau",
             "it": "Un uomo o una donna",
             "ja": "男性または女性",
-            "ko": "남성 또는 여성"
+            "ko": "남성 또는 여성",
+            "pl": "Mężczyzna lub kobieta"
           }
         },
         {
@@ -227,7 +249,8 @@
             "de": "Google Play Spiele, eine pro Gefängnis",
             "it": "Google Play Giochi, una per carcere",
             "ja": "Google Play Games、刑務所ごとに1つ",
-            "ko": "Google Play 게임즈, 교도소마다 하나"
+            "ko": "Google Play 게임즈, 교도소마다 하나",
+            "pl": "Google Play Games, osobny dla każdego więzienia"
           }
         },
         {
@@ -240,7 +263,8 @@
             "de": "Kostenlos, mit Werbung und optionalen In-App-Käufen",
             "it": "Gratuito, con pubblicità e acquisti in-app facoltativi",
             "ja": "基本プレイ無料、広告と任意のアプリ内購入あり",
-            "ko": "기본 무료, 광고와 선택적 인앱 구매 포함"
+            "ko": "기본 무료, 광고와 선택적 인앱 구매 포함",
+            "pl": "Darmowa, z reklamami i opcjonalnymi zakupami w aplikacji"
           }
         },
         {
@@ -253,7 +277,8 @@
             "de": "Ab 13 Jahren",
             "it": "13+",
             "ja": "13歳以上",
-            "ko": "13세 이상"
+            "ko": "13세 이상",
+            "pl": "13+"
           }
         }
       ],
@@ -271,7 +296,8 @@
           "de": "Titelbildschirm von Sentence (französische Version)",
           "it": "Schermata del titolo di Sentence",
           "ja": "Sentence のタイトル画面（フランス語版）",
-          "ko": "Sentence 타이틀 화면(프랑스어판)"
+          "ko": "Sentence 타이틀 화면(프랑스어판)",
+          "pl": "Ekran tytułowy gry Sentence"
         }
       },
       "gallery": {
@@ -290,7 +316,8 @@
               "de": "Valmont · Tag 23, eine Karte von deinem Nachbarn",
               "it": "Carcere di Valmont · giorno 23, una carta dal tuo vicino",
               "ja": "ヴァルモン刑務所・23日目、隣人からのカード",
-              "ko": "발몽 교도소 · 23일째, 이웃에게서 온 카드"
+              "ko": "발몽 교도소 · 23일째, 이웃에게서 온 카드",
+              "pl": "Areszt Valmont · dzień 23, karta od sąsiada"
             },
             "alt": {
               "en": "In-game card at Valmont Prison: Mickaël, your neighbour, whispers through the window",
@@ -300,7 +327,8 @@
               "de": "Spielkarte in Valmont: Mickaël, dein Nachbar, flüstert durchs Fenster",
               "it": "Carta di gioco nel carcere di Valmont: Mickaël, il tuo vicino, sussurra dalla finestra",
               "ja": "ヴァルモン刑務所のゲーム内カード：隣人のミカエルが窓越しにささやく",
-              "ko": "발몽 교도소의 게임 속 카드: 이웃 미카엘이 창문 너머로 속삭인다"
+              "ko": "발몽 교도소의 게임 속 카드: 이웃 미카엘이 창문 너머로 속삭인다",
+              "pl": "Karta w areszcie Valmont: Mickaël, twój sąsiad, szepcze przez okno"
             }
           },
           {
@@ -315,7 +343,8 @@
               "de": "Hochsicherheit · Marchand, Sicherheitschef",
               "it": "Carcere di massima sicurezza · Marchand, capo della sicurezza",
               "ja": "重警備刑務所・保安責任者のマルシャン",
-              "ko": "중경비 교도소 · 보안 책임자 마르샹"
+              "ko": "중경비 교도소 · 보안 책임자 마르샹",
+              "pl": "Więzienie o zaostrzonym rygorze · Marchand, szef ochrony"
             },
             "alt": {
               "en": "In-game card in the high-security prison with Marchand, head of security",
@@ -325,7 +354,8 @@
               "de": "Spielkarte im Hochsicherheitsgefängnis mit Marchand, dem Sicherheitschef",
               "it": "Carta di gioco nel carcere di massima sicurezza con Marchand, capo della sicurezza",
               "ja": "重警備刑務所のゲーム内カード、保安責任者のマルシャン",
-              "ko": "중경비 교도소의 게임 속 카드, 보안 책임자 마르샹"
+              "ko": "중경비 교도소의 게임 속 카드, 보안 책임자 마르샹",
+              "pl": "Karta w więzieniu o zaostrzonym rygorze z Marchandem, szefem ochrony"
             }
           },
           {
@@ -340,7 +370,8 @@
               "de": "Das Urteil · Inselgefängnis (französische Version)",
               "it": "La sentenza · carcere sull'isola",
               "ja": "判決・島の刑務所（フランス語版）",
-              "ko": "판결 · 섬 교도소(프랑스어판)"
+              "ko": "판결 · 섬 교도소(프랑스어판)",
+              "pl": "Wyrok · więzienie na wyspie"
             },
             "alt": {
               "en": "Verdict screen before a sentence at the island prison",
@@ -350,7 +381,8 @@
               "de": "Urteilsbildschirm vor einer Strafe im Inselgefängnis",
               "it": "Schermata della sentenza prima di una condanna nel carcere sull'isola",
               "ja": "島の刑務所での刑期の前の判決画面",
-              "ko": "섬 교도소 형기 전의 판결 화면"
+              "ko": "섬 교도소 형기 전의 판결 화면",
+              "pl": "Ekran wyroku przed odsiadką w więzieniu na wyspie"
             }
           },
           {
@@ -365,7 +397,8 @@
               "de": "Wähle deine Figur, Mann oder Frau (französische Version)",
               "it": "Scegli il personaggio, uomo o donna",
               "ja": "男性か女性、キャラクターを選ぼう（フランス語版）",
-              "ko": "남성 또는 여성, 캐릭터를 고르세요(프랑스어판)"
+              "ko": "남성 또는 여성, 캐릭터를 고르세요(프랑스어판)",
+              "pl": "Wybierz postać, mężczyznę lub kobietę"
             },
             "alt": {
               "en": "Character selection screen with the Man and Woman options",
@@ -375,7 +408,8 @@
               "de": "Figurenauswahl mit den Optionen Mann und Frau",
               "it": "Schermata di scelta del personaggio con le opzioni Uomo e Donna",
               "ja": "男性と女性の選択肢があるキャラクター選択画面",
-              "ko": "남성과 여성 선택지가 있는 캐릭터 선택 화면"
+              "ko": "남성과 여성 선택지가 있는 캐릭터 선택 화면",
+              "pl": "Ekran wyboru postaci z opcjami Mężczyzna i Kobieta"
             }
           },
           {
@@ -390,7 +424,8 @@
               "de": "Gefängnis im Ausland · die Konsulatsbeamtin (französische Version)",
               "it": "Carcere all'estero · il funzionario del consolato",
               "ja": "異国の刑務所・領事館職員（フランス語版）",
-              "ko": "해외 교도소 · 영사관 직원(프랑스어판)"
+              "ko": "해외 교도소 · 영사관 직원(프랑스어판)",
+              "pl": "Więzienie za granicą · urzędniczka konsulatu"
             },
             "alt": {
               "en": "In-game card in the prison abroad with Rivière, a consulate officer",
@@ -400,7 +435,8 @@
               "de": "Spielkarte im Gefängnis im Ausland mit Rivière, Konsulatsbeamtin",
               "it": "Carta di gioco nel carcere all'estero con Rivière, funzionario del consolato",
               "ja": "異国の刑務所のゲーム内カード、領事館職員のリヴィエール",
-              "ko": "해외 교도소의 게임 속 카드, 영사관 직원 리비에르"
+              "ko": "해외 교도소의 게임 속 카드, 영사관 직원 리비에르",
+              "pl": "Karta w więzieniu za granicą z Rivière, urzędniczką konsulatu"
             }
           },
           {
@@ -415,7 +451,8 @@
               "de": "Eine Bestenliste pro Gefängnis",
               "it": "Una classifica per ogni carcere",
               "ja": "刑務所ごとのランキング",
-              "ko": "교도소별 리더보드"
+              "ko": "교도소별 리더보드",
+              "pl": "Osobny ranking dla każdego więzienia"
             },
             "alt": {
               "en": "Leaderboard screen with one tab per prison",
@@ -425,7 +462,8 @@
               "de": "Bestenliste mit einem Reiter pro Gefängnis",
               "it": "Schermata della classifica con una scheda per ogni carcere",
               "ja": "刑務所ごとにタブがあるランキング画面",
-              "ko": "교도소마다 탭이 있는 리더보드 화면"
+              "ko": "교도소마다 탭이 있는 리더보드 화면",
+              "pl": "Ekran rankingu z zakładką dla każdego więzienia"
             }
           }
         ]
@@ -464,7 +502,8 @@
         "de": "Du wurdest gerade eingesperrt.\nHalte so lange durch, wie du kannst.",
         "it": "Sei appena finito dentro.\nSopravvivi il più a lungo possibile.",
         "ja": "投獄されたばかりのあなた。\nできるだけ長く生き延びよう。",
-        "ko": "방금 수감되었다.\n최대한 오래 버텨라."
+        "ko": "방금 수감되었다.\n최대한 오래 버텨라.",
+        "pl": "Właśnie trafiasz za kraty.\nPrzetrwaj jak najdłużej."
       },
       "hero_sub": {
         "en": "A swipe card game about prison life. One card a day, two choices, four gauges to keep in balance. Play as a man or a woman.",
@@ -474,7 +513,8 @@
         "de": "Ein Wisch-Kartenspiel über das Leben im Gefängnis. Eine Karte pro Tag, zwei Entscheidungen, vier Anzeigen im Gleichgewicht. Spiele als Mann oder als Frau.",
         "it": "Un gioco di carte da scorrere sulla vita in carcere. Una carta al giorno, due scelte, quattro indicatori da tenere in equilibrio. Gioca come uomo o come donna.",
         "ja": "刑務所生活を描くスワイプ式カードゲーム。1日1枚のカード、2つの選択肢、バランスを保つ4つのゲージ。男性でも女性でもプレイできる。",
-        "ko": "교도소 생활을 다룬 스와이프 카드 게임. 하루에 카드 한 장, 선택지 두 개, 균형을 지켜야 할 게이지 네 개. 남성 또는 여성으로 플레이할 수 있습니다."
+        "ko": "교도소 생활을 다룬 스와이프 카드 게임. 하루에 카드 한 장, 선택지 두 개, 균형을 지켜야 할 게이지 네 개. 남성 또는 여성으로 플레이할 수 있습니다.",
+        "pl": "Karcianka z przesuwaniem o życiu w więzieniu. Jedna karta dziennie, dwa wybory, cztery wskaźniki do utrzymania w równowadze. Graj jako mężczyzna lub kobieta."
       },
       "carousel": [
         {
@@ -487,7 +527,8 @@
             "de": "Jeden Tag eine neue Karte",
             "it": "Ogni giorno, una nuova carta",
             "ja": "毎日、新しいカード",
-            "ko": "매일 새로운 카드"
+            "ko": "매일 새로운 카드",
+            "pl": "Każdego dnia nowa karta"
           }
         },
         {
@@ -500,7 +541,8 @@
             "de": "Hör dein Urteil",
             "it": "Ascolta la sentenza",
             "ja": "判決を聞こう",
-            "ko": "판결을 들어라"
+            "ko": "판결을 들어라",
+            "pl": "Wysłuchaj wyroku"
           }
         },
         {
@@ -513,7 +555,8 @@
             "de": "Eine Anzeige kippt, und es ist vorbei",
             "it": "Un indicatore cede, ed è finita",
             "ja": "ゲージが1つ壊れたら、終わり",
-            "ko": "게이지 하나가 무너지면 끝"
+            "ko": "게이지 하나가 무너지면 끝",
+            "pl": "Jeden wskaźnik pęka i koniec"
           }
         },
         {
@@ -526,7 +569,8 @@
             "de": "Oder geh als freier Mensch hinaus",
             "it": "Oppure esci da persona libera",
             "ja": "あるいは、自由の身で出所する",
-            "ko": "아니면 자유의 몸으로 출소한다"
+            "ko": "아니면 자유의 몸으로 출소한다",
+            "pl": "Albo wyjdź na wolność"
           }
         },
         {
@@ -539,7 +583,8 @@
             "de": "Spiele als Mann oder Frau",
             "it": "Gioca come uomo o come donna",
             "ja": "男性でも女性でもプレイ可能",
-            "ko": "남성 또는 여성으로 플레이"
+            "ko": "남성 또는 여성으로 플레이",
+            "pl": "Graj jako mężczyzna lub kobieta"
           }
         },
         {
@@ -552,7 +597,8 @@
             "de": "Eine Bestenliste pro Gefängnis",
             "it": "Una classifica per ogni carcere",
             "ja": "刑務所ごとのランキング",
-            "ko": "교도소별 리더보드"
+            "ko": "교도소별 리더보드",
+            "pl": "Osobny ranking dla każdego więzienia"
           }
         }
       ],
@@ -568,7 +614,8 @@
             "de": "Das kostenlose Gefängnis: der Hof, die Werkstätten, die Banden.",
             "it": "Il carcere iniziale gratuito: il cortile, i laboratori, le bande.",
             "ja": "無料の最初の刑務所：運動場、作業場、グループ。",
-            "ko": "무료로 시작하는 첫 교도소: 운동장, 작업장, 패거리."
+            "ko": "무료로 시작하는 첫 교도소: 운동장, 작업장, 패거리.",
+            "pl": "Darmowy areszt na start: spacerniak, warsztaty, paczki."
           }
         },
         {
@@ -582,7 +629,8 @@
             "de": "Hochsicherheit. Überall Kameras, die Isolation nie weit.",
             "it": "Massima sicurezza. Telecamere ovunque, l'isolamento mai lontano.",
             "ja": "重警備。いたるところにカメラ、独居房はすぐそこ。",
-            "ko": "중경비. 곳곳에 카메라, 독방은 늘 가까이에."
+            "ko": "중경비. 곳곳에 카메라, 독방은 늘 가까이에.",
+            "pl": "Zaostrzony rygor. Kamery wszędzie, izolatka zawsze blisko."
           }
         },
         {
@@ -596,7 +644,8 @@
             "de": "Ein Inselgefängnis, vom Meer von allem abgeschnitten.",
             "it": "Un carcere su un'isola, separato da tutto dal mare.",
             "ja": "海によってすべてから切り離された島の刑務所。",
-            "ko": "바다로 모든 것과 단절된 섬 교도소."
+            "ko": "바다로 모든 것과 단절된 섬 교도소.",
+            "pl": "Więzienie na wyspie, odcięte od świata morzem."
           }
         },
         {
@@ -610,7 +659,8 @@
             "de": "Offener Vollzug: tagsüber draußen, nachts zurück. Komm nicht zu spät.",
             "it": "Semilibertà: fuori di giorno, dentro di notte. Non fare tardi.",
             "ja": "外部通勤：昼は外へ、夜は戻る。遅刻は禁物。",
-            "ko": "외부 통근: 낮에는 밖으로, 밤에는 돌아온다. 늦지 마라."
+            "ko": "외부 통근: 낮에는 밖으로, 밤에는 돌아온다. 늦지 마라.",
+            "pl": "Półwolność: w dzień na zewnątrz, na noc z powrotem. Nie spóźnij się."
           }
         },
         {
@@ -624,7 +674,8 @@
             "de": "Ein Gefängnis im Ausland, in einem erfundenen Land, in einer Sprache, die du nicht sprichst.",
             "it": "Un carcere all'estero, in un paese immaginario, in una lingua che non parli.",
             "ja": "架空の国にある異国の刑務所、言葉も通じない。",
-            "ko": "가상의 나라에 있는 해외 교도소, 말도 통하지 않는다."
+            "ko": "가상의 나라에 있는 해외 교도소, 말도 통하지 않는다.",
+            "pl": "Więzienie za granicą, w wymyślonym kraju, w języku, którego nie znasz."
           }
         },
         {
@@ -638,7 +689,8 @@
             "de": "Eine Festung aus dem 17. Jahrhundert in ihren letzten Monaten vor der Schließung.",
             "it": "Una fortezza del XVII secolo che vive i suoi ultimi mesi prima della chiusura.",
             "ja": "閉鎖前の最後の数か月を迎えた17世紀の要塞。",
-            "ko": "폐쇄를 앞두고 마지막 몇 달을 보내는 17세기 요새."
+            "ko": "폐쇄를 앞두고 마지막 몇 달을 보내는 17세기 요새.",
+            "pl": "Twierdza z XVII wieku przeżywa ostatnie miesiące przed zamknięciem."
           }
         }
       ],
@@ -657,7 +709,8 @@
         "de": "One Last Heist",
         "it": "One Last Heist",
         "ja": "One Last Heist",
-        "ko": "One Last Heist"
+        "ko": "One Last Heist",
+        "pl": "One Last Heist"
       },
       "subtitle": {
         "en": "Turn-based heist",
@@ -667,7 +720,8 @@
         "de": "Rundenbasierter Heist",
         "it": "Colpo a turni",
         "ja": "ターン制強盗ゲーム",
-        "ko": "턴제 강도 게임"
+        "ko": "턴제 강도 게임",
+        "pl": "Turowy skok"
       },
       "pitch": {
         "en": "Build a crew, plan the job and pull it off room by room, one turn at a time.",
@@ -677,7 +731,8 @@
         "de": "Stell deine Crew zusammen, plane den Coup und zieh ihn Raum für Raum durch, Zug um Zug.",
         "it": "Forma una banda, pianifica il colpo e mettilo a segno stanza dopo stanza, un turno alla volta.",
         "ja": "クルーを集め、計画を立て、部屋から部屋へ、1ターンずつ仕事をやり遂げよう。",
-        "ko": "크루를 꾸리고, 작전을 계획하고, 방에서 방으로 한 턴씩 해치워라."
+        "ko": "크루를 꾸리고, 작전을 계획하고, 방에서 방으로 한 턴씩 해치워라.",
+        "pl": "Zbierz ekipę, zaplanuj robotę i przeprowadź ją pokój po pokoju, tura po turze."
       },
       "description": {
         "en": [
@@ -711,6 +766,10 @@
         "ko": [
           "One Last Heist는 Pixel & Quill Studio의 턴제 강도 게임입니다. 전문가 크루를 고용하고, 작전마다 정찰하고 계획한 뒤, 방에서 방으로 진행합니다. 은신, 기술, 힘, 속임수 중에서 고르며 실제 성공 확률이 항상 표시됩니다.",
           "전리품을 나누고, 크루의 충성심을 지키고, 경찰을 따돌리며 도시의 마지막 한탕을 성공시키세요."
+        ],
+        "pl": [
+          "One Last Heist to turowa gra o skokach od Pixel & Quill Studio. Zatrudnij ekipę specjalistów, zrób rozpoznanie i zaplanuj każdą robotę, a potem rozegraj ją pokój po pokoju, wybierając Ukrycie, Technikę, Siłę lub Blef, zawsze z widocznymi prawdziwymi szansami.",
+          "Podziel łup, utrzymaj lojalność ekipy i trzymaj policję z daleka na tyle długo, by przeprowadzić ostatnią robotę w mieście."
         ]
       },
       "tagline": {
@@ -721,7 +780,8 @@
         "de": "Ein letzter Coup, dann hören wir auf. Das sagen sie alle.",
         "it": "Un ultimo colpo, poi smettiamo. È quello che dicono tutti.",
         "ja": "最後の一仕事、それで足を洗う。誰もがそう言う。",
-        "ko": "마지막 한탕, 그리고 손 씻는다. 다들 그렇게 말하지."
+        "ko": "마지막 한탕, 그리고 손 씻는다. 다들 그렇게 말하지.",
+        "pl": "Ostatnia robota i kończymy. Tak mówią wszyscy."
       },
       "features": {
         "en": [
@@ -795,6 +855,15 @@
           "작은 전당포부터 도시의 마지막 한탕까지 다양한 타깃",
           "은퇴한 장물아비 빅토르와 함께하는 안내형 첫 작전",
           "영어와 프랑스어 지원"
+        ],
+        "pl": [
+          "Zatrudniaj specjalistów, od hakerów i kasiarzy po kierowców i oszustów, każdy z umiejętnościami, cechami i słabościami",
+          "Planuj każdą robotę przez kilka dni: rozpoznanie, łapówki i sprzęt",
+          "Rozgrywaj skok pokój po pokoju: Ukrycie, Technika, Siła lub Blef, z widocznymi prawdziwymi szansami",
+          "Dziel łup, pilnuj lojalności ekipy i nie przyciągaj uwagi",
+          "Cele od małego lombardu aż po ostatnią robotę w mieście",
+          "Pierwsza robota z przewodnikiem: Victorem, paserem na emeryturze",
+          "Po angielsku i francusku"
         ]
       },
       "facts": [
@@ -808,7 +877,8 @@
             "de": "Rundenbasierter Heist, Crew-Management",
             "it": "Colpo a turni, gestione della banda",
             "ja": "ターン制強盗、クルー管理",
-            "ko": "턴제 강도, 크루 관리"
+            "ko": "턴제 강도, 크루 관리",
+            "pl": "Turowy skok, zarządzanie ekipą"
           }
         },
         {
@@ -821,7 +891,8 @@
             "de": "Android 7.0 oder neuer",
             "it": "Android 7.0 o superiore",
             "ja": "Android 7.0以降",
-            "ko": "Android 7.0 이상"
+            "ko": "Android 7.0 이상",
+            "pl": "Android 7.0 i nowszy"
           }
         },
         {
@@ -834,7 +905,8 @@
             "de": "Hochformat",
             "it": "Verticale",
             "ja": "縦画面",
-            "ko": "세로 화면"
+            "ko": "세로 화면",
+            "pl": "Pionowa"
           }
         },
         {
@@ -847,7 +919,8 @@
             "de": "Englisch, Französisch",
             "it": "Inglese, francese",
             "ja": "英語、フランス語",
-            "ko": "영어, 프랑스어"
+            "ko": "영어, 프랑스어",
+            "pl": "Angielski, francuski"
           }
         }
       ],
@@ -865,7 +938,8 @@
           "de": "Titelbildschirm von One Last Heist",
           "it": "Schermata del titolo di One Last Heist",
           "ja": "One Last Heist のタイトル画面",
-          "ko": "One Last Heist 타이틀 화면"
+          "ko": "One Last Heist 타이틀 화면",
+          "pl": "Ekran tytułowy One Last Heist"
         }
       },
       "gallery": {
@@ -883,7 +957,8 @@
               "de": "Victor · Hehler im Ruhestand, dein Mentor",
               "it": "Victor · ricettatore in pensione, il tuo mentore",
               "ja": "ヴィクトル・引退した故買屋、あなたの師匠",
-              "ko": "빅토르 · 은퇴한 장물아비, 플레이어의 스승"
+              "ko": "빅토르 · 은퇴한 장물아비, 플레이어의 스승",
+              "pl": "Victor · paser na emeryturze, twój mentor"
             },
             "alt": {
               "en": "Portrait of Victor, retired fence, your mentor",
@@ -893,7 +968,8 @@
               "de": "Porträt von Victor, Hehler im Ruhestand, dein Mentor",
               "it": "Ritratto di Victor, ricettatore in pensione, il tuo mentore",
               "ja": "ヴィクトルの肖像、引退した故買屋、あなたの師匠",
-              "ko": "빅토르의 초상, 은퇴한 장물아비, 플레이어의 스승"
+              "ko": "빅토르의 초상, 은퇴한 장물아비, 플레이어의 스승",
+              "pl": "Portret Victora, pasera na emeryturze, twojego mentora"
             }
           },
           {
@@ -908,7 +984,8 @@
               "de": "Nina · Hackerin",
               "it": "Nina · hacker",
               "ja": "ニナ・ハッカー",
-              "ko": "니나 · 해커"
+              "ko": "니나 · 해커",
+              "pl": "Nina · hakerka"
             },
             "alt": {
               "en": "Portrait of Nina, hacker",
@@ -918,7 +995,8 @@
               "de": "Porträt von Nina, Hackerin",
               "it": "Ritratto di Nina, hacker",
               "ja": "ニナの肖像、ハッカー",
-              "ko": "니나의 초상, 해커"
+              "ko": "니나의 초상, 해커",
+              "pl": "Portret Niny, hakerki"
             }
           },
           {
@@ -933,7 +1011,8 @@
               "de": "Marcel · Safeknacker",
               "it": "Marcel · scassinatore",
               "ja": "マルセル・金庫破り",
-              "ko": "마르셀 · 금고털이"
+              "ko": "마르셀 · 금고털이",
+              "pl": "Marcel · kasiarz"
             },
             "alt": {
               "en": "Portrait of Marcel, safecracker",
@@ -943,7 +1022,8 @@
               "de": "Porträt von Marcel, Safeknacker",
               "it": "Ritratto di Marcel, scassinatore",
               "ja": "マルセルの肖像、金庫破り",
-              "ko": "마르셀의 초상, 금고털이"
+              "ko": "마르셀의 초상, 금고털이",
+              "pl": "Portret Marcela, kasiarza"
             }
           },
           {
@@ -958,7 +1038,8 @@
               "de": "Rosa · Fahrerin",
               "it": "Rosa · autista",
               "ja": "ローザ・ドライバー",
-              "ko": "로사 · 운전수"
+              "ko": "로사 · 운전수",
+              "pl": "Rosa · kierowczyni"
             },
             "alt": {
               "en": "Portrait of Rosa, driver",
@@ -968,7 +1049,8 @@
               "de": "Porträt von Rosa, Fahrerin",
               "it": "Ritratto di Rosa, autista",
               "ja": "ローザの肖像、ドライバー",
-              "ko": "로사의 초상, 운전수"
+              "ko": "로사의 초상, 운전수",
+              "pl": "Portret Rosy, kierowczyni"
             }
           },
           {
@@ -983,7 +1065,8 @@
               "de": "Léon · Trickbetrüger",
               "it": "Léon · truffatore",
               "ja": "レオン・詐欺師",
-              "ko": "레옹 · 사기꾼"
+              "ko": "레옹 · 사기꾼",
+              "pl": "Léon · oszust"
             },
             "alt": {
               "en": "Portrait of Léon, con artist",
@@ -993,7 +1076,8 @@
               "de": "Porträt von Léon, Trickbetrüger",
               "it": "Ritratto di Léon, truffatore",
               "ja": "レオンの肖像、詐欺師",
-              "ko": "레옹의 초상, 사기꾼"
+              "ko": "레옹의 초상, 사기꾼",
+              "pl": "Portret Léona, oszusta"
             }
           },
           {
@@ -1008,7 +1092,8 @@
               "de": "Tomasz “Big T” · fürs Grobe",
               "it": "Tomasz “Big T” · forzuto",
               "ja": "トマシュ「ビッグT」・腕っぷし担当",
-              "ko": "토마시 ‘빅 T’ · 행동대장"
+              "ko": "토마시 ‘빅 T’ · 행동대장",
+              "pl": "Tomasz „Big T” · siłacz"
             },
             "alt": {
               "en": "Portrait of Tomasz “Big T”, muscle",
@@ -1018,7 +1103,8 @@
               "de": "Porträt von Tomasz “Big T”, fürs Grobe",
               "it": "Ritratto di Tomasz “Big T”, forzuto",
               "ja": "トマシュ「ビッグT」の肖像、腕っぷし担当",
-              "ko": "토마시 ‘빅 T’의 초상, 행동대장"
+              "ko": "토마시 ‘빅 T’의 초상, 행동대장",
+              "pl": "Portret Tomasza „Big T”, siłacza"
             }
           },
           {
@@ -1033,7 +1119,8 @@
               "de": "Inès · Fassadenkletterin",
               "it": "Inès · ladra acrobata",
               "ja": "イネス・忍び込みの名人",
-              "ko": "이네스 · 밤도둑"
+              "ko": "이네스 · 밤도둑",
+              "pl": "Inès · włamywaczka"
             },
             "alt": {
               "en": "Portrait of Inès, cat burglar",
@@ -1043,7 +1130,8 @@
               "de": "Porträt von Inès, Fassadenkletterin",
               "it": "Ritratto di Inès, ladra acrobata",
               "ja": "イネスの肖像、忍び込みの名人",
-              "ko": "이네스의 초상, 밤도둑"
+              "ko": "이네스의 초상, 밤도둑",
+              "pl": "Portret Inès, włamywaczki"
             }
           },
           {
@@ -1058,7 +1146,8 @@
               "de": "Dmitri · Sprengmeister",
               "it": "Dmitri · esperto di demolizioni",
               "ja": "ドミトリ・爆破の専門家",
-              "ko": "드미트리 · 폭파 전문가"
+              "ko": "드미트리 · 폭파 전문가",
+              "pl": "Dmitri · specjalista od materiałów wybuchowych"
             },
             "alt": {
               "en": "Portrait of Dmitri, demolition expert",
@@ -1068,7 +1157,8 @@
               "de": "Porträt von Dmitri, Sprengmeister",
               "it": "Ritratto di Dmitri, esperto di demolizioni",
               "ja": "ドミトリの肖像、爆破の専門家",
-              "ko": "드미트리의 초상, 폭파 전문가"
+              "ko": "드미트리의 초상, 폭파 전문가",
+              "pl": "Portret Dmitriego, specjalisty od materiałów wybuchowych"
             }
           },
           {
@@ -1083,7 +1173,8 @@
               "de": "Clara · Fälscherin",
               "it": "Clara · falsaria",
               "ja": "クララ・偽造屋",
-              "ko": "클라라 · 위조범"
+              "ko": "클라라 · 위조범",
+              "pl": "Clara · fałszerka"
             },
             "alt": {
               "en": "Portrait of Clara, forger",
@@ -1093,7 +1184,8 @@
               "de": "Porträt von Clara, Fälscherin",
               "it": "Ritratto di Clara, falsaria",
               "ja": "クララの肖像、偽造屋",
-              "ko": "클라라의 초상, 위조범"
+              "ko": "클라라의 초상, 위조범",
+              "pl": "Portret Clary, fałszerki"
             }
           }
         ]

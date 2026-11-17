@@ -12,7 +12,7 @@ def F(path,size):
   try: f.set_variation_by_axes([400])  # variable CJK fonts default to their thinnest weight
   except Exception: pass
   return f
-for L in ['en','fr','es','pt-BR','de','it','ja','ko']:
+for L in ['en','fr','es','pt-BR','de','it','ja','ko','pl']:
   TF=CJK.get(L,DEJAVU)
   W,H=1200,630; im=Image.new('RGB',(W,H),(11,11,13)); d=ImageDraw.Draw(im)
   for r in range(700,0,-10):

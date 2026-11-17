@@ -115,5 +115,10 @@
     "woman": "Une détenue dans Sentence",
     "win": "Un écran de libération dans Sentence",
     "leaderboard": "Le classement de Sentence"
-  }
+  },
+  "qr_caption": "Scanne pour installer sur ton téléphone",
+  "qr_alt": "Code QR vers Sentence sur Google Play",
+  "dl_flyers": "Flyers (en français)",
+  "dl_flyer_web": "Flyer français, version écran (JPG)",
+  "dl_flyer_print": "Flyer français, version impression avec fond perdu (JPG)"
 }

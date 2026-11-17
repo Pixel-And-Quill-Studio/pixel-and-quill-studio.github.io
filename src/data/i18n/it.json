@@ -116,5 +116,10 @@
     "woman": "Una detenuta in Sentence",
     "win": "Una schermata di scarcerazione in Sentence",
     "leaderboard": "La classifica di Sentence"
-  }
+  },
+  "qr_caption": "Inquadra per installarlo sul telefono",
+  "qr_alt": "Codice QR di Sentence su Google Play",
+  "dl_flyers": "Flyer (in francese)",
+  "dl_flyer_web": "Flyer in francese, versione schermo (JPG)",
+  "dl_flyer_print": "Flyer in francese, versione stampa con abbondanza (JPG)"
 }

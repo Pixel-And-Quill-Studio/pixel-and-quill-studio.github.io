@@ -1,1 +1,3 @@
 Playfair Display SC (Claus Eggers Sørensen) et Allerta Stencil (Matt McInerney) : SIL Open Font License 1.1, https://openfontlicense.org — polices libres, embarquées pour le menu principal.
+
+SentenceStencil-Regular.ttf : version modifiée d’Allerta Stencil (SIL Open Font License 1.1), à laquelle Pixel & Quill Studio a ajouté les lettres polonaises ą ć ę ń ś ź ż (et leurs majuscules) et le guillemet „. Renommée comme l’exige le nom de police réservé « Allerta ». Utilisée uniquement en secours pour ces caractères.

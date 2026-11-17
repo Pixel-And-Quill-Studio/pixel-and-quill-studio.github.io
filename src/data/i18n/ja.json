@@ -116,5 +116,10 @@
     "woman": "Sentence の女性受刑者",
     "win": "Sentence の釈放画面",
     "leaderboard": "Sentence のランキング"
-  }
+  },
+  "qr_caption": "スキャンしてスマホにインストール",
+  "qr_alt": "Google Play の Sentence へのQRコード",
+  "dl_flyers": "チラシ（フランス語）",
+  "dl_flyer_web": "フランス語チラシ、画面用（JPG）",
+  "dl_flyer_print": "フランス語チラシ、塗り足し付き印刷用（JPG）"
 }

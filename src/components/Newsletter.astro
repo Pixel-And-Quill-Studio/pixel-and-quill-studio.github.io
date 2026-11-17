@@ -13,6 +13,7 @@ const MSG: Record<string, { ok: string; err: string }> = {
   de: { ok: "Danke! Sieh in deinem Postfach (und im Spam-Ordner) nach, um deine Anmeldung zu bestätigen.", err: "Hoppla, die Anmeldung hat nicht geklappt. Versuch es gleich noch einmal." },
   ja: { ok: "ありがとうございます！登録を完了するには、受信トレイ（と迷惑メールフォルダ）を確認してください。", err: "登録できませんでした。少し時間をおいてもう一度お試しください。" },
   ko: { ok: "감사합니다! 구독을 확인하려면 받은편지함과 스팸함을 확인해 주세요.", err: "구독이 완료되지 않았습니다. 잠시 후 다시 시도해 주세요." },
+  pl: { ok: "Dziękujemy! Sprawdź skrzynkę odbiorczą (i folder spam), aby potwierdzić zapis.", err: "Ups, zapis się nie udał. Spróbuj ponownie za chwilę." },
   it: { ok: "Grazie! Controlla la tua casella di posta (e lo spam) per confermare l'iscrizione.", err: "Ops, l'iscrizione non è andata a buon fine. Riprova tra un attimo." },
 };
 const m = MSG[lang.slice(0, 2).toLowerCase()] || MSG.en;

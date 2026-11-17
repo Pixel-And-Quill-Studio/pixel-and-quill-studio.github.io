@@ -116,5 +116,10 @@
     "woman": "Eine Gefangene in Sentence",
     "win": "Ein Entlassungsbildschirm in Sentence",
     "leaderboard": "Die Bestenliste von Sentence"
-  }
+  },
+  "qr_caption": "Scanne, um es auf deinem Handy zu installieren",
+  "qr_alt": "QR-Code zu Sentence bei Google Play",
+  "dl_flyers": "Flyer (auf Französisch)",
+  "dl_flyer_web": "Französischer Flyer, Bildschirmversion (JPG)",
+  "dl_flyer_print": "Französischer Flyer, Druckversion mit Beschnitt (JPG)"
 }

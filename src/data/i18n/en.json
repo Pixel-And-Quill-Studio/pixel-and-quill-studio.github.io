@@ -115,5 +115,10 @@
     "woman": "A female inmate in Sentence",
     "win": "A release screen in Sentence",
     "leaderboard": "The Sentence leaderboard"
-  }
+  },
+  "qr_caption": "Scan to install on your phone",
+  "qr_alt": "QR code for Sentence on Google Play",
+  "dl_flyers": "Flyers (in French)",
+  "dl_flyer_web": "French flyer, screen version (JPG)",
+  "dl_flyer_print": "French flyer, print version with bleed (JPG)"
 }

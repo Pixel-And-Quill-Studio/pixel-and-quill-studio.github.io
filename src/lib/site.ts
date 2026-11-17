@@ -137,6 +137,7 @@ export function playStoreUrl(g: any, lang: string): string | null {
     it: "it",
     ja: "ja",
     ko: "ko",
+    pl: "pl",
   };
   if (!hl[lang]) return play;
   const u = new URL(play);

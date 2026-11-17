@@ -1,6 +1,6 @@
 # 법적 고지
 
-**최종 수정일:** 2026년 10월 28일
+**최종 수정일:** 2026년 11월 17일
 
 ## 발행인
 웹사이트 pixelandquillstudio.com과 Pixel & Quill Studio가 현재 및 향후 발행하는 모든 게임의 발행인은 다음과 같습니다.
@@ -27,10 +27,10 @@ GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United Stat
 Pixel & Quill Studio의 게임은 게임이 등록된 앱 스토어를 통해 배포됩니다(예: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland가 운영하는 Google Play).
 
 ## 지식재산권
-Pixel & Quill Studio가 발행하는 게임과 이 웹사이트의 텍스트, 이미지, 로고, 사운드, 캐릭터 및 기타 요소는 Styvens Wentz(Pixel & Quill Studio) 또는 그 라이선스 제공자의 소유입니다. 사전 서면 허가 없이 복제하거나 재사용하는 것은 금지됩니다. 이 웹사이트에서 사용하는 글꼴(Playfair Display SC, Allerta Stencil)은 SIL Open Font License 1.1에 따라 배포됩니다.
+Pixel & Quill Studio가 발행하는 게임과 이 웹사이트의 텍스트, 이미지, 로고, 사운드, 캐릭터 및 기타 요소는 Styvens Wentz(Pixel & Quill Studio) 또는 그 라이선스 제공자의 소유입니다. 사전 서면 허가 없이 복제하거나 재사용하는 것은 금지됩니다. 이 웹사이트에서 사용하는 글꼴(Playfair Display SC, Allerta Stencil 및 이를 수정한 Sentence Stencil)은 SIL Open Font License 1.1에 따라 배포됩니다.
 
 ## 개인정보와 쿠키
-이 웹사이트는 쿠키를 설정하지 않고, 분석 도구를 사용하지 않으며, 양식도 없습니다. 언어 선택은 브라우저(로컬 스토리지)에만 저장되며 발행인에게 전송되지 않습니다. 호스팅 제공자인 GitHub는 보안을 위해 기술적 접속 데이터(IP 주소 포함)를 기록할 수 있으며, 이는 GitHub의 [개인정보 보호정책](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)에 따릅니다.
+이 웹사이트는 동의한 경우에만 사용하는 방문 측정 도구(Google Analytics 4)와 선택적인 뉴스레터 구독 양식을 제공합니다. 언어 선택과 방문 측정 수락 또는 거부는 브라우저(로컬 스토리지)에만 저장되며 발행인에게 전송되지 않습니다. 호스팅 제공자인 GitHub는 보안을 위해 기술적 접속 데이터(IP 주소 포함)를 기록할 수 있으며, 이는 GitHub의 [개인정보 보호정책](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)에 따릅니다.
 
 이 웹사이트와 Pixel & Quill Studio 게임에서의 개인정보 처리 방식은 [개인정보처리방침](/privacy/)에 설명되어 있습니다. 각 게임이 사용하는 서비스는 해당 게임 페이지에 안내되어 있습니다.
 
